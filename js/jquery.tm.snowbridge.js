@@ -1,11 +1,11 @@
 /**
 *	Snowbridge Parallax
 *	Version: 1.0
-*	URL: @ThemeMountain
+*	URL: @DavidORegan
 *	Description: Parallax plugin
 *	Requires: jQuery 1.10+
-*	Author: ThemeMountain
-*	Copyright: Copyright 2013 ThemeMountain
+*	Author: DavidORegan
+*	Copyright: Copyright 2013 DavidORegan
 *	License: Attribution-NonCommercial 3.0 (http://creativecommons.org/licenses/by-nc/3.0/)
 */
 

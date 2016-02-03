@@ -1,8 +1,8 @@
 /*------------------------------------------------------------------
 Template Layouts & Styling
 Version: 1.0.2;
-Author: ThemeMountain
-Copyright: ThemeMountain
+Author: DavidORegan
+Copyright: DavidORegan
 License: MIT
 
 [Table of contents]
@@ -10,7 +10,7 @@ License: MIT
 1. Common
 2. Masonry
 3. Headers
-4. Side Navigation 
+4. Side Navigation
 5. Overlay Navigation
 6. Title Sections
 7. Hero Sections
@@ -93,7 +93,7 @@ body,
 .row .masonry-grid{
 	max-width: 100%;
 	min-height: 30rem;
-	visibility: hidden; 
+	visibility: hidden;
 	opacity: 0;
 }
 .masonry-grid{
@@ -106,7 +106,7 @@ body,
 	   -moz-transition-duration: 0.8s;
 	    -ms-transition-duration: 0.8s;
 		 -o-transition-duration: 0.8s;
-			transition-duration: 0.8s;	    
+			transition-duration: 0.8s;
 }
 .masonry-grid.filtering{
 	-webkit-transition-property: height;
@@ -121,7 +121,7 @@ body,
 			transition-duration: 0.8s;
 }
 
-/* Fixed Dimension Grid 
+/* Fixed Dimension Grid
    Wrap any content grid in .masonry-set-demensions
    to set grid item with and height. Use .large and .portrait on
    .grid-item to specify grid item format.
@@ -506,7 +506,7 @@ body,
 .header-2 .header-inner{
 	background: #232323;
 }
-.header-2 .logo, 
+.header-2 .logo,
 .header-2 .navigation{
 	float: none;
 }
@@ -760,7 +760,7 @@ body,
 .mobile .header-inner{
 	background-color: #232323;
 }
-.mobile .header, 
+.mobile .header,
 .mobile .header .header-sticky{
 	position: static;
 	transition: none;
@@ -1040,7 +1040,7 @@ only screen and (   min--moz-device-pixel-ratio: 2),
 only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (		 min-device-pixel-ratio: 2),
 only screen and (			min-resolution: 192dpi),
-only screen and (				min-resolution: 2dppx) { 
+only screen and (				min-resolution: 2dppx) {
 	.intro-title-2{
 		background-image:url(../images/slider/slide-2-fs-hp@2x.jpg);
 	}
@@ -1290,7 +1290,7 @@ only screen and (				min-resolution: 2dppx) {
 }
 .hero-6 .hero-content{
 	width: 50%;
-	top: 0; 
+	top: 0;
 	left: 0;
 	background:rgba(0,0,0,0.6);
 	display: table !important;
@@ -1516,7 +1516,7 @@ only screen and (   min--moz-device-pixel-ratio: 2),
 only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (		 min-device-pixel-ratio: 2),
 only screen and (			min-resolution: 192dpi),
-only screen and (				min-resolution: 2dppx) { 
+only screen and (				min-resolution: 2dppx) {
 	.hero-2{
 		background-image:url(../images/slider/slide-2-fs-hp@2x.jpg);
 	}
@@ -1818,7 +1818,7 @@ only screen and (				min-resolution: 2dppx) {
 	display: none;
 }
 
-/* Contact Forms 
+/* Contact Forms
 *  Add contact-form-container to any section
 *  or add a full prestyled section
 */
@@ -1865,7 +1865,7 @@ only screen and (				min-resolution: 2dppx) {
 	padding-bottom: 3rem;
 }
 
-/* Singup Forms 
+/* Singup Forms
 *  Add signup-form-container to any section
 *  or add a full prestyled section
 */
@@ -1967,7 +1967,7 @@ only screen and (				min-resolution: 2dppx) {
 	width: 100%;
 }
 
-/* Search Forms 
+/* Search Forms
 *  Add search-form-container to any section
 *  or add a full prestyled section
 */
@@ -2005,7 +2005,7 @@ only screen and (   min--moz-device-pixel-ratio: 2),
 only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (		 min-device-pixel-ratio: 2),
 only screen and (			min-resolution: 192dpi),
-only screen and (				min-resolution: 2dppx) { 
+only screen and (				min-resolution: 2dppx) {
 	.signup-2{
 		background-image:url(../images/slider/slide-5-fw@2x.jpg);
 	}
@@ -2191,7 +2191,7 @@ only screen and (   min--moz-device-pixel-ratio: 2),
 only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (		 min-device-pixel-ratio: 2),
 only screen and (			min-resolution: 192dpi),
-only screen and (				min-resolution: 2dppx) { 
+only screen and (				min-resolution: 2dppx) {
 	.testimonial-5{
 		background-image:url(../images/slider/slide-2-fs-hp@2x.jpg);
 	}
@@ -3011,7 +3011,7 @@ only screen and (				min-resolution: 2dppx) {
 		float: left;
 	}
 	.portfolio-6 .two-third.image-left .item-description:after,
-	.portfolio-6 .two-third.image-right .item-description:after{	
+	.portfolio-6 .two-third.image-right .item-description:after{
 		margin-left: -10px;
 		border: solid transparent;
 		border-color: rgba(255, 255, 255, 0);
@@ -3041,7 +3041,7 @@ only screen and (				min-resolution: 2dppx) {
 		float: left;
 	}
 	.portfolio-6 .image-left .item-description:after,
-	.portfolio-6 .image-right .item-description:after{	
+	.portfolio-6 .image-right .item-description:after{
 		margin-left: -10px;
 		border: solid transparent;
 		border-color: rgba(255, 255, 255, 0);
@@ -3254,7 +3254,7 @@ only screen and (   min--moz-device-pixel-ratio: 2),
 only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (		 min-device-pixel-ratio: 2),
 only screen and (			min-resolution: 192dpi),
-only screen and (				min-resolution: 2dppx) { 
+only screen and (				min-resolution: 2dppx) {
 	.logos-2{
 		background-image:url(../images/slider/slide-2-fs-hp@2x.jpg);
 	}
@@ -3422,7 +3422,7 @@ only screen and (   min--moz-device-pixel-ratio: 2),
 only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (		 min-device-pixel-ratio: 2),
 only screen and (			min-resolution: 192dpi),
-only screen and (				min-resolution: 2dppx) { 
+only screen and (				min-resolution: 2dppx) {
 	.social-3{
 		background-image:url(../images/slider/slide-2-fs-hp@2x.jpg);
 	}
@@ -3431,8 +3431,8 @@ only screen and (				min-resolution: 2dppx) {
 /*------------------------------------------------------------------
 [15. Stat Sections]
 */
-[class*="stats-"] .row, 
-[class*="stats-"] .column, 
+[class*="stats-"] .row,
+[class*="stats-"] .column,
 [class*="stats-"] .grid-item{
 	height: 100%;
 }
@@ -3599,7 +3599,7 @@ only screen and (				min-resolution: 2dppx) {
 		margin-bottom: 4rem;
 		padding-bottom: 0;
 		border: none;
-	} 
+	}
 }
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -3607,7 +3607,7 @@ only screen and (   min--moz-device-pixel-ratio: 2),
 only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (		 min-device-pixel-ratio: 2),
 only screen and (			min-resolution: 192dpi),
-only screen and (				min-resolution: 2dppx) { 
+only screen and (				min-resolution: 2dppx) {
 	.stats-1{
 		background-image:url(../images/slider/slide-2-fs-hp@2x.jpg);
 	}
@@ -3805,7 +3805,7 @@ only screen and (				min-resolution: 2dppx) {
 .error-500 .button:last-child{
 	margin-right: 0;
 }
-[class*="error-"] .background-image, 
+[class*="error-"] .background-image,
 [class*="coming-soon-"] .background-image{
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -3866,7 +3866,7 @@ only screen and (				min-resolution: 2dppx) {
 	.mobile .fullscreen-section .background-image{
 		max-width: 114rem;
 		height: inherit;
-	} 
+	}
 	.mobile .fullscreen-section{
 		margin-top: -1px;
 	}
@@ -3876,7 +3876,7 @@ only screen and (				min-resolution: 2dppx) {
 	.error-404 .form-submit{
 		width: auto;
 	}
-	.error-404 h1, 
+	.error-404 h1,
 	.error-500 h1{
 		font-size: 10rem;
 	}
@@ -3885,8 +3885,8 @@ only screen and (				min-resolution: 2dppx) {
 .mobile .fullscreen-section[class*="coming-soon-"]{
 	height: 100vh;
 	display: table;
-} 
-.mobile [class*="error-"] .fullscreen-inner, 
+}
+.mobile [class*="error-"] .fullscreen-inner,
 .mobile [class*="coming-soon-"] .fullscreen-inner{
 	display: table-cell;
 }
@@ -3901,7 +3901,7 @@ only screen and (   min--moz-device-pixel-ratio: 2),
 only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (		 min-device-pixel-ratio: 2),
 only screen and (			min-resolution: 192dpi),
-only screen and (				min-resolution: 2dppx) { 
+only screen and (				min-resolution: 2dppx) {
 	.coming-soon-1 .background-image{
 		background-image:url(../images/fullscreen/coming-soon-1@2x.jpg);
 	}
@@ -3921,7 +3921,7 @@ only screen and (				min-resolution: 2dppx) {
 */
 .pagination-previous.disabled,
 .pagination-next.disabled,
-.pagination-previous.disabled:hover, 
+.pagination-previous.disabled:hover,
 .pagination-next.disabled:hover{
 	transition: none;
 	cursor: default;
@@ -4290,8 +4290,8 @@ only screen and (				min-resolution: 2dppx) {
 .footer-1 .footer-bottom .social-list{
 	float: right;
 }
-.footer-1 .footer-bottom .navigation, 
-.footer-1 .footer-bottom .social-list, 
+.footer-1 .footer-bottom .navigation,
+.footer-1 .footer-bottom .social-list,
 .footer-1 .footer-bottom .copyright{
 	margin-bottom: 1rem;
 }
@@ -4361,11 +4361,11 @@ only screen and (				min-resolution: 2dppx) {
 	font-weight: bold;
 	letter-spacing: 0.1rem;
 }
-.footer-2 .footer-bottom .navigation, 
-.footer-2 .footer-bottom .social-list, 
+.footer-2 .footer-bottom .navigation,
+.footer-2 .footer-bottom .social-list,
 .footer-2 .footer-bottom .copyright{
 	margin-bottom: 0;
-}	
+}
 
 /* Footer 3 */
 .footer-3{
@@ -4440,8 +4440,8 @@ only screen and (				min-resolution: 2dppx) {
 	letter-spacing: 0.1rem;
 	color: #555;
 }
-.footer-3 .footer-bottom .navigation, 
-.footer-3 .footer-bottom .social-list, 
+.footer-3 .footer-bottom .navigation,
+.footer-3 .footer-bottom .social-list,
 .footer-3 .footer-bottom .copyright{
 	margin-bottom: 0;
 }
@@ -4521,8 +4521,8 @@ only screen and (				min-resolution: 2dppx) {
 	letter-spacing: 0.1rem;
 	color: #555;
 }
-.footer-4 .footer-bottom .navigation, 
-.footer-4 .footer-bottom .social-list, 
+.footer-4 .footer-bottom .navigation,
+.footer-4 .footer-bottom .social-list,
 .footer-4 .footer-bottom .copyright{
 	margin-bottom: 0;
 }
@@ -4601,8 +4601,8 @@ only screen and (				min-resolution: 2dppx) {
 	letter-spacing: 0.1rem;
 	color: #555;
 }
-.footer-5 .footer-bottom .navigation, 
-.footer-5 .footer-bottom .social-list, 
+.footer-5 .footer-bottom .navigation,
+.footer-5 .footer-bottom .social-list,
 .footer-5 .footer-bottom .copyright{
 	margin-bottom: 0;
 }
@@ -4749,7 +4749,7 @@ only screen and (				min-resolution: 2dppx) {
 }
 
 /* Mejs */
-.post-media .mejs-audio, 
+.post-media .mejs-audio,
 .post-media .mejs-audio .mejs-controls,
 .post-media .mejs-audio .mejs-container .mejs-button,
 .post-media .mejs-audio .mejs-button.mejs-play,
@@ -4785,8 +4785,8 @@ only screen and (				min-resolution: 2dppx) {
 	margin: 1.6rem 1.4rem;
 }
 
-/* Masonry Layout 
-   For fixed size grid items use 
+/* Masonry Layout
+   For fixed size grid items use
    .blog-masonry.masonry-set-dimensions
 */
 .blog-masonry{
@@ -4817,7 +4817,7 @@ only screen and (				min-resolution: 2dppx) {
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
 }
-.blog-masonry .grid-item .video, 
+.blog-masonry .grid-item .video,
 .blog-masonry .grid-item .video-container{
 	margin-bottom: 0;
 }

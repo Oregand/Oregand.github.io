@@ -1,8 +1,8 @@
 /*------------------------------------------------------------------
 Avalanche Slider
 Version: 1;
-Author: ThemeMountain
-Copyright: ThemeMountain
+Author: DavidORegan
+Copyright: DavidORegan
 
 [Table of contents]
 
@@ -79,7 +79,7 @@ Copyright: ThemeMountain
 /*------------------------------------------------------------------
 [2. Media]
 */
-.tms-slide > video, 
+.tms-slide > video,
 .tms-slide > iframe,
 .tms-slide > object,
 .tms-slide > embed{
@@ -89,7 +89,7 @@ Copyright: ThemeMountain
 .tms-slide > video{
 	z-index: 1;
 }
-.tms-slide.tms-video-no-ratio > video, 
+.tms-slide.tms-video-no-ratio > video,
 .tms-slide.tms-video-no-ratio > iframe,
 .tms-slide.tms-video-no-ratio > object,
 .tms-slide.tms-video-no-ratio > embed{
@@ -135,7 +135,7 @@ Copyright: ThemeMountain
 */
 
 /* Remove if full framework is used */
-.tm-loader, 
+.tm-loader,
 .tm-loader #circle{
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -147,7 +147,7 @@ Copyright: ThemeMountain
 	margin: -1rem 0 0 -1rem;
 	position: absolute;
 	top: 50%;
-	left: 50%;	
+	left: 50%;
 }
 .tm-loader #circle {
 	width: 2rem;
@@ -189,7 +189,7 @@ Copyright: ThemeMountain
        -ms-perspective: 1000;
            perspective: 1000;
 }
-.tms-caption video, 
+.tms-caption video,
 .tms-caption iframe,
 .tms-caption object,
 .tms-caption embed{
@@ -269,9 +269,9 @@ Copyright: ThemeMountain
 	border-top-left-radius: 3px;
 	border-bottom-left-radius: 3px;
 }
-#tms-next:before { 
-	content: '\e87d'; 
-} 
+#tms-next:before {
+	content: '\e87d';
+}
 #tms-prev {
 	top: 50%;
 	left: 0;
@@ -279,8 +279,8 @@ Copyright: ThemeMountain
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 }
-#tms-prev:before { 
-	content: '\e87c'; 
+#tms-prev:before {
+	content: '\e87c';
 }
 
 /* Bullets/Thumb */
@@ -289,8 +289,8 @@ Copyright: ThemeMountain
 	text-align: center;
 	display: none;
 	position: absolute;
-	bottom: 25px; 
-	z-index: 10; 
+	bottom: 25px;
+	z-index: 10;
 }
 .tms-bullet-nav {
 	width: 0.8rem;
@@ -351,7 +351,7 @@ Copyright: ThemeMountain
   font-weight: normal;
   font-style: normal;
 }
-[class^="tms-arrow-nav"]:before, 
+[class^="tms-arrow-nav"]:before,
 [class*="tms-arrow-nav"]:before {
   font-family: "entypo";
   font-style: normal;

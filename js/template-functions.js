@@ -1,8 +1,8 @@
 /**
 *	Template Functions
 *	Version: 1.0.4;
-*	Author: ThemeMountain
-*	Copyright: ThemeMountain
+*	Author: DavidORegan
+*	Copyright: DavidORegan
 */
 
 $( document ).ready( function(){

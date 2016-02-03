@@ -1,11 +1,11 @@
 /**
 *	Timber
 *	Version: 1.0.1
-*	URL: @ThemeMountain
+*	URL: @DavidORegan
 *	Description: Components
 *	Requires: jQuery 1.10+
-*	Author: ThemeMountain
-*	Copyright: Copyright 2014 ThemeMountain
+*	Author: DavidORegan
+*	Copyright: Copyright 2014 DavidORegan
 *	License: MIT (http://www.opensource.org/licenses/mit-license.php)
 */
 
