@@ -31,11 +31,11 @@ Copyright: ThemeMountain
 [1. Typography]
 */
 body,
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6,
 .navigation ul li a,
 .side-navigation ul li a{
@@ -63,7 +63,7 @@ cite,
 }
 
 /* Headings and Links */
-a, 
+a,
 p a,
 .box a:not(.button){
 	color: #666;
@@ -77,8 +77,8 @@ p a:hover,
 h1, h1 a,
 h2, h2 a,
 h3, h3 a,
-h4, h4 a, 
-h5, h5 a, 
+h4, h4 a,
+h5, h5 a,
 h6, h6 a{
 	color: #333;
 	letter-spacing: 0.1rem;
@@ -117,7 +117,7 @@ h5 {
 }
 h6 {
 	font-size: 1.2rem;
-	
+
 }
 p{
 	font-weight: 200;
@@ -138,25 +138,25 @@ p{
 }
 .blog-masonry.masonry-set-dimensions h2 a{
 	color: #fff;
-} 
+}
 
 /*------------------------------------------------------------------
 [2. Background Color & Color Classes]
 */
 .bkg-charcoal{
-	background-color: #333; 
+	background-color: #333;
 	border-color: #333;
 }
 .bkg-hover-charcoal:hover{
-	background-color: #000; 
+	background-color: #000;
 	border-color: #000;
 }
 .bkg-yellow-light{
-	background-color: #fdeb74; 
+	background-color: #fdeb74;
 	border-color: #fdeb74;
 }
 .bkg-hover-yellow-light:hover{
-	background-color: #f6e04d; 
+	background-color: #f6e04d;
 	border-color: #f6e04d;
 }
 .color-yellow-light{
@@ -255,13 +255,13 @@ p{
 }
 
 /* Navigation - Hover Colors */
-.header a:hover.navigation-show a:hover, 
-.header .navigation > ul > li > a:hover, 
+.header a:hover.navigation-show a:hover,
+.header .navigation > ul > li > a:hover,
 .header .side-navigation > ul > li > a:hover{
 	color: #fff;
 	opacity: 0.6;
 }
-.nav-dark .navigation-show a:hover, 
+.nav-dark .navigation-show a:hover,
 .nav-dark .navigation > ul > li > a:hover{
 	color: #333;
 	opacity: 0.6;
@@ -286,13 +286,13 @@ p{
 	color: #000;
 	border-bottom: none;
 }
-.header-background .navigation-show a:hover, 
-.header-background .navigation > ul > li > a:hover, 
+.header-background .navigation-show a:hover,
+.header-background .navigation > ul > li > a:hover,
 .header-background .side-navigation > ul > li > a:hover,
-.nav-dark .header-background .navigation-show a:hover, 
+.nav-dark .header-background .navigation-show a:hover,
 .nav-dark .header-background .navigation > ul > li > a:hover,
-.header-3 .navigation-show a:hover, 
-.header-3 .navigation > ul > li > a:hover, 
+.header-3 .navigation-show a:hover,
+.header-3 .navigation > ul > li > a:hover,
 .header-3 .side-navigation > ul > li > a:hover{
 	color: #000;
 	opacity: 1;
@@ -306,7 +306,7 @@ p{
 }
 /* Header mobile & breakpoint colors */
 @media only screen and (max-width: 960px){
-	.header, 
+	.header,
 	.header .header-inner{
 		background: #fff;
 	}
@@ -447,7 +447,7 @@ p{
 	color: #333;
 }
 .team-3 .tms-bullet-nav{
-	background: #333; 
+	background: #333;
 }
 .team-3 .team-slider .tms-pagination{
 	text-align: left;
@@ -552,9 +552,9 @@ p{
 	}
 	.hero-5-contact h1,
 	.hero-5-contact h2,
-	.hero-5-contact h3, 
-	.hero-5-contact h4, 
-	.hero-5-contact h5, 
+	.hero-5-contact h3,
+	.hero-5-contact h4,
+	.hero-5-contact h5,
 	.hero-5-contact h6{
 		color: #333;
 	}
@@ -683,7 +683,7 @@ p{
 }
 .coming-soon-1 .background-image{
 	background-color: #000;
-	background-image: url(../images/fullscreen/coming-soon-1.jpg);
+	background-image: url(../images/assets/redf.jpg);
 }
 .coming-soon-1 .logo{
 	width: 12rem;
@@ -769,8 +769,8 @@ only screen and (   min--moz-device-pixel-ratio: 2),
 only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (		 min-device-pixel-ratio: 2),
 only screen and (			min-resolution: 192dpi),
-only screen and (				min-resolution: 2dppx) { 
-	
+only screen and (				min-resolution: 2dppx) {
+
 	/* Fullscreen Pages */
 	.error-404 .background-image,
 	.error-500 .background-image{
@@ -844,7 +844,7 @@ only screen and (				min-resolution: 2dppx) {
 		background-image: url(../images/portfolio/pagination/palm-restaurant@2x.jpg);
 	}
 	.project-11-next{
-		background-image: url(../images/portfolio/pagination/angular-mockup@2x.jpg);	
+		background-image: url(../images/portfolio/pagination/angular-mockup@2x.jpg);
 	}
 	.post-1-next{
 		background-image: url(../images/blog/pagination/ny-inspiration@2x.jpg);
@@ -901,7 +901,7 @@ textarea.required-field:focus{
 	border-bottom: 1px dashed #fff;
 	border-radius: 0;
 }
-.fullscreen-section .form-element:focus, 
+.fullscreen-section .form-element:focus,
 .fullscreen-section textarea:focus{
 	background: none;
 	color: #fff;
@@ -940,7 +940,7 @@ textarea.required-field:focus{
 	color: #333;
 }
 .side-navigation-footer .social-list a,
-.footer-1 .social-list a, 
+.footer-1 .social-list a,
 .fullscreen-section footer .social-list a{
 	margin-left: 0.8rem;
 	margin-right: 0.8rem;
