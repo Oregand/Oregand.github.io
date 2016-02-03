@@ -778,7 +778,7 @@ only screen and (				min-resolution: 2dppx) {
 	}
 	.coming-soon-1 .background-image{
 		background-color: #000;
-		background-image: url(../images/fullscreen/coming-soon-1@2x.jpg);
+		background-image: url(../images/assets/redf.jpg);
 	}
 
 	/* Logo About Section */
