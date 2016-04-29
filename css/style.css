@@ -786,6 +786,14 @@ ul.portfolio-image li .desc{
   width: 100%;
   height: 550px;
 }
+.testimonial-header {
+  text-align: center;
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 46px;
+  letter-spacing: 2px;
+  margin-top: 100px;
+}
 .list-testimonial {
   display: block;
   width: 100%;
@@ -1205,6 +1213,10 @@ ul.portfolio-image li .desc{
   background: #2f2f2f;
   padding: 80px 0;
   color: #636363;
+}
+
+.footer-bottom h2{
+  margin-bottom: 60px;
 }
 
 
