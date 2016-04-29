@@ -1,71 +1,198 @@
-/* ========================================================================
- * DOM-based Routing
- * Based on http://goo.gl/EUTi53 by Paul Irish
- *
- * Only fires on body classes that match. If a body class contains a dash,
- * replace the dash with an underscore when adding it to the object below.
- *
- * .noConflict()
- * The routing is enclosed within an anonymous function so that you can
- * always reference jQuery with $, even when in .noConflict() mode.
- * ======================================================================== */
-
 (function($) {
+  "use strict";
+  $(window).on("load", function() { // makes sure the whole site is loaded
+    //preloader
+    $("#status").fadeOut(); // will first fade out the loading animation
+    $("#preloader").delay(450).fadeOut("slow"); // will fade out the white DIV that covers the website.
 
-  // Use this variable to set up the common and page specific functions. If you
-  // rename this variable, you will also need to rename the namespace below.
-  var Dor = {
-    // All pages
-    'common': {
-      init: function() {
-        // JavaScript to be fired on all pages
-      },
-      finalize: function() {
-        // JavaScript to be fired on all pages, after page specific JS is fired
-      }
-    },
-    // Home page
-    'coming_soon': {
-      init: function() {
-        // JavaScript to be fired on the coming soon page
-      },
-      finalize: function() {
-        // JavaScript to be fired on the coming soon page, after the init JS
-      }
-    }
-  };
+    //masonry
+    $('.grid').masonry({
+      itemSelector: '.grid-item'
 
-  // The routing fires all common scripts, followed by the page specific scripts.
-  // Add additional events for more control over timing e.g. a finalize event
-  var UTIL = {
-    fire: function(func, funcname, args) {
-      var fire;
-      var namespace = Dor;
-      funcname = (funcname === undefined) ? 'init' : funcname;
-      fire = func !== '';
-      fire = fire && namespace[func];
-      fire = fire && typeof namespace[func][funcname] === 'function';
+    });
+  });
 
-      if (fire) {
-        namespace[func][funcname](args);
-      }
-    },
-    loadEvents: function() {
-      // Fire common init JS
-      UTIL.fire('common');
 
-      // Fire page-specific init JS, and then finalize JS
-      $.each(document.body.className.replace(/-/g, '_').split(/\s+/), function(i, classnm) {
-        UTIL.fire(classnm);
-        UTIL.fire(classnm, 'finalize');
+  $(document).ready(function(){
+
+    //active menu
+    $(document).on("scroll", onScroll);
+
+    $('a[href^="#"]').on('click', function (e) {
+      e.preventDefault();
+      $(document).off("scroll");
+
+      $('a').each(function () {
+        $(this).removeClass('active');
+      })
+      $(this).addClass('active');
+
+      var target = this.hash;
+      $target = $(target);
+      $('html, body').stop().animate({
+        'scrollTop': $target.offset().top+2
+      }, 500, 'swing', function () {
+        window.location.hash = target;
+        $(document).on("scroll", onScroll);
       });
+    });
 
-      // Fire common finalize JS
-      UTIL.fire('common', 'finalize');
+
+    //scroll js
+    smoothScroll.init({
+      selector: '[data-scroll]', // Selector for links (must be a valid CSS selector)
+      selectorHeader: '[data-scroll-header]', // Selector for fixed headers (must be a valid CSS selector)
+      speed: 500, // Integer. How fast to complete the scroll in milliseconds
+      easing: 'easeInOutCubic', // Easing pattern to use
+      updateURL: true, // Boolean. Whether or not to update the URL with the anchor hash on scroll
+      offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+      callback: function ( toggle, anchor ) {} // Function to run after scrolling
+    });
+
+    //menu
+    var bodyEl = document.body,
+    content = document.querySelector( '.content-wrap' ),
+    openbtn = document.getElementById( 'open-button' ),
+    closebtn = document.getElementById( 'close-button' ),
+    isOpen = false;
+
+    function inits() {
+      initEvents();
     }
-  };
 
-  // Load Events
-  $(document).ready(UTIL.loadEvents);
+    function initEvents() {
+      openbtn.addEventListener( 'click', toggleMenu );
+      if( closebtn ) {
+        closebtn.addEventListener( 'click', toggleMenu );
+      }
 
-})(jQuery); // Fully reference jQuery after this point.
+      // close the menu element if the target it´s not the menu element or one of its descendants..
+      content.addEventListener( 'click', function(ev) {
+        var target = ev.target;
+        if( isOpen && target !== openbtn ) {
+          toggleMenu();
+        }
+      } );
+    }
+
+    function toggleMenu() {
+      if( isOpen ) {
+        classie.remove( bodyEl, 'show-menu' );
+      }
+      else {
+        classie.add( bodyEl, 'show-menu' );
+      }
+      isOpen = !isOpen;
+    }
+
+    inits();
+
+
+    //typed js
+    $(".typed").typed({
+        strings: ["My Name is David O'Regan", "I'm a Web Developer", "Love Simplicity"],
+        typeSpeed: 100,
+        backDelay: 900,
+        // loop
+        loop: true
+    });
+
+    //owl carousel
+    $('.owl-carousel').owlCarousel({
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+      items : 1,
+      itemsDesktop : [1199,1],
+      itemsDesktopSmall : [979,1],
+      itemsTablet : [768,1],
+      itemsMobile : [479,1],
+
+      // CSS Styles
+      baseClass : "owl-carousel",
+      theme : "owl-theme"
+    });
+
+    $('.owl-carousel2').owlCarousel({
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+      items : 1,
+      itemsDesktop : [1199,1],
+      itemsDesktopSmall : [979,1],
+      itemsTablet : [768,1],
+      itemsMobile : [479,1],
+      autoPlay : false,
+
+      // CSS Styles
+      baseClass : "owl-carousel",
+      theme : "owl-theme"
+    });
+
+    //contact
+    $('input').blur(function() {
+
+      // check if the input has any value (if we've typed into it)
+      if ($(this).val())
+        $(this).addClass('used');
+      else
+        $(this).removeClass('used');
+    });
+
+    //pop up porfolio
+    $('.portfolio-image li a').magnificPopup({
+      type: 'image',
+      gallery: {
+        enabled: true
+      }
+      // other options
+    });
+
+    //Skill
+    jQuery('.skillbar').each(function() {
+      jQuery(this).appear(function() {
+        jQuery(this).find('.count-bar').animate({
+          width:jQuery(this).attr('data-percent')
+        },3000);
+        var percent = jQuery(this).attr('data-percent');
+        jQuery(this).find('.count').html('<span>' + percent + '</span>');
+      });
+    });
+
+
+  });
+
+
+  //header
+  function inits() {
+    window.addEventListener('scroll', function(e){
+        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            shrinkOn = 300,
+            header = document.querySelector(".for-sticky");
+        if (distanceY > shrinkOn) {
+            classie.add(header,"opacity-nav");
+        } else {
+            if (classie.has(header,"opacity-nav")) {
+                classie.remove(header,"opacity-nav");
+            }
+          }
+      });
+    }
+
+  window.onload = inits();
+
+  //nav-active
+  function onScroll(event){
+    var scrollPosition = $(document).scrollTop();
+    $('.menu-list a').each(function () {
+      var currentLink = $(this);
+      var refElement = $(currentLink.attr("href"));
+      if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+        $('.menu-list a').removeClass("active");
+        currentLink.addClass("active");
+      }
+      else{
+        currentLink.removeClass("active");
+      }
+    });
+  }
+
+})(jQuery);
