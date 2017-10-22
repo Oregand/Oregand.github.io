@@ -97,6 +97,15 @@
         loop: true
     });
 
+    //typed js
+    $(".ca674typed").typed({
+      strings: ["David O'Regan", "Matthiew Mckenna", "Gosia", "Sue"],
+      typeSpeed: 100,
+      backDelay: 900,
+      // loop
+      loop: true
+  });
+
     //owl carousel
     $('.owl-carousel').owlCarousel({
       autoPlay: 3000, //Set AutoPlay to 3 seconds
