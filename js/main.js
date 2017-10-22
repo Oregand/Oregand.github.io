@@ -99,7 +99,7 @@
 
     //typed js
     $(".ca674typed").typed({
-      strings: ["David O'Regan", "Matthiew Mckenna", "Gosia", "Sue"],
+      strings: ["David O'Regan", "Matthiew Mckenna", "Malgorzata Gutowska", "Sue Ryeo Kim"],
       typeSpeed: 100,
       backDelay: 900,
       // loop

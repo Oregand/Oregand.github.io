@@ -913,6 +913,10 @@ ul.portfolio-image li .desc{
   text-align: justify;
   color: #5f5f5f;
 }
+
+.grid-item a {
+  text-decoration: underline;
+}
 /*---------- f. quote -----------*/
 #about{
   min-height: 650px;
