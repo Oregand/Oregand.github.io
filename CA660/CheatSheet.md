@@ -173,6 +173,34 @@ table(freq)
 table(freq)/1000
 ```
 
++ Amy and Jane are gambling against one another. A fair coin is tossed repeatedly. Each time a head comes up, Amy wins two euros from Jane, and each time a tail comes up, Amy loses 2 euros to Jane. Use R to simulate this game 100 times
+
+  + (a) the number of times that Amy is ahead in these 100 tosses:
+  ```r
+  freq <- 0
+
+  for(i in 1:100) {
+    freq[i] <- sample(c('A','J'), 1)
+  }
+
+  table(freq) =  A  J  / 51 49
+  ```
+
+  + (b) how much Amy has won or lost:
+  ```r
+  freq[0] x 2
+  ```
+
++ While plotting, we used type = o in the plot command, which joined the points. Alternative characterizations of a plot may be obtained by using different op- tions. Explore the possibilities of different types of plots by varying the Type symbols
+
+```r
+num <- 1:100
+plot(num, add, type = "o", xlab = "Toss number", ylab = "Winnings")
+plot(num, add, type = "l", xlab = "Toss number", ylab = "Winnings")
+plot(num, add, type = "s", xlab = "Toss number", ylab = "Winnings")
+plot(num, add, type = "S", xlab = "Toss number", ylab = "Winnings")
+```
+
 #### With reptition(perm)
 
 #### Without reptition(perm)
@@ -193,13 +221,39 @@ comb = function(n, x) {
 
 ## Bayesian Networks
 
+*P(A) measures our certainty about statement A.*
+
+```js
+P(A) = 1 if we are certain A is true
+P(A) = 0 if we are certain A is false
+P(A) has a value in between 0 and 1 if we are in some doubt
+
+P(A|B) = The probability that A is true given that B is true
+```
+
+
+
 ### Example
 
 ## Axom of probability
 
 ### Axom One
 
+`P(A) + P(!A) = 1`
+
+The probability that A is true and the probability that A is not true must add up to 1.
+
 ### Axom Two
+
+`P(A|B) = P(A|B)P(B)`
+
+The probability that A and B are both true equals the probability that B is true multiplied by the probability of A given B.
+
+`P(A|B) = P(A ^ B) / P(B)`
+
+From this we are able to make Bayes Therom:
+
+`P(A|B)P(B) = P(B|A)P(A)`
 
 ## Hidden Markov Chain
 
