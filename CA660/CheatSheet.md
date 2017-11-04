@@ -231,7 +231,23 @@ P(A) has a value in between 0 and 1 if we are in some doubt
 P(A|B) = The probability that A is true given that B is true
 ```
 
+### Example
 
+In a certain clinic 0.15 of the patients have a certain virus. Suppose a blood test is carried out on a patient. If the patient has got the virus the test will turn out positive with probability 0.95. If the patient does not have the virus the test will turn out positive with probability 0.02.
+
+H = the patient has got the virus
+P = the outcome of the test is positive
+
+The question above gives us the following information.
+P(H) = 0.15
+P(P|H) = 0.95
+P(P|H) = 0.02
+
+And we are asked to find the following
+a) P(H|P)
+b) P(H|P)
+c) P(H|P)
+d) P(H|P)
 
 ### Example
 
