@@ -241,13 +241,44 @@ P = the outcome of the test is positive
 The question above gives us the following information.
 P(H) = 0.15
 P(P|H) = 0.95
-P(P|H) = 0.02
+P(P|!H) = 0.02
 
 And we are asked to find the following
 a) P(H|P)
-b) P(H|P)
-c) P(H|P)
-d) P(H|P)
+b) P(!H|P)
+c) P(H|!P)
+d) P(!H|!P)
+
++ `P(H|P) = P(P|H) * P(H) / P(P)`
+  + `P(H|P) = 0.95 * 0.15 / ?`
+
+P(P) = Positive test:
+
+Two possible senarios for a positve test:
+
++ Test positive, paitent has virus = P ^ H
++ Test positive, paitent does not have virus = P ^ !H
+
+```r
+P(P) = (P ^ H) + P(P ^ !H)
+
+P(P ^ H) = P(P|H)P(H)
+P(P ^ !H) = P(P|!H)P(!H)
+
+P(P ^ H) = 0.95 *  0.15
+P(P ^ !H) = 0.02 * 0.85
+
+P(P) = 0.95 *  0.15 + 0.02 * 0.85 = 0.1595
+
+P(H|P) = 0.95 * 0.15 / 0.1595 = 0.8934
+```
+
++`P(!H|P) = 1 - P(H|P)`
+  +`P(!H|P) = 1 - 0.8934 =  0.1066`
+
++`P(H|!P) = P(!P|H) * P(H) / P(!P)`
+
++`P(!H|!P)`
 
 ### Example
 
@@ -261,7 +292,7 @@ The probability that A is true and the probability that A is not true must add u
 
 ### Axom Two
 
-`P(A|B) = P(A|B)P(B)`
+`P(A ^ B) = P(A|B)P(B)`
 
 The probability that A and B are both true equals the probability that B is true multiplied by the probability of A given B.
 
