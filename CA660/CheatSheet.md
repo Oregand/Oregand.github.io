@@ -120,7 +120,7 @@ s/10000 # proportion of samples with no repeats
 + Calculate a head is 0.5 if a fair coin is tossed repeatedly;
 
 ```r
-x <- sample(c("H","T"), 1000, replace=T)
+x <- sample(c('H','T'), 1000, replace=T) #samples H or T 1000 times with replacement
 table(x)
 table(x)/1000
 ```
@@ -128,12 +128,50 @@ table(x)/1000
 + a red card is 0.5 if cards are drawn repeatedly with replacement from a well-shuffled deck;
 
 ```r
-x <- sample(c('R', 'B'), 1000, replace=T)
+x <- sample(c('R', 'B'), 1000, replace=T) #samples R or B 1000 times with replacement
 table(x)
 table(x)/1000
 ```
 
 + an even number is 0.5 if a fair die is rolled repeatedly
+
+```r
+x <- sample(c('E', 'O'), 1000, replace=T) #samples E or O 1000 times with replacement
+table(x)
+table(x)/1000
+
+Or
+
+x <- sample(seq(1:6), 1000, replace=T) #samples 1 to 6 1000 times with replacement
+table(x)
+table(x)/1000
+```
+
++ An experiment consists of tossing two fair coins. Use R to simulate this experiment 100 times and obtain the relative frequency of each possible outcome.
+
+```r
+freq <- 0
+
+for(i in 1:100) {
+  freq[i] <- sample(c('H','T'), 1)
+}
+
+table(x)
+table(x)/1000
+```
+
++ An experiment consists of tossing a die. Use R to simulate this experiment 600 times and obtain the relative frequency of each possible outcome. Hence, estimate the probability of getting each of 1, 2, 3, 4, 5, and 6.
+
+```r
+freq <- 0
+
+for(i in 1:600) {
+  freq[i] <- sample(c('1','2','3','4','5','6'), 1)
+}
+
+table(freq)
+table(freq)/1000
+```
 
 #### With reptition(perm)
 
