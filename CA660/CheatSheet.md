@@ -117,6 +117,24 @@ s # number of samples with no repeats
 s/10000 # proportion of samples with no repeats
 ```
 
++ Calculate a head is 0.5 if a fair coin is tossed repeatedly;
+
+```r
+x <- sample(c("H","T"), 1000, replace=T)
+table(x)
+table(x)/1000
+```
+
++ a red card is 0.5 if cards are drawn repeatedly with replacement from a well-shuffled deck;
+
+```r
+x <- sample(c('R', 'B'), 1000, replace=T)
+table(x)
+table(x)/1000
+```
+
++ an even number is 0.5 if a fair die is rolled repeatedly
+
 #### With reptition(perm)
 
 #### Without reptition(perm)
