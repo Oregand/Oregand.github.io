@@ -290,7 +290,33 @@ P(H|!P) = (1 - 0.95) * 0.15 / (1 - 0.1595) = 0.008923
 
 ### Example(Multi Events -> Independant)
 
+*Suppose both P1 and P2 are positive. What then is the probability that the patient has the virus? In other words we are asked to find P(H|P1 ^ P2)*
 
+```r
+P(H|P1 ^ P2) = P(P1 ^ P2|H) * P(H) / P(P1 ^ P2)
+
+P(P1 ^ P2|H) = ?
+P(P1 ^ P2) = ?
+
+#Because the two tests are independant we can say:
+P(P1 ^ P2|H) = P(P1|H) * P(P2|H)
+P(P1 ^ P2|H) = 0.95 * 0.95
+
+#Now we apply second axom of prob, two senarios
+P(P1 ^ P2) = 
+
+1.the patient has the virus and both tests are positive
+2.the patient does not have the virus and both tests are positive
+
+P(P1 ^ P2) = P(P1 ^ P2|H)P(H) + P(P1 ^ P2|!H)P(!H)
+P(P1 ^ P2) = P(P1|H) * P(P2|H) * P(H) + P(P1|!H) * P(P2|!H) * P(!H)
+
+= 0.95 × 0.95 × 0.15 + 0.02× 0.02 × 0.85
+= 0.135715
+
+P(H|P1 ^ P2) = 0.95 * 0.95 * 0.15 / 0.135715
+= 0.99749
+```
 
 ## Axom of probability
 
@@ -405,7 +431,7 @@ In particular, the normal distribution with μ = 0 and σ = 1 is called the stan
 
 ### Example(Normal Dist R)
 
-+ Assume that the test scores of a college entrance exam fits a normal distribution. Furthermore, the mean test score is 72, and the standard deviation is 15.2. What is the percentage of students scoring 84 or more in the exam?
+1.Assume that the test scores of a college entrance exam fits a normal distribution. Furthermore, the mean test score is 72, and the standard deviation is 15.2. What is the percentage of students scoring 84 or more in the exam?
 
 We apply the function pnorm of the normal distribution with mean 72 and standard deviation 15.2. Since we are looking for the percentage of students scoring higher than 84, we are interested in the upper tail of the normal distribution.
 
@@ -447,7 +473,7 @@ pnorm(50, mean=45, sd=4) - pnorm(40, mean=45, sd=4)
 1 - pnorm(37, mean=45, sd=4)
 ```
 
-+ An analogue signal received at a detector (measured in microvolts), is normally distributed with a mean of 100 and a variance of 256; X ∼ N(100, 16)
+2.An analogue signal received at a detector (measured in microvolts), is normally distributed with a mean of 100 and a variance of 256; X ∼ N(100, 16)
 
 • What is the probability that the signal will be less than 120 microvolts, given that it is larger than 110 microvolts?
 
@@ -457,6 +483,17 @@ P(110 < X < 120) = pnorm(120, mean=100, sd=16) - pnorm(110, mean=100, sd=16)
 P(X > 110) = 1 - pnorm(110, mean=100, sd=16)
 
 P(X < 120|X > 110) = P(110 < X < 120)/P(X > 110)
+```
+
+3.From previous records scores on an aptitude are normally distributed with mean µ = 500 and standard deviation σ = 100 : X ∼ N(500, 100) What is the probability that an individual’s score exceeds 650, given that it exceeds 500?
+
+```r
+P(X > 650|X > 500) = P(X > 650)/P(X > 500)
+
+P(X > 650) = 1 - pnorm(650, mean=500, sd=100) = 0.0668072
+P(X > 500) = 1 - pnorm(500, mean=500, sd=100) = 0.5
+
+0.5/0.0668072
 ```
 
 ## Mean and Variance -> Example && R
@@ -494,34 +531,40 @@ P(P) = 0.95 * 0.15 + 0.05 * 0.85 = 0.1595
 2.Write some R code which simulates the possible outcomes of a blood test.
 
 ```r
+# runif(1) generates a random number between the values 0.0 and 1.0
+#If this random number is <= 0.15 then we can say that 
+#the patient has the virus, otherwise the patient does not have the virus.
+
 pos <- 0
 if (runif(1) <= 0.15) {
-  if (runif(1) <= 0.95) {
-    pos[i] = 1
-  } else {
-    pos[i] = 0
-  }
+  if (runif(1) <= 0.95) pos[i] = 1 else pos[i] = 0
 } else {
-  if (runif(1) <= 0.02) {
-    pos[i] = 1
-  } else {
-    pos[i] = 0
-  }
+  if (runif(1) <= 0.02) pos[i] = 1 else pos[i] = 0
 }
+table(pos)
 ```
 
-3.Write some R code to show how often the pateint has a virus
+3.Run this code 100,000 times. How often does the test turn out positive? How close is this to the probability, which you calculated above?
 
 ```r
-# This is a modified version of the R code in the
-# Sample Lab Exam file
-# It computes how often the patient has the virus,
-# if they have a postive test
+pos <- 0
+for(i in 1:100000) {
+  if (runif(1) <= 0.15) {
+    if (runif(1) <= 0.95) pos[i] = 1 else pos[i] = 0
+  } else {
+    if (runif(1) <= 0.02) pos[i] = 1 else pos[i] = 0
+  }
+}
+table(pos)
+```
+
+4.Now modify your code to find how often, if the test is positive, that the patient has the virus.
+
+```r
 # It uses an array called virus, which is only
 # updated when the patient has a positive test
 # It stores a 1 if the patient has the virus
 # and stores a 0 if they do not
-
 pos = 0
 virus = 0
 j=1
@@ -545,6 +588,48 @@ length(virus) #this should be equal to the number of positive tests
 sum(virus)/length(virus) # this is an estimate of how frequent the patient has the virus
 # given they have a positive test
 ```
+
+5.Run this code 100,000 times. How often does the patient have the virus, if they have a positive test?
+
+```r
+# It uses an array called virus, which is only
+# updated when the patient has a positive test
+# It stores a 1 if the patient has the virus
+# and stores a 0 if they do not
+pos = 0
+virus = 0
+j=1
+for (i in 1:100000) {
+  if (runif(1) <= 0.15) {
+    if (runif(1) <= 0.95) {
+      pos[i] = 1
+      virus[j] =1
+      j=j+1
+    } else pos[i] = 0
+  } else {
+    if (runif(1) <= 0.02) {
+      pos[i] = 1
+      virus[j] = 0
+      j=j+1
+    } else pos[i] = 0
+  }
+}
+table(pos)
+length(virus) #this should be equal to the number of positive tests
+sum(virus)/length(virus) # this is an estimate of how frequent the patient has the virus
+# given they have a positive test
+```
+
+6.How close is this to the value predicted by Bayes Theorem?
+
+7.Now modify the code to include a second blood test on the patient. You can assume that the second test is unaffected by the first test
+
+```r
+```
+
+
+8.Run the code 100,000 times. How often do you get two positive tests? If you get two positive tests, how often does the patient have the virus?
+
 
 ## Tutorial One
 
