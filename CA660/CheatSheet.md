@@ -622,6 +622,8 @@ sum(virus)/length(virus) # this is an estimate of how frequent the patient has t
 
 6.How close is this to the value predicted by Bayes Theorem?
 
+``
+
 7.Now modify the code to include a second blood test on the patient. You can assume that the second test is unaffected by the first test
 
 ```r
@@ -672,6 +674,8 @@ sum(virus)/length(virus) # this is an estimate of how frequent the patient has t
 ```
 
 8.Run the code 100,000 times. How often do you get two positive tests? If you get two positive tests, how often does the patient have the virus?
+
+`[1] 0.8949213`
 
 ## Sample Lab Two -> Bayes Network
 
@@ -727,9 +731,56 @@ B and E are conditionally independent given H. So we can multiply their conditio
 P(B ^ E) = P(B|H)P(E|H)P(H) + P(B|!H)P(E|!H)P(!H)
 ```
 
-5.
+5.Heart disease given high blood pressure and a normal electrocardiogram
 
-6.
+We have to repeat the solutions to parts iv and v but we must substitute !E for E
+
+```r
+P(B ^ !E) = P(B|H)P(!E|H)P(H) + P(B|!H)P(!E|!H)P(!H)
+P(H|B ^ !E) = P(B|H)P(!E|H)P(H) / P(B ^ !E)
+```
+
+6.Heart disease given smoking
+
+Since H depends on both S and D we have to consider the case of D and the case of not D and add them together
+
+```r
+P(H|S) = P(H|S,D)P(D) + P(H|S,!D)P(!D)
+```
+
+7.An abnormal electrocardiogram given smoking
+
+Since E depends on H which in turn depends on S we can write
+
+```r
+P(E|S) = P(E|H)P(H|S) + P(E|!H)P(!H|S)
+```
+
+8.Heart disease given an abnormal electrocardiogram and smoking
+
+```r
+P(H ^ E ^ S) = P(E|H)P(H|S)P(S)
+P(E ^ S) = P(E|S)P(S)
+P(H|S ^ E) = P(H ^ S ^ E) / P(E ^ S) = P(E|H)P(H|S) / P(E|S)
+```
+
+c) How many different combinations of the five node values does the above network have?
+
+5 nodes, 2 values per node(True, False)
+
+`2 x 2 x 2 x 2 x 2 = 32`
+
+d) Can you give a general algorithm for computing any probability of this type?
+
+```r
+P(X and Y) = sum of the probabilities of all combinations where X and Y are true
+P(Y) = sum of the probabilities of all the combinations where Y is true
+P(X|Y) = P(X and Y)/P(Y)
+```
+
+e) How would the execution time of your algorithm change if the number of nodes in the network were to be increased?
+
+The execution time would increase exponentially i.e. in proportion to 2 to the power of N, where N is the number of nodes.
 
 ## Tutorial One
 
