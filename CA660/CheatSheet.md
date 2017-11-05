@@ -399,6 +399,66 @@ legend(x='topright', c('Bull','Bear'), fill=1:2, bty='n')
 
 ## Normal Distribution
 
+*The normal distribution is defined by the following probability density function, where μ is the population mean and σ2 is the variance.*
+
+In particular, the normal distribution with μ = 0 and σ = 1 is called the standard normal distribution, and is denoted as N(0,1).
+
+### Example(Normal Dist R)
+
++ Assume that the test scores of a college entrance exam fits a normal distribution. Furthermore, the mean test score is 72, and the standard deviation is 15.2. What is the percentage of students scoring 84 or more in the exam?
+
+We apply the function pnorm of the normal distribution with mean 72 and standard deviation 15.2. Since we are looking for the percentage of students scoring higher than 84, we are interested in the upper tail of the normal distribution.
+
+```r
+pnorm(84, mean=72, sd=15.2, lower.tail=FALSE)
+```
+
++ From previous records it is known that examination results are normally distributed with mean µ = 45 and the standard deviation σ = 4.
+
+What percentage of students obtain a mark:
+
+• less than 45?
+
+```r
+pnorm(45, mean=45, sd=4)
+```
+
+• larger than 45?
+
+```r
+1 - pnorm(45, mean=45, sd=4)
+```
+
+• larger than 50?
+
+```r
+1 - pnorm(50, mean=45, sd=4)
+```
+
+• between 40 and 50?
+
+```r
+pnorm(50, mean=45, sd=4) - pnorm(40, mean=45, sd=4)
+```
+
+• greater than 37?
+
+```r
+1 - pnorm(37, mean=45, sd=4)
+```
+
++ An analogue signal received at a detector (measured in microvolts), is normally distributed with a mean of 100 and a variance of 256; X ∼ N(100, 16)
+
+• What is the probability that the signal will be less than 120 microvolts, given that it is larger than 110 microvolts?
+
+```r
+P(110 < X < 120) = pnorm(120, mean=100, sd=16) - pnorm(110, mean=100, sd=16)
+
+P(X > 110) = 1 - pnorm(110, mean=100, sd=16)
+
+P(X < 120|X > 110) = P(110 < X < 120)/P(X > 110)
+```
+
 ## Mean and Variance -> Example && R
 
 ## Sample Lab
@@ -488,4 +548,119 @@ sum(virus)/length(virus) # this is an estimate of how frequent the patient has t
 
 ## Tutorial One
 
-## Tutorial Two
+1.Consider a box containing 15 red balls, 10 green balls and 5 blue balls. Let 5 balls be drawn at random without replacement from the box. Please give the probabilities of the following events. Please show your reasoning in each case.
+
+`S = {rrrrr, rrrrg, rrrgg, rrggg, rgggg, rrrrb, rrrbb, rrbbb, rbbbb, }`
+
++ The first ball is red
+
+```r
+```
+
++ The second ball is red
+
+```r
+```
+
++ The first ball and the second ball are red
+
+```r
+```
+
++ The second ball is red given that the first ball is red
+
+```r
+```
+
++ The first ball is red given that the second ball is red
+
+```r
+```
+
++ Either the first ball or the second ball or both are red
+
+```r
+```
+
++ Five balls all of the same colour
+
+```r
+```
+
++ Exactly two reds
+
+```r
+```
+
++ The sequence r,g,b,r,g
+
+```r
+```
+
++ Getting two reds, two greens and a blue in any order
+
+```r
+```
+
+2.The following table gives the mean wealth and percentage population in various regions of a fictitious country.
+
+Region =  Ashire Bshire Cshire West Toptown East Toptown South Toptown North Toptown
+Wealth =  80     110    110    70           120          90            110
+Pop %  =  15     20     20     10           10           10            15
+
++ What are the mean and variance of the wealth for the whole country?
+
+```r
+wealth <- c(80,110,110,70,120,90,110)
+pop <- c(15,20,20,10,10,10,15)
+
+mean(wealth)
+mean(pop)
+var(wealth)
+var(pop)
+```
+
++ What are the mean and variance of the wealth for those who live in Toptown?
+
+```r
+topWealth <- c(70, 120, 90, 100)
+topPop <- c(10, 10, 10, 15)
+
+mean(topWealth)
+mean(topPop)
+var(topWealth)
+var(topPop)
+```
+
++ What is the probability of living in an area with mean wealth > 100 if you live in Toptown?
+
+```r
+
+```
+
++ What is the probability that you live in Toptown given that you live in an area with mean wealth > 100?
+
+```r
+```
+
+3.In a certain messaging system, if a 1 is transmitted there is 5% probability that a 0 will be received. If a 0 is transmitted there is a 10% probability that a 1 will be received. There is a probability of 30% that a 1 is transmitted.
+
++ What is the probability that a 1 is received?
+
+```r
+```
+
++ What is the probability that a 1 was transmitted given that a 1 was received?
+
+```r
+```
+
++ Suppose the sender decides to transmit each digit twice. If a digit is sent twice, what is the probability that a 1 and a 0 are received?
+
+```r
+```
+
++ If a 1 and a 0 are received what is the probability that a 1 was sent twice?
+
+```r
+```
