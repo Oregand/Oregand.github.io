@@ -239,15 +239,17 @@ H = the patient has got the virus
 P = the outcome of the test is positive
 
 The question above gives us the following information.
-P(H) = 0.15
-P(P|H) = 0.95
-P(P|!H) = 0.02
+
+1.P(H) = 0.15
+2.P(P|H) = 0.95
+3.P(P|!H) = 0.02
 
 And we are asked to find the following
-a) P(H|P)
-b) P(!H|P)
-c) P(H|!P)
-d) P(!H|!P)
+
+1.P(H|P)
+2.P(!H|P)
+3.P(H|!P)
+4.P(!H|!P)
 
 + `P(H|P) = P(P|H) * P(H) / P(P)`
   + `P(H|P) = 0.95 * 0.15 / ?`
@@ -276,11 +278,17 @@ P(H|P) = 0.95 * 0.15 / 0.1595 = 0.8934
 +`P(!H|P) = 1 - P(H|P)`
   +`P(!H|P) = 1 - 0.8934 =  0.1066`
 
-+`P(H|!P) = P(!P|H) * P(H) / P(!P)`
+```r
+P(H|!P) = P(!P|H) * P(H) / P(!P)
 
-+`P(!H|!P)`
+P(H|!P) = (1 - P(P|H)) * 0.15 / (1 - P(P))
+P(H|!P) = (1 - 0.95) * 0.15 / (1 - 0.1595) = 0.008923
+```
 
-### Example
++`P(!H|!P) = 1 - P(H|!P)`
+  +`1- 0.008923 = 0.99107`
+
+### Example(Multi Events -> Independant)
 
 ## Axom of probability
 
@@ -304,6 +312,90 @@ From this we are able to make Bayes Therom:
 
 ## Hidden Markov Chain
 
+### Example In R(HMM)
+
+Five separate market regime periods will be simulated and "stitched" together in R. The subsequent stream of returns will then be utilised by a Hidden Markov Model in order to infer posterior probabilities of the regime states, given the sequence of observations.
+
+The first task is to install the depmixS4 and quantmod libraries and then import them into R. The random seed will also be fixed in order to allow consistent replication of results:
+
+```r
+install.packages('depmixS4')
+install.packages('quantmod')
+library('depmixS4')
+library('quantmod')
+set.seed(1)
+```
+
+At this stage a two-regime market will be simulated. This is achieved by assuming market returns are normally distributed. Separate regimes will be simulated with each containing NkNk days of returns. Each of the kk regimes will be bullish or bearish. The goal of the Hidden Markov Model will be to identify when the regime has switched from bullish to bearish and vice versa.
+
+In this example k=5k=5 and Nk∈[50,150]Nk∈[50,150]. The bull market is distributed as N(0.1,0.1) while the bear market is distributed as N(−0.05,0.2). 
+
+The parameters are set via the following code:
+
+```r
+# Create the parameters for the bull and
+# bear market returns distributions
+Nk_lower <- 50
+Nk_upper <- 150
+bull_mean <- 0.1
+bull_var <- 0.1
+bear_mean <- -0.05
+bear_var <- 0.2
+```
+
+The N^k values are randomly chosen:
+
+```r
+# Create the list of durations (in days) for each regime
+days <- replicate(5, sample(Nk_lower:Nk_upper, 1))
+```
+
+The returns for each `kth` period are randomly drawn:
+
+```r
+# Create the various bull and bear markets returns
+market_bull_1 <- rnorm( days[1], bull_mean, bull_var ) 
+market_bear_2 <- rnorm( days[2], bear_mean, bear_var ) 
+market_bull_3 <- rnorm( days[3], bull_mean, bull_var ) 
+market_bear_4 <- rnorm( days[4], bear_mean, bear_var ) 
+market_bull_5 <- rnorm( days[5], bull_mean, bull_var ) 
+```
+
+The R code for creating the true regime states (either 1 for bullish or 2 for bearish) and final list of returns is given by the following:
+
+```r
+# Create the list of true regime states and full returns list
+true_regimes <- c( rep(1,days[1]), rep(2,days[2]), rep(1,days[3]), rep(2,days[4]), rep(1,days[5]))
+returns <- c( market_bull_1, market_bear_2, market_bull_3, market_bear_4, market_bull_5)
+```
+
+Plotting the returns shows the clear changes in mean and variance between the regime switches:
+
+```r
+plot(returns, type="l", xlab='', ylab="Returns")
+```
+
+At this stage the Hidden Markov Model can be specified and fit using the Expectation Maximisation algorithm, the details of which are beyond the scope of this article. The family of distributions is specified as gaussian and the number of states is set to two (nstates = 2):
+
+```r
+# Create and fit the Hidden Markov Model
+hmm <- depmix(returns ~ 1, family = gaussian(), nstates = 2, data=data.frame(returns=returns))
+hmmfit <- fit(hmm, verbose = FALSE)
+```
+
+Subsequent to model fitting it is possible to plot the posterior probabilities of being in a particular regime state. post_probs contain the posterior probabilities. These are compared with the underlying true states. Notice that the Hidden Markov Model does a good job of correctly identifying regimes, albeit with some lag:
+
+```r
+# Output both the true regimes and the 
+# posterior probabilities of the regimes
+post_probs <- posterior(hmmfit)
+layout(1:2)
+plot(post_probs$state, type='s', main='True Regimes', xlab='', ylab='Regime')
+matplot(post_probs[,-1], type='l', main='Regime Posterior Probabilities', ylab='Probability')
+legend(x='topright', c('Bull','Bear'), fill=1:2, bty='n')
+```
+
 ## Normal Distribution
+
 
 ## Mean and Variance -> Example && R
