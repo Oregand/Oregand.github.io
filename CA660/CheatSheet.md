@@ -627,12 +627,65 @@ sum(virus)/length(virus) # this is an estimate of how frequent the patient has t
 ```r
 ```
 
-
 8.Run the code 100,000 times. How often do you get two positive tests? If you get two positive tests, how often does the patient have the virus?
 
 ## Sample Lab Two -> Bayes Network
 
+Suppose you are given the following facts about heart disease. Either smoking or bad diet or both can make heart disease more likely. Heart disease can produce either or both of the following two symptoms: high blood pressure and an abnormal electrocardiogram.
 
+Draw the Bayesian Network to represent these relations. Use the following symbols S = smoking, D = bad diet, H = heart disease, B = high blood pressure, E = abnormal electrocardiogram
+
+Suppose a medical survey gives you the following data.
+
+`P(S) = 0.3 P(D) = 0.4`
+
+```r
+P(H| S,D) = 0.8
+P(H| !S,D) = 0.5
+P(H| S,!D) = 0.4
+P(H| !S,!D) = 0.1
+
+P(B|H) = 0.7
+P(E|H) = 0.8
+P(B|!H) = 0.1
+P(E|!H) = 0.1
+```
+
+1.Whats the probability of heart disease?
+
+H depends on S and D. So we have to compute the probability of H for all 4 combinations of S and D and then add them all together:
+
+```r
+P(H) = P(H| S,D) * P(S) * P(D) + P(H| !S,D) * P(!S) * P(D) + P(H| S,!D) * P(S) * P(!D) + P(H| !S,!D) * P(!S) * P(!D)
+```
+
+2.High blood pressure
+
+B depends on H. So we have to find the probability of B for all values of H and add them together
+
+```r
+P(B) =  P(B|H)P(H) + P(B|!H)P(!H)
+```
+
+3.Heart disease given high blood pressure
+
+Bayes Therom
+
+```r
+P(H|B) = P(B|H) * P(H) / P(B)
+```
+
+4.High blood pressure and an abnormal electrocardiogram
+
+B and E are conditionally independent given H. So we can multiply their conditional probabilities given H. We do the same for not H.
+
+```r
+P(B ^ E) = P(B|H)P(E|H)P(H) + P(B|!H)P(E|!H)P(!H)
+```
+
+5.
+
+6.
 
 ## Tutorial One
 
