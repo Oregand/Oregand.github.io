@@ -625,6 +625,50 @@ sum(virus)/length(virus) # this is an estimate of how frequent the patient has t
 7.Now modify the code to include a second blood test on the patient. You can assume that the second test is unaffected by the first test
 
 ```r
+
+# It uses an array called virus, which is only
+# updated when the patient has a positive test
+# It stores a 1 if the patient has the virus
+# and stores a 0 if they do not
+P1 = 0
+P2 = 0
+virus = 0
+j=1
+for (i in 1:100000) {
+  if (runif(1) <= 0.15) {
+    if (runif(1) <= 0.95) {
+      P1[i] = 1
+      virus[j] =1
+      j=j+1
+    } else P1[i] = 0
+  } else {
+    if (runif(1) <= 0.02) {
+      P1[i] = 1
+      virus[j] = 0
+      j=j+1
+    } else P1[i] = 0
+  }
+
+  if (runif(1) <= 0.15) {
+    if (runif(1) <= 0.95) {
+      P2[i] = 1
+      virus[j] =1
+      j=j+1
+    } else P2[i] = 0
+  } else {
+    if (runif(1) <= 0.02) {
+      P2[i] = 1
+      virus[j] = 0
+      j=j+1
+    } else P2[i] = 0
+  }
+}
+table(P1)
+table(P2)
+length(virus) #this should be equal to the number of positive tests
+sum(virus)/length(virus) # this is an estimate of how frequent the patient has the virus
+# given they have a positive test
+
 ```
 
 8.Run the code 100,000 times. How often do you get two positive tests? If you get two positive tests, how often does the patient have the virus?
