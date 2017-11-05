@@ -290,6 +290,8 @@ P(H|!P) = (1 - 0.95) * 0.15 / (1 - 0.1595) = 0.008923
 
 ### Example(Multi Events -> Independant)
 
+
+
 ## Axom of probability
 
 ### Axom One
@@ -328,7 +330,7 @@ set.seed(1)
 
 At this stage a two-regime market will be simulated. This is achieved by assuming market returns are normally distributed. Separate regimes will be simulated with each containing NkNk days of returns. Each of the kk regimes will be bullish or bearish. The goal of the Hidden Markov Model will be to identify when the regime has switched from bullish to bearish and vice versa.
 
-In this example k=5k=5 and Nk∈[50,150]Nk∈[50,150]. The bull market is distributed as N(0.1,0.1) while the bear market is distributed as N(−0.05,0.2). 
+In this example k=5 and Nk∈[50,150]. The bull market is distributed as N(0.1,0.1) while the bear market is distributed as N(−0.05,0.2).
 
 The parameters are set via the following code:
 
@@ -354,11 +356,11 @@ The returns for each `kth` period are randomly drawn:
 
 ```r
 # Create the various bull and bear markets returns
-market_bull_1 <- rnorm( days[1], bull_mean, bull_var ) 
-market_bear_2 <- rnorm( days[2], bear_mean, bear_var ) 
-market_bull_3 <- rnorm( days[3], bull_mean, bull_var ) 
-market_bear_4 <- rnorm( days[4], bear_mean, bear_var ) 
-market_bull_5 <- rnorm( days[5], bull_mean, bull_var ) 
+market_bull_1 <- rnorm( days[1], bull_mean, bull_var )
+market_bear_2 <- rnorm( days[2], bear_mean, bear_var )
+market_bull_3 <- rnorm( days[3], bull_mean, bull_var )
+market_bear_4 <- rnorm( days[4], bear_mean, bear_var )
+market_bull_5 <- rnorm( days[5], bull_mean, bull_var )
 ```
 
 The R code for creating the true regime states (either 1 for bullish or 2 for bearish) and final list of returns is given by the following:
@@ -397,5 +399,93 @@ legend(x='topright', c('Bull','Bear'), fill=1:2, bty='n')
 
 ## Normal Distribution
 
-
 ## Mean and Variance -> Example && R
+
+## Sample Lab
+
++ Question: In a certain clinic 0.15 of the patients have a certain virus. Suppose a blood test is carried out on a patient. If the patient has got the virus the test will turn out positive with probability 0.95. If the patient does not have the virus the test will turn out positive with probability 0.02.
+
+```r
+P(H) = 0.15
+P(H|P) = 0.95
+P(!H|P) = 0.02
+```
+
+1.Calculate the probability that a patient will have a positive test: `P(P)`
+
+```js
+P(P) -> Two cases:
+
+const caseOne = 'Has virus, positive test'; // P(H ^ P)
+const caseTwo = 'Does not have virus, positive test'; // P(!H ^ P)
+
+P(P) = P(H ^ P) + P(!H ^ P)
+
+P(H ^ P) //Second Axom of prob = P(H ^ P) = P(H|P)P(H)
+
+P(H ^ P) = P(P|H)P(H)
+P(!H ^ P) = P(P|!H)P(!H)
+
+P(P) = P(P|H)P(H) + P(P|!H)P(!H)
+
+P(P) = 0.95 * 0.15 + 0.05 * 0.85 = 0.1595
+```
+
+2.Write some R code which simulates the possible outcomes of a blood test.
+
+```r
+pos <- 0
+if (runif(1) <= 0.15) {
+  if (runif(1) <= 0.95) {
+    pos[i] = 1
+  } else {
+    pos[i] = 0
+  }
+} else {
+  if (runif(1) <= 0.02) {
+    pos[i] = 1
+  } else {
+    pos[i] = 0
+  }
+}
+```
+
+3.Write some R code to show how often the pateint has a virus
+
+```r
+# This is a modified version of the R code in the
+# Sample Lab Exam file
+# It computes how often the patient has the virus,
+# if they have a postive test
+# It uses an array called virus, which is only
+# updated when the patient has a positive test
+# It stores a 1 if the patient has the virus
+# and stores a 0 if they do not
+
+pos = 0
+virus = 0
+j=1
+for (i in 1:100000) {
+  if (runif(1) <= 0.15) {
+    if (runif(1) <= 0.95) {
+      pos[i] = 1
+      virus[j] =1
+      j=j+1
+    } else pos[i] = 0
+  } else {
+    if (runif(1) <= 0.02) {
+      pos[i] = 1
+      virus[j] = 0
+      j=j+1
+    } else pos[i] = 0
+  }
+}
+table(pos)
+length(virus) #this should be equal to the number of positive tests
+sum(virus)/length(virus) # this is an estimate of how frequent the patient has the virus
+# given they have a positive test
+```
+
+## Tutorial One
+
+## Tutorial Two
