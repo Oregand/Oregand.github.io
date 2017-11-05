@@ -630,6 +630,9 @@ sum(virus)/length(virus) # this is an estimate of how frequent the patient has t
 
 8.Run the code 100,000 times. How often do you get two positive tests? If you get two positive tests, how often does the patient have the virus?
 
+## Sample Lab Two -> Bayes Network
+
+
 
 ## Tutorial One
 
@@ -640,16 +643,19 @@ sum(virus)/length(virus) # this is an estimate of how frequent the patient has t
 + The first ball is red
 
 ```r
+perm(15, 1)/perm(30,1)
 ```
 
 + The second ball is red
 
 ```r
+perm(14, 1)/perm(29,1)
 ```
 
 + The first ball and the second ball are red
 
 ```r
+perm(15, 2)/perm(30,2)
 ```
 
 + The second ball is red given that the first ball is red
@@ -720,7 +726,6 @@ var(topPop)
 + What is the probability of living in an area with mean wealth > 100 if you live in Toptown?
 
 ```r
-
 ```
 
 + What is the probability that you live in Toptown given that you live in an area with mean wealth > 100?
