@@ -248,16 +248,20 @@ P = the outcome of the test is positive
 
 The question above gives us the following information.
 
-1.P(H) = 0.15
-2.P(P|H) = 0.95
-3.P(P|!H) = 0.02
+```r
++ P(H) = 0.15
++ P(P|H) = 0.95
++ P(P|!H) = 0.02
+```r
 
 And we are asked to find the following
 
-1.P(H|P)
-2.P(!H|P)
-3.P(H|!P)
-4.P(!H|!P)
+```r
++ P(H|P)
++ P(!H|P)
++ P(H|!P)
++ P(!H|!P)
+```
 
 + `P(H|P) = P(P|H) * P(H) / P(P)`
   + `P(H|P) = 0.95 * 0.15 / ?`
