@@ -314,6 +314,29 @@ P(P1 ^ P2) = P(P2 ^ P1|H) * P(H) / P(P1 ^ P2)
 P(P1 ^ P2) = 0.95 * 0.95 * 0.15 / 0.135715
 ```
 
+*Now lets consider the case where one of the tests is postive and the other is negative. P(H|P1 ^ !P2)*
+
+```r
+P(H|P1 ^ !P2) = P(P1^!P2|H) * P(H) / P(P1^!P2)
+P(H|P1 ^ !P2) = ? * 0.15 / ?
+
+P(P1^!P2|H) = P(P1|H) * P(!P2|H) = 0.95 * 0.05
+
+P(P1^!P2) = Two different senarios:
+
+1. One pos, one neg, has virus
+2. One pos, one neg, does not have virus
+
+P(P1^!P2) = P(P1 ^ !P2|H) * P(H) + P(P1 ^ !P2|!H) * P(!H)
+
+P(P1^!P2) = P(P1|H) * P(!P2|H) * P(H) + P(P1|!H) * P(!P2|!H) * P(!H)
+= 0.95 × 0.05 × 0.15 + 0.02 × 0.98 × 0.85
+= 0.023785
+
+P(H|P1 ^ !P2) = P(P1^!P2|H) * P(H) / P(P1^!P2)
+P(H|P1 ^ !P2) = 0.95 * 0.05 * 0.15 / 0.023785
+```
+
 ## Axom of probability
 
 ### Axom One
