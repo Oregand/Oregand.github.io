@@ -992,43 +992,84 @@ a) What are the probabilities of the following situations:
 ```r
 P(S) = P(M ^ S) + P(!M ^ S)
 
-P(M ^ S) = P(M|S) * P(S)
-P(!M ^ S) = P(!M|S) * P(S)
+P(M ^ S) = P(S|M) * P(M)
+P(!M ^ S) = P(S|!M) * P(!M)
 
-P(S) P(M|S) * P(S) + P(!M|S) * P(S)
+P(S) = P(S|M) * P(M) + P(S|!M) * P(!M)
+
+P(S) = 0.2 * 0.49 + 0.3 * (1 - 0.49) = 0.251
 ```
 
 2.being male given smoking
 
 `P(M|S)`
 
+```r
+P(M|S) = P(S|M) * P(M) / P(S)
+
+P(M|S) = 0.2 * 0.49 / 0.251
+P(M|S) = 0.3904382
+```
+
 3.smoking and bad diet
 
 `P(S ^ D)`
+
+*S and D are conditionally independant given M. So we can multiply their conditional probabilities given M. We do the same for not M. Second Axom or prob*
+
+```r
+P(S ^ D) = P(S|M) * P(D|M) * P(M) + P(S|!M) * P(D|!M) * P(!M)
+```
 
 4.being male given smoking and bad diet
 
 `P(M| S ^ D)`
 
+```r
+1. Find latter
+P(M| S ^ D) = P(S|M) * P(D|M) * P(M) + P(S|!M) * P(D|!M) * P(!M) / P(M)
+```
+
 5.heart disease given smoking
 
 `P(H|S)`
+
+*Since H depends on both S and D we have to consider the case of D and the case of not D and add them together*
+
+```r
+P(H|S) = P(H|S, D) * P(D) + P(H|S, !D) * P(!D)
+```
 
 6.heart disease
 
 `P(H)`
 
+*H depends on S && D, so we must add up all probabilities of their states*
+
+```r
+P(H) = P(H| S,D) * P(S) * P(D) + P(H| !S,D) * P(!S) * P(D) + P(H| S,!D) * P(S) * P(!D) + P(H| !S,!D) * P(!S) * P(!D)
+```
+
 7.heart disease given male
 
 `P(H|M)`
+
+```r
+```
 
 8.male given heart disease
 
 `P(M|H)`
 
+```r
+```
+
 9.smoking given heart disease
 
 `P(S|H)`
+
+```r
+```
 
 b) How many different combinations of the four node values does the above network have?
 
