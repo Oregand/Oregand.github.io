@@ -966,6 +966,8 @@ S = smoking, D = bad diet, H = heart disease, M=male
 
 Suppose a medical survey gives you the following data:
 
+M -> S||D -> H
+
 ```r
 P(M) = 0.49
 
@@ -982,16 +984,61 @@ P(D|!M) = 0.2
 
 a) What are the probabilities of the following situations:
 1.smoking
+
+`P(S)`
+
+*Two possibilites: Male && Smokes female && smokes*
+
+```r
+P(S) = P(M ^ S) + P(!M ^ S)
+
+P(M ^ S) = P(M|S) * P(S)
+P(!M ^ S) = P(!M|S) * P(S)
+
+P(S) P(M|S) * P(S) + P(!M|S) * P(S)
+```
+
 2.being male given smoking
+
+`P(M|S)`
+
 3.smoking and bad diet
+
+`P(S ^ D)`
+
 4.being male given smoking and bad diet
+
+`P(M| S ^ D)`
+
 5.heart disease given smoking
+
+`P(H|S)`
+
 6.heart disease
+
+`P(H)`
+
 7.heart disease given male
+
+`P(H|M)`
+
 8.male given heart disease
+
+`P(M|H)`
+
 9.smoking given heart disease
 
-b) How many different combinations of the four node values does the above network have? Suppose you wished to calculate the probability of each of these combinations. What is the minimum number of multiplications and additions necessary to work out the probabilty of all the combinations? Explain how you reach your answer.
+`P(S|H)`
+
+b) How many different combinations of the four node values does the above network have?
+
+```r
+S = MSDH, M!SDH, MS!DH, MSD!H, M!SD!H, MS!D!H, M!S!D!H, M!S!DH, !MSDH, !M!SDH, !MS!DH, !MSD!H, !M!SD!H, !MS!D!H, !M!S!D!H, !M!S!DH
+
+16
+```
+
+c) Suppose you wished to calculate the probability of each of these combinations. What is the minimum number of multiplications and additions necessary to work out the probabilty of all the combinations? Explain how you reach your answer.
 
 ## Tutorial One
 
