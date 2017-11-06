@@ -827,6 +827,10 @@ sum(virus)/length(virus) # this is an estimate of how frequent the patient has t
 
 ## Sample Lab Two -> Bayes Network
 
+*Pro TIP! If you see the word `given` used, default to Bayes Therom*
+
+### Question 1
+
 Suppose you are given the following facts about heart disease. Either smoking or bad diet or both can make heart disease more likely. Heart disease can produce either or both of the following two symptoms: high blood pressure and an abnormal electrocardiogram.
 
 Draw the Bayesian Network to represent these relations. Use the following symbols S = smoking, D = bad diet, H = heart disease, B = high blood pressure, E = abnormal electrocardiogram
@@ -847,88 +851,147 @@ P(B|!H) = 0.1
 P(E|!H) = 0.1
 ```
 
+a)
+
 1.Whats the probability of heart disease?
 
-H depends on S and D. So we have to compute the probability of H for all 4 combinations of S and D and then add them all together:
+`P(H)`
+
+*H depends on S && D, so we must add up all probabilities of their states*
 
 ```r
-P(H) = P(H| S,D) * P(S) * P(D) + P(H| !S,D) * P(!S) * P(D) + P(H| S,!D) * P(S) * P(!D) + P(H| !S,!D) * P(!S) * P(!D)
+P(H) = P(H| S,D) * P(S) * P(D) + P(H| !S,D) *P(!S) * P(D) + P(H| S,!D) * P(S) * P(!D) + P(H| !S,!D) * P(!S) * P(!D)
 ```
 
 2.High blood pressure
 
-B depends on H. So we have to find the probability of B for all values of H and add them together
+`P(B)`
+
+*B depends on H, so we add up all probabilities of H's state*
 
 ```r
-P(B) =  P(B|H)P(H) + P(B|!H)P(!H)
+P(B) = P(B|H) * P(H) + P(B|!H) * P(!H)
 ```
 
 3.Heart disease given high blood pressure
 
-Bayes Therom
+`P(H|B)`
+
+*Bayes Therom -> Swap em, former, latter*
 
 ```r
-P(H|B) = P(B|H) * P(H) / P(B)
+P(H|B) = P(B|H) * P(H) / P(P)
 ```
 
 4.High blood pressure and an abnormal electrocardiogram
 
-B and E are conditionally independent given H. So we can multiply their conditional probabilities given H. We do the same for not H.
+`P(B ^ E)`
+
+*B and E are conditionally independent given H. So we can multiply their conditional probabilities given H. We do the same for not H. Second Axom or prob*
 
 ```r
-P(B ^ E) = P(B|H)P(E|H)P(H) + P(B|!H)P(E|!H)P(!H)
+P(B ^ E) = P(B|H) * P(E|H) * P(H) + P(B|!H) P(E|!H) * P(!H)
 ```
 
 5.Heart disease given high blood pressure and a normal electrocardiogram
 
-We have to repeat the solutions to parts iv and v but we must substitute !E for E
+`P(H| B ^ !E)`
+
+*Bayes Therom, swap em, former, latter*
 
 ```r
-P(B ^ !E) = P(B|H)P(!E|H)P(H) + P(B|!H)P(!E|!H)P(!H)
-P(H|B ^ !E) = P(B|H)P(!E|H)P(H) / P(B ^ !E)
+P(B ^ !E) = P(B|H) * P(!E|H) * P(H) + P(B|!H) * P(!E|!H) * P(!H)
+P(H|B ^ !E) = P(B|H) * P(!E|H) * P(H) / P(B ^ !E)
 ```
 
 6.Heart disease given smoking
 
-Since H depends on both S and D we have to consider the case of D and the case of not D and add them together
+`P(H|S)`
+
+*Since H depends on both S and D we have to consider the case of D and the case of not D and add them together*
 
 ```r
-P(H|S) = P(H|S,D)P(D) + P(H|S,!D)P(!D)
+P(H|S) = P(H|S, D) * P(D) + P(H|S, !D) * P(!D)
 ```
 
 7.An abnormal electrocardiogram given smoking
 
-Since E depends on H which in turn depends on S we can write
+`P(E|S)`
+
+*Since E depends on H which in turn depends on S we can write*
 
 ```r
-P(E|S) = P(E|H)P(H|S) + P(E|!H)P(!H|S)
+P(E|S) = P(E|H) * P(H|S) + P(E|!H) * P(!H|S)
 ```
 
 8.Heart disease given an abnormal electrocardiogram and smoking
 
-```r
-P(H ^ E ^ S) = P(E|H)P(H|S)P(S)
-P(E ^ S) = P(E|S)P(S)
-P(H|S ^ E) = P(H ^ S ^ E) / P(E ^ S) = P(E|H)P(H|S) / P(E|S)
-```
-
-c) How many different combinations of the five node values does the above network have?
-
-5 nodes, 2 values per node(True, False)
-
-`2 x 2 x 2 x 2 x 2 = 32`
-
-d) Can you give a general algorithm for computing any probability of this type?
+`P(H|E ^ S)`
 
 ```r
-P(X and Y) = sum of the probabilities of all combinations where X and Y are true
-P(Y) = sum of the probabilities of all the combinations where Y is true
-P(X|Y) = P(X and Y)/P(Y)
+P(H ^ E ^ S) = P(E|H) * P(H|S) * P(S)
+P(E ^ S) = P(E|S) * P(S)
+
+P(H|E ^ S) = P(H ^ E ^ S) / P(E ^ S)
+P(H|E ^ S) = P(E|H) * P(H|S) * P(S) / P(E|S) * P(S)
 ```
 
-e) How would the execution time of your algorithm change if the number of nodes in the network were to be increased?
+b) How many different combinations of the five node values does the above network have?
 
-The execution time would increase exponentially i.e. in proportion to 2 to the power of N, where N is the number of nodes.
+5 nodes, two values a node(true, false):
+
+`2 X 2 X 2 X 2 X 2 = 32`
+
+c) Can you give a general algorithm for computing any probability of this type?
+
+```r
+P(X ^ Y) # sum of the probabilities of all combinations where X and Y are true
+P(Y) # sum of the probabilities of all combinations where Y are true
+
+P(X|Y) = P(X ^ Y) / P(Y)
+```
+
+d) How would the execution time of your algorithm change if the number of nodes in the network were to be increased?
+
+For every node added, the execution time would increase by ^2
+
+So 6 nodes becomes: `2 X 2 X 2 X 2 X 2 X 2 = 64` and so on
+
+### Question 2
+
+Either smoking or bad diet or both can make heart disease more likely. The probabilities of smoking and bad diet are different for men and women. You can suppose that smoking and bad diet are independent given gender.
+
+Draw the Bayesian Network to represent these relations. Use the following symbols
+S = smoking, D = bad diet, H = heart disease, M=male
+
+Suppose a medical survey gives you the following data:
+
+```r
+P(M) = 0.49
+
+P(H| S,D) = 0.8
+P(H| !S,D) = 0.5
+P(H| S,!D) = 0.4
+P(H| !S,!D) = 0.1
+
+P(S|M) = 0.2
+P(S|!M) = 0.3
+P(D|M) = 0.4
+P(D|!M) = 0.2
+```
+
+a) What are the probabilities of the following situations:
+1.smoking
+2.being male given smoking
+3.smoking and bad diet
+4.being male given smoking and bad diet
+5.heart disease given smoking
+6.heart disease
+7.heart disease given male
+8.male given heart disease
+9.smoking given heart disease
+
+b) How many different combinations of the four node values does the above network have? Suppose you wished to calculate the probability of each of these combinations. What is the minimum number of multiplications and additions necessary to work out the probabilty of all the combinations? Explain how you reach your answer.
 
 ## Tutorial One
 
