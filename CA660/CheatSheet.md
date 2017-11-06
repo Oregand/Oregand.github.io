@@ -275,8 +275,8 @@ P(P) = 0.95 *  0.15 + 0.02 * 0.85 = 0.1595
 P(H|P) = 0.95 * 0.15 / 0.1595 = 0.8934
 ```
 
-+`P(!H|P) = 1 - P(H|P)`
-  +`P(!H|P) = 1 - 0.8934 =  0.1066`
++ `P(!H|P) = 1 - P(H|P)`
+  + `P(!H|P) = 1 - 0.8934 =  0.1066`
 
 ```r
 P(H|!P) = P(!P|H) * P(H) / P(!P)
@@ -285,8 +285,8 @@ P(H|!P) = (1 - P(P|H)) * 0.15 / (1 - P(P))
 P(H|!P) = (1 - 0.95) * 0.15 / (1 - 0.1595) = 0.008923
 ```
 
-+`P(!H|!P) = 1 - P(H|!P)`
-  +`1- 0.008923 = 0.99107`
++ `P(!H|!P) = 1 - P(H|!P)`
+  + `1- 0.008923 = 0.99107`
 
 ### Example(Multi Events -> Independant)
 
@@ -568,6 +568,7 @@ P(P) = 0.95 * 0.15 + 0.05 * 0.85 = 0.1595
 ```
 
 2.Write some R code which simulates the possible outcomes of a blood test.
+
 ```r
 # runif(1) generates a random number between the values 0.0 and 1.0
 #If this random number is <= 0.15 then we can say that 
@@ -660,7 +661,11 @@ sum(virus)/length(virus) # this is an estimate of how frequent the patient has t
 
 6.How close is this to the value predicted by Bayes Theorem?
 
-``
+```r
+P(H|P) = P(P|H) * P(H) / P(P)
+P(H|P) = 0.95 * 0.15 / 0.1595
+P(H|P) = 0.8934169
+```
 
 7.Now modify the code to include a second blood test on the patient. You can assume that the second test is unaffected by the first test
 
