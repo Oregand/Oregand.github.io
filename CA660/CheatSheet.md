@@ -790,41 +790,45 @@ P(H|P) = 0.8934169
 # and stores a 0 if they do not
 P1 = 0
 P2 = 0
-virus = 0
-j=1
+V1 = 0
+V2 = 0
+j1=1
+j2=1
 for (i in 1:100000) {
   if (runif(1) <= 0.15) {
     if (runif(1) <= 0.95) {
       P1[i] = 1
-      virus[j] =1
-      j=j+1
+      V1[j1] =1
+      j1=j1+1
     } else P1[i] = 0
   } else {
     if (runif(1) <= 0.02) {
       P1[i] = 1
-      virus[j] = 0
-      j=j+1
+      V1[j1] = 0
+      j1=j1+1
     } else P1[i] = 0
   }
 
   if (runif(1) <= 0.15) {
     if (runif(1) <= 0.95) {
       P2[i] = 1
-      virus[j] =1
-      j=j+1
+      V2[j2] =1
+      j2=j2+1
     } else P2[i] = 0
   } else {
     if (runif(1) <= 0.02) {
       P2[i] = 1
-      virus[j] = 0
-      j=j+1
+      V2[j2] = 0
+      j2=j2+1
     } else P2[i] = 0
   }
 }
 table(P1)
 table(P2)
-length(virus) #this should be equal to the number of positive tests
-sum(virus)/length(virus) # this is an estimate of how frequent the patient has the virus
+length(V1) #this should be equal to the number of positive tests
+length(V2) #this should be equal to the number of positive tests
+sum(V1)/length(V1) # this is an estimate of how frequent the patient has the virus
+sum(V2)/length(V2) # this is an estimate of how frequent the patient has the virus
 # given they have a positive test
 
 ```
