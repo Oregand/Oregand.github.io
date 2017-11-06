@@ -1,5 +1,13 @@
 # CA660 Cheat Sheet -> David O'Regan
 
+## Basic Concepts of probability:
+
+```r
+P(A ^ B) = Probability of A 'and' B
+P(A or B) =  Probability of A 'or' B
+P(A|B) =  Probability of A 'given' B
+```
+
 ## Permutations && Combinations -> Example && R
 
 ### Permutation - Order matters(Safe Lock)
