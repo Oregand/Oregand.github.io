@@ -293,29 +293,25 @@ P(H|!P) = (1 - 0.95) * 0.15 / (1 - 0.1595) = 0.008923
 *Suppose both P1 and P2 are positive. What then is the probability that the patient has the virus? In other words we are asked to find P(H|P1 ^ P2)*
 
 ```r
-P(H|P1 ^ P2) = P(P1 ^ P2|H) * P(H) / P(P1 ^ P2)
+P(P1 ^ P2) = P(P2 ^ P1|H) * P(H) / P(P1 ^ P2)
+P(P1 ^ P2) = ? * 0.15 / ?
 
-P(P1 ^ P2|H) = ?
-P(P1 ^ P2) = ?
+P(P2 ^ P1|H) = Independant events, so:
 
-#Because the two tests are independant we can say:
-P(P1 ^ P2|H) = P(P1|H) * P(P2|H)
-P(P1 ^ P2|H) = 0.95 * 0.95
+P(P2 ^ P1|H) = P(P1|H) * P(P2|H) = 0.95 * 0.95
 
-#Now we apply second axom of prob, two senarios
-P(P1 ^ P2) = 
+P(P1 ^ P2) = Two different senarios:
 
-1.the patient has the virus and both tests are positive
-2.the patient does not have the virus and both tests are positive
+1. Both tests positive, has virus
+2, Both tests positive, does not have virus
 
-P(P1 ^ P2) = P(P1 ^ P2|H)P(H) + P(P1 ^ P2|!H)P(!H)
 P(P1 ^ P2) = P(P1|H) * P(P2|H) * P(H) + P(P1|!H) * P(P2|!H) * P(!H)
 
 = 0.95 × 0.95 × 0.15 + 0.02× 0.02 × 0.85
 = 0.135715
 
-P(H|P1 ^ P2) = 0.95 * 0.95 * 0.15 / 0.135715
-= 0.99749
+P(P1 ^ P2) = P(P2 ^ P1|H) * P(H) / P(P1 ^ P2)
+P(P1 ^ P2) = 0.95 * 0.95 * 0.15 / 0.135715
 ```
 
 ## Axom of probability
@@ -337,6 +333,25 @@ The probability that A and B are both true equals the probability that B is true
 From this we are able to make Bayes Therom:
 
 `P(A|B)P(B) = P(B|A)P(A)`
+
+#### Two different events
+
+```r
+P(P2 ^ P1|H) # P1 and P2 given H
+P(P2 ^ P1) # P1 and P2 regardless of the value of H
+
+#Joined prob = probability of both events given H
+P(P2 ^ P1|H) = P(P1|H) * P(P2|H)
+
+
+P(P2 ^ P1) = Has two senarios!
+
+1. P1 ^ P2|!H #both tests positive, has virus
+2. P1 ^ P2|H #both tests positive, does not have virus
+
+P(P2 ^ P1) = P(P1 ^ P2|H) * P(H) + P(P1 ^ P2|!H) *P(!H)
+P(P2 ^ P1) = P(P1|H) * P(P2|H) * P(H) + P(P1|!H) * P(P2|!H)) *P(!H)
+```
 
 ## Hidden Markov Chain
 
@@ -510,6 +525,7 @@ P(!H|P) = 0.02
 
 1.Calculate the probability that a patient will have a positive test: `P(P)`
 
+
 ```js
 P(P) -> Two cases:
 
@@ -529,7 +545,6 @@ P(P) = 0.95 * 0.15 + 0.05 * 0.85 = 0.1595
 ```
 
 2.Write some R code which simulates the possible outcomes of a blood test.
-
 ```r
 # runif(1) generates a random number between the values 0.0 and 1.0
 #If this random number is <= 0.15 then we can say that 
