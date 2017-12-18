@@ -24,7 +24,7 @@ it conceals.`
   + Cloud computing provides a means of delivering computing services that make the underlying technology, beyond the user device, almost invisible
 + Ubiquitous network access
   + Focuses on delivering IT services anytime, anywhere, and through user-chosen devices
-  + Users accessing services via Internet technologies expect a secure, “always-on” computing infrastructure that delivers as easily and reliably as electricity from a wall outlet
+  + Users accessing services via Internet technologies expect a secure, `always-on` computing infrastructure that delivers as easily and reliably as electricity from a wall outlet
 + Pool of virtualized resources
   + Focuses on delivering IT services through resource pools that can expand and contract based on the requirements of the underlying workload and the usage characteristics
 + Utility-based pricing
@@ -58,7 +58,7 @@ it conceals.`
 ### Driving factors towards cloud computing
 
 + Poorly utilized resources driving up hardware and labor costs
-  + Setting up a new environment is expensive; there is an incentive to hold on to them “just in case”
+  + Setting up a new environment is expensive; there is an incentive to hold on to them `just in case`
   + Each new project requisitions new hardware instead of recycling unused hardware; this takes time and money
 + Takes too long to create middleware infrastructures
   + Average lead time to get a new application environment is 4+6 weeks
@@ -95,7 +95,7 @@ it conceals.`
 
 + Elasticity is the ability to expand or shrink a computing resource in real time, based on the user’s computing requirements
   + The ability to scale
-  + Sometimes referred to as “right-sizing”
+  + Sometimes referred to as `right-sizing`
 + Cloud service providers provide services based on usage
 + This usage must meet service level agreements (SLA) while minimizing cost
 + Elasticity and scalability are used to achieve this
@@ -241,6 +241,7 @@ it conceals.`
 + Performance and availability risk: are service levels being met and key performance indicators being maintained?
 
 ### Management: Desktops in the cloud
+
 + In a virtualized desktop (desktop in the cloud), the applications, data, files, and graphics are separate from the physical desktop and stored in the data center (the cloud)
 + The most widely-used approach is virtual desktop infrastructure (VDI):
   + The virtual client is created on the server
@@ -289,7 +290,7 @@ it conceals.`
 + Automation goes hand-in-hand with virtualization
   + A cloud environment implies dynamic scaling based on demand
   + Implementing a manual process for this is too time consuming
-  + Applications are structured in “independent blocks” that can be easily added or removed
+  + Applications are structured in `independent blocks` that can be easily added or removed
   + Implementing virtualization assists with automation
   + Automation realizes the value of virtualization: dynamic scaling
 + Service automation used for security:
@@ -297,6 +298,7 @@ it conceals.`
   + Reporting any events which violate security policies or customer licensing issues
 
 ### Security
+
 + Cloud computing presents an added level of risk because essential services are often outsourced to a third party
   + The externalized aspect of outsourcing makes it harder to maintain data integrity and privacy, support data and service availability, and demonstrate compliance
 + Cloud computing shifts much of the control over data and operations from the client organization to its cloud provider
@@ -309,6 +311,52 @@ it conceals.`
   + Using detection and forensics programs
   + Encrypting data
   + Creating a security plan
+
+### Cloud service models
+
++ Software as a service (SaaS)
+  + Use of software or applications that are delivered via a network
++ Platform as a service (PaaS)
+  + The middleware platform and solution stack are accessible on the cloud
++ Infrastructure as a service (IaaS)
+  + Provision servers, storage, and networking resources
++ **To be considered a `cloud service model` these models must be deployed on top of an infrastructure that has the key characteristics of clouds**
+
+#### Infrastructure as a service (IaaS) architecture
+
++ An infrastructure provider (IP) makes an entire computing infrastructure available `as a service`
++ IPs manage a large pool of computing resources and use virtualization to assign and dynamically resize the resources required by customers
++ Customers rent processing capacity, memory, data storage, and networking resources that are provisioned over a network
+
+#### Platform as a service (PaaS) architecture
+
++ Service provider (SP) supplies the software platform or middleware where the applications run
++ Service user is responsible for the creation, updating, and maintenance of the application
++ The sizing of the hardware required for the execution of the software is made in a transparent manner
++ Google App Engine is an example of PaaS
+
+##### Platform as a service (PaaS) patterns
+
++ Patterns are reusable elements that solve recurring business problems
++ Pattern-based middleware is optimized for automatically assembling software components into dynamic middleware services
+
+#### Software as a service (SaaS) architecture
+
++ Service provider (SP) is responsible for the creation, updating, and maintenance of software and application
+
+#### Cloud deployment models
+
++ The National Institute of Standards and Technology (NIST) defines four cloud deployment types:
++ Public cloud
+  + Service provider lets clients access the cloud via the Internet
+  + Made available to the general public or a wide industry group
++ Private cloud
+  + The cloud infrastructure is used solely by the organization that owns it
+  + May reside in-house or off premises
++ Hybrid cloud
+  + Composed of two or more clouds (private, public, or community) that remain unique entities, but that can interoperate using standard or proprietary protocols
++ Community cloud
+  + Shared by several organizations that have a common mission
 
 ## Core Tech
 
