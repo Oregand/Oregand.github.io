@@ -93,7 +93,163 @@ it conceals.`
 
 ### Elasticity and scalability
 
+• Elasticity is the ability to expand or shrink a computing resource in real time, based on the user’s computing requirements
+  – The ability to scale
+  – Sometimes referred to as “right-sizing”
+• Cloud service providers provide services based on usage
+• This usage must meet service level agreements (SLA) while minimizing cost
+• Elasticity and scalability are used to achieve this
+  – Cloud services scale up to meet demand
+  – Cloud services scale down when higher demand is not required
+  – Customers only pay for services used
+• An example of when elasticity is valuable is during load testing
+
 ### Virtualization
+
+• Virtualization involves a shift in thinking from physical to logical
+  – Treating IT resources as logical resources rather than separate physical resources
+• With virtualization, you can consolidate the following resources into a virtual environment:
+  – Processors
+  – Storage
+  – Networks
+• With virtualization, one physical resource can be made to look like multiple virtual resources
+  – Virtual resources can have functions or features that are not available in their underlying physical resources
+
+#### What can be virtualized
+
+• Virtualization may refer to:
+  – Hardware
+  – Networks
+  – Storage
+  – Operating systems
+  – Applications
+  – Desktop
+  – Data
+• **Software becomes decoupled from hardware**
+
+#### Characteristics of virtualization
+
+• Partitioning
+  – Run multiple application and operating systems in a single physical machine by partitioning the available resources
+• Isolation
+  – Virtual machines are completely isolated from hosts and other virtual machines
+• Encapsulations
+  – Encapsulate the entire state of a virtual machine in hardware-independent files
+
+#### Benefits of virtualization
+
+• Consolidation to reduce hardware cost
+  – Enables you to have a single server function as multiple virtual servers
+• Optimization of workloads
+  – Can increase the use of existing resources by enabling dynamic sharing of resource pools
+• IT flexibility and responsiveness
+  – Enables you to have a single, consolidated view of, and easy access to, all available resources in the network, regardless of location
+
+### Hypervisors
+
+• Virtualization software that allow multiple operating systems to run on the same computer concurrently
+• Use a thin layer of code in software or firmware to achieve finegrained, dynamic resource sharing
+• Provide the greatest level of flexibility in how virtual resources are defined and managed
+• Primary technology of choice for system virtualization
+• May mediate access to:
+  – Memory
+  – Data storage,
+  – Processing capacity
+  – Network connections
+• An example of a hypervisor is VMware ESX
+
+### Provisioning and deprovisioning
+
+• Provisioning provides resources availability to users and software
+  – A provisioning system controls applications available to users
+  – And controls servers resources available to applications
+• Deprovisioning provides resources reduction to users and software, while deallocating back-end resources
+  – Hardware
+  – Software
+• Self-service provisioning allows customers to request the amount of computer services without going through a lengthy process.
+  – Computing
+  – Storage
+  – Software
+  – Process
+  – Other resources
+• Eliminates many time delays
+
+### Multitenancy
+
+• Cloud services must enable multitenancy — different companies sharing the same underlying resources
+• Software as a service modes of multitenancy:
+  – Simple multitenancy — each customer has his own resources, which are segregated from other customers
+  – This form of multitenancy is relatively inefficient
+  – Fine grain multitenancy — all resources are shared, but the customer data and access capabilities are segregated within the application
+  – This form of multitenancy is much more efficient offering superior economies of scale
+• Platform as a service modes of multitenancy:
+  – This delivery model architecture allows multiple customers to run their copy separately from other customers through virtualization
+  – Each customers code is isolated from each other
+• The key technical challenge of multitenancy is how to support multiple client organizations from shared instances of the software solution
+
+### Application programming interfaces (API)
+
+• Cloud services should have standardized application programming interfaces (API)
+• The interface defines how two or more applications and data sources can communicate with each other
+  – Multiple applications communicating
+  – Multiple data sources communicating
+• The cloud API allows customers (companies) infrastructure or application to plug into the cloud
+• Currently, different cloud vendors are developing different APIs
+• Cloud APIs have not been standardized yet
+  – Beware of vendor API lock-in
+  – API integration may include SOAP and REST APIs
+
+### Billing and metering of services
+
+• To calculate the customer charge, cloud usage is tracked via metered services
+  – The billing service is automated
+  – Customer should be able to monitor usage
+• Billing services normally track:
+  – Number of users
+  – Capacity used
+  – Services leveraged
+• Metered services normally provide:
+  – A dashboard providing insight into application and services running in the cloud
+  – SLA being met in the cloud
+
+### Economies of scale
+
+• Economies of scale refers to the cost advantages that an IT organization obtains due to expansion
+  – The average cost per unit decreases as the scale of output increases
+  – Reductions in unit cost as the size of a facility and the usage levels of other inputs increase
+  – The more computer resources being used, the cheaper the price per resource
+• Cloud computing economies of scale promises to dramatically reduce the cost of computing over time and inevitably lead to greater adoption of the technology
+
+### Management: Governance
+
+• Governance is the process of applying policies relating to using services
+• Governance normally contains the principles and rules in which an organization should act
+  – This includes automatic and manual processes, and the procedures for implementing these processes
+• Cloud governance is the shared responsibility between the user of the cloud services and the cloud provider
+  – Understanding the boundaries of the user and cloud is critical to ensuring success
+
+### Governance: Risk list
+
+#### Considerations when moving into a cloud environment include
+
+• Audit and compliance risk as to data access control, data jurisdiction, and maintaining an audit trail
+• Billing risks: ensuring the cloud provider has a solid process to ensure accurate billing
+• Contract risks: what if the cloud provider goes out of business?
+• Security risks: data confidentiality, data integrity, and privacy
+• Information risks: protection of intellectual property
+• Interoperability risks: multiple services must interoperate
+• Performance and availability risk: are service levels being met and key performance indicators being maintained?
+
+### Management: Desktops in the cloud
+• In a virtualized desktop (desktop in the cloud), the applications, data, files, and graphics are separate from the physical desktop and stored in the data center (the cloud)
+• The most widely-used approach is virtual desktop infrastructure (VDI):
+  – The virtual client is created on the server
+  – Users have what appears to be a complete client desktop with access to all applications, data, and files, but they are actually just a virtual session on the server
+  – However, the graphics are being sent to the client
+
+### Management: Managing devices in the cloud
+
+
 
 ## Core Tech
 
