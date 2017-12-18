@@ -252,7 +252,7 @@ The question above gives us the following information.
 + P(H) = 0.15
 + P(P|H) = 0.95
 + P(P|!H) = 0.02
-```r
+```
 
 And we are asked to find the following
 
@@ -1177,8 +1177,8 @@ var(pop)
 + What are the mean and variance of the wealth for those who live in Toptown?
 
 ```r
-topWealth <- c(70, 120, 90, 100)
-topPop <- c(10, 10, 10, 15)
+topWealth <- c(70, 120, 90, 110)
+topPop <- c(10, 10, 10, 15) /.45
 
 mean(topWealth)
 mean(topPop)
@@ -1189,6 +1189,7 @@ var(topPop)
 + What is the probability of living in an area with mean wealth > 100 if you live in Toptown?
 
 ```r
+
 ```
 
 + What is the probability that you live in Toptown given that you live in an area with mean wealth > 100?
