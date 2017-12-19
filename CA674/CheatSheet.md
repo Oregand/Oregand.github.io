@@ -2,19 +2,16 @@
 
 ## Fundimentals
 
-*Cloud* -> `The term cloud is used as a metaphor for the Internet, based on how the Internet is
-depicted in computer network diagrams and is an abstraction for the complex infrastructure
-it conceals.`
+### *Cloud* -> `The term cloud is used as a metaphor for the Internet, based on how the Internet is depicted in computer network diagrams and is an abstraction for the complex infrastructure it conceals.`
 
-*Cloud* -> A network that delivers requested virtual resources as a service.
-
- + `Hosting` refers to fixed, dedicated resources.
- + `Web hosting` refers to hosted and dedicated web applications and web content.
- + `SaaS` are shared applications accessed as a service (more on this in a later unit).
- + `PaaS` refers to platform provided as a service (more on this in a later unit)
- + `IaaS` is infrastructure provided as a service (as well....more on this in a later unit)
- + `Infrastructure utility` is industrialized computing resources (or those resources that have been commoditized).
- + `Web applications` are provider dedicated web applications and web content.
++ `Cloud`: A network that delivers requested virtual resources as a service.
++ `Hosting` refers to fixed, dedicated resources.
++ `Web hosting` refers to hosted and dedicated web applications and web content.
++ `SaaS` are shared applications accessed as a service (more on this in a later unit).
++ `PaaS` refers to platform provided as a service (more on this in a later unit)
++ `IaaS` is infrastructure provided as a service (as well....more on this in a later unit)
++ `Infrastructure utility` is industrialized computing resources (or those resources that have been commoditized).
++ `Web applications` are provider dedicated web applications and web content.
 
 ### Key characteristics of cloud computing
 
@@ -46,13 +43,13 @@ it conceals.`
 
 ### How clouds are changing IT
 
- + Changing the economics of IT:
++ Changing the economics of IT:
   + Cloud computing is driving operational efficiencies in IT through better use of resources.
- + Automating service delivery:
++ Automating service delivery:
   + The term self service means that developers and testers can directly procure the resources they need to complete their tasks without going through lengthy procurement chains. This results in a significantly shortened procurement period, and it means that developers and testers can quickly get to the task at hand.
- + Exploiting standardization:
++ Exploiting standardization:
   + Access to clouds is through standard Internet transports and protocols, providing access to a range of user devices.
- + Rapidly deploying new capabilities:
++ Rapidly deploying new capabilities:
   + Test and operation teams may have different conventions and configurations from development teams, and this can lead to unintended application behavior and delays.
 
 ### Driving factors towards cloud computing
@@ -376,6 +373,62 @@ it conceals.`
 + Allows applications and data to flow across clouds
 + Requires interoperability, visibility, and management
 + Supports a very flexible performance model
+
+### Community Cloud
+
++ Used and controlled by a group of organizations with a shared interest
++ Private cloud purchased by a single user to support a community of users
++ Fees may be charged to subsidiaries
++ Functions vary
++ Common functions
+  + Computer ower
+  + Storage
+  + Elasticity
+  + Community-wide sharing of data and applications
+
+
+### Vertical && Special Clouds
+
++ Vertical clouds
+  + Clouds for particular industries
+  + May contain information, applications, services for that industry
++ Horizontal clouds
+  + Clouds for a purpose
+  + Examples: development, test, collaboration, budgeting
++ Regional clouds
+  + Localized
+  + Compliant to government regulations
+
+### Selection criteria for cloud deployment types
+
+#### Private
+
++ Provides a dedicated and secure infrastructure
++ Limited by the organization’s physical hardware and other resources
++ Can be run off premises by a third-party infrastructure provider
++ Does not require federated identity, location awareness, common APIs
+
+#### Public
+
++ Low cost data storage and disaster recovery solution
++ Expertise is provided
++ Easy access to public domain applications and storage such as Google Apps, Google Docs, and Gmail
++ Issues switching cloud providers
+
+#### Community
+
++ Shared infrastructure or hosted by a third-party
++ Shared costs
++ Shared mission, policy and compliance
++ Requires commitment from all parties
+
+#### Hybrid
+
++ Using services of vendors on private clouds costs money
++ Consider moving some systems to an off-premises data center with applications offered back as a service
++ Heightened security concerns
+
+### Security Concerns
 
 ## Core Tech
 
