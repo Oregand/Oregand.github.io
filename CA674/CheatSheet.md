@@ -283,6 +283,7 @@ it conceals.`
 + Tools should guide users through the physical makeup of the cloud based on the expected demand characteristics of the system
 
 ### Automation
+
 + Automation is required for:
   + Scale and speed of deployment
   + Dynamics of the environment
@@ -347,16 +348,34 @@ it conceals.`
 #### Cloud deployment models
 
 + The National Institute of Standards and Technology (NIST) defines four cloud deployment types:
-+ Public cloud
++ `Public cloud`
   + Service provider lets clients access the cloud via the Internet
   + Made available to the general public or a wide industry group
-+ Private cloud
++ `Private cloud`
   + The cloud infrastructure is used solely by the organization that owns it
   + May reside in-house or off premises
-+ Hybrid cloud
++ `Hybrid cloud`
   + Composed of two or more clouds (private, public, or community) that remain unique entities, but that can interoperate using standard or proprietary protocols
-+ Community cloud
++ `Community cloud`
   + Shared by several organizations that have a common mission
+
+### Public Clouds
+
++ `Multitenant infrastructure`
++ `Anyone may use`
++ `Functions vary`
++ `Fee arrangements vary`
+
+### Private Clouds
+
++ `Secure, dedicated infrastructure`
++ `User buys or leases the cloud`
+
+### Hybrid Clouds
+
++ Allows applications and data to flow across clouds
++ Requires interoperability, visibility, and management
++ Supports a very flexible performance model
 
 ## Core Tech
 
