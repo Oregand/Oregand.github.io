@@ -843,4 +843,71 @@
 + USB over RDP – connect local USB device to remote VM
 + (VRDE needs to be installed separately)
 
+### Cloud Service Managment
+
+#### Amazon EC2 Cloud IaaS
+
++ Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizeable computing capacity
+  + servers in Amazon's data centers
+  + can be used use to build and host software systems.
+  + access to components and features using a web-based GUI, command line tools, and APIs.
+
+*pay-as-you-go for the capacity that is needed.*
+
++ *The main components that EC2 provides:*
+  + Concerns
+  + Amazon Machine Images and Instances
+  + Storage
+  + Databases
+  + Networking and Security
+  + Monitoring, Auto Scaling, and Load Balancing
+  + AWS Identity and Access Management
+
+#### AMI Machine Image
+
++ An Amazon Machine Image (AMI) is a template that contains a software configuration (operating system, application server, and applications).
+  + an AMI is used to instantiate (create) a virtual machine
+  + an AMI is a filesystem image which includes an operating system (e.g., Linux, UNIX, or Windows) and any additional software required to deliver a service
++ From an AMI, instances are launched, which are running copies of the AMI. You can launch multiple instances of an AMI.
++ Instances run until you stop or terminate them, or until they fail. If an instance fails, a new one can be launched.
+
+#### AMI Usage
+
++ A single AMI or multiple AMIs can be used depending on needs.
++ From a single AMI, you can launch different types of instances. An instance type is a hardware archetype. 
++ As illustrated below, you select a particular instance type based on the amount of memory and computing power you need for the application or software that you plan to run on the instance.
++ Is a kind of configuration of a hardware type – taking expected demands into account
+
+#### Storage and Security
+
++ *Storage: just one example*
+  + Amazon S3 is a supported storage solution.
+  + It provides a web service interface that enables to store and retrieve any amount of data from anywhere on the web
++ *Security:*
+  + uses security groups to control who can access your instances.
+  + These are similar to a network firewall that allows to specify the protocols, ports, and source IP ranges that are allowed to reach AMI instances.
++ One can create multiple security groups and assign different rules to each group.
+  + assign each instance to one or more security groups
+  + use the rules to determine which traffic is allowed in to the instance.
+
+#### Monitoring, Auto Scaling, and  Load Balancing
+
++ AWS provides several features that enable you to do the following:
++ Monitor basic statistics for your instances and Amazon EBS volumes
+  + using the CloudWatch monitoring tool
++ Automatically scale your EC2 capacity up or down according to conditions you define
+  + using Auto Scale
++ Automatically distribute incoming application traffic across multiple EC2 instances
+  + using Elastic Load Balancing
+
+#### AWS Identity and Access Management
+
++ Amazon EC2 integrates with AWS Identity and Access Management (IAM):
+  + Create users and groups under an organization's AWS account 
+  + share AWS account resources between the users in the account
+  + assign unique security credentials to each user
+  + Granularly control users access to services and resources
+  + get a single AWS bill for all users under the AWS account
++ For example, use IAM with EC2 to control which users under an AWS account can create AMIs or launch instances.
+
 ## Advancaed Tech
