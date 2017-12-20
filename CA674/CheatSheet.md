@@ -731,8 +731,116 @@
   + Host CPU architecture: offers a feature set for virtualization of x86, x86_64, IA64, ARM, and other CPU architectures.
   + Guest OS: It supports a wide range of guest operating systems including Windows®, Linux®, Solaris®, and various versions of the BSD operating systems
 
-#### OS Components
+#### Desktop Example
 
-#### OS Components
+`Virtual Box`
+
++ `Problem`: Implementing virtualization on x86 CPUs with no hardware virtualization support is a complex task because the CPU architecture was not designed to be virtualized. The problems can be solved, but at the cost of reduced performance.
++ `History`: The x86 instruction set was originally designed in the 1970s and underwent significant changes with the addition of protected mode in the 1980s with the 286 CPU architecture and then again with the Intel 386 and its 32-bit architecture. The 386 did have limited virtualization support for real mode operation, but no support was provided for virtualizing the entire architecture.
+
++ OS Utilisation: In principle, software virtualization is not overly complex. In addition to the four privilege levels ("rings") provided by the hardware (of which typically only two are used: ring 0 for kernel mode and ring 3 for user mode), one needs to differentiate between "host context" and "guest context".
+  + host context: everything is as if no hypervisor was active. This might be the active mode if another application on your host has been scheduled CPU time; in that case, there is a host ring 3 mode and a host ring 0 mode. The hypervisor is not involved.
+  + guest context: a virtual machine is active. So long as the guest code is running in ring 3, this is not much of a problem since a hypervisor can set up the page tables properly and run that code natively on the processor. The problems mostly lie in how to intercept what the guest's kernel does.
+
++ *Full software emulation*
+  + usually involving recompilation.
+  + That is, all code to be run by the guest is analyzed, transformed into a form which will not allow the guest to either modify or see the true state of the CPU, and only then executed.
+  + This process is complex and costly in terms of performance. (VirtualBox has an optional software emulation)
+
++ *Paravirtualization*
+  + only specially modified guest OSes are allowed to run.
+  + hardware access is abstracted and any functions which would normally access the hardware or privileged CPU state are passed on to the hypervisor instead.
+  + Paravirtualization can achieve good functionality and performance on standard x86 CPUs, but it can only work if the guest OS can actually be modified, which is obviously not always the case.
+
++ `When starting a VM through its ring-0 support kernel driver, VirtualBox sets up the host`
+  + so that it can run most of the guest code natively (without software emulation)
+  + also, it has inserted itself at the "bottom" of the list.
++ It can then assume control when needed (if a privileged instruction is executed or external interrupts occur). VirtualBox then
+  + either routes a request to a virtual device
+  + or possibly delegates handling this to the guest or host OS.
++ *Protection*: there is a protection issue here: VMs can be installed by a customer!
+
+#### Virtual Machine Interoperability OVF
+
++ Open Virtualization Format (OVF) is an open standard for packaging and distributing virtual appliances or more generally software to be run in virtual machines
++ The OVF standard is not tied to any particular hypervisor or processor architecture.
++ The unit of packaging and distribution is a so called OVF Package which may contain one or more virtual systems each of which can be deployed to a virtual machine
++ Distributed Management Task Force (DMTF) released the OVF Specification V1.1.0 in January, 2010. ANSI has ratified OVF 1.1.0 as ANSI standard INCITS 469-2010
++ Note: OVF VMs can be imported into the VirtualBox hypervisor. Appliances in OVF format can appear as follows in several files:
+  + as one or several disk images, typically in the widely-used VMDK format (see Virtualbox/Oracle VDI format) and
+  + a textual description file in an XML dialect with an .ovf extension.
+  + These files must then reside in the same directory for VirtualBox to be able to import them.
+
+##### OVF Packages – Files and Storage
+
++ An OVF package consists of several files, placed in one directory.
++ An OVF package always contains exactly one OVF descriptor (a file with extension .ovf).
++ The OVF descriptor is an XML file which describes the packaged virtual machine;
+  + it contains the metadata for the OVF package, such as name, hardware requirements, references to the other files in the OVF package and human-readable descriptions.
++ In addition to the OVF descriptor, the OVF package will typically contain
+  + one or more disk images (instruction and data), and
+  + optionally certificate files and other auxiliary files
+
+##### OVF Utilisation Creation and Installation/Import
+
++ The creation of an OVF involves the
+  + i) packaging of a set of VMs onto a set of virtual disks – a virtual disk image
+  + ii) appropriately encoding those virtual disks
+  + iii) attaching an OVF descriptor with a specification of the virtual hardware, licensing, and other customization metadata, and
+  + iv) optionally digitally signing the package.
++ The process of installing or importing an OVF
+  + occurs when a virtualization platform consumes the OVF (e.g. Virtualbox)
+  + creates a set of virtual machines from its contents.
+
+##### OVF Installation
+
++ Installation transforms the virtual machines in an OVF package into the runtime format understood by the target virtualization platform
+  + e.g. VirtualBox VBoxSVC-VMM), which runs guest OSs
++ It does the appropriate resource assignments and supported by the correct virtual hardware.
++ During installation, the platform validates the OVF integrity, making sure that the OVF package has not been modified in transit, and checks that it is compatible with the local virtual hardware.
++ It also assigns resources to, and configures the virtual machines for the particular environment on the target virtualization platform. This includes
+  + assigning and configuring the (physical and virtual) networks to which the virtual machines must be connected;
+  + assigning storage resources for the VMs, including virtual hard disks as well as any transient data sets, connections to clustered or networked storage and the like;
+  + configuring CPU and memory resources, and
+  + customizing application level properties.
+
+##### OVF Creation
+
++ Creating an OVF is done by exporting an existing virtual machine from a virtualization platform into an OVF package, and adding to it the relevant meta-data needed to correctly install and execute it.
++ This will transform the virtual machine from its current runtime state on a particular hypervisor into an OVF package.
++ During this process, the virtual machine's disks can be compressed to make it more convenient to distribute.
+
++ *Portability levels*:
+  + A simple export of a virtual machine will typically create an OVF with Level 1 (one virtualisation product) or Level 2 (a family of products) compatibility (tied to a specific set of virtual hardware),
+  + however it is easy to extend the metaphor to support the export of Level 3 compatibility (multiple families), for example through the use of utilities such as “sysprep” for Windows.
+
+##### OVF Example
+
++ The content of an OVF contains 6 sections:
+  + ProductSection, which provides product information such as name and vendor of the appliance.
+  + PropertySection, which list a set of properties that can be used to customize the appliance. These properties will be configured at installation time of the appliance, typically by prompting the user. This is discussed in more detail below.
++ AnnotationSection, which is a free-form annotation.
++ EulaSection, the licensing terms for the appliance. This is typically shown during install.
++ HardwareSection, which describes the virtual hardware. This is a required section that describes the kind of virtual hardware and set of devices that the virtual machine requires. E.g., a fairly typical set of hardware is specified
++ 500 MB of guest memory,
+  + 1 CPU,
+  + 1 network interface (NIC), and
+  + one virtual disk).
+  + The network and disk identifiers from the outer sections are referenced here.
+  + OperatingSystemSection, which describes the guest operating system.
+
+##### Remote Access
+
++ Virtualbox can be remotely operated, i.e. can be used as a cloud service provider (IaaS level)
++ Remote booting via Preboot Execution Environment (PXE)
++ Remote machine display
++ VRDE Virtual Remote Desktop Extension
++ Remote access to any running virtual machine
++ VRDE supports the Remote Desktop protocol (RDP) using the VirtualBox Remote Display Protocol (VRDP)
++ Typically graphics updates and audio are sent from the remote machine to the client,
+  + while keyboard and mouse events are sent back
++ Extensible RDP authentication
++ USB over RDP – connect local USB device to remote VM
++ (VRDE needs to be installed separately)
 
 ## Advancaed Tech
