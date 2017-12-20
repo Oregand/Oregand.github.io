@@ -667,4 +667,72 @@
   + Interoperability: different cloud systems -> TOSCA standard
   + Security & Governance: different security and regulatory settings
 
+### Virtualisation
+
+#### OS
+
++ An operating system (OS) is a collection of software that manages computer hardware resources
++ It provides common services for computer programs:
+  + Process management
+  + Interrupts
+  + Memory management
+  + File system
+  + Device drivers
+  + Networking (TCP/IP, UDP)
+  + Security (Process/Memory protection)
+  + I/O
+
+#### OS Components
+
++ Kernel
+  + Using firmware (the combination of persistent memory and program code and data stored) and device drivers
++ the kernel provides the most basic level of control over all of the computer's hardware devices:
+  + it manages memory access for programs in the RAM
+  + it determines which programs get access to which hardware resources,
+  + it sets up or resets the CPU's operating states for optimal operation at all times
+  + it organizes the data for long-term non-volatile storage with file systems
+
+#### OS Program Execution
+
++ The operating system provides an interface between an application program and the computer hardware
+  + so that an application program can interact with the hardware.
++ The operating system is also a set of services which simplify development and execution of application programs.
++ Executing an application program involves
+  + the creation of a process by the operating system kernel which
+    + assigns memory space and other resources,
+    + establishes a priority for the process in multi-tasking systems,
+    + loads program binary code into memory, and
+    + initiates execution of the application program which then interacts with the user and with hardware devices.
+
+#### OS Multitasking
+
++ Multitasking refers to the running of multiple independent computer programs on the same computer.
++ This is generally done via time-sharing, which means that each program uses a share of the computer's time to execute.
++ An operating system kernel contains a piece of software called a scheduler which determines how much time each program will spend executing.
++ Control is passed to a process by the kernel, which allows the program access to the CPU and memory.
++ Later, control is returned to the kernel through some mechanism, so that another program may be allowed to use the CPU.
++ This so-called passing of control between the kernel and applications is called a context switch.
+
+#### Virtualisation OS and Hypervisor
+
+##### Types
+
+1. Hardware -> HyperVisor -> OS
+2. Hardware -> OS -> HyperVisor -> OS
+
+##### Example
+
++ Hypervisors run Virtual Machines (VMs – OS implementations). They are responsible for
+  + allocating the resources,
+  + providing the interface between the virtual machine (the guest) and the host system
+  + providing any management software.
++ The Xen® hypervisor
+  + an open source solution for virtualization,
+  + Host CPU architecture: offers a feature set for virtualization of x86, x86_64, IA64, ARM, and other CPU architectures.
+  + Guest OS: It supports a wide range of guest operating systems including Windows®, Linux®, Solaris®, and various versions of the BSD operating systems
+
+#### OS Components
+
+#### OS Components
+
 ## Advancaed Tech
