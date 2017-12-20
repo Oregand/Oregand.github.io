@@ -430,6 +430,241 @@
 
 ### Security Concerns
 
+#### Principal security dangers to cloud computing
+
++ Nonstandard and vulnerable APIs
++ Internal security breaches
++ Data corruption or loss
++ User account and service hijacking
+
+#### Virtualization and multitenancy
+
++ Cloud offers take advantage of economics of scale, offering shared services within their infrastructure
++ Virtualization and multitenancy architectures make this possible
++ However, these technologies were not designed with strong isolation in place
+  + Hypervisors have extended these risks, potentially exposing the operating system
+  + Creating an environment where attackers can gain access at the operating system level (hypervisors) and higher level services (functionality and data)
++ To reduce these risks, consider:
+  + Implement operating system security best practices, such as patch management
+  + Implement application systems security best practices, such as AAA (authentication, authorization, and auditing)
+
+#### Nonstandard and vulnerable APIs
+
++ Application programming interfaces (API) are the software interfaces that cloud providers offer, allowing customers access into their services
++ Cloud API are not standardized, forcing users of multiple cloud providers to maintain multiprogramming interfaces, increasing complexity and security risk
++ Since an API offers access to the internals of a system, a weak API exposes consumers to a variety of security issues encompassing all of the operational exposure the of the compromised API’s functionality
++ To reduce these risks, consider:
+  + Implement API security best practices, such as requiring AAA (authentication, authorization, and auditing)
+  + Review the cloud provider’s security model being used for the API, including any API trusted chain
+
+#### Internal security breaches
+
++ The IT industry has well documented that over 70% of security violations are internal
+  + This threat is amplified in cloud computing as both IT providers and consumers are under a single management domain
++ To reduce these risks, consider the following key components of the contractual agreement between the customer and cloud provider:
+  + Transparency in information and internal management practices
+  + Understand the human resources requirements
+  + Have a clear level of escalation and notification of a breach
+  + Ensure that contractually you are in the loop if an internal breach occurs with the cloud provider (with your data or another customer’s)
+
+#### Data corruption or loss
+
++ Data corruption or loss is amplified since the cloud provider is the source for a companies data, not the company itself
++ These operational characteristics of the cloud environment, at the PaaS and SaaS layers, amplify the threat of data loss or leakage increase
++ To reduce these risks, consider:
+  + Implement application systems security best practices, such as AAA (authentication, authorization, and auditing)
+  + Implement strong encryption, SSL, digital signatures, and certificate practices
+  + Ensure that strong disaster recovery processes exist and are tested on a periodic basis
+  + Require that the persistent medium used to store your data is erased prior to releasing it back into the pool
+
+#### User account and service hijacking
+
++ User account and service hijacking occurs when a attacker obtains your cloud services information and uses it to take over your cloud access
++ If attackers gain access to a cloud user’s credentials, they can eavesdrop on activities and transactions, manipulate or steal data, return falsified data, and redirect clients to illegitimate sites
++ To reduce these risks consider:
+  + Implement security best practices, including human processes, such as strong passwords, two-factor authentication, and prohibiting the sharing of users’ credentials
+  + Implement application systems security best practices, such as AAA (authentication, authorization, and auditing)
+  + Implement strong encryption, SSL, digital signatures, and certificate practices
+  + Ensure that auditing and logging is being used to monitor activities
+
+#### Reducing cloud security breaches
+
++ The following steps offer a guideline to reducing cloud security breaches:
+  + Implement security best practices including human processes
+  + Implement operating system security best practices, such as patch management
+  + Implement application and API systems security best practices
+  + Implement strong encryption, SSL, digital signatures and certificate practices
+  + Ensure that auditing and logging are being used to monitor activities
+  + Ensure that strong disaster recovery process exist
+  + Transparency in information and internal management practice
+  + Understand the human resources requirements
+  + Have a clear level of escalation and notification of a breach, ensuring that you are in the loop if an internal breach occurs with the cloud provider (with your data or another customer’s)
++ Some import products can significantly contribute to security
+  + Identity management
+  + Detection and forensics
+  + Data encryption
+
+### Identity management
+
++ Identity management is a broad administrative area that deals with identifying individuals in a system and controlling access to the resources in that system by placing restrictions on the established identities of the individuals
++ Identity management is particularly important in a cloud environment since the cloud is sharing and virtualizing physical resource across many internal (and often external) users
+  + Controlled access to different services is critical
++ Identify management helps prevent security breaches and assists companies in meeting IT security compliance regulations
+
+#### Benefits of identity management
+
++ Improved user productivity — productivity improvement comes from simplifying the interface
++ Improved customer and partner services — customers and partners benefit from a more streamlined, secure process when accessing application data
++ Reduced help desk costs — helps desks normally receive few “password reset” calls when an identity manage process is implemented
++ Reduced IT costs — identity management enables automatic provisioning (providing and revoking user rights)
+
+#### Aspects of identity management
+
++ Centrally locate the data — establishing a common database or directory is generally the first step to gaining control of identity data
++ Integrating — identity management systems must effectively integrate with other systems
++ Strengthen authentication — requiring stronger authentication measures, such as fingerprints, handprints, iris verification, identity tokens, and stronger password parameters
++ Provisioning — when systems are linked to an identity system, provisioning can be automated, such as revoking or granting employee access rights
++ Single sign-on — all systems communication with the identity management, system allowing the user to sign on once in anorganization
++ Security administration — administration is reduced due to automation
++ Analyzing data — centralized data can produce reports more easily
+
+#### Detection and forensics
+
++ Activity logs — log files provide information but are costly in space
++ Host-based intrusion protection systems (HIPS) and network-based intrusion protection systems (NIPS)
+  + System and log-file monitors — software looks for traces of hackers in log files
+  + Network intrusion-detection systems (NIDS) — software programs that monitor data packets as they travel through the network
+  + Digital deception software — software that deliberately misleads anyone who is attempting to attack the IT network
+  + White-listing software — software that inventories valid executable programs running on a computer and prevents other executables from running
+  + Unified threat management — analyzing combined information for threats
++ Fooling attackers by spoofing
+  + Spoofing — pretending to be something else, such as IP address, email accounts
+  + Honey pot — system that pretends to be something else (something of value) that tricks attackers into revealing details about where they are attacking from
++ Data audit — logging who looks at the data (Sarbanes-Oxley, SOX)
+
+### Encrypting data
+
++ Encryption is a critical component of cloud computing which is used to ensure that data moving from point A to point B with being altered or intercepted
++ The journey from point A to point B may include:
+  + Within the cloud environment (internal to the cloud)
+  + The Internet between a corporation (cloud user) and the cloud provider
+  + Between multiple clouds (external to the cloud)
++ Encrypting methods
+  + Symmetric keys
+  + Asymmetric keys
+  + Digital signatures
++ Secure Sockets Layer (SSL) addressing cloud client connection issues
+  + SSL overview
+  + SSL handshake
+
+#### Symmetric key encryption
+
++ Symmetric or secret key technology is a model in which two parties have a shared secret
++ The same key is used for both encryption and decryption
+
+#### Asymmetric key encryption
+
++ Public key cryptography
++ Two keys that are cryptographically related:
+  + Public key (can share with everyone)
+  + Private key (must never be shared; possession is proof)
++ Keys are asymmetric:
+  + Given message is encrypted with one key and decrypted with another
+  + Symmetric, secret key technology uses same key for encrypt and decrypt
+
+#### What is SSL
+
++ SSL stands for Secure Sockets Layer
++ Provides connection security through:
+  + Communication privacy — the data on the connection can be encrypted
+  + Communication integrity — the protocol includes a built-in integrity check
+  + Authentication — the client knows who the server is
++ Creates a VPN
+
 ## Core Tech
+
+### Cloud Implementation
+
+#### Roles
+
++ Service provider -> Provides PaaS, IaaS, SaaS
++ Customer -> Buys PaaS, IaaS, SaaS
++ Software provider -> Provides SaaS
++ Service User -> End User
+
+#### Product and Service layers
+
++ A platform product, e.g. a middleware product, can be deployed over IaaS or over real hardware (non-Cloud Computing scenario)
++ this platform product, if it is designed for that purpose, can be offered as a Service for the application layer;  the application software can be deployed either on top of a Platform Product, or making use of platform services (PaaS);
++ finally, an application software product can eventually be offered as a Service for external customers
+
+#### Useage
+
+##### Application over a platform
+
+`A software provider can develop an application (e.g. a content management system) and publish it so that it can be deployed using some platform software (a web container, a RDBMS…) offered as a service (PaaS).`
+
+##### SaaS over a platform
+
+`A service provider can develop and/or deploy an application (e.g. a billing application) on top of several platform products to offer a service to any external customer that contracts it (SaaS).`
+
+##### Pure platform over IaaS
+
+`A development company can contract several platforms (e.g. a web container, a RDBMS, etc.) to be deployed over an IaaS and use them during their own developments. They can also contract PaaS services (e.g. a DataStore as a service) as part of the development/deployment environment of their applications.`
+
+#### Hello World Senario
+
++ A software provider (i.e., developer) creates a simple application and makes it available in the cloud platform [follows 4Caast solution architecture].
++ A service provider creates a market offering to sell the above mentioned piece of software, defining the business terms and conditions.
++ A customer can define some options about the deployment of the application and contract it, meaning that they will obtain an instance (a real deployment) of it for their own usage.
+
+##### 4CaaSt Platform
+
++ The 4CaaSt platform is a PaaS offering
+  + optimized and elastic hosting
+  + internet-scale, multi-tier applications
++ It uses a blueprint specification to configure the PaaS services in terms of resources needed (cf. AWS AMI configuration)
+  + abstract description of an application or service that decouples what they offer from the resources required from the various layers of the Cloud stack
+
+#### Scalability Mechanisms Elasticity in the PaaS Layer
+
+`an initial (single VM) deployment with one platform product and several application components (ACs) .`
+
+#### Scalability Mechanisms
+
++ Scaling in the PaaS layer:
+  + using KPIs from the IaaS layer (CPU usage, free memory, etc.)
+  + and also from the PaaS layer (number of transactions per second, number of tenants, etc.).
++ Therefore, this provides PaaS architectural vertical and horizontal scaling
+  + by decoupling middleware and components from the virtual machines in which they are hosted and
+  + deploying scalable architectures (load balancers, shared/not-shared execution containers, stateless components, replication, etc.)
+
+#### Load Balancing
+
++ Load balancing is
+  + a computer networking methodology
+  + to distribute workload across multiple computers or a computer cluster, network links, central processing units, disk drives, or other resources,
+  + to achieve optimal resource utilization, maximize throughput, minimize response time, and avoid overload
++ Example: to provide a single Internet service from multiple servers - a server farm
++ Different scheduling algorithms are used by load balancers to determine which backend server to send requests to
+  + Simple algorithms include random choice or round robin
+  + Cloud load balancers do:
+    + SSL termination, session persistence across protocols, node health monitoring, failover protection, DDoS protection
++ Note: a strategy of Grid computing is
+  + to use middleware to divide pieces of a program among several computers
+  + i.e. do load balancing in a distributed, services-based context
+
+#### Cloud Bursting
+
++ Cloud bursting is a cloud deployment model
+  + an application runs in a private cloud or data center
+  + and bursts into a public cloud when the demand for computing capacity spikes.
++ The advantage of this hybrid cloud deployment is
+  + an organization only pays for extra compute resources when they are needed.
++ Cloud bursting is usually used for
+  + high performance, non-critical applications that handle non-sensitive information.
++ Challenges:
+  + Interoperability: different cloud systems -> TOSCA standard
+  + Security & Governance: different security and regulatory settings
 
 ## Advancaed Tech
