@@ -890,7 +890,7 @@
   + assign each instance to one or more security groups
   + use the rules to determine which traffic is allowed in to the instance.
 
-#### Monitoring, Auto Scaling, and  Load Balancing
+#### Monitoring, Auto Scaling, and Load Balancing
 
 + AWS provides several features that enable you to do the following:
 + Monitor basic statistics for your instances and Amazon EBS volumes
@@ -903,7 +903,7 @@
 #### AWS Identity and Access Management
 
 + Amazon EC2 integrates with AWS Identity and Access Management (IAM):
-  + Create users and groups under an organization's AWS account 
+  + Create users and groups under an organization's AWS account
   + share AWS account resources between the users in the account
   + assign unique security credentials to each user
   + Granularly control users access to services and resources
@@ -911,3 +911,105 @@
 + For example, use IAM with EC2 to control which users under an AWS account can create AMIs or launch instances.
 
 ## Advancaed Tech
+
+### Cloud Monitoring Systems
+
+#### Overview
+
++ Monitoring is the process of gathering information about infrastructure or a service during run time.
++ In clouds, Monitoring is responsible for collecting, aggregating, storing and propagating events generated in the system.
++ Monitoring of clouds normally lies in the intersection of a plain metering/aggregating mechanism and a more high level, rules based management system, tailored to the specific cloud setting it works in.
+
+#### Requirements of Distributed Systems
+
++ Scalability
++ Robustness
++ Manageability
++ Portability
++ Overhead
++ Extensibility
+
+#### Requirements of Cloud env
+
++ Elasticity
++ Migration
++ Adaptability
++ Manageability
++ Federation
+
+### Monitoring Data
+
+*Three ways to minitor data in cloud systems*
+
+#### Within the service itself
+
++ Service specific Key Performance Indicators (KPIs) are used to measure and manage monitoring values specific to the service.
++ These values are normally only available from inside the service software itself, and can be used to perform, e.g., elasticity
+
+#### The hypervisor
+
++ Data concerning the resource consumption of individual VMs can be obtained by communicating with the VM hypervisor,
++ or by using tools that are capable of operating across several different hypervisors
+
+#### the infrastructure
+
++ Infrastructure specific measurements illustrate the health and utilization of physical resources.
+
+### Monitoring Infrastructure Overall Architecture
+
++ Monitoring information provider: it consists of different sources where monitoring data is collected from, as well as the components in charge of collecting them.
++ Managing / Storing of the data: components in charge of managing the data collected from the monitoring information providers and storing them in an aggregated database.
++ Evaluation of the data: components in charge of evaluating the collected data.
+
+### Monitoring IP's
+
++ `Application / Service Level Monitoring Collector`：
+  + this component collects  high level monitoring information from the applications/services that are being executed within the virtual environment,
+  + and makes this information available to other components through the shared monitoring system.
+
+#### VIP
+
+*Virtual IT-Infrastructure Monitoring Collector:*
+this component collects virtual IT-infrastructure monitoring data (e.g. VM parameters).
+
+*Physical IT-Infrastructure Monitoring Collector:*
+this component collects physical IT-infrastructure monitoring data (e.g. network link supervision, computing resources data, storage data etc).
+
+*Energy Efficiency Monitoring Collector:*
+the component measures energy use and associated carbon emissions in association with with tasks, resources, usage and other workload parameters in the datacenter. Furthermore, they may vary from datacenter to datacenter and other factors, such as the place, time of day, measurement point, etc.
+
+*Currently, the methodologies for recording and allocating energy and carbon to IT, and to measuring efficiency generally, are very immature.*
+
++ Evaluation of the Monitoring Data: this assessment component in charge of the evaluation of the monitoring data. It can cover, e.g., risk assessment and SLA evaluation. 
++ SLA evaluation
++ SLA (service-level agreement) is a negotiated agreement between a service provider and its customers, which specifies the contractual obligations
++ The role of the SLA Evaluation is to check the agreed QoS terms of the SLA against the monitoring information coming from the infrastructure.
+
+#### VISION
+
++ VISION Cloud is an EU-funded research project, which is intended to “introduce a powerful ICT infrastructure for reliable and effective delivery of data-intensive storage services, facilitating the convergence of ICT, media and telecommunications. This infrastructure will support the setup and deployment of data and storage services on demand, at competitive costs, across disparate administrative domains, while providing QoS (Quality of Service) and security guarantees.”
++ VISION Cloud provides an innovative solution in area of storage systems: content centric, aligned with industry standards, preventing vendor lock-in
++ The infrastructure of the VISION Cloud consists of multiple data centers, each of which may have one or more storage clusters containing physical compute, storage and networking resources.
++ Monitoring of  VISION Cloud is responsible for the collecting, aggregating, storing and propagating events generated into the VISION Cloud, both at the cluster level.
+
+### Cluster Level Monitoring
+
++ The cluster level monitoring component is composed of  three major modules:
+  + Probes & Probes Scheduler
+  + Event Generation Library
+  + Cleanup Daemon
+
+### Metrics
+
++ *Metrics* is defined by name, namespace, dimensions, time stamp and a unit of measure (optionally)
++ Namespaces are conceptual containers for metrics.
++ Metrics in different namespaces are isolated from each other.
++ Namespaces are strings which contains: the alphanumeric characters "0-9A-Za-z" plus "."(period), "-" (hyphen), "_" (underscore), "/" (slash), "#" (hash), and ":" (colon).
++ Dimensions are the name/value pairs to identify metrics, and can be viewed as categories for metrics’ characteristics.
++ Up to 10 dimensions can be assigned to a metric.
++ Dimension on EC2 instance
++ *Timestamps:* each metric has to be marked with a time stamp which can be up to 2 weeks in the past and up to 1day in the future.
++ By default, CloudWatch creates a time stamp based on the time the data element was received.
++ Timestamps are recommended to be specified in Coordinated Universal Time (UTC), and all times of the statistics from CloudWatch are specified in UTC.
++ *Unites* represent statistic’s unit of measure.
++ Common unit including: seconds, bytes, bits, percent, count, bytes/second (bytes per second), bits/second (bits per second), count/second (counts per second), and none (default when no unit is specified)
