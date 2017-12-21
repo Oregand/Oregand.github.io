@@ -1054,3 +1054,15 @@ the component measures energy use and associated carbon emissions in association
 + Quality of Service (QoS)
 + Time Interval
 + Commercial Relationships between Multiple Providers
+
+#### RESERVOIR
+
++ Resource and Service Virtualization without Barriers `(RESERVOIR)` is a research project partly funded by the European Union, focused on federation of clouds at the infrastructural level.
++ The federated cloud approach is one way to solve the limited interoperability.
++ The accounting and billing solution offered by `RESERVOIR` in federated cloud infrastructures are carried out in a fair and standardized way between the user (service provider) and the infrastructure owner.   
++ The Virtual Execution Environment (VEE) is used to denote the isolated environment where customer applications are executed and maintained.
++ The different layers of the `RESERVOIR` architecture are:
++ `Service Manager:` Components at this layer are concerned with services as a whole rather than the specific VEEs that make up a service. The accounting and billing system is included in this layer.
++ `VEE Manager:`  Components at the VEE Manager (VEEM) layer are responsible for interacting with the SM and VEEH at the local site, but also horizontally with the VEEMs of other sites.
++ `VEE Host:`  The VEE Hosts (VEEHs) are responsible for  running and monitoring each single VEE.
+
