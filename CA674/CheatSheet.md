@@ -1013,3 +1013,44 @@ the component measures energy use and associated carbon emissions in association
 + Timestamps are recommended to be specified in Coordinated Universal Time (UTC), and all times of the statistics from CloudWatch are specified in UTC.
 + *Unites* represent statistic’s unit of measure.
 + Common unit including: seconds, bytes, bits, percent, count, bytes/second (bytes per second), bits/second (bits per second), count/second (counts per second), and none (default when no unit is specified)
+
+### Accounting and billing
+
++ *Two major payment models used in clouds: prepaid and postpaid*
+
+#### Prepaid & Postpaid Models
+
++ In postpaid model, the consumption cost of both event-based and session-based resources are calculated in a similar manner
++ Contrarily, in prepaid model, the consumption of event-based and session-based resources can be charged in different manners
+
+#### IETF Accounting Model
+
++ Internet Engineering Task Force (IETF) “develops and promotes Internet standards, cooperating closely with the W3C and ISO/IEC standards bodies and dealing in particular with standards of the Internet protocol suite”.
++ The working group of IETF that handle accounting-related issues is the  authentication, authorization, and accounting (AAA).
++ `RADIUS (Remote Authentication Dial In User Service)` is a network protocol to provide centralized AAA services to users, which is applied between a RADIUS server and a RADIUS client.
++ Besides the basic configuration, a RADIUS server can also act as a proxy server by forwarding the requests it receives to another RADIUS server.
++ Diameter is successor of the RADIUS which is intended to offer more reliable and secure management of access to network based on AAA concept.
+
+#### 3GPP
+
++ The 3rd Generation Partnership Project (3GPP) “unites 6 telecommunications standard development organizations `(ARIB, ATIS, CCSA, ETSI, TTA, TTC), known as “Organizational Partners” and provides their members with a stable environment to produce the highly successful Reports and Specifications that define 3GPP technologies”`.
++ 3GPP defines two architecture, one for “off-line charging” (postpaid) and one for “on-line charging” (prepaid).
+
+#### Billing Approach
+
++ Flat fee and “pay-per-use” approaches
++ Flat fee approach simplifies the billing system but
++ It means no incentive for the customers to use resources in a responsible way.
++ Price setting in today’s turbulent telecommunication/cloud market is often used as a tool in the competitive struggle.
++ Collection of charging data yields an important information source regarding customer behavior.
++ “Pay-per-use” also referred as “Pay-as-you-go”, the most commonly used one in clouds,  allow the customer pays for the amount of processing power, disk space, network traffic. 
++ It creates a new way to organize cloud business that enables the creation of a rich ecosystem where all parties can draw significant benefits.
+
+#### Price Setting
+
++ In the “Pay-per-use” approach, the cost of the delivered service can be based on:
++ Duration
++ Volume
++ Quality of Service (QoS)
++ Time Interval
++ Commercial Relationships between Multiple Providers
