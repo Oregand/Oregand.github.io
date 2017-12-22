@@ -1233,3 +1233,51 @@ Each Image: Vector of image values -> *feature vector*
 
 Each element of vector -> dimension of an N-dimensional space -> *feature space*
 
+### Pattern reconigition
+
+Pattern reconigition falls under two categories:
+
+1. Learning phase
+1. Classification phase
+
+*Learning Phase:* -> Give algorithm set of data with `know` classes. Uses this data to decide where to put the `decision surfaces`.
+
+*Classification phase* -> Give algorithm new data. Uses `decision surfaces` to decide how to classify new data.
+
++ `Noise`: data corruption
++ `Occams razor`: Dont make `decision surfaces` more complicated than the training data justifies.
++ `Porbalistic reasoning`: We can never classifcy 100%, best guess.
++ `Accuary`: Never 100% accurate.
++ *Misclassifications*:
+  + Too much noise
+  + `decision surfaces` incorrectly set
+  + Clusters overlap in feature space
+
++ All data contains noise,
+  + Images taken are different, no identical images.
+  + Always will be random variant in pixels.
+  + Take many photos of same object and plot on feature space:
+    + They form spherical cluster: radius proportinal to amount of noise in images
+    + Cloud straddles decision boundary -> Cause image to be classified differently.
+
+### Complexity
+
++ *Do not make decision surfaces too complex*
+  + More data -> More confidence in curve for decision surface.
+
+### Occams Rzaor
+
++ *The model of decision surface should not contain more paramaters than there are objects in the data set*
++ This problem becomes very severe when you have large amounts of dimentions -> the dimention curse
++ *Reduce dimentions*: Principal Compoent Anaylisis
+
+### Ambiguity
+
++ We dont always assign objects to one class,
+  + They can be have a range of probabilities
+  + All these probablities must add up to `1`
+  + The more ambiquity, the closer to the decision surfaces
+
+### K Nearest Neighbour
+
++ Assign object to nearest cluster classification 
