@@ -1218,3 +1218,18 @@ var(topPop)
 
 ```r
 ```
+
+## Classifiers
+
+We must design an algorithm which takes the features as inputs and class as output
+
+Features -> Classifiers -> Class
+
+### Feature space
+
+In a image: Features are pixels(N)
+
+Each Image: Vector of image values -> *feature vector*
+
+Each element of vector -> dimension of an N-dimensional space -> *feature space*
+
