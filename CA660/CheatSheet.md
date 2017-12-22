@@ -1280,4 +1280,20 @@ Pattern reconigition falls under two categories:
 
 ### K Nearest Neighbour
 
-+ Assign object to nearest cluster classification 
++ Assign object to nearest cluster classification
+
+### Maximum Likelihood
+
++ We could try to construct decision boundaries by using models of the distribution of the data for each class
++ For example, we could assume Normal distributions
++ Models usually have parameters e.g. the Normal distribution has the mean and standard deviation
++ We can choose the parameters by maximising the likelihood over the training set
+
+### The Normal Distribution with Many Feature Values
+
++ The simplest case: both classes have the same shape and the feature values are independent have the same standard deviation
+  + d^2 = y^2 + x^2
++ The most complex model: Assumes `feature values are still independant` but the `standard divations are now different`.
+  + d^2 = y^2/o^2^y + x^2/o^2^x
++ The next most complex model assumes: The feature values are `no longer independant`.
++ The most complex model assumes: feature values are not indepdant but the probabiltiy distributions for the two classes have different shapes
