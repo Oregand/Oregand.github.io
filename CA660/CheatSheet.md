@@ -1297,3 +1297,38 @@ Pattern reconigition falls under two categories:
   + d^2 = y^2/o^2^y + x^2/o^2^x
 + The next most complex model assumes: The feature values are `no longer independant`.
 + The most complex model assumes: feature values are not indepdant but the probabiltiy distributions for the two classes have different shapes
++ *In general the the decision surfaces will be quadratic curves.*
++ If we have N feature vales, a line, requires N paramaters but a quadtric curves requires N^2.
++ In image analysis it is quite common to have more than 1000's since each pixel counts as a feature value,
+  + a quadratic curve would require more than 1 million paramz
+
+### Eigenvectors
+
++ The main purpose of Principal Component Analysis, is used to find the vectors wjich represent the axes of the ellipsoids
++ It turns out that these vectors are the eigenvectors of the covariance matrix. The eignevalues and  eigenvectors of a square matrix `A` defidned by
+
+### The Normal Distribution with Many Feature Values
+
++ Suppose we have more than one feature value. For example, we are now given two pieces of information about the unknown person X – the weight and the height. How can we incorporate this into Bayesian classification?
++ We can assume a series of models of increasing complexity.
++ The simplest model we could assume is that the feature values are independent and that the standard deviation is the same for each.
++ When we say the feature values are independent we mean that they are not correlated in any way. In other words one feature value gives you no information about any of the others
+
++ NB the contours do NOT represent limits of the distributions.
++ Both distributions go on to infinity in all directions. The distributions pass through each other.
+
++ In this case the contours are circles centred on the means of each class.
++ Let us further assume that the probability distributions for each class have the same shape. In other words the feature values for each class are independent and the standard deviations are the same for each value.
+
++ Notice how the probability of belonging to a certain class depends on the distance from the mean of that class. 
++ The distance d is given by
+
+
++ Notice how the probability of belonging to a certain class depends on the
++ distance from the mean of that class.
++ The distance d is given by:
+  + d^2 = x^2 + y^2
++ which is just Pythagoras theorem
++ The decision boundary between two classes will be the set of points which are equally distant from the means of both classes. This will be a straight line which passes through the midpoint of the line joining the two means.
++ This line is known as the “perpendicular bisector” of the two means.
++ Now the next most complex model assumes that the feature values are still independent but that the standard deviations are now different. + This leads to the situation shown below.
