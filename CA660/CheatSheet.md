@@ -1347,14 +1347,19 @@ Pattern reconigition falls under two categories:
 ### Q1. If you throw two dice, let the total score be X
 
 + (i) What are the probabilities of each value of X? [5 marks]
-  + -> 1/12
+  + `1/36`
 + (ii) What is P(one of the scores is 4 | X=9)? [3 marks]
-  + (1,4)(2,4)(3,4)(4,4)(5,4)(6,4) = 7/12
+  + `(4,5)(5,4) = 2/36`
 + (iii) What is P(X = 9 | one of the scores is 4)? [3 marks]
+  + `(4,5)(5,4) = 2/36`
 + (iv) What is P(at least one score is 4)? [2 marks]
+  + `(4,1)(4,2)(4,3)(4,4)(4,5)(4,6)(1,4)(2,4)(4,3)(5,4)(6,4) = 11/36`
 + (v) What is P(both scores are the same)? [2 marks]
-+ (vi) What are the mean and variance of X? [5 marks
+  + `(1,1)(2,2)(3,3)(4,4)(5,5)(6,6) = 6/36`
++ (vi) What are the mean and variance of X? [5 marks]
+  + `(1,1) + (2,1) + (1,2) + (2,3) + (3,2) .... + (5,6) + (6,5) + (6,6) / 36` -> `2 * P(X = 2) + 3 * P(X = 3) + .... 12 * P(X = 12)` -> `7`
 
++ *The Mean of a Discrete Random Variable = Sum of values multipled by corresponding propabilities*
 
 ### Q2
 
