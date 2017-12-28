@@ -1332,3 +1332,44 @@ Pattern reconigition falls under two categories:
 + The decision boundary between two classes will be the set of points which are equally distant from the means of both classes. This will be a straight line which passes through the midpoint of the line joining the two means.
 + This line is known as the “perpendicular bisector” of the two means.
 + Now the next most complex model assumes that the feature values are still independent but that the standard deviations are now different. + This leads to the situation shown below.
++ The probability contours are now elliptical and the axes of the ellipse are parallel to the x and y axes.
++ Lets still assume that the shape of the probability distribution is the same for each class. In other words only the position of the mean is different.
++ Now we can obtain Fig 1 from Fig 2 by a simple transformation. Imagine that Fig 2 is drawn on a rubber sheet. If we squash the rubber sheet in the x direction then we can convert the ellipses into circles. We could then draw a decision boundary between the two classes. It will be the perpendicular bisector between the two means.
++ We could then stretch the rubber sheet back to its original position. The decision boundary will still be a straight line but its slope will have changed.
++ Alternatively we could also describe the probability distributions in terms of distance from the means. But now we have to invent a new type of distance metric
++ This is called Mahalanobis distance. The decision boundary is the set of points with equal Mahalanobis distance from the two means.
+
+
+
+
+## Sample Lab
+
+### Q1. If you throw two dice, let the total score be X
+
++ (i) What are the probabilities of each value of X? [5 marks]
+  + -> 1/12
++ (ii) What is P(one of the scores is 4 | X=9)? [3 marks]
+  + (1,4)(2,4)(3,4)(4,4)(5,4)(6,4) = 7/12
++ (iii) What is P(X = 9 | one of the scores is 4)? [3 marks]
++ (iv) What is P(at least one score is 4)? [2 marks]
++ (v) What is P(both scores are the same)? [2 marks]
++ (vi) What are the mean and variance of X? [5 marks
+
+
+### Q2
+
++ Q 2(a) [5 Marks]
+  + What is Occam’s Razor? How can you explain it using Bayes Theorem?
+    + The model of a decision boundary should not contain more paramaters than there are objects in the data set.
+    + This says that if two hypotheses explain the data equally well, then the one with less assumptions is to be preferred
+    + P(A|D) / P(B|D)
+      + P(A|D) / P(B|D) = P(D|A)/P(A) / P(D|B)P(B)
++ Q 2(b) [5 Marks]
+  + Suppose you have a set of objects which all belong to the same class. The objects are described by one feature value x which can have any integer value in the range - to +. The probability distribution over x for this particular class is shown below. The distribution has one parameter m. P(x) ∝ exp((𝑥 − 𝑚) 2 2𝜎2)
+  + Suppose you wished to learn what the value of m was. Suppose you were given one object belonging to the class and it had feature value x=5. What is the posterior distribution over all possible values of m? Assume 𝜎is known.
++ Q 2(c) [5 Marks]
+  + Suppose you are now given an additional object belonging to the class and this additional object has feature value x=3. What is the posterior distribution over m now? Explain using Bayes Theorem how you calculated it.
++ Q 2(d) [5 Marks]
+  + Suppose you did not know the value of 𝜎, how would you estimate it given the two objects in parts (b) and (c)?
++ Q 2(e) [5 Marks]
+  + Suppose there were two different classes with different values for m and 𝜎. Sketch the different ways in which they could overlap. How would you estimate the error rates in each case?
