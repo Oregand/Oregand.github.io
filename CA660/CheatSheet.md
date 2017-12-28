@@ -564,7 +564,7 @@ legend(x='topright', c('Bull','Bear'), fill=1:2, bty='n')
 
 ### Markov Models Explained
 
-Set of states: `s1, s1....sn`. A proces moves one state to another, generating a sequence of states: `si1, si2.....sin`. `Markov chain property`: Probability of each subsequent state depends only on what was in previous state. To define a Markov model, the following probabilities have to be specified: `tranisition porbabilities` and `inital probabilities`
+Set of states: `s1, s1....sn`. A proces moves one state to another, generating a sequence of states: `si1, si2.....sin`. `Markov chain property`: Probability of each subsequent state depends only on what was in previous state. `P(s^Ik |s^I1, s^I2......s^Ik-1) = P(s^Ik| s^ik-1)` To define a Markov model, the following probabilities have to be specified: `tranisition porbabilities` and `inital probabilities`
 
 #### Example of Markov Model
 
@@ -583,6 +583,45 @@ Two states: Rain && Dry
 
 + Calculate probability of sequence of: `P(D,D,R,R)`
   + `P(D,D,R,R)` = `P(D) * P(D,D) * P(R,D) * P(R,R)` = `0.3 * 0.2 * 0.8 * 0.6`
+
+### Hidden Markov Models Explained
+
+Set of states `s1,s2.....sn`. Process moves from one state to another state, creating a sequence of states: `si1, si2,......sin`. Markov chain property: probability of each subsequent state depends only on what was the previous state: `P(s^Ik |s^I1, s^I2......s^Ik-1) = P(s^Ik| s^ik-1)`. Sates are not visible, but each state randomly generates one of M observations(or visible states): `(v1, v2.....vm)`.
+
++ To define a hidden markov model: the following probabiltiies have to be specified:
+  + Matrix of transition probabiltiies
+  + Matrix of observation probabilities
+  + Vector of intial probabilities
+
+#### Example of Hidden Markov Model
+
++ Two states : `Low` and `High` atmospheric pressure.
++ Two observations: `Rain` and `Dry`.
++ Transition probabilities:
+  + P(‘Low’|‘Low’)=0.3
+  + P(‘High’|‘Low’)=0.7
+  + P(‘Low’|‘High’)=0.2
+  + P(‘High’|‘High’)=0.8
+
++ Observation probabilities
+  + P(‘Rain’|‘Low’)=0.6
+  + P(‘Dry’|‘Low’)=0.4
+  + P(‘Rain’|‘High’)=0.4
+  + P(‘Dry’|‘High’)=0.3
+
++ Initial probabilities:
+  + P(‘Low’)=0.4
+  + P(‘High’)=0.6
+
+##### Calculation of observation sequence probability
+
+Suppose we want to calculate a probability of a sequence of observations in our example, {‘Dry’,’Rain’}.
+
++ Consider all possible hidden state sequences:
+
+`P({‘Dry’,’Rain’} ) = P({‘Dry’,’Rain’} , {‘Low’,’Low’}) + P({‘Dry’,’Rain’} , {‘Low’,’High’}) + P({‘Dry’,’Rain’} , {‘High’,’Low’}) + P({‘Dry’,’Rain’} , {‘High’,’High’})`
+
+`P({‘Dry’,’Rain’} , {‘Low’,’Low’})= P({‘Dry’,’Rain’} | {‘Low’,’Low’}) P({‘Low’,’Low’}) = P(‘Dry’|’Low’)P(‘Rain’|’Low’) P(‘Low’)P(‘Low’|’Low) = 0.4 * 0.4 * 0.6 * 0.4 * 0.3`
 
 ## Normal Distribution
 
