@@ -562,6 +562,28 @@ matplot(post_probs[,-1], type='l', main='Regime Posterior Probabilities', ylab='
 legend(x='topright', c('Bull','Bear'), fill=1:2, bty='n')
 ```
 
+### Markov Models Explained
+
+Set of states: `s1, s1....sn`. A proces moves one state to another, generating a sequence of states: `si1, si2.....sin`. `Markov chain property`: Probability of each subsequent state depends only on what was in previous state. To define a Markov model, the following probabilities have to be specified: `tranisition porbabilities` and `inital probabilities`
+
+#### Example of Markov Model
+
+Two states: Rain && Dry
+
++ Tranisiton porbabilies
+  + P(R|R) = 0.3
+  + P(D|R) = 0.7
+  + P(R|D) = 0.2
+  + P(D|D) = 0.8
++  Inital porbabiltiies:
+  +  P(R) = 0.4
+  +  P(D) = 0.6
+
+#### Calculation of sequence probability
+
++ Calculate probability of sequence of: `P(D,D,R,R)`
+  + `P(D,D,R,R)` = `P(D) * P(D,D) * P(R,D) * P(R,R)` = `0.3 * 0.2 * 0.8 * 0.6`
+
 ## Normal Distribution
 
 *The normal distribution is defined by the following probability density function, where μ is the population mean and σ2 is the variance.*
@@ -1339,12 +1361,9 @@ Pattern reconigition falls under two categories:
 + Alternatively we could also describe the probability distributions in terms of distance from the means. But now we have to invent a new type of distance metric
 + This is called Mahalanobis distance. The decision boundary is the set of points with equal Mahalanobis distance from the two means.
 
+## Sample Lab Exam
 
-
-
-## Sample Lab
-
-### Q1. If you throw two dice, let the total score be X
+### Q1. A If you throw two dice, let the total score be X
 
 + (i) What are the probabilities of each value of X? [5 marks]
   + `1/36`
@@ -1360,6 +1379,27 @@ Pattern reconigition falls under two categories:
   + `(1,1) + (2,1) + (1,2) + (2,3) + (3,2) .... + (5,6) + (6,5) + (6,6) / 36` -> `2 * P(X = 2) + 3 * P(X = 3) + .... 12 * P(X = 12)` -> `7`
 
 + *The Mean of a Discrete Random Variable = Sum of values multipled by corresponding propabilities*
+
+### Q1. B Suppose there is a hidden Markov sequence consisting of three symbols “a”, “b” and “c”. The observed sequence consists of the same symbols but they may be affected by noise. These sequences are described by a Hidden Markov Model, whose transition matrix and emission matrix are respectively
+
+```bash
+(0.90 0.09 0.01
+0.09 0.90 0.09
+0.01 0.09 0.90)
+
+(0.90 0.05 0.05
+0.05 0.90 0.05
+0.05 0.05 0.90)
+```
+
++ If the probability distribution over the three symbols at time t is `(0.6, 0.3, 0.1)` and the observed symbol at time `t+1 is “b”`, what is the probability distribution over the three symbols at time `t+1?` Please explain your answer:
+
+```bash
+A hidden Markov model (HMM) is one in which you observe a sequence of emissions, but do not know the sequence of states the model went through to generate the emissions. Analyses of hidden Markov models seek to recover the sequence of states from the observed data.
+
+
+```
+
 
 ### Q2
 
