@@ -1472,18 +1472,28 @@ P(H) = Transmission matrix where D = 'b' i.e. second position in matrix
 
 ### Q2
 
-+ Q 2(a) [5 Marks]
-  + What is Occam’s Razor? How can you explain it using Bayes Theorem?
-    + The model of a decision boundary should not contain more paramaters than there are objects in the data set.
-    + This says that if two hypotheses explain the data equally well, then the one with less assumptions is to be preferred
-    + P(A|D) / P(B|D)
-      + P(A|D) / P(B|D) = P(D|A)/P(A) / P(D|B)P(B)
-+ Q 2(b) [5 Marks]
-  + Suppose you have a set of objects which all belong to the same class. The objects are described by one feature value x which can have any integer value in the range - to +. The probability distribution over x for this particular class is shown below. The distribution has one parameter m. P(x) ∝ exp((𝑥 − 𝑚) 2 2𝜎2)
-  + Suppose you wished to learn what the value of m was. Suppose you were given one object belonging to the class and it had feature value x=5. What is the posterior distribution over all possible values of m? Assume 𝜎is known.
-+ Q 2(c) [5 Marks]
-  + Suppose you are now given an additional object belonging to the class and this additional object has feature value x=3. What is the posterior distribution over m now? Explain using Bayes Theorem how you calculated it.
-+ Q 2(d) [5 Marks]
-  + Suppose you did not know the value of 𝜎, how would you estimate it given the two objects in parts (b) and (c)?
-+ Q 2(e) [5 Marks]
-  + Suppose there were two different classes with different values for m and 𝜎. Sketch the different ways in which they could overlap. How would you estimate the error rates in each case?
+#### Q 2(a) What is Occam’s Razor? How can you explain it using Bayes Theorem
+
+```js
+{'Occam’s Razor': 'States that when you have two equally likely models, the simpler model is preferred i.e.  simpler hypotheses are preferable to more complex ones'};
+
+
+```
+
+#### Q 2(b) [5 Marks]
+
++ Suppose you have a set of objects which all belong to the same class. The objects are described by one feature value x which can have any integer value in the range - to +. The probability distribution over x for this particular class is shown below. The distribution has one parameter m. P(x) ∝ exp((𝑥 − 𝑚) 2 2𝜎2)
+
++ Suppose you wished to learn what the value of m was. Suppose you were given one object belonging to the class and it had feature value x=5. What is the posterior distribution over all possible values of m? Assume 𝜎is known.
+
+#### Q 2(c) [5 Marks]
+
++ Suppose you are now given an additional object belonging to the class and this additional object has feature value x=3. What is the posterior distribution over m now? Explain using Bayes Theorem how you calculated it.
+
+#### Q 2(d) [5 Marks]
+
++ Suppose you did not know the value of 𝜎, how would you estimate it given the two objects in parts (b) and (c)?
+
+#### Q 2(e) [5 Marks]
+
++ Suppose there were two different classes with different values for m and 𝜎. Sketch the different ways in which they could overlap. How would you estimate the error rates in each case?
