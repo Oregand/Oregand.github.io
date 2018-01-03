@@ -1405,40 +1405,70 @@ Pattern reconigition falls under two categories:
 ### Q1. A If you throw two dice, let the total score be X
 
 + (i) What are the probabilities of each value of X? [5 marks]
-  + `1/36`
+  + `(1,1)(1,2)(2,1)....etc = 36 possibilities`
 + (ii) What is P(one of the scores is 4 | X=9)? [3 marks]
-  + `(4,5)(5,4) = 2/36`
+  + `X = 9 = (4,5)(5,4)(6,3)(3,6) = 4 occurs two times = 2/4`
 + (iii) What is P(X = 9 | one of the scores is 4)? [3 marks]
-  + `(4,5)(5,4) = 2/36`
+  + `(1,4)(2,4)(3,4)(5,4)(6,4)(4,1)(4,2)(4,3)(4,5)(4,6) = 2/10`
 + (iv) What is P(at least one score is 4)? [2 marks]
-  + `(4,1)(4,2)(4,3)(4,4)(4,5)(4,6)(1,4)(2,4)(4,3)(5,4)(6,4) = 11/36`
+  + `(1,4)(2,4)(3,4)(5,4)(6,4)(4,1)(4,2)(4,3)(4,5)(4,6) = 2/10`
 + (v) What is P(both scores are the same)? [2 marks]
-  + `(1,1)(2,2)(3,3)(4,4)(5,5)(6,6) = 6/36`
+  + `(1,1)(2,2)(3,3)(4,4)(5,5)(6,6) = 6/36 = 1/6`
 + (vi) What are the mean and variance of X? [5 marks]
-  + `(1,1) + (2,1) + (1,2) + (2,3) + (3,2) .... + (5,6) + (6,5) + (6,6) / 36` -> `2 * P(X = 2) + 3 * P(X = 3) + .... 12 * P(X = 12)` -> `7`
+  + `Mean(X) = sum(P(X) * X) = 7`
+  + `Var(X) = sum(P(X) * (X-mean)^2) = 5.833`
 
 + *The Mean of a Discrete Random Variable = Sum of values multipled by corresponding propabilities*
 
 ### Q1. B Suppose there is a hidden Markov sequence consisting of three symbols “a”, “b” and “c”. The observed sequence consists of the same symbols but they may be affected by noise. These sequences are described by a Hidden Markov Model, whose transition matrix and emission matrix are respectively
 
 ```bash
-(0.90 0.09 0.01
-0.09 0.90 0.09
-0.01 0.09 0.90)
 
-(0.90 0.05 0.05
-0.05 0.90 0.05
-0.05 0.05 0.90)
+`Transition Matrix`
+  A    B    C
+(0.90 0.09 0.01) A
+(0.09 0.90 0.09) B
+(0.01 0.09 0.90) C
+
+`Emission Matrix`
+  A    B    C
+(0.90 0.05 0.05) A
+(0.05 0.90 0.05) B
+(0.05 0.05 0.90) C
 ```
 
 + If the probability distribution over the three symbols at time t is `(0.6, 0.3, 0.1)` and the observed symbol at time `t+1 is “b”`, what is the probability distribution over the three symbols at time `t+1?` Please explain your answer:
 
-```bash
+```js
 A hidden Markov model (HMM) is one in which you observe a sequence of emissions, but do not know the sequence of states the model went through to generate the emissions. Analyses of hidden Markov models seek to recover the sequence of states from the observed data.
 
+We can answer this question using Bayes Theorem:
+'P(Hypothesis | Data) = P(Data | Hypothesis) P(Hypothesis) / P(Data)'
 
+'We must solve for all three symbols(a, b and c)'
+
+P(H|D) = Prior probability that Pi+1 is our respective symbol i.e. a, b or c.
+
+'P(H|D) = Pi+1(a)'
+'P(H|D) = Pi+1(b)'
+'P(H|D) = Pi+1(c)'
+
+P(D|H) = Emission matrix where D = 'b' i.e. second position in matrix
+
+'P(D|H) = e12'
+'P(D|H) = e22'
+'P(D|H) = e32'
+
+P(H) = Transmission matrix where D = 'b' i.e. second position in matrix
+
+'P(H) = Pi(a) * t11 + Pi(b) * t21 + Pi(c) * t31'
+'P(H) = Pi(a) * t12 + Pi(b) * t22 + Pi(c) * t32'
+'P(H) = Pi(a) * t13 + Pi(b) * t23 + Pi(c) * t33'
+
+ '0.0041, 0.25164 and 0.00492'
+
+`P(D) = Sum of three P(H)`
 ```
-
 
 ### Q2
 
