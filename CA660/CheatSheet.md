@@ -1477,7 +1477,16 @@ P(H) = Transmission matrix where D = 'b' i.e. second position in matrix
 ```js
 {'Occam’s Razor': 'States that when you have two equally likely models, the simpler model is preferred i.e.  simpler hypotheses are preferable to more complex ones'};
 
+const bayes therom = 'P(H|D) = P(D|H) * P(H) / P(D)';
 
++ P(H) is our prior probability of the Hypothesis before we see the data (D).
++ We can measure the complexity of P(H) by the amount of variables it takes to describe it.
++ Example: Suppose the Data might fall into 1 cluster(C1) or 2 clusters(C2).
+  + There are more combinations of 2 clusters than 1 cluster.
+  + This makes the prior porbabiliy of any combination of 2 clusters smaller than the prior probability of 1 clusters
+  + P(C1) is higher than P(C2) because C1 has less variables. SIMPLE!
++ We might still accept a more complex Hypothesis but only if it gives a higher value for P(H|D) than the simpler Hypothesis.
++ I.e. if the complex data explains the Hypothesis better than the simple Hypothesis, we would prefer it even though it has a lower probability than the simpler model.
 ```
 
 #### Q 2(b) [5 Marks]
