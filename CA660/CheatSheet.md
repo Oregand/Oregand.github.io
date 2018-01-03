@@ -1495,6 +1495,26 @@ const bayes therom = 'P(H|D) = P(D|H) * P(H) / P(D)';
 
 + Suppose you wished to learn what the value of m was. Suppose you were given one object belonging to the class and it had feature value x=5. What is the posterior distribution over all possible values of m? Assume 𝜎is known.
 
+```js
+∝ The symbol for "directly proportional"
+
+Start with bayes therom:
+
+P(H|D) = P(D|H) * P(H) / P(D)
+
+'Where D = 5 aka x = 5 and and the Hypothesis is m'
+
+We are asked to find the posterior distribution over all possible values of m. The posterior is P(H|D). P(H) is the prior distribution over m, before we see the data.
+
++ We have no reason to prefer any particular value of m, so all values are equally probabale.
++ So P(H) is just a constant for all values of m.
++ This means that we can simplify our expression of Bayes Theorem as follows:
+  + `P(H|D) ∝ P(D|H)`
+  + `P(D|H) = P(X=5|m)`
+  + `P(x = 5) ∝ exp((5 − 𝑚) 2 2𝜎2)`
+  + `P(H|D) = P(m | X = 5) ∝ P(X = 5 | m) ∝ exp((5 − 𝑚) 2 2𝜎2)`
+```
+
 #### Q 2(c) [5 Marks]
 
 + Suppose you are now given an additional object belonging to the class and this additional object has feature value x=3. What is the posterior distribution over m now? Explain using Bayes Theorem how you calculated it.
