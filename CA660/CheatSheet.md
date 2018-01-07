@@ -1848,7 +1848,46 @@ There are 6 × 6 = 36 of them, and the Sample Space = {2, 3, 4, 5, 6, 7, 8, 9, 1
 
 #### Random Variables(Continuous)
 
+Continuous Data can take any value within a range (such as a person's height)
+
+##### The Uniform Distribution
+
+The Uniform Distribution (also called the Rectangular Distribution) is the simplest distribution.
+
+It has equal probability for all values of the Random variable between a and b:
+
+```js
+The probability of any value between a and b is p
+
+We also know that p = 1/(b-a), because the total of all probabilities must be 1, so
+
+the area of the rectangle = 1
+p × (b−a) = 1
+p = 1/(b−a)
+```
+
+```js
+Example: Old Faithful erupts every 91 minutes. You arrive there at random and wait for 20 minutes ... what is the probability you will see it erupt?
+
+This is actually easy to calculate, 20 minutes out of 91 minutes is:
+
+p = 20/91 = 0.22 (to 2 decimals)
+
+But let's use the Uniform Distribution for practice.
+
+To find the probability between a and a+20, find the blue area:
+
+Area = (1/91) x (a+20 − a) 
+= (1/91) x 20 
+= 20/91 
+= 0.22 (to 2 decimals)
+
+So there is a 0.22 probability you will see Old Faithful erupt.
+```
+
 #### Random Variables(Discreet)
+
+Discrete Data can only take certain values (such as 1,2,3,4,5)
 
 ### The Binomial Distribution
 
