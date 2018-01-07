@@ -1762,7 +1762,38 @@ No Repetition: such as lottery numbers (2,14,15,27,30,33)
 
 ##### 1. Combinations with Repetition
 
+Formula:
+
+`n! / r!(n − r)!`
+
+```js
+Example: Pool Balls (without order)
+
+16! / 3!(16−3)!  =  16! / 3! × 13!
+
+Or
+
+16×15×14 / 3×2×1
+```
+
 ##### 2. Combinations without Repetition
+
+Let us say there are five flavors of icecream: banana, chocolate, lemon, strawberry and vanilla.
+
+We can have three scoops. How many variations will there be?
+
+Let's use letters for the flavors: {b, c, l, s, v}. Example selections include
+
+{c, c, c} (3 scoops of chocolate)
+{b, l, v} (one each of banana, lemon and vanilla)
+{b, v, v} (one of banana, two of vanilla)
+(And just to be clear: There are n=5 things to choose from, and we choose r=3 of them.
+Order does not matter, and we can repeat!)
+
+`(3 + 5 - 1)! / 3!(5 - 1)! = 35`
+
+There are 35 ways of having 3 scoops from five flavors of icecream.
+
 
 ### Advanced Prob
 
