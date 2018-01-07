@@ -1873,7 +1873,7 @@ This is actually easy to calculate, 20 minutes out of 91 minutes is:
 
 p = 20/91 = 0.22 (to 2 decimals)
 
-But let's use the Uniform Distribution for practice.
+But lets use the Uniform Distribution for practice.
 
 To find the probability between a and a+20, find the blue area:
 
@@ -1889,6 +1889,80 @@ So there is a 0.22 probability you will see Old Faithful erupt.
 
 Discrete Data can only take certain values (such as 1,2,3,4,5)
 
+#### Random Variables: Mean, Variance and Standard Deviation
+
+*Mean*
+
+```js
+For fun, imagine a weighted die (cheating!) so we have these probabilities:
+
+ 1	  2	    3	    4	    5	   6
+0.1	 0.1	 0.1	 0.1	 0.1	0.5
+
+To calculate the Expected Value:
+
+multiply each value by its probability sum them up
+
+x	1	2	3	4	5	6
+
+p	0.1	0.1	0.1	0.1	0.1	0.5
+
+xp	0.1	0.2	0.3	0.4	0.5	3
+
+μ = Σxp = 0.1+0.2+0.3+0.4+0.5+3 = 4.5
+
+The expected value is 4.5
+```
+
+*Variance*
+
+```js
+To calculate the Variance:
+
+square each value and multiply by its probability
+sum them up and we get Σx2p
+then subtract the square of the Expected Value μ2
+
+x	1	2	3	4	5	6
+p	0.1	0.1	0.1	0.1	0.1	0.5
+x2p	0.1	0.4	0.9	1.6	2.5	18
+Σx2p = 0.1+0.4+0.9+1.6+2.5+18 = 23.5
+
+Var(X) = Σx2p − μ2 = 23.5 - 4.52 = 3.25
+
+The variance is 3.25
+```
+
+*Standard Deviation: σ*
+
+```js
+The Standard Deviation is the square root of the Variance:
+
+σ = √Var(X)
+
+x	1	2	3	4	5	6
+p	0.1	0.1	0.1	0.1	0.1	0.5
+x2p	0.1	0.4	0.9	1.6	2.5	18
+σ = √Var(X) = √3.25 = 1.803...
+
+The Standard Deviation is 1.803..
+```
+
+Summed Example:
+
+```js
+
+```
+
+*Summary*
+
++ A Random Variable is a variable whose possible values are numerical outcomes of a random experiment.
++ The Mean (Expected Value) is: μ = Σxp
++ The Variance is: Var(X) = Σx2p − μ2
++ The Standard Deviation is: σ = √Var(X)
+
 ### The Binomial Distribution
 
 ### The Normal Distribution
+
+### Sample Paper With Answers
