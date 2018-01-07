@@ -1691,7 +1691,20 @@ Put the values in:
 
 ### Combinations and Permutations
 
-#### Combinations and Permutations(1)
+*When the order doesn't matter, it is a Combination.*
+
+*When the order does matter it is a Permutation.*
+
+`A Permutation is an ordered Combination.`
+
+#### Permutation
+
+There are basically two types of permutation:
+
++ Repetition is Allowed: such as the lock above. It could be "333".
++ No Repetition: for example the first three people in a running race. You can't be first and second.
+
+#### Combinations
 
 ### Advanced Prob
 
