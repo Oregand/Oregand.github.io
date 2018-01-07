@@ -1704,7 +1704,65 @@ There are basically two types of permutation:
 + Repetition is Allowed: such as the lock above. It could be "333".
 + No Repetition: for example the first three people in a running race. You can't be first and second.
 
+##### 1. Permutations with Repetition
+
+```js
+Example: in the lock above, there are 10 numbers to choose from (0,1,2,3,4,5,6,7,8,9) and we choose 3 of them:
+
+10 × 10 × ... (3 times) = 103 = 1,000 permutations
+```
+
+So, the formula is simply:
+
+n^r
+
+Where n is the number of things to choose from, and we choose r of them, repetition is allowed, and order matters.
+
+##### 2. Permutations without Repetition
+
+```js
+Example: what order could 16 pool balls be in?
+
+
+After choosing, say, number "14" we cant choose it again.
+
+So, our first choice has 16 possibilites, and our next choice has 15 possibilities, then 14, 13, 12, 11, ... etc. And the total permutations are:
+
+16 × 15 × 14 × 13 × ... = 20,922,789,888,000
+
+But maybe we dont want to choose them all, just 3 of them, and that is then:
+
+16 × 15 × 14 = 3,360
+```
+
+*Without repetition our choices get reduced each time.*
+
+```js
+The factorial function (symbol: !) just means to multiply a series of descending natural numbers. Examples:
+
+4! = 4 × 3 × 2 × 1 = 24
+```
+
+```js
+Example Our "order of 3 out of 16 pool balls example" is:
+
+16! / (16 - 3)! = 16! / 13! = 3360
+```
+
+Notation:
+
+`Example: P(10,2) = 90`
+
 #### Combinations
+
+There are also two types of combinations (remember the order does not matter now):
+
+Repetition is Allowed: such as coins in your pocket (5,5,5,10,10)
+No Repetition: such as lottery numbers (2,14,15,27,30,33)
+
+##### 1. Combinations with Repetition
+
+##### 2. Combinations without Repetition
 
 ### Advanced Prob
 
