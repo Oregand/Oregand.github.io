@@ -1535,6 +1535,23 @@ So the probability =  1 / 2 = 0.5
 
 *We can calculate the chances of two or more independent events by multiplying the chances.*
 
+```js
+Example: Probability of 3 Heads in a Row
+
+For each toss of a coin a "Head" has a probability of 0.5:
+
+1st toss: P(H) = 0.5
+
+2nd toss: P(H,H) = 0.5 * 0.5
+
+3rd toss: P(H,H,H) = 0.5 * 0.5 * 0.5
+
+And so the chance of getting 3 Heads in a row is 0.125
+```
+
+P(A and B) = P(A) × P(B)
+
+`P(A,B) = P(A) × P(B)`
 
 
 #### Dependant Events
