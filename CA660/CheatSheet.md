@@ -1470,9 +1470,72 @@ The sum of the probabilities of all possible outcomes is always equal to 1
 
 #### Compliment
 
+```js
+Complement of an Event: All outcomes that are NOT the event.
+
+Example: Different scores(4,5) vs same scores in dice roll(4,4)
+
+Different scores are like getting a 2 and 3, or a 6 and 1. It is quite a long list:
+
+A = { (1,2), (1,3), (1,4), (1,5), (1,6), (2,1), (2,3), (2,4), ... etc ! }
+
+But the complement (which is when the two scores are the same) is only 6 outcomes:
+
+!A = { (1,1), (2,2), (3,3), (4,4), (5,5), (6,6) }
+
+And its probability is:
+
+P(!A) = 6/36 = 1/6
+
+Knowing that P(A) and P(!A) together make 1, we can calculate:
+
+P(A) = 1 − P(!A)
+    = 1 − 1/6
+    = 5/6
+
+
+So in this case (and many others) its easier to work out P(!A) first, then find P(A)
+```
+
 #### Type of Events
 
+Events can be:
+
+*Independent* (each event is not affected by other events),
+*Dependent* (also called *Conditional*, where an event is affected by other events)
+*Mutually Exclusive* (events can't happen at the same time)
+
 #### Independant Events
+
+*Independent Events are not affected by previous events.*
+
+```js
+Example: You toss a coin and it comes up "Heads" three times ... what is the chance that the next toss will also be a "Head"?
+
+The chance is simply ½ (or 0.5) just like ANY toss of the coin.
+
+What it did in the past will not affect the current toss!
+```
+
+##### Probability of Independent Events
+
+Probability of an event happening =  Number of ways it can happen / Total number of outcomes
+
+```js
+Example: what is the probability of getting a "Head" when tossing a coin?
+
+Number of ways it can happen: 1 (Head)
+
+Total number of outcomes: 2 (Head and Tail)
+
+So the probability =  1 / 2 = 0.5
+```
+
+##### Two or More Events
+
+*We can calculate the chances of two or more independent events by multiplying the chances.*
+
+
 
 #### Dependant Events
 
