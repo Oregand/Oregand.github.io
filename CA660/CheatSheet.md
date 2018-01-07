@@ -1794,14 +1794,61 @@ Order does not matter, and we can repeat!)
 
 There are 35 ways of having 3 scoops from five flavors of icecream.
 
-
 ### Advanced Prob
 
 #### Bayes Therom
 
+`P(H|D) = P(D|H) * P(H) / P(D)`
+
+```js
+Example: If dangerous fires are rare (1%) but smoke is fairly common (10%) due to barbecues, and 90% of dangerous fires make smoke then:
+
+So the "Probability of dangerous Fire when there is Smoke":
+
+P(F) * P(S|F) / P(S)
+```
+
 #### Shared Birthdays
 
+```js
+There are 30 people in a room ... what is the chance that any two of them celebrate their birthday on the same day? Assume 365 days in a year.
+
+The chance of not matching:
+
+364/365 × 363/365 × 362/365 × ... × 336/365 = 0.294...
+
+And the probability of matching is 1 − 0.294... :
+
+The probability of sharing a birthday = 1 − 0.294... = 0.706...
+
+Or a 70.6% chance, which is likely!
+```
+
 ### Random Variables
+
+```js
+Example: Two dice are tossed.
+
+The Random Variable is X = "The sum of the scores on the two dice".
+
+There are 6 × 6 = 36 of them, and the Sample Space = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
+
++ 2 occurs just once, so P(X = 2) = 1/36
++ 3 occurs twice, so P(X = 3) = 2/36 = 1/18
++ 4 occurs three times, so P(X = 4) = 3/36 = 1/12
++ 5 occurs four times, so P(X = 5) = 4/36 = 1/9
++ 6 occurs five times, so P(X = 6) = 5/36
++ 7 occurs six times, so P(X = 7) = 6/36 = 1/6
++ 8 occurs five times, so P(X = 8) = 5/36
++ 9 occurs four times, so P(X = 9) = 4/36 = 1/9
++ 10 occurs three times, so P(X = 10) = 3/36 = 1/12
++ 11 occurs twice, so P(X = 11) = 2/36 = 1/18
++ 12 occurs just once, so P(X = 12) = 1/36
+```
+
+#### Random Variables(Continuous)
+
+#### Random Variables(Discreet)
 
 ### The Binomial Distribution
 
