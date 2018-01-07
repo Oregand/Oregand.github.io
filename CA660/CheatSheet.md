@@ -1553,10 +1553,141 @@ P(A and B) = P(A) × P(B)
 
 `P(A,B) = P(A) × P(B)`
 
+```js
+Example: your boss (to be fair) randomly assigns everyone an extra 2 hours work on weekend evenings between 4 and midnight.
 
-#### Dependant Events
+What are the chances you get Saturday between 6 and 8?
+
+Day: there are two days on the weekend, so P(Saturday) = 0.5
+
+Time: you want the 2 hours of 6-to-8, out of the 8 hours of 4-to-midnight):
+
+P(Your Time) = 2/8 = 0.25
+
+And:
+
+P(Saturday and Your Time)	= P(Saturday) × P(Your Time)
+ 	= 0.5 × 0.25
+ 	= 0.125
+
+Or a 12.5% Chance
+
+(Note: we could ALSO have worked out that you wanted 2 hours out of a total possible 16 hours, which is 2/16 = 0.125. Both methods work here.)
+```
+
+#### Dependant Events(Conditional Prob)
+
+*But events can also be "dependent" ... which means they can be affected by previous events ...*
+
+```js
+Example: Marbles in a Bag
+
+2 blue and 3 red marbles are in a bag.
+
+What are the chances of getting a blue marble?
+
+The chance is 2 in 5
+
+But after taking one out the chances change!
+
+So the next time:
+
+if we got a red marble before, then the chance of a blue marble next is 2 in 4
+if we got a blue marble before, then the chance of a blue marble next is 1 in 4
+```
+
+`"Replacement"`
+
+Note: if we replace the marbles in the bag each time, then the chances do not change and the events are independent:
+
+With Replacement: the events are Independent (the chances don't change)
+Without Replacement: the events are Dependent (the chances change)
+
+P(A and B) = P(A) * P(B|A)
+
+"Probability of event A and event B equals the probability of event A times the probability of event B given event A"
+
+```js
+Example: Drawing 2 Kings from a Deck
+
+Event A is drawing a King first, and Event B is drawing a King second.
+
+For the first card the chance of drawing a King is 4 out of 52 (there are 4 Kings in a deck of 52 cards):
+
+P(A) = 4/52
+
+But after removing a King from the deck the probability of the 2nd card drawn is less likely to be a King (only 3 of the 51 cards left are Kings):
+
+P(B|A) = 3/51
+
+And so:
+
+P(A and B) = P(A) * P(B|A) = (4/52)	x (3/51) = 12/2652 = 1/221
+```
 
 #### Mutally Exclusive Events
+
+*Mutually Exclusive: can't happen at the same time*
+
+`P(A or B) = P(A) + P(B)`
+
+```js
+Example: King OR Queen
+In a Deck of 52 Cards:
+
+the probability of a King is 1/13, so P(King)=1/13
+the probability of a Queen is also 1/13, so P(Queen)=1/13
+
+When we combine those two Events:
+
+The probability of a King or a Queen is (1/13) + (1/13) = 2/13
+Which is written like this:
+
+P(King or Queen) = (1/13) + (1/13) = 2/13
+```
+
+Instead of "and" you will often see the symbol ∩ (which is the "Intersection" symbol used in Venn Diagrams)
+Instead of "or" you will often see the symbol ∪ (the "Union" symbol)
+
+`P(King ∩ Queen) = 0`
+`P(King ∪ Queen) = (1/13) + (1/13) = 2/13`
+
+#### Not Mutually Exclusive
+
+`P(A or B) = P(A) + P(B) − P(A and B)`
+
+```js
+16 people study French, 21 study Spanish and there are 30 altogether. Work out the probabilities!
+
+You can study french and spanish.
+
+Lets say b is how many study both languages:
+
+people studying French Only must be 16-b
+people studying Spanish Only must be 21-b
+
+And we know there are 30 people, so:
+
+(16−b) + b + (21−b) = 30
+37 − b = 30
+b = 7
+
+So we know all this now:
+
+P(French) = 16/30
+P(Spanish) = 21/30
+P(French Only) = 9/30
+P(Spanish Only) = 14/30
+P(French or Spanish) = 30/30 = 1
+P(French and Spanish) = 7/30
+Lastly, let's check with our formula:
+
+P(A or B) = P(A) + P(B) − P(A and B)
+
+Put the values in:
+
+30/30 = 16/30 + 21/30 − 7/30
+```
 
 ### Combinations and Permutations
 
