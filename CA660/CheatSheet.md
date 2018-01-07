@@ -1368,7 +1368,7 @@ Pattern reconigition falls under two categories:
 + The main purpose of Principal Component Analysis, is used to find the vectors wjich represent the axes of the ellipsoids
 + It turns out that these vectors are the eigenvectors of the covariance matrix. The eignevalues and  eigenvectors of a square matrix `A` defidned by
 
-### The Normal Distribution with Many Feature Values
+### The Normal Distribution with Many Feature Values(1)
 
 + Suppose we have more than one feature value. For example, we are now given two pieces of information about the unknown person X – the weight and the height. How can we incorporate this into Bayesian classification?
 + We can assume a series of models of increasing complexity.
@@ -1402,127 +1402,94 @@ Pattern reconigition falls under two categories:
 
 ## Sample Lab Exam
 
-### Q1. A If you throw two dice, let the total score be X
 
-+ (i) What are the probabilities of each value of X? [5 marks]
-  + `(1,1)(1,2)(2,1)....etc = 36 possibilities`
-+ (ii) What is P(one of the scores is 4 | X=9)? [3 marks]
-  + `X = 9 = (4,5)(5,4)(6,3)(3,6) = 4 occurs two times = 2/4`
-+ (iii) What is P(X = 9 | one of the scores is 4)? [3 marks]
-  + `(1,4)(2,4)(3,4)(5,4)(6,4)(4,1)(4,2)(4,3)(4,5)(4,6) = 2/10`
-+ (iv) What is P(at least one score is 4)? [2 marks]
-  + `(1,4)(2,4)(3,4)(5,4)(6,4)(4,1)(4,2)(4,3)(4,5)(4,6) = 2/10`
-+ (v) What is P(both scores are the same)? [2 marks]
-  + `(1,1)(2,2)(3,3)(4,4)(5,5)(6,6) = 6/36 = 1/6`
-+ (vi) What are the mean and variance of X? [5 marks]
-  + `Mean(X) = sum(P(X) * X) = 7`
-  + `Var(X) = sum(P(X) * (X-mean)^2) = 5.833`
+## External Study -> Math is fun
 
-+ *The Mean of a Discrete Random Variable = Sum of values multipled by corresponding propabilities*
+### Basic Prob
 
-### Q1. B Suppose there is a hidden Markov sequence consisting of three symbols “a”, “b” and “c”. The observed sequence consists of the same symbols but they may be affected by noise. These sequences are described by a Hidden Markov Model, whose transition matrix and emission matrix are respectively
-
-```bash
-
-`Transition Matrix`
-  A    B    C
-(0.90 0.09 0.01) A
-(0.09 0.90 0.09) B
-(0.01 0.09 0.90) C
-
-`Emission Matrix`
-  A    B    C
-(0.90 0.05 0.05) A
-(0.05 0.90 0.05) B
-(0.05 0.05 0.90) C
-```
-
-+ If the probability distribution over the three symbols at time t is `(0.6, 0.3, 0.1)` and the observed symbol at time `t+1 is “b”`, what is the probability distribution over the three symbols at time `t+1?` Please explain your answer:
+#### Relative Freq
 
 ```js
-A hidden Markov model (HMM) is one in which you observe a sequence of emissions, but do not know the sequence of states the model went through to generate the emissions. Analyses of hidden Markov models seek to recover the sequence of states from the observed data.
+92 people were asked how they got to work:
 
-We can answer this question using Bayes Theorem:
-'P(Hypothesis | Data) = P(Data | Hypothesis) P(Hypothesis) / P(Data)'
+35 used a car
+42 took public transport
+8 rode a bicycle
+7 walked
 
-'We must solve for all three symbols(a, b and c)'
+The Relative Frequencies (to 2 decimal places) are:
 
-P(H|D) = Prior probability that Pi+1 is our respective symbol i.e. a, b or c.
+Car: 35/92 = 0.38
+Public Transport: 42/92 = 0.46
+Bicycle: 8/92 = 0.09
+Walking: 7/92 = 0.08
 
-'P(H|D) = Pi+1(a)'
-'P(H|D) = Pi+1(b)'
-'P(H|D) = Pi+1(c)'
-
-P(D|H) = Emission matrix where D = 'b' i.e. second position in matrix
-
-'P(D|H) = e12'
-'P(D|H) = e22'
-'P(D|H) = e32'
-
-P(H) = Transmission matrix where D = 'b' i.e. second position in matrix
-
-'P(H) = Pi(a) * t11 + Pi(b) * t21 + Pi(c) * t31'
-'P(H) = Pi(a) * t12 + Pi(b) * t22 + Pi(c) * t32'
-'P(H) = Pi(a) * t13 + Pi(b) * t23 + Pi(c) * t33'
-
- '0.0041, 0.25164 and 0.00492'
-
-`P(D) = Sum of three P(H)`
+0.38+0.46+0.09+0.08 = 1.01
 ```
 
-### Q2
+#### Dice Question
 
-#### Q 2(a) What is Occam’s Razor? How can you explain it using Bayes Theorem
+*Two Dice*
+
+We know there are 36 possible outcomes.
+
+And there is only 1 way to get a total score of 2.
+
+So the probability of getting 2 is:
+
+`Probability of a 2 =  136`
 
 ```js
-{'Occam’s Razor': 'States that when you have two equally likely models, the simpler model is preferred i.e.  simpler hypotheses are preferable to more complex ones'};
+Doing that for each score gets us:
 
-const bayes therom = 'P(H|D) = P(D|H) * P(H) / P(D)';
+Total Score /	Probability
 
-+ P(H) is our prior probability of the Hypothesis before we see the data (D).
-+ We can measure the complexity of P(H) by the amount of variables it takes to describe it.
-+ Example: Suppose the Data might fall into 1 cluster(C1) or 2 clusters(C2).
-  + There are more combinations of 2 clusters than 1 cluster.
-  + This makes the prior porbabiliy of any combination of 2 clusters smaller than the prior probability of 1 clusters
-  + P(C1) is higher than P(C2) because C1 has less variables. SIMPLE!
-+ We might still accept a more complex Hypothesis but only if it gives a higher value for P(H|D) than the simpler Hypothesis.
-+ I.e. if the complex data explains the Hypothesis better than the simple Hypothesis, we would prefer it even though it has a lower probability than the simpler model.
+2	  1/36
+3	  2/36
+4	  3/36
+5	  4/36
+6	  5/36
+7	  6/36
+8	  5/36
+9	  4/36
+10	3/36
+11	2/36
+12	1/36
+
+Total = 1
+
+The sum of all the probabilities is 1
+
 ```
 
-#### Q 2(b) [5 Marks]
+For any experiment:
 
-+ Suppose you have a set of objects which all belong to the same class. The objects are described by one feature value x which can have any integer value in the range - to +. The probability distribution over x for this particular class is shown below. The distribution has one parameter m. P(x) ∝ exp((𝑥 − 𝑚) 2 2𝜎2)
+The sum of the probabilities of all possible outcomes is always equal to 1
 
-+ Suppose you wished to learn what the value of m was. Suppose you were given one object belonging to the class and it had feature value x=5. What is the posterior distribution over all possible values of m? Assume 𝜎is known.
+### Events
 
-```js
-∝ The symbol for "directly proportional"
+#### Compliment
 
-Start with bayes therom:
+#### Type of Events
 
-P(H|D) = P(D|H) * P(H) / P(D)
+#### Independant Events
 
-'Where D = 5 aka x = 5 and and the Hypothesis is m'
+#### Dependant Events
 
-We are asked to find the posterior distribution over all possible values of m. The posterior is P(H|D). P(H) is the prior distribution over m, before we see the data.
+#### Mutally Exclusive Events
 
-+ We have no reason to prefer any particular value of m, so all values are equally probabale.
-+ So P(H) is just a constant for all values of m.
-+ This means that we can simplify our expression of Bayes Theorem as follows:
-  + `P(H|D) ∝ P(D|H)`
-  + `P(D|H) = P(X=5|m)`
-  + `P(x = 5) ∝ exp((5 − 𝑚) 2 2𝜎2)`
-  + `P(H|D) = P(m | X = 5) ∝ P(X = 5 | m) ∝ exp((5 − 𝑚) 2 2𝜎2)`
-```
+### Combinations and Permutations
 
-#### Q 2(c) [5 Marks]
+#### Combinations and Permutations(1)
 
-+ Suppose you are now given an additional object belonging to the class and this additional object has feature value x=3. What is the posterior distribution over m now? Explain using Bayes Theorem how you calculated it.
+### Advanced Prob
 
-#### Q 2(d) [5 Marks]
+#### Bayes Therom
 
-+ Suppose you did not know the value of 𝜎, how would you estimate it given the two objects in parts (b) and (c)?
+#### Shared Birthdays
 
-#### Q 2(e) [5 Marks]
+### Random Variables
 
-+ Suppose there were two different classes with different values for m and 𝜎. Sketch the different ways in which they could overlap. How would you estimate the error rates in each case?
+### The Binomial Distribution
+
+### The Normal Distribution
