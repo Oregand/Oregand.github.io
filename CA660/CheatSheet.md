@@ -2129,11 +2129,25 @@ Explain what the elements of the covariance matrix are. What does the covariance
 
 ##### Q4 A
 
+Suppose you come home to find your favourite vase has fallen on the ground and smashed. Your initial explanation is that your pet cat has brushed against it. But then you hear on the TV that there has been a minor earthquake in your area, which is a very rare event there. Your belief that the cat is responsible goes down.
+
+Draw the Bayesian network for this situation.
+
 ##### Q4 B
+
+Please list all the different probabilities and conditional probabilities for this Bayesian network.
 
 ##### Q4 C
 
+In terms of the probabilities which you have just described write down equations for the probabilities of the following situations:
+
++ i) Broken Vase
++ ii) Cat given broken vase
++ iii) Cat given broken vase and earthquake
+
 ##### Q4 D
+
+Explain, using your answers to part (c), why your belief in the Cat goes down when you hear there has been an Earthquake.
 
 #### Q5
 
