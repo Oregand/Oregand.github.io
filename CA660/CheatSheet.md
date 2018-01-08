@@ -2089,17 +2089,35 @@ If the probability distribution over the three symbols at position i is (0.6, 0.
 
 ##### Q2 A
 
+What is Occam’s Razor? How can you explain it using Bayes Theorem?
+
 ##### Q2 B
+
+Suppose you have a set of objects which all belong to the same class. The objects are described by one feature value x which can have any integer value in the range -INF to +INF. The probability distribution over x for this particular class is shown below.
+
+The distribution has two parameters `m` and `𝜎`.
+
+`P(x) ∝ exp((𝑥 − 𝑚)^2 / 2𝜎^2)`
+
+Suppose you wished to learn what the value of m was. Suppose you were given one object belonging to the class and it had feature value x=5. What is the posterior distribution over all possible values of m? Assume 𝜎is known.
 
 ##### Q2 C
 
+Suppose you are now given an additional object belonging to the class and this additional object has feature value x=3. What is the posterior distribution over m now? Explain using Bayes Theorem how you calculated it.
+
 ##### Q2 D
 
+Suppose you did not know the value of 𝜎, how would you estimate it given the two objects in parts (b) and (c)?
+
 ##### Q2 E
+
+Suppose there were two different classes with different values for m and 𝜎. Sketch a way in which they might overlap. How would you estimate the error rates?
 
 #### Q3
 
 ##### Q3 A
+
+Explain what the elements of the covariance matrix are. What does the covariance matrix look like for different levels of complexity of the Multivariate Normal Distribution? You can assume there are two feature values.
 
 ##### Q3 B
 
