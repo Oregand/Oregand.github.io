@@ -2171,6 +2171,15 @@ Explain, using your answers to part (c), why your belief in the Cat goes down wh
 
 #### Q5
 
+The following table contains the results of a test carried out on three different brands of popcorn (Gourmet, National and Generic). For each brand, two different methods of popping the corn were used (Oil and Air). The results show the number of cups of popcorn produced. Each experiment was repeated three times.
+
+| Methods  | Brand       | Brand       | Brand       | Row Means |
+| -------- |:-----------:| -----------:| -----------:| ---------:|
+| Brands   | G           | N           | G           | Row Means |
+| Oil      | 5.5,5.5,6.0 | 4.5,4.5,4.0 | 3.5,4.0,3.0 |           |
+| Air      | 6.5,7.0,7.0 | 5.0,5.5,5.0 | 4.0,5.0,4.5 |           |
+| Col Means|             |             |             |           |
+
 ##### Q5 A
 
 ##### Q5 B
