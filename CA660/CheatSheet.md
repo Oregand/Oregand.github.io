@@ -2048,11 +2048,19 @@ The number of standard deviations from the mean is also called the "Standard Sco
 If you throw two dice, let the total score be X.
 
 + i) What are the probabilities of each value of X?
+  + `P(X) = 1/36`
 + ii) What is P(one of the scores is 4 | X=9)?
+  + `(4,5)(5,4)(6,3)(3,6)` = 2/4 = 0.5
 + iii) What is P(X = 9 | exactly one of the scores is 4)?
+  + `(1,4)(2,4)(3,4)(5,4)(6,4)(4,1)(4,2)(4,3)(4,5)(4,6)` = 2/10 = 0.2
 + iv) What is P(at least one score is 4)?
+  + `(1,4)(2,4)(3,4)(5,4)(6,4)(4,1)(4,2)(4,3)(4,5)(4,6)(4,4)` = 11/36
 + v) What is P(both scores are the same)?
+  + `(1,1)(2,2)(3,3)(4,4)(5,5)(6,6)` = 6/36 = 1/6
 + vi) What are the mean and variance of X?
+  + `Mean = Sum/Count = 77/11 = 7`
+  + `Mean(X) = sum(P(X) * X) = P(X=2) * 2 + P(X=3) * 3 ... + P(X=12) * 12`
+  + `Var(X) = sum(P(X) * (X-mean)^2) = P(X=2) * (2 - 7)^2 + P(X=3) * (3 - 7)^2 ... + P(X=12) * (12 - 7)^2`
 
 ##### Q1 B
 
@@ -2084,6 +2092,36 @@ where the first row represents the probabilities that, if the hidden symbol is �
 The second row represents the probabilities that, if the hidden symbol is “b”, then the observed symbol will be “a”, “b” or “c” respectively.
 The third row represents the probabilities that, if the hidden symbol is “c”, then the observed symbol will be “a”, “b” or “c” respectively.
 If the probability distribution over the three symbols at position i is (0.6, 0.3, 0.1) and the observed symbol at position i+1 is “b”, what is the probability distribution over the three symbols at position i+1? Please explain your answer.
+
+```js
+Use Bayes Therom(Obviously)
+
+P(H|D) P(D|H) * P(H) / P(D)
+
+In this case, the Data is the observed symbol (we are told this is `b`).
+
+In this case, we have three possible Hypotheses i.e. the three possible hidden symbols at position i+1.
+
+P(H)  is the prior probability of each of the three possible hidden symbols at position i+1, 𝑃𝑖+1(`a`), 𝑃𝑖+1(`b`) and 𝑃𝑖+1(`c`).
+
+We can get these by combining the probability distribution over the three symbols at position i , 𝑃𝑖 ("a"), 𝑃𝑖("b") 𝑎𝑛𝑑 𝑃𝑖("c") with the transition probabilities, t11,t12,t13,𝑒𝑡𝑐.
+
+P(Data | Hypothesis) is the probability of the observed symbol “b” given each of the possible hidden symbols, 𝑒12,𝑒22 and 𝑒32.
+
+𝑃𝑖+1 ("a") ∝ (𝑃𝑖("a")t11+𝑃𝑖("b")𝑡21 + 𝑃𝑖("c")𝑡31)𝑒12
+𝑃𝑖+1("b") ∝ (𝑃𝑖("a")t12+𝑃𝑖("b")𝑡22 + 𝑃𝑖("c")𝑡32)𝑒22
+𝑃𝑖+1("c") ∝ (𝑃𝑖("a")t13+𝑃𝑖("b")𝑡23 + 𝑃𝑖("c")𝑡33)𝑒32
+------------------------------------------------
+                P(Data)
+
+= 
+
+𝑃𝑖+1 ("a") ∝ (𝑃𝑖("a")t11+𝑃𝑖("b")𝑡21 + 𝑃𝑖("c")𝑡31)𝑒12 = 0.0276
+𝑃𝑖+1("b") ∝ (𝑃𝑖("a")t12+𝑃𝑖("b")𝑡22 + 𝑃𝑖("c")𝑡32)𝑒22 = 0.2925
+𝑃𝑖+1("c") ∝ (𝑃𝑖("a")t13+𝑃𝑖("b")𝑡23 + 𝑃𝑖("c")𝑡33)𝑒32 = 0.00615
+------------------------------------------------
+            (0.0276 + 0.2925 + 0.00615)
+```
 
 #### Q2
 
