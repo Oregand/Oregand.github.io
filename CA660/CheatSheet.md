@@ -1975,6 +1975,20 @@ The "Bell Curve" is a Normal Distribution. It is often called a "Bell Curve" bec
 
 *The Standard Deviation is a measure of how spread out numbers are*
 
+Its symbol is σ (the greek letter sigma)
+
+The formula is easy: it is the square root of the Variance. So now you ask, "What is the Variance?"
+
+`Variance`
+
+The Variance is defined as: The average of the squared differences from the Mean.
+
+To calculate the variance follow these steps:
+
++ Work out the Mean (the simple average of the numbers)
++ Then for each number: subtract the Mean and square the result (the squared difference).
++ Then work out the average of those squared differences. (Why Square?)
+
 ```js
 Numbers: -5,1,8,7,2
 
@@ -1997,5 +2011,32 @@ Variance: 27.3 (Sum of Differences2 / (Count−1))
 Lastly, take the square root of the Variance:
 Standard Deviation: 5.224940191 (The square root of the Variance)
 ```
+
+#### Example (ND)
+
+```js
+Example: 95% of students at school are between 1.1m and 1.7m tall.
+
+Assuming this data is normally distributed can you calculate the mean and standard deviation?
+
+The mean is halfway between 1.1m and 1.7m:
+
+Mean = (1.1m + 1.7m) / 2 = 1.4m
+
+
+95% is 2 standard deviations either side of the mean (a total of 4 standard deviations) so:
+
+1 standard deviation	= (1.7m-1.1m) / 4
+ 	= 0.6m / 4
+ 	= 0.15m
+
+It is good to know the standard deviation, because we can say that any value is:
+
+likely to be within 1 standard deviation (68 out of 100 should be)
+very likely to be within 2 standard deviations (95 out of 100 should be)
+almost certainly within 3 standard deviations (997 out of 1000 should be)
+```
+
+The number of standard deviations from the mean is also called the "Standard Score", "sigma" or "z-score". Get used to those words!
 
 ### Sample Paper With Answers
