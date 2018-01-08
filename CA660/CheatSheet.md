@@ -2182,4 +2182,16 @@ The following table contains the results of a test carried out on three differen
 
 ##### Q5 A
 
+Complete the above table by filling in the row means, column means and Grand Mean.
+
+For each of the following items, calculate the Sum of Squares and give the number of Degrees of Freedom
+
++ (i) The Total Sum of Squares
++ (ii) The Popper Method Factor
++ (iii) The Brand Factor
++ (iv) The Error (also known as the Sum of Squares Within Groups)
++ (v) The Interaction (also known as the Sum of Squares for Both Factors)
+
 ##### Q5 B
+
+Is there a significant effect at the 95% Confidence Level due to each of the Popper Method Factor, the Brand Factor and the Interaction?
