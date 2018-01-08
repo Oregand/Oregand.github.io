@@ -2121,9 +2121,29 @@ Explain what the elements of the covariance matrix are. What does the covariance
 
 ##### Q3 B
 
+Suppose you have a set of objects described by two feature values. The objects fall into two classes. Assume that they both obey a Multivariate Normal distribution. The distributions are shown below
+
+The shape of the two distributions is the same except that one has been rotated with respect to the other.
+
+The means `m1` and `m2` of the two classes are:
+
+`(4,5) and (7,5)`
+
+The major axis of the left-hand distribution is parallel to the y axis and the major axis of the right hand distribution is parallel to the x axis. The standard deviations along the major and minor axes of both distributions are 2.0 and 1.0 respectively
+
++ i) Which of the levels of complexity in part (a) above applies in this situation?
++ ii) Using Mahalanobis Distance, give an equation for the decision boundary.
++ iii) Where does the major axis of the right-hand distribution cross the decision boundary?
++ iv) Make a sketch of the Decision Boundary.
+
 ##### Q3 C
 
++ i) Describe the technique of Principal Components Analysis (PCA). In what circumstances would you use it and why?
++ ii) How would smoothing the data affect the PCA?
+
 ##### Q3 D
+
+Suppose you were to apply PCA to a large set of video sequences of people walking. What would the sequences look like in Principal Component Space? What modes of variation do you think you could recover? How would you use PCA to build a system which could recognise people by the way they walk?
 
 #### Q4
 
