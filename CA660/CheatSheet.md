@@ -1961,8 +1961,41 @@ Summed Example:
 + The Variance is: Var(X) = Σx2p − μ2
 + The Standard Deviation is: σ = √Var(X)
 
+
+
 ### The Binomial Distribution
 
 ### The Normal Distribution
+
+Data can be "distributed" (spread out) in different ways.
+
+The "Bell Curve" is a Normal Distribution. It is often called a "Bell Curve" because it looks like a bell.
+
+#### Standard Deviations
+
+*The Standard Deviation is a measure of how spread out numbers are*
+
+```js
+Numbers: -5,1,8,7,2
+
+1. Mean
+
+Count: 5 (How many numbers)
+Sum: 13 (All the numbers added up)
+Mean: 2.6 (Arithmetic mean = Sum / Count)
+
+Then, take each number, subtract the mean and square the result:
+
+Differences: -7.6, -1.6, 5.4, 4.4, -0.6 (Every Number minus the Mean)
+Differences2: 57.76, 2.56, 29.16, 19.36, 0.36 (Square of each difference)
+
+Now calculate the Variance:
+
+Sum of Differences2: 109.2 (Add up the Squared Differences)
+Variance: 27.3 (Sum of Differences2 / (Count−1))
+
+Lastly, take the square root of the Variance:
+Standard Deviation: 5.224940191 (The square root of the Variance)
+```
 
 ### Sample Paper With Answers
