@@ -2039,17 +2039,63 @@ almost certainly within 3 standard deviations (997 out of 1000 should be)
 
 The number of standard deviations from the mean is also called the "Standard Score", "sigma" or "z-score". Get used to those words!
 
-```js
-Example: In that same school one of your friends is 1.85m tall
-
-
-```
-
 ### Sample Paper With Answers
 
 #### Q1
 
+##### Q1 A
+
+If you throw two dice, let the total score be X.
+
++ i) What are the probabilities of each value of X?
++ ii) What is P(one of the scores is 4 | X=9)?
++ iii) What is P(X = 9 | exactly one of the scores is 4)?
++ iv) What is P(at least one score is 4)?
++ v) What is P(both scores are the same)?
++ vi) What are the mean and variance of X?
+
+##### Q1 B
+
+Suppose there is a hidden Markov sequence consisting of three symbols “a”, “b” and “c”. The observed sequence consists of the same symbols but they may be affected by noise. These sequences are described by a Hidden Markov Model (HMM).
+
+The transition matrix for the HMM is given by
+
+```js
+(0.90 0.09 0.01
+0.01 0.90 0.09
+0.09 0.01 0.90)
+```
+
+where the first row represents the probabilities that, if the current symbol is “a”, then the next symbol will be “a”, “b” or “c” respectively.
+
+The second row represents the probabilities that, if the current symbol is “b”, then the next symbol will be “a”, “b” or “c” respectively.
+The third row represents the probabilities that, if the current symbol is “c”, then the next symbol will be “a”, “b” or “c” respectively
+
+The emission matrix for the HMM is given by
+
+```js
+(0.90 0.05 0.05
+0.05 0.90 0.05
+0.05 0.05 0.90)
+```
+
+where the first row represents the probabilities that, if the hidden symbol is “a”, then the observed symbol will be “a”, “b” or “c” respectively.
+
+The second row represents the probabilities that, if the hidden symbol is “b”, then the observed symbol will be “a”, “b” or “c” respectively.
+The third row represents the probabilities that, if the hidden symbol is “c”, then the observed symbol will be “a”, “b” or “c” respectively.
+If the probability distribution over the three symbols at position i is (0.6, 0.3, 0.1) and the observed symbol at position i+1 is “b”, what is the probability distribution over the three symbols at position i+1? Please explain your answer.
+
 #### Q2
+
+##### Q2 A
+
+##### Q2 B
+
+##### Q2 C
+
+##### Q2 D
+
+##### Q2 E
 
 #### Q3
 
