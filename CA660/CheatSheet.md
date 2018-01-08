@@ -2099,6 +2099,26 @@ If the probability distribution over the three symbols at position i is (0.6, 0.
 
 #### Q3
 
+##### Q3 A
+
+##### Q3 B
+
+##### Q3 C
+
+##### Q3 D
+
 #### Q4
 
+##### Q4 A
+
+##### Q4 B
+
+##### Q4 C
+
+##### Q4 D
+
 #### Q5
+
+##### Q5 A
+
+##### Q5 B
