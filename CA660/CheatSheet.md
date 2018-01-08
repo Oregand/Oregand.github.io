@@ -2039,4 +2039,20 @@ almost certainly within 3 standard deviations (997 out of 1000 should be)
 
 The number of standard deviations from the mean is also called the "Standard Score", "sigma" or "z-score". Get used to those words!
 
+```js
+Example: In that same school one of your friends is 1.85m tall
+
+
+```
+
 ### Sample Paper With Answers
+
+#### Q1
+
+#### Q2
+
+#### Q3
+
+#### Q4
+
+#### Q5
