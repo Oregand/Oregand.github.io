@@ -2203,9 +2203,17 @@ Suppose you come home to find your favourite vase has fallen on the ground and s
 
 Draw the Bayesian network for this situation.
 
+```js
+C | E => V
+```
+
 ##### Q4 B
 
 Please list all the different probabilities and conditional probabilities for this Bayesian network.
+
+```js
+P(E), P(C), P(V| C^E), P(V| !C^E), P(V| C^!E), P(V| !C^!E)
+```
 
 ##### Q4 C
 
