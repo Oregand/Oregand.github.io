@@ -2418,4 +2418,16 @@ P(B|H) = 0.7
 P(B|!H) = 0.1
 P(E|H) = 0.8
 P(E|!H) = 0.1
+
+i) P(H)
+
+P(H) = P(H|S,D)P(S)P(D) + P(H|!S,D)P(!S)P(D) + P(H|S,!D)P(S)P(!D) + P(H|!S,!D)P(!S)P(!D)
+
+ii) P(B)
+
+P(B) = P(B|H)P(H) + P(B|!H)P(!H)
+
+iii) P(H|B)
+
+P(H|B) = P(B|H) * P(H) / P(B)
 ```
