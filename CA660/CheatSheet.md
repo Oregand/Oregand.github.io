@@ -2449,5 +2449,9 @@ P(H | B ^ !E) = P(B|H) * P(!E|H) * P(H) / P( B ^ !E)
 
 vii) P(H|S)
 
+P(H|S) = P(H|S,D)P(S)P(D) + P(H|S,!D)P(S)P(!D)
 
+viii) P(E|S)
+
+P(E|S) 
 ```
