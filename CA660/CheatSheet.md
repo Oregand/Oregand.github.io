@@ -2376,3 +2376,22 @@ Brand = F(2, 12) = 7.875 / 0.1388
 Interaction = F(2, 12) = 0.042 / 0.1388
 
 ```
+
+### Bayesn Networks -> More Examples
+
+#### Question 1 a) State Bayes Theorem.
+
+```js
+P(H|D) = P(D|H) * P(H) / P(D)
+```
+
+#### Question 1 b) How do you use Bayes Theorem to evaluate the relative probabilities of two rival hypotheses given some data?
+
+```js
+H1, H2
+
+P(H1|D) = P(D|H1) * P(H1) / P(D)
+P(H2|D) = P(D|H2) * P(H2) / P(D)
+
+Which is larger?
+```
