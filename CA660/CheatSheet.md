@@ -2395,3 +2395,27 @@ P(H2|D) = P(D|H2) * P(H2) / P(D)
 
 Which is larger?
 ```
+
+#### Question 2 Suppose you are given the following facts about heart disease
+
+Either smoking or bad diet or both can make heart disease more likely. Heart disease can produce either or both of the following two symptoms: high blood pressure and an abnormal electrocardiogram.
+
+Draw the Bayesian Network to represent these relations. Use the following symbols S = smoking, D = bad diet, H = heart disease, B = high blood pressure, E = abnormal electrocardiogram
+
+`S || D => H => B || E`
+
+Suppose a medical survey gives you the following data.
+
+```js
+P(S) = 0.3, P(D) = 0.4
+
+P(H|S,D) = 0.8
+P(H|!S,D) = 0.5
+P(H|S,!D) = 0.4
+P(H|!S,!D) = 0.1
+
+P(B|H) = 0.7
+P(B|!H) = 0.1
+P(E|H) = 0.8
+P(E|!H) = 0.1
+```
