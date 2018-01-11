@@ -2350,3 +2350,20 @@ dofTotal = dofMethod + dofBrand + dofError + dofInteraction
 ##### Q5 B
 
 Is there a significant effect at the 95% Confidence Level due to each of the Popper Method Factor, the Brand Factor and the Interaction?
+
+```js
+
+First, find mean square
+
+MS = SS/Dof
+
+Method = 4.5/1
+
+Brand = 15.75/2
+
+Error = 1.666/12
+
+Interaction = 0.084/2
+
+
+```
