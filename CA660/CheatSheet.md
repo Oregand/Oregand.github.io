@@ -2325,9 +2325,25 @@ DofError = Total elements - Total CellMeans
 
 v) Interaction
 
-SSInteraction = 
+SSInteraction =
 
-DofInteraction = 
+SSTotal = SSMethod + SSBrand + SSError + SSInteraction
+
+22 = 4.5 + 15.75 + 1.666 + ?
+
+? = 22 - 21.916
+
+? = 0.084
+
+dofInteraction =
+
+dofTotal = dofMethod + dofBrand + dofError + dofInteraction
+
+17 = 1 + 2 + 12 + ?
+
+? = 17 - 15
+
+? = 2 dof
 
 ```
 
