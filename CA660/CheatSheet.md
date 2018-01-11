@@ -2096,6 +2096,8 @@ If the probability distribution over the three symbols at position i is (0.6, 0.
 ```js
 Use Bayes Therom(Obviously)
 
+Col | Row
+
 P(H|D) P(D|H) * P(H) / P(D)
 
 In this case, the Data is the observed symbol (we are told this is `b`).
@@ -2108,19 +2110,29 @@ We can get these by combining the probability distribution over the three symbol
 
 P(Data | Hypothesis) is the probability of the observed symbol “b” given each of the possible hidden symbols, 𝑒12,𝑒22 and 𝑒32.
 
-𝑃𝑖+1 ("a") ∝ (𝑃𝑖("a")t11+𝑃𝑖("b")𝑡21 + 𝑃𝑖("c")𝑡31)𝑒12
-𝑃𝑖+1("b") ∝ (𝑃𝑖("a")t12+𝑃𝑖("b")𝑡22 + 𝑃𝑖("c")𝑡32)𝑒22
-𝑃𝑖+1("c") ∝ (𝑃𝑖("a")t13+𝑃𝑖("b")𝑡23 + 𝑃𝑖("c")𝑡33)𝑒32
-------------------------------------------------
-                P(Data)
+P(H|D) =  Pi+1(a) / Pi+1(b) / Pi+1(c)
 
-= 
+P(D|H) = e12 / e22 / e32  = 0.05 / 0.90 / 0.05
 
-𝑃𝑖+1 ("a") ∝ (𝑃𝑖("a")t11+𝑃𝑖("b")𝑡21 + 𝑃𝑖("c")𝑡31)𝑒12 = 0.0276
-𝑃𝑖+1("b") ∝ (𝑃𝑖("a")t12+𝑃𝑖("b")𝑡22 + 𝑃𝑖("c")𝑡32)𝑒22 = 0.2925
-𝑃𝑖+1("c") ∝ (𝑃𝑖("a")t13+𝑃𝑖("b")𝑡23 + 𝑃𝑖("c")𝑡33)𝑒32 = 0.00615
-------------------------------------------------
-            (0.0276 + 0.2925 + 0.00615)
+P(H) =
+
+Pi+1(a) * t11 + Pi+1(b) * t12 + Pi+1(c) * t13
+Pi+1(a) * t21 + Pi+1(b) * t22 + Pi+1(c) * t23
+Pi+1(a) * t31 + Pi+1(b) * t32 + Pi+1(c) * t33
+
+P(D|H) * P(H) = 
+
+(Pi+1(a) * t11 + Pi+1(b) * t12 + Pi+1(c) * t13)e12 = x1
+(Pi+1(a) * t21 + Pi+1(b) * t22 + Pi+1(c) * t23)e22 = x2
+(Pi+1(a) * t31 + Pi+1(b) * t32 + Pi+1(c) * t33)e32 = x3
+
+P(D|H) * P(H) / P(D) = 
+
+(Pi+1(a) * t11 + Pi+1(b) * t12 + Pi+1(c) * t13)e12
+(Pi+1(a) * t21 + Pi+1(b) * t22 + Pi+1(c) * t23)e22
+(Pi+1(a) * t31 + Pi+1(b) * t32 + Pi+1(c) * t33)e32
+---------------------------------------------------
+                x1 + x2 + x3
 ```
 
 #### Q2
