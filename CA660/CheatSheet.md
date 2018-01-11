@@ -2247,6 +2247,10 @@ P(V|C^E)P(C)P(E) + P(V|!C^E)P(!C)P(E)
 
 Explain, using your answers to part (c), why your belief in the Cat goes down when you hear there has been an Earthquake.
 
+```js
+
+```
+
 #### Q5
 
 The following table contains the results of a test carried out on three different brands of popcorn (Gourmet, National and Generic). For each brand, two different methods of popping the corn were used (Oil and Air). The results show the number of cups of popcorn produced. Each experiment was repeated three times.
@@ -2269,6 +2273,40 @@ For each of the following items, calculate the Sum of Squares and give the numbe
 + (iii) The Brand Factor
 + (iv) The Error (also known as the Sum of Squares Within Groups)
 + (v) The Interaction (also known as the Sum of Squares for Both Factors)
+
+```js
+
+i) Total Sum of Square
+
+SSTotal = 
+
+DofTotal = 
+
+ii) Popper Method Factor
+
+SSMethod = 
+
+DofMethod = 
+
+iii) Brand Factor
+
+SSBrand = 
+
+DofBrand = 
+
+iv) Error
+
+SSError = 
+
+DofError = 
+
+v) Interaction
+
+SSInteraction = 
+
+DofInteraction = 
+
+```
 
 ##### Q5 B
 
