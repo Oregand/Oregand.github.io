@@ -2357,13 +2357,12 @@ First, find mean square
 
 MS = SS/Dof
 
-Method = 4.5/1
+Method = 4.5/1 = 4.5
 
-Brand = 15.75/2
+Brand = 15.75/2 = 7.875
 
-Error = 1.666/12
+Error = 1.666/12 = 0.042
 
-Interaction = 0.084/2
-
+Interaction = 0.084/2 = 0.1388
 
 ```
