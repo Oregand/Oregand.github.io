@@ -2295,25 +2295,33 @@ DofTotal = Total elements - GrandMean
 
 ii) Popper Method Factor
 
-SSMethod = Reaplce each el with rowMean, sum(RowMean - GrandMean)^2
+SSMethod = Reaplce each el in row with rowMean, sum(RowMean - GrandMean)^2
 
 9*(4.5 - 5.0)^2 + 9*(5.5 - 5.0)^2 = 4.5
 
 DofMethod = Total RowMeans - GrandMean
 
-2 RowMean - 1 GrandMean = 1 dof
+2 RowMean(2 rows) - 1 GrandMean = 1 dof
 
 iii) Brand Factor
 
-SSBrand = sum(ColMean - GrandMean)^2
+SSBrand = Replace each el in column with ColMean, sum(ColMean - GrandMean)^2
+
+6 * (6.25 - 5.0) + 6 * (4.75 - 5.0) + 6 * (4.0 - 5.0) = 15.75
 
 DofBrand = Total ColMeans - GrandMean
+
+3 ColMeans(3 columns) - 1 GrandMean = 2 dof
 
 iv) Error
 
 SSError = sum(elements - CellMean)^2
 
+(5.5 - 5.666)^2 + ....... + (4.5-4.333)^2 ....... + (3.5-3.500)^2 ........ + (6.5-6.833)^2 ........ + (5.0-5.166)^2  + ........ (4.0-4.500)^2 = 1.666
+
 DofError = Total elements - Total CellMeans
+
+18 total elements - 6 cellMeans(6 cells) = 12 dof
 
 v) Interaction
 
