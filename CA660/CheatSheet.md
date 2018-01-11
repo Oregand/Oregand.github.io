@@ -2430,4 +2430,24 @@ P(B) = P(B|H)P(H) + P(B|!H)P(!H)
 iii) P(H|B)
 
 P(H|B) = P(B|H) * P(H) / P(B)
+
+iv) P(B ^ E)
+
+P(B ^ E) = P(B|H)  * P(E|H) * P(H) + P(B|!H)  * P(E|!H) * P(!H)
+
+v) P(H | B ^ E)
+
+P(H| B ^ E) = P(B ^ E |H) * P(H) / P(B ^ E)
+
+P(H| B ^ E) = P(B|H)  * P(E|H) * P(H) / P(B ^ E)
+
+vi) P(H | B ^ !E)
+
+P(H | B ^ !E) = P(B ^ !E | H) * P(H) / P( B ^ !E)
+
+P(H | B ^ !E) = P(B|H) * P(!E|H) * P(H) / P( B ^ !E)
+
+vii) P(H|S)
+
+
 ```
