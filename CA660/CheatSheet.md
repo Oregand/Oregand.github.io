@@ -2228,7 +2228,11 @@ i) P(V) =
 
 P(V| C^E)P(C)P(E) + P(V| !C^E)P(!C)P(E) + P(V| C^!E)P(C)P(!E) + P(V| !C^!E)P(!C)P(!E)
 
-ii) P(C|V)
+ii) P(C|V) =
+
+P(V|C) * P(C) / P(D) =
+
+P(V| C ^ E)P(C)P(E) + P(V| C ^ !E)P(C)P(!E) / P(D)
 
 ii) P(C|V^E)
 ```
