@@ -2361,8 +2361,18 @@ Method = 4.5/1 = 4.5
 
 Brand = 15.75/2 = 7.875
 
-Error = 1.666/12 = 0.042
+Error = 1.666/12 = 0.1388
 
-Interaction = 0.084/2 = 0.1388
+Interaction = 0.084/2 = 0.042
+
+Then we have to compute the F-ratio for each factor, which is the ratio of the MS for the factor to the MS for the Error
+
+F(dof, errorDof) = MS/Error MS
+
+Method = F(1, 12) = 4.5 / 0.1388
+
+Brand = F(2, 12) = 7.875 / 0.1388
+
+Interaction = F(2, 12) = 0.042 / 0.1388
 
 ```
