@@ -2276,29 +2276,44 @@ For each of the following items, calculate the Sum of Squares and give the numbe
 
 ```js
 
+| Methods  | Brand       | Brand       | Brand       | Row Means |
+| -------- |:-----------:| -----------:| -----------:| ---------:|
+| Brands   | G           | N           | G           | Row Means |
+| Oil      | 5.5,5.5,6.0 | 4.5,4.5,4.0 | 3.5,4.0,3.0 |   4.5     |
+| Air      | 6.5,7.0,7.0 | 5.0,5.5,5.0 | 4.0,5.0,4.5 |   5.5     |
+| Col Means|    6.25     |    4.75     |   4.0       |   5.0     |
+
 i) Total Sum of Square
 
-SSTotal = 
+SSTotal = sum(elements - GrandMean)^2
 
-DofTotal = 
+(5.5 - 5.0)^2 + (5.5 - 5.0)^2 + (6.0 - 5.0)^2 ........ (4.5 - 5.0)^2 = 22
+
+DofTotal = Total elements - GrandMean
+
+18 total els - 1 GM = 17 dof
 
 ii) Popper Method Factor
 
-SSMethod = 
+SSMethod = Reaplce each el with rowMean, sum(RowMean - GrandMean)^2
 
-DofMethod = 
+9*(4.5 - 5.0)^2 + 9*(5.5 - 5.0)^2 = 4.5
+
+DofMethod = Total RowMeans - GrandMean
+
+2 RowMean - 1 GrandMean = 1 dof
 
 iii) Brand Factor
 
-SSBrand = 
+SSBrand = sum(ColMean - GrandMean)^2
 
-DofBrand = 
+DofBrand = Total ColMeans - GrandMean
 
 iv) Error
 
-SSError = 
+SSError = sum(elements - CellMean)^2
 
-DofError = 
+DofError = Total elements - Total CellMeans
 
 v) Interaction
 
