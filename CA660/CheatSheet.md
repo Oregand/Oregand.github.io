@@ -2453,5 +2453,11 @@ P(H|S) = P(H|S,D)P(S)P(D) + P(H|S,!D)P(S)P(!D)
 
 viii) P(E|S)
 
-P(E|S) 
+P(E|S) = P(S|E) * P(E) / P(S)
 ```
+
+
+#### Question c) How many different combinations of the five node values does the above network have?
+
+% nodes, two combos each: 2x2x2x2x2 = 32
+
