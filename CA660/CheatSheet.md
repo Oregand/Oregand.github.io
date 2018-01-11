@@ -2234,7 +2234,13 @@ P(V|C) * P(C) / P(D) =
 
 P(V| C ^ E)P(C)P(E) + P(V| C ^ !E)P(C)P(!E) / P(D)
 
-ii) P(C|V^E)
+iii) P(C|V^E)
+
+P(V^E | C) * P(C) / P(V^E)
+
+  P(V|C^E)P(C)P(E)
+-------------------
+P(V|C^E)P(C)P(E) + P(V|!C^E)P(!C)P(E)
 ```
 
 ##### Q4 D
