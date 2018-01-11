@@ -2223,6 +2223,16 @@ In terms of the probabilities which you have just described write down equations
 + ii) Cat given broken vase
 + iii) Cat given broken vase and earthquake
 
+```js
+i) P(V) =
+
+P(V| C^E)P(C)P(E) + P(V| !C^E)P(!C)P(E) + P(V| C^!E)P(C)P(!E) + P(V| !C^!E)P(!C)P(!E)
+
+ii) P(C|V)
+
+ii) P(C|V^E)
+```
+
 ##### Q4 D
 
 Explain, using your answers to part (c), why your belief in the Cat goes down when you hear there has been an Earthquake.
