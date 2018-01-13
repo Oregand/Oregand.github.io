@@ -1059,7 +1059,7 @@ the component measures energy use and associated carbon emissions in association
 
 + Resource and Service Virtualization without Barriers `(RESERVOIR)` is a research project partly funded by the European Union, focused on federation of clouds at the infrastructural level.
 + The federated cloud approach is one way to solve the limited interoperability.
-+ The accounting and billing solution offered by `RESERVOIR` in federated cloud infrastructures are carried out in a fair and standardized way between the user (service provider) and the infrastructure owner.   
++ The accounting and billing solution offered by `RESERVOIR` in federated cloud infrastructures are carried out in a fair and standardized way between the user (service provider) and the infrastructure owner.
 + The Virtual Execution Environment (VEE) is used to denote the isolated environment where customer applications are executed and maintained.
 + The different layers of the `RESERVOIR` architecture are:
 + `Service Manager:` Components at this layer are concerned with services as a whole rather than the specific VEEs that make up a service. The accounting and billing system is included in this layer.
@@ -1069,6 +1069,70 @@ the component measures energy use and associated carbon emissions in association
 ## Exam Papers
 
 ### 2017
+
+#### Services, Service-Oriented Architecture and Service APIs
+
+##### Q 1(a) [15 Marks] Briefly define the THREE Principles of Service Oriented Architectures and Discuss their relevance in the context of cloud products “as a Service” (aaS)
+
++ SOA principle 1: Modularity (a.k.a. separation of concerns)
++ SOA principle 2: Layering (logical and/or physical)
++ SOA principle 3: Loose coupling through messaging
+
+*Modularity*
+
+Motivation:
+
+Monolitic system intergration is difficult.
+
+Solution:
+
+Break up system into mdular services and expose service interface only.
+
+Forces:
+
+Contracts must be made standard.
+
+Known uses:
+
+Component models such as [J2EE] promote the concept
+
+*Layering*
+
+Motivation:
+
+Service charaistics are varied i.e. HR system vs Payslip system
+
+Solution:
+
+Organize SOA into 3++ layers
+
+Forces:
+
+Requires communications architecture.
+
+Known uses:
+
+e-business, on demand and WBI reference architectures from [IBM SOA]
+
+*Loose coupling through messaging*
+
+Motivation:
+
+Solution:
+
+Forces:
+
+Known uses:
+
+##### Q1(B) Implementing virtualization on x86 CPUs with no hardware virtualization support is a complex task because the CPU architecture was not designed to be virtualized. The problems can be solved, but at the cost of reduced performance. Describe how this can be achieved with reference to software virtualisation, emulation and paravirtualisation
+
+#### Q1(C) [20 Marks] Identity management is a broad administrative area that deals with identifying individuals in a system and controlling access to the resources in that system
+
+Describe BRIEFLY
+• THREE BENEFITS of identity management,
+• THREE ASPECTS of identity management that improves security and
+• FOUR MECHANISMS for detecting intrusion (either Host-based (HIPS) or
+network-based (NIPS) intrusion protection systems)
 
 ### 2016
 
