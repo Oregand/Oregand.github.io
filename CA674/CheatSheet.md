@@ -1070,69 +1070,41 @@ the component measures energy use and associated carbon emissions in association
 
 ### 2017
 
-#### Services, Service-Oriented Architecture and Service APIs
+#### Q2 FUNDAMENTALS
 
-##### Q 1(a) [15 Marks] Briefly define the THREE Principles of Service Oriented Architectures and Discuss their relevance in the context of cloud products “as a Service” (aaS)
+##### Q2 A
 
-+ SOA principle 1: Modularity (a.k.a. separation of concerns)
-+ SOA principle 2: Layering (logical and/or physical)
-+ SOA principle 3: Loose coupling through messaging
+Provide a definition for Cloud Computing. Discuss whether your definition capture a wide range of offerings of Cloud Computing and whether it still differentiates Cloud from other technologies and platforms.
 
-*Modularity*
+```js
 
-Motivation:
+Cloud Computing: Using a network of remote servers, hosted on the internet to store/manage and process data rather than doing it on a local machine.
 
-Monolitic system intergration is difficult.
+Definition capture a wide range of offerings of Cloud Computing?
 
-Solution:
+Not complelely, cloud comptuing offers much more than simply storing and managing data. In todays world, cloud computing offers a wide variaty of services such as TaaS, PaaS, SaaS, and IaaS. Within these services are even more offered capabilities from machine learning to API construction.
 
-Break up system into mdular services and expose service interface only.
 
-Forces:
+Whether it still differentiates Cloud from other technologies and platforms: Typically, local platforms or machines offer single service ideals where with cloud computing, you can make use of virtuization to enable any service you need, when you need it.
+```
 
-Contracts must be made standard.
+##### Q2 B
 
-Known uses:
+In cloud computing the layer Infrastructure as a Service (IaaS), Platform as a Service (PaaS) and Software as a Service (SaaS) are distinguished.
 
-Component models such as [J2EE] promote the concept
+• Provide definitions for each layer
+• Provide a concrete example of a product or service offered for each of the layers
+• Describe briefly another “as a Service “ layer offering that you are familiar with.
 
-*Layering*
+```js
 
-Motivation:
+```
 
-Service charaistics are varied i.e. HR system vs Payslip system
+##### Q2 C
 
-Solution:
+#### Q3
 
-Organize SOA into 3++ layers
-
-Forces:
-
-Requires communications architecture.
-
-Known uses:
-
-e-business, on demand and WBI reference architectures from [IBM SOA]
-
-*Loose coupling through messaging*
-
-Motivation:
-
-Solution:
-
-Forces:
-
-Known uses:
-
-##### Q1(B) Implementing virtualization on x86 CPUs with no hardware virtualization support is a complex task because the CPU architecture was not designed to be virtualized. The problems can be solved, but at the cost of reduced performance. Describe how this can be achieved with reference to software virtualisation, emulation and paravirtualisation
-
-#### Q1(C) [20 Marks] Identity management is a broad administrative area that deals with identifying individuals in a system and controlling access to the resources in that system
-
-Describe BRIEFLY
-• THREE BENEFITS of identity management,
-• THREE ASPECTS of identity management that improves security and
-• FOUR MECHANISMS for detecting intrusion (either Host-based (HIPS) or
-network-based (NIPS) intrusion protection systems)
+#### Q4
 
 ### 2016
 
