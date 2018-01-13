@@ -1097,10 +1097,99 @@ In cloud computing the layer Infrastructure as a Service (IaaS), Platform as a S
 • Describe briefly another “as a Service “ layer offering that you are familiar with.
 
 ```js
+1. Provide definitions for each layer
 
+PaaS: Used to provide cloud components to software, allowing for development and hosting of software.
+
+IaaS: Self service model for accessing, monitoring and managing remote datacenter infestructures.
+
+SaaS: Third party vendors delivering applications to a client via the internet, usually running directly on a web broswer with little to no downloads or confgiuration needed via a client.
+
+2. Provide a concrete example of a product or service offered for each of the layers
+
+PaaS: Google App Engine.
+
+IaaS: Amazong web service.
+
+SaaS: VSWare.
+
+3. Describe briefly another as a Service layer offering that you are familiar with
+
+TaaS -> Testing as a service, offered by companies like loadimpact.com, which allow the client to create and run tests against their software using the TaaS platform, rather than needing to run them on a local machine. This saves both time and money, allowing users instant access to a testing framwork that they do not need to build or maintain.
 ```
 
 ##### Q2 C
+
+Develop a migration scenario of a software company that wants to move its software development activities and product development to the cloud.
+
+Consider:
+• Expected benefits
+• Proposed solution architecture
+• Proposed Migration process
+
+```js
+Use Case: VSWare
+
+VSWare is a software company that provides schooling software to secondary schools in Ireland via a webapp. Teacher, students and parents all make use of the application via a application used through a web broswer.
+
+VSWare typically sees very high traffic through the weekdays and low traffic on the weekends. Traffic usually peaks around 7 - 12AM in the morning due to students checking for their timetables and teachers taking attendance.
+
+The website is currently hosted on dedicated infrastructure at the company’s headquarters.
+
+Application Architecture:
+
+Using a standard 3-tier application architecture, the company deploys a frontend hardware-based load balancer, which manages traffic across two Apache web servers each running on a separate physical box.
+
+The applications runs behind a fore wall(DMZ) and uses standard encyrption(SSL). The backend logic is written in Java, which uses Tomcat as the application container. The front end logic is handled via JavaScript after accessing API end points provided by the Java layer. The database layer is MYSQL and consists of one master SQL server and two slave servers.
+
+Motivation for Migration:
+
+1. The company wants to scale, taking on colleges aswell and realises on site installations are too expensive.
+2. The company wants to reduce managements costs by implementing CI and automated deployment procedures across its application.
+3. The company wants to be able to provide faster iterations of releases through a CI process.
+
+Expected benefits:
+
+1. Automated deployments, one click deployment to production via developer CI, self healing on failed production deployments.
+2. Reduction of cost through bith hardware reduction and time required for manual deployments, installation.
+3. Increased uptime through dedicated hosting.
+4. Autosacling.
+5. AUtomated testing on deployment.
+
+Proposed solution architecture:
+
+During the technical assessment, they discovered that the entire VSWare technology stack was compatible with AWS and could run on Amazon EC2 Instances with Linux. They also discovered that the web app can be configured to run at peak capacity (7 Servers) during high traffic periods, medium capacity (4 Servers) on weekdays and low capacity (2 Servers) on weekends.
+
+The IT Security team was able to get a complete SAS 70 Type II audit report from AWS and they were able to review security best practices.
+
+
+Proposed Migration process:
+
+1. Proof of concept:
+
+The web development team were intally scheptical about the relational database migration. In order to test this they created a proof of concept application.
+
+The proof of concept gave the team a chance to evaluate the AWS console, understand how to configure EC2 image instances, how to set up Amazon RD2 DB insatnces, how to store and retirve Amazon S3 objects and how to set up elastic load balanacers.
+
+They were able to import their own data set using the standard amazon SQL import tool and perform metric testing using Amazon cloud watch.
+
+The team then created migration scripts for the database and held a demo at their office to demonstrate how the migration would take place and what it would mean for everyone on the team.
+
+2. Actual Migration
+
+Using the *hybrid migration strategy*.
+
+During the migration phase, the collocation infrastructure was not deprecated immediately.
+
+The configuration of the on premsise load balancer was modified to send requests to the new instances in the cloud. For a short duration, the load balanacer was rotuing traffic to both the cloud servers and physical servers.
+
+Once it was confirmed that the cloud servers were performing at the required levels, the physical servers were taken down, one at a time.
+
+The load balancers were updated and 100% of the web traffic was now being served by the EC2 insatnces running on the cloud.
+
+After testing was complete, the DNS was switched to point at the cloud based web servers and the application was fully migrated to the AWS cloud.
+```
+
 
 #### Q3
 
