@@ -2112,6 +2112,16 @@ P(Data | Hypothesis) is the probability of the observed symbol “b” given eac
 
 P(H|D) =  Pi+1(a) / Pi+1(b) / Pi+1(c)
 
+T
+(0.90 0.09 0.01
+0.01 0.90 0.09
+0.09 0.01 0.90)
+
+E
+(0.90 0.05 0.05
+0.05 0.90 0.05
+0.05 0.05 0.90)
+
 P(D|H) = e12 / e22 / e32  = 0.05 / 0.90 / 0.05
 
 P(H) =

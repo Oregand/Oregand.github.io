@@ -1065,3 +1065,11 @@ the component measures energy use and associated carbon emissions in association
 + `Service Manager:` Components at this layer are concerned with services as a whole rather than the specific VEEs that make up a service. The accounting and billing system is included in this layer.
 + `VEE Manager:`  Components at the VEE Manager (VEEM) layer are responsible for interacting with the SM and VEEH at the local site, but also horizontally with the VEEMs of other sites.
 + `VEE Host:`  The VEE Hosts (VEEHs) are responsible for  running and monitoring each single VEE.
+
+## Exam Papers
+
+### 2017
+
+### 2016
+
+### 2015
