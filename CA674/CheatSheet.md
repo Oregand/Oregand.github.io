@@ -1213,14 +1213,81 @@ Type 2 are hosted on an exisiting OS(VirtualBox). They have a number of advantag
 ```js
 1. Diagram
 
+     Host           Host            Host              Guest        Guest            Guest
+X86 HardWare - > Host OS -> VBoxSVC(HyperVisor) -> VM1/VM2 -> Virtual Box GUI -> Client
+
 2. Briefly describe the main components
 
-
+IPRT: Portable runtime libary for file abstraction, string manipulation, threading etc. When VB accesses host operating features it does so via this libary.
+Virtual Machine Manager: Heart of hypervisor
+Execution Manager: Control execution of guest code
+Recompiled Execution Manager: Provides software emulation of CPU instructions
+Trap Manager: Intercepts and processes guest trap exceptions
+Hardware acceleration manager: Provide support for hardware platforms
+Pluggable device manager: Abstract interface between the VMM and emulated devices
+Page manager: Controls guest paging
+Patch manager: Patchs guest code to speed up virtulization
+Time manager: Handles time aspects inside guest
+Config manager: Handles VM config
+Saved state manager: Saves and loads VM states
+Virtual USB: Seperates emulated usb from host usb
+Debug facility: A debug tool for the VM
 
 3. Interaction
+
+Uses the IPRT libary to access the host operating features.
+```
+
+##### Q3 C Elasticity and scalability are the key benefits of cloud-based solutions. Load balancing and cloud bursting are two specific techniques to achieve elasticity and scalability in a cloud setting. Using a pool of (private and public) resources as a reference, explain how these techniques work
+
+```js
+1. Load Balancing: Load balancing allows organizations to distribute traffic accross multiple backend destinations, including delooyments onto public and private clouds i.e. Microservices.
+
+2. Cloud Bursting: Deployment model where an application runs in a private cloud and bursts into a public cloud when the demand for computing capacity spikes.
+
+An advantage of this hybrid model is that it allows the user to only pay for the extra computing assets they use.
+
+Experts recommend cloud burting for non-critical, high performance, non-sentive data holding applications, which in turn leaves free rescoruces for mission critical applications.
+
+Cloud burting works best for applications that dont depend on complex applcation delivery infrastructure, or habd intergration with other components.
 ```
 
 #### Q4
+
+##### Q4(A) IaaS providers enable their customers to utilise a computing environment. How would a customer create, configure and use such a service using Java or Python as the development language. You can use Amazon EC2 (or a similar system – open- source or commercial) to illustrate your answer
+
+##### Q4(B) Cloud services are usually monitored and usage and quality records are kept. Accounting and Billing is one of the data consumers of cloud monitoring services
+
++ What is the main responsibility of the accounting & billing component in cloud systems?
++ Which are the two major payment models used in clouds?
+
+```js
+The billng conponent is responsible for chargin users correctly for the services they make use of in their cloud model. This billing takes place based on the rescorces used by the users i.e. CPU useage, API requests, Storage used. This service is also responsible for creating invocies with blling breakdowns.
+
+Two major payment models used:
+
+1. Prepaid: User pays a pre set price scale, usually permonth for a certain allowance of services.
+
+2. Postpaid: Paid per useage of services at the end of a billable months
+```
+
+##### Q4(C) Interoperability is of significant importance for cloud computing. What problems would interoperability address? Discuss OSS (open source software) and standards in this context. Categorise solutions in terms of cloud layers and delivery/deployment models/scenarios
+
+```js
+Interoperability is the ability to write code that is supported across a number of cloud providers, as well as the ability to move to a different cloud provider
+
+Problems addressed:
+
+Vendor lock in
+Moving between providers is restricted
+Lack of standards for interoperability
+
+
+OOS: 
+
+Solutions:
+
+```
 
 ### 2016
 
