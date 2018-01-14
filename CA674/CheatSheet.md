@@ -1282,14 +1282,38 @@ Vendor lock in
 Moving between providers is restricted
 Lack of standards for interoperability
 
-
-OOS: 
+OOS:
 
 Solutions:
 
 ```
 
 ### 2016
+
+#### Q2
+
+##### Q2(A)
+
+##### Q2(B)
+
+##### Q2(C)
+
+#### Q3.1
+
+##### Q3(A)
+
+##### Q3(B)
+
+##### Q3(C)
+
+#### Q4.1
+
+##### Q4(A)
+
+##### Q4(B)
+
+##### Q4(C)
+
 
 ### 2015
 
