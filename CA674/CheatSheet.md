@@ -1313,6 +1313,34 @@ i. Provide definitions for each of these four models.
 ii. Describe a concrete application scenario for each of the models and include details of an organisation or a larger IT system to be deployed in the cloud.
 
 ```js
+i) Private:
++ Used by solely one organization, the one that owns it
++ In house or off premise.
++ Dedicated infrastructure that organization buys or leases.
++ Allows for high level of security
+
+-> Univerity Cloud i.e. DCU
+
+ii) Public:
++ Service provider allows client access cloud via internet
++ Made available to the public or wide industry group
++ Multi-tenant infrastructure
+
+-> DropBox
+
+iii) Hyrbid:
++ Composed of two or more clouds that remain unique entities, but that can interoperate using standard protcalls.
++ Allows applications and data to flow accross cluds
++ Outscource non critical IT while keeping senstive data or critical IT on privatte cloud.
+
+-> Business that seperates open scource code base available to public from private data i.e. emplyee records.
+
+iv) Community:
++ Shared by sevaral organizations that have same goal.
++ Single private cloud shared by community of users.
+
+-> Credit Union:
+
 ```
 
 ##### Q2(C) Cloud migration, or also called cloud on-boarding, is the process of moving traditional on-premises software systems, or even full IT systems, into the cloud. This is an endeavour that currently many organisations are considering. Please address the following (both parts carry equal weights)
