@@ -1190,11 +1190,45 @@ The load balancers were updated and 100% of the web traffic was now being served
 After testing was complete, the DNS was switched to point at the cloud based web servers and the application was fully migrated to the AWS cloud.
 ```
 
-
 #### Q3
+
+##### 3(A) Different types of virtualisation architectures can be distinguished. Name the two main types and explain how they operate
+
+```js
+1. Bare Metal Or Type 1 hypervisor.
+
+This type of hypervisor is installed directly onto the server/machine and then the OS layers are installed onto the hyervisior. type 1 offer superior performance as they can be tuned for the hardware they are installed on. This also offers increased security and availablity. 
+
+2. Hosted hypervisior.
+
+Type 2 are hosted on an exisiting OS(VirtualBox). They have a number of advantages compared to the type 1. The most important benifit being that you do not need to reboot the machine to lanuch a new VM. These additional VM's can be launched from inside the hypervisor and run as an additonal piece of software. The drawback to the Type 2 is performance, it trade speed for flexibility. 
+```
+
+##### 3(B) Describe a hypervisor architecture. You can choose an application context such as desktop virtualisation and common solutions that support this
+
++ Use a diagram to outline the overall architecture, i.e. the organisation and connections of the main components.
++ Briefly describe the main components, i.e. what their main functions are. Not all individual components need to be named and explained here, but the components can be grouped based on their primary function. These functions should be named.
++ Explain how these components interact if a VM command for the guest context needs to be executed in a host environment
+
+```js
+1. Diagram
+
+2. Briefly describe the main components
+
+
+
+3. Interaction
+```
 
 #### Q4
 
 ### 2016
 
 ### 2015
+
+
+### MISC Questions
+
+#### QUESTION: Cloud computing benefits [20 marks]
+
+What benefits do organisations expect from cloud computing? Discuss technical as well as business concerns.
