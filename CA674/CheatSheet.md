@@ -1292,11 +1292,33 @@ Solutions:
 
 #### Q2
 
-##### Q2(A)
+##### Q2(A) Definitions of Cloud Computing often vary, capturing various technology and business aspects.
 
-##### Q2(B)
+i. Provide a definition for cloud computing.
+ii. Discuss your definition in terms of how comprehensive it is. Is the definition broad enough to capture a wide range of offerings? It is concrete enough to allow cloud computing to be differentiated from other technologies and platforms?
 
-##### Q2(C)
+```js
+```
+
+##### Q2(B) In cloud computing, we distinguish the deployment models private, public, hybrid and community.
+
+i. Provide definitions for each of these four models.
+ii. Describe a concrete application scenario for each of the models and include details of an organisation or a larger IT system to be deployed in the cloud.
+
+```js
+```
+
+##### Q2(C) Cloud migration, or also called cloud on-boarding, is the process of moving traditional on-premises software systems, or even full IT systems, into the cloud. This is an endeavour that currently many organisations are considering. Please address the following (both parts carry equal weights)
+
+i. Outline a generic migration process. Keep in mind that this process of migrating IT systems from on-premise installations to the cloud is often complex, involving different actors (with different expectations and concerns) and different activities.
+ii. Develop a migration scenario for a software company that wants to move its software development activities and product offerings to the cloud. Note that this clearly targets the PaaS space. Consider the following aspects:
+
++ expected benefits
++ a solution architecture and how it would be used
++ a migration process
+
+```js
+```
 
 #### Q3.1
 
