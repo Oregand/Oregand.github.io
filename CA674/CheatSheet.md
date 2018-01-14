@@ -1292,15 +1292,22 @@ Solutions:
 
 #### Q2
 
-##### Q2(A) Definitions of Cloud Computing often vary, capturing various technology and business aspects.
+##### Q2(A) Definitions of Cloud Computing often vary, capturing various technology and business aspects
 
 i. Provide a definition for cloud computing.
 ii. Discuss your definition in terms of how comprehensive it is. Is the definition broad enough to capture a wide range of offerings? It is concrete enough to allow cloud computing to be differentiated from other technologies and platforms?
 
 ```js
+
+i) Cloud Computing: Making use of a network of servers, hosted on the internet to process, manage and store data instead of doing it on a local machine.
+
+
+ii) The definition above is abstract enough to capture a wide range of services such as IaaS, PaaS and Saas under the same definition. IaaS provides the consumer with access to fundemntal rescooruces storage, networking and computing power. SasS is also covered as it is on-demand access to software running in the cloud. 
+
+The definition is also concreate enough that cloud computing is not mistake for grid computing. Grid computing involves sharing res between machines in fixed physical locations in order to achomplish a single task.
 ```
 
-##### Q2(B) In cloud computing, we distinguish the deployment models private, public, hybrid and community.
+##### Q2(B) In cloud computing, we distinguish the deployment models private, public, hybrid and community
 
 i. Provide definitions for each of these four models.
 ii. Describe a concrete application scenario for each of the models and include details of an organisation or a larger IT system to be deployed in the cloud.
