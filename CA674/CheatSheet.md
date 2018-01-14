@@ -1339,7 +1339,7 @@ iv) Community:
 + Shared by sevaral organizations that have same goal.
 + Single private cloud shared by community of users.
 
--> Credit Union:
+-> Credit Union: One branch purcahes private cloud and other branches make use of this
 
 ```
 
@@ -1353,15 +1353,45 @@ ii. Develop a migration scenario for a software company that wants to move its s
 + a migration process
 
 ```js
+
+i) Generic Migration Strategy -> Hybrid Migration
+
+ii) Migration senario
+
+Use Case:
+
+Motivation to migrate:
+
+Current Arcetecture:
+
+Expected benefits:
+
+Solution architecture and how it would be used:
+
+Migration process:
+
+Migration POC
+Actual Migration:
+
 ```
 
 #### Q3.1
 
-##### Q3(A)
+##### Q3(A) Container technology (for example, the recently successful Docker solution) is based on virtualisation.
 
-##### Q3(B)
+i. How are containers constructed?
+ii. What are the benefits of containers for PaaS clouds?
 
-##### Q3(C)
+##### Q3(B) Describe the internal architecture of a hypervisor. You can use the desktop virtualisation tool „VirtualBox‟ (discussed in the lectures) as a concrete example
+
+i. Use a diagram to describe the overall architecture from a high-level perspective, i.e. the organisation in terms of components and their connections. Clearly distinguish guest and host aspects. [10 marks]
+ii. Briefly describe the main components, i.e. what their main functions are. Not all individual components need to be named and explained here, but the components can be grouped based on their primary function. These primary functions (as discussed in the lectures) should be named. [10 marks]
+iii. Explain how the hypervisor components interact if a VM command for the guest context needs to be executed in a host environment. [5 marks] You can choose a particular virtualisation context such as desktop virtualisation and common solutions that support this.
+
+##### Q3(C) Different forms of multi-tenancy have been discussed in the lectures
+
+i. Define each of these different multi-tenancy types.
+ii. What are their respective advantages and disadvantages?
 
 #### Q4.1
 
