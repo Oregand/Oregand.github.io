@@ -1473,15 +1473,40 @@ ii. What are their respective advantages and disadvantages?
 
 #### Q4.1
 
-##### Q4(A)
+##### Q4(A) Q4(a) Cloud consumers usually follow a number of common step in re-deploying their IT systems to the cloud. Describe this deployment process consisting of configuration and management activities
 
-##### Q4(B)
+i. Choose an IaaS platform. Start with the relevant components that your solution provides
+ii. How would a consumer create, configure and use such a service using Java or Python as the development language. Describe this process by referring to the components used.
+Note:
 
-##### Q4(C)
++ The focus in this part is on Infrastructure-as-a-Service (IaaS). The IaaS providers enable cloud consumers to utilise a computing environment.
++ You can use Openstack or Amazon EC2 (or a similar system – open-source or commercial) to illustrate your answer.
 
+```js
+```
+
+##### Q4(B) Cloud services are usually subject to some payment model. Thus, these cloud services are usually monitored, metered and usage and quality records are kept. A specific component of a cloud service dealing with accounting and billing is one of the consumers of data provided by a cloud monitoring service
+
+Discuss the following:
+i. What is the main responsibility of the Accounting and Billing component in cloud systems? Give a brief definition.
+ii. Name and describe the two major payment models used in cloud accounting and billing solutions.
+
+```js
+```
+
+##### Q4(C) Many cloud application are based on some form of hybrid or multi-cloud architecture using different cloud services. Interoperability is of significant importance for the resulting integration needs of cloud computing.
+
+Discuss the following:
+i. What specific interoperability problems arise in the cloud?
+ii. What solutions to address interoperability problems exist?
+
++ Discuss open source software (OSS) and standards in this context
++ Categorise solutions in terms of cloud layers and delivery/deployment models/scenarios.
+
+```js
+```
 
 ### 2015
-
 
 ### MISC Questions
 
