@@ -1489,9 +1489,18 @@ Note:
 
 Discuss the following:
 i. What is the main responsibility of the Accounting and Billing component in cloud systems? Give a brief definition.
+
+```js
+
+Billing component: A component in a cloud aratecture that is designed to monitor customer rescoruce expenditure and charge the customer accordingly. This component is also responsible for creating invoiced for rescoruce useage and giving an accurate breakdown for a customer to review.
+```
+
 ii. Name and describe the two major payment models used in cloud accounting and billing solutions.
 
 ```js
+Pre-Paid: A set amount of credit* is purchased through the cloud billing component, and used rescoruces are deprecated from this credit allowance. I.e. Google cloud credit.
+
+Post-Paid: Useage is charged the same as above, but instead of spending against credit, your bill accumulates and is paid at a set interval.
 ```
 
 ##### Q4(C) Many cloud application are based on some form of hybrid or multi-cloud architecture using different cloud services. Interoperability is of significant importance for the resulting integration needs of cloud computing.
