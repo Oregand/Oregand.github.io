@@ -1356,11 +1356,27 @@ ii. Develop a migration scenario for a software company that wants to move its s
 
 i) Generic Migration Strategy -> Hybrid Migration
 
+1. Pre Migration Discovery
+During this stage, all levels of the company are involved with a discovery phase for what cloud set up will fit the needs of the company and address the different concerns for different team members i.e. Do we need a SaaS/PaaS/IaaS? How will the migration of data work? What is the tooling suite like? What does it provide? Is it cheaper than on site installation? Are the virtual machines powerful enough to meet the needs?
+2.Pre Migration POC
+Before the migration goes ahead, the development team will usually create a POC migration using a test application to ensure that 1) The team has a full understanding of how the cloud software works and can be leveraged correctly and 2) The most important part of the migration(data migration), is indeed possible.
+3. Hybrid Migration
+During this process, the physical installation will stay live while the traffic is routed to both the physical servers and cloud servers. When we are happy that the cloud server can handle the traffic, we will update the DNS to ensure all content is served via the cloud and the physical servers will be turned off one by one.
+4. Migration Finalization
+Once we have migrated to the cloud, we can now run the test suite provided by our cloud set up i.e. Amazon Cloud Watch, to ensure our cloud set up is meeting the requirements.
+
+
 ii) Migration senario
 
-Use Case:
+Use Case: VSWare
+
+VSWare -> Secondary schooling software provided to parents,
 
 Motivation to migrate:
+
+1.
+2.
+3.
 
 Current Arcetecture:
 
@@ -1377,10 +1393,23 @@ Actual Migration:
 
 #### Q3.1
 
-##### Q3(A) Container technology (for example, the recently successful Docker solution) is based on virtualisation.
+##### Q3(A) Container technology (for example, the recently successful Docker solution) is based on virtualisation
 
 i. How are containers constructed?
 ii. What are the benefits of containers for PaaS clouds?
+
+```js
+i)
+ 
+Containers are similar to VMs but function differently: Where a VM virtualizes the hardware, a container virtualizes the OS.
+
+Container: Hardware -> Host OS -> Docker -> [Libs -> App] [Container]
+VM: Hardware -> Hypervisor -> [GuestOS -> Libs -> App] [VM]
+
+Containers: An abstraction of the application layer that packages codes and deps together. Multiple containers can run on the same machine and share OS kernal with other containers, each running as a isolated process.
+
+VMs: Abstraction of hardware turing one server into many. Allows multiple VMS to be run on the same machine. Each VM is a full copy of an OS.
+```
 
 ##### Q3(B) Describe the internal architecture of a hypervisor. You can use the desktop virtualisation tool „VirtualBox‟ (discussed in the lectures) as a concrete example
 
@@ -1388,10 +1417,59 @@ i. Use a diagram to describe the overall architecture from a high-level perspect
 ii. Briefly describe the main components, i.e. what their main functions are. Not all individual components need to be named and explained here, but the components can be grouped based on their primary function. These primary functions (as discussed in the lectures) should be named. [10 marks]
 iii. Explain how the hypervisor components interact if a VM command for the guest context needs to be executed in a host environment. [5 marks] You can choose a particular virtualisation context such as desktop virtualisation and common solutions that support this.
 
+```js
+i) 
+
+ii)
+
+IPRT: portable runtime libary for file abstraction, string manipulation, threading, etc. When VB accesses host features it does so using this libary.
+
+Virtual Machine Manager: The heart of the hypervisior
+
+Execution Manager: Manages excution of guest code
+
+Trap Manager: Manages and processes guest trap/exceptions
+
+Time Manager: Manges all timing aspects of VM.
+
+Page manager: Controls guest paging
+
+Patch manager: Patches guest code to speed up VM
+
+Hardware acceleration manager: Provide support for hardware platforms
+
+Recompile Execution Manager: Provides software emulation of CPU instructions
+
+Virtual USB: Seperate emulated USB from host usb
+
+Plugable device manager: Abstract interface between VMM and emulated devices
+
+Saved state manager: Loads and saves VM states
+
+Debug Facility: Debug facility for VM
+
+iii)
+
+IPRT -> Controls code execution on host from VM.
+```
+
 ##### Q3(C) Different forms of multi-tenancy have been discussed in the lectures
 
 i. Define each of these different multi-tenancy types.
+
+```js
+1. Simple mutli-tenancy: Each customer has dedicated set of rescoruces from other customers. Inefficient.
+
+2. Fine grained multi-tenancy: All rescoruces shared between cusomers. Customer data and access level are segregated.
+```
+
 ii. What are their respective advantages and disadvantages?
+
+```js
+1. Simple mutli-tenancy: Cheaper but Inefficient.
+
+2. Fine grained multi-tenancy: Much more efficent, offering superiour economies of scale but more expensive.
+```
 
 #### Q4.1
 
