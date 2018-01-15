@@ -1256,6 +1256,59 @@ Cloud burting works best for applications that dont depend on complex applcation
 
 ##### Q4(A) IaaS providers enable their customers to utilise a computing environment. How would a customer create, configure and use such a service using Java or Python as the development language. You can use Amazon EC2 (or a similar system – open- source or commercial) to illustrate your answer
 
+```js
+As a customer I want to create a Java application on GCE(IaaS).
+
+To do this I will be using the following compoents of the google platform:
+
+Google Compute Engine
+Google Cloud Storage
+Google Cloud Datastore
+Google Cloud Logging
+Google Cloud Pub/Sub
+
+1. Create cloud storage bucket -> Buckets are the basic containers that hold data in cloud storage.
+
+2. Configure your Java application so it runs on your local machine, we want to make sure everything is working correctly before we deploy it to the GCE.
+
+3. Deploying to a single instance:
+
+Customer Local Machine Running Application -> Deploy App -> [VM ->App][GCE] -> End user accessing application in SaaS format
+
+i) First we push our scource code to the cloud scource repository(note, you can deploy from any scoruce control set up such as gitlab/github or bitbuket) but cloud scource repository is googles native cloud component. Its very convinent to use this repo, as Google's instances will automatically pull the latest repo build during startup, fitting perfectly into our ideal CI pipeline.
+
+ii) Second, we leverage a start up script to init a instance. An instance can have a startup script that is executed whenever the instance is started or restarted.
+
+iii) Third, we want to create and configuring a Compute Engine instance. We do this either via the Google Compute engine dashboard or via their management console using a series of bash commands, here we specify the type of instance we require and the image we want it build from i.e. gcloud compute instances create my-app-instance \ --image-family=debian-8
+
+iv) Next, we want to manage and monitoring our created instance. A user is able to use the Google cloud platform console to monitor and manage their instance. Google cloud logging is automattically configured to gather logs from various common services in our instance, including syslog.
+
+v) Enable horiontal scaling of our instance to meet traffic requirements. We can do this by leveraging a intance group, which is handled by google cloud autoscaler.
+
+A managed instance group is a group of homogeneous instances based on the same instance template. 
+
+To create this group, we use the google comute engine console, first specifiying a template for our instances then a command which states the minium number of running instances we want in our group.
+
+Customer Local Machine Running Application -> Deploy App -> [Instance1 ->App][Instance2 ->App][Instance3 ->App][GCE] -> End user accessing application in SaaS format in a super performant manor
+
+Google compute engine can now automatically create and/or shutdown instance copies as needed. 
+
+We can also set up a HTTP load balancer to distribute incoming HTTP requests to the different instances managed by the instance group.
+
+vi) Creating the load balancer
+
+An individual instance is fine for testing or debugging, but for serving web traffic it's better to use a load balancer to automatically direct traffic to available instances.
+
+We do this using a series of commands in the Google Compute Engine Console. 
+
+vii) Putting it all into a deployment script and linking it with our CI.
+
+Now we create a simple deployment bash script: `deploy.sh` which runs when our proudction or master branch in our repo is updated. This means we not only get a fresh instance version on our instance start/restart but we also get one when new changes are pushed to production. 
+
+viii) Finally, billing
+
+```
+
 ##### Q4(B) Cloud services are usually monitored and usage and quality records are kept. Accounting and Billing is one of the data consumers of cloud monitoring services
 
 + What is the main responsibility of the accounting & billing component in cloud systems?
@@ -1525,6 +1578,15 @@ ii)
 #### Q2
 
 ##### Q2(A) SOA, Grid, Internet of services. Differenciate them, how do they relate to the cloud
+
+```js
+
+SOA: Serivce orientated aratecture. Architectural style defined by patterns and service composition. SOA's define a set of services thata business wants to expose to others. SOA promotes loose coupling, modularity and flexible design.
+
+Grid: A series of comouters linked together via the internet in order to share resoruces to achimplish a common task.
+
+Internet of services:Web services are software systems designed to support interopabeable machine to machine interaction over a network.
+```
 
 ##### Q2(B) Cloud computing definition. Talk about cloud in general
 
