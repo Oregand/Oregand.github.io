@@ -1503,7 +1503,7 @@ Pre-Paid: A set amount of credit* is purchased through the cloud billing compone
 Post-Paid: Useage is charged the same as above, but instead of spending against credit, your bill accumulates and is paid at a set interval.
 ```
 
-##### Q4(C) Many cloud application are based on some form of hybrid or multi-cloud architecture using different cloud services. Interoperability is of significant importance for the resulting integration needs of cloud computing.
+##### Q4(C) Many cloud application are based on some form of hybrid or multi-cloud architecture using different cloud services. Interoperability is of significant importance for the resulting integration needs of cloud computing
 
 Discuss the following:
 i. What specific interoperability problems arise in the cloud?
@@ -1513,9 +1513,38 @@ ii. What solutions to address interoperability problems exist?
 + Categorise solutions in terms of cloud layers and delivery/deployment models/scenarios.
 
 ```js
+
+i)
+
+
+ii)
 ```
 
 ### 2015
+
+#### Q2
+
+##### Q2(A) SOA, Grid, Internet of services. Differenciate them, how do they relate to the cloud
+
+##### Q2(B) Cloud computing definition. Talk about cloud in general
+
+##### Q2(C) Benifits of cloud computing. Technical and business
+
+#### Q3
+
+##### Q3(A) Define: Hypervisor, Vm, disk image
+
+##### Q3(B) Explain desktop virtuilization. Talk about what problem it solves and how?
+
+##### Q3(C) Define multi-tenacy, advantages and disadvantages
+
+#### Q4
+
+##### Q4(A) Interoperability, discuss
+
+##### Q4(B) 
+
+##### Q4(C) Monitoring, describe monitoring system, what different kinds of monitoring data are there(3), where do they come from
 
 ### MISC Questions
 
