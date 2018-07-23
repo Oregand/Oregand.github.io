@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Route, Switch } from 'react-router-dom'
 import PrivateRoute from '../../components/atoms/PrivateRoute'
 import LazyLoad from '../../components/atoms/LazyLoad'
+import { mainPorfolioPath } from '../Porfolio/urls'
 const Home = LazyLoad({
   loader: () => import('../Home')
 })
@@ -41,7 +42,7 @@ class MainRoutes extends Component {
           }}
         />
         <Route exact path="/blog" component={Blog} />
-        <Route exact path="/portfolio" component={Porfolio} />
+        <Route path={mainPorfolioPath} component={Porfolio} />
         <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <PrivateRoute auth={auth} path="/education" component={Education} />
