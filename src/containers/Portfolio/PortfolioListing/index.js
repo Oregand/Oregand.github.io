@@ -6,14 +6,16 @@ import { connect } from 'react-redux'
 import Img from '../../../assets/img/7.jpg'
 import Down from '../../../assets/img/arrow-down.png'
 
-class PorfolioListing extends Component {
+class PortfolioListing extends Component {
   constructor(props) {
     super(props)
+
+    console.warn(props);
     this.state = {}
   }
 
-  renderPorfolioItems() {
-    return this.props.porfolioItems.map((item, index) => 
+  renderportfolioItems() {
+    return this.props.portfolioItems.map((item, index) => 
         <div class="col-12 col-md-6 col-lg-3">
             <div class="portfolio-content">
                 <figure>
@@ -47,7 +49,7 @@ class PorfolioListing extends Component {
                     </div>
                 </div>
                 <div class="row">
-                   {this.renderPorfolioItems()}
+                   {this.renderportfolioItems()}
                 </div>
                 <div class="scroll-down flex flex-column justify-content-center align-items-center d-none d-lg-block">
                     <span class="arrow-down flex justify-content-center align-items-center"><img src={Down} alt="arrow" /></span>
@@ -60,4 +62,16 @@ class PorfolioListing extends Component {
   }
 }
 
-export default connect(null)(PorfolioListing)
+
+const mapStateToProps = state => {
+    return {
+      portfolioItems: state.portfolioListing.portfolioItems
+    }
+  }
+  
+  const mapDispatchToProps = {}
+  
+  export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+  )(PortfolioListing)

@@ -3,29 +3,29 @@ import 'rxjs/add/operator/distinctUntilChanged'
 import 'rxjs/add/operator/filter'
 import find from 'lodash/find'
 import { LOCATION_CHANGE } from 'react-router-redux'
-import { porfolioPaths } from '../../../containers/Porfolio/urls'
+import { portfolioPaths } from '../../../containers/Portfolio/urls'
 
-const CHANGE_PAGE = 'porfolio/CHANGE_PAGE'
+const CHANGE_PAGE = 'portfolio/CHANGE_PAGE'
 
 const steps = [
   {
     id: 0,
-    name: 'Porfolio Listing',
-    path: porfolioPaths.porfolioListing,
+    name: 'Portfolio Listing',
+    path: portfolioPaths.portfolioListing,
     disabled: false,
     hidden: false
   },
   {
     id: 1,
-    name: 'Porfolio',
-    path: porfolioPaths.porfolio,
+    name: 'Portfolio',
+    path: portfolioPaths.portfolio,
     disabled: false,
     hidden: false
   }
 ]
 
 /**
- * Initial State for porfolio navigation
+ * Initial State for portfolio navigation
  * @type {{currentPage: {id, name, path, disabled, hidden}|*, steps: *[]}}
  */
 const initialState = {
@@ -36,7 +36,7 @@ const initialState = {
 /**
  * STATE KEY
  */
-export const STATE_KEY = 'porfolio'
+export const STATE_KEY = 'portfolio'
 
 /**
  * Reducer
@@ -77,7 +77,7 @@ export function changePage(page) {
 /**
  * Keeps the current step in sync with the current router location
  * Looks for the step.path presence in the current location.pathname
- * (ie: '/porfolio/addporfolioMember/bla/bla/bla' and '/porfolioListing' will make the 'porfolioListing' step active)
+ * (ie: '/portfolio/addportfolioMember/bla/bla/bla' and '/portfolioListing' will make the 'portfolioListing' step active)
  * @param action$
  * @param store
  * @return {Observable<any>}
@@ -87,10 +87,10 @@ export const keepcurrentPageInSyncEpic = (action$, store) =>
     .ofType(LOCATION_CHANGE)
     .map(({ payload }) => payload.pathname)
     .distinctUntilChanged()
-    .filter(pathname => pathname.indexOf(porfolioPaths) > -1) // filters out location change that are not porfolio related (keeps the active step when moving away from porfolio)
+    .filter(pathname => pathname.indexOf(portfolioPaths) > -1) // filters out location change that are not portfolio related (keeps the active step when moving away from portfolio)
     .map(pathname =>
       find(
-        store.getState().porfolio.steps,
+        store.getState().portfolio.steps,
         step => pathname.indexOf(step.path) > -1
       )
     )

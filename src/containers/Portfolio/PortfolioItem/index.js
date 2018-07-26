@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 
-class PorfolioItem extends Component {
+class PortfolioItem extends Component {
   constructor(props) {
     super(props)
     this.state = {}
@@ -88,4 +88,4 @@ class PorfolioItem extends Component {
   }
 }
 
-export default connect(null)(PorfolioItem)
+export default connect(null)(PortfolioItem)
