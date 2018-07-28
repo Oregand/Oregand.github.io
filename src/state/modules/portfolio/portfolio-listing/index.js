@@ -75,7 +75,7 @@ const updatePortfolioEpic = (action$, store, { ajax }) =>
   action$
     .ofType(REQUEST_PORTFOLIO_UPDATE)
     .switchMapTo(
-      portfolioItems
+      Object.values(portfolioItems)
     )
     .map(portfolioItems => ({ type: PORTFOLIO_UPDATE, portfolioItems }))
 

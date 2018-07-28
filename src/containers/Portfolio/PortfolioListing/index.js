@@ -2,6 +2,9 @@
 
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+import { Link } from 'react-router-dom'
+
+import { mainPortfolioPath, portfolioPaths } from '../urls'
 
 import Img from '../../../assets/img/7.jpg'
 import Down from '../../../assets/img/arrow-down.png'
@@ -16,18 +19,28 @@ class PortfolioListing extends Component {
 
   renderportfolioItems() {
     return this.props.portfolioItems.map((item, index) => 
-        <div class="col-12 col-md-6 col-lg-3">
-            <div class="portfolio-content">
+        <div className="col-12 col-md-6 col-lg-6" key={index}>
+            <div className="portfolio-content">
                 <figure>
                     <img src={Img} alt="" />
                 </figure>
 
-                <div class="entry-content flex flex-column align-items-center justify-content-center">
-                    <h3><a href="#">Flower Skin</a></h3>
-                    <ul class="flex flex-wrap justify-content-center">
-                        <li><a href="#">Portfolio,</a></li>
-                        <li><a href="#">Tree</a></li>
+                <div className="entry-content flex flex-column align-items-center justify-content-center">
+                    <h3><a href="#">{item.name}</a></h3>
+                    <ul className="flex flex-wrap justify-content-center">>
+                        <li>
+                        <Link
+                        to={{
+                        pathname: `${mainPortfolioPath}${portfolioPaths.portfolio}/${
+                            item.id
+                        }`,
+                        state: { item }
+                        }}>
+                            See More..
+                        </Link>
+                        </li>
                     </ul>
+                    <p>{item.description}</p>
                 </div>
             </div>
         </div>    
@@ -37,23 +50,19 @@ class PortfolioListing extends Component {
   render() {
     return (
       <div> 
-        <div class="nav-bar-sep d-lg-none"></div>
-        <div class="outer-container">
-            <div class="container portfolio-page">
-                <div class="row">
-                    <div class="col">
-                        <ul class="breadcrumbs flex align-items-center">
+        <div className="nav-bar-sep d-lg-none"></div>
+        <div className="outer-container">
+            <div className="container portfolio-page">
+                <div className="row">
+                    <div className="col">
+                        <ul className="breadcrumbs flex align-items-center">
                             <li><a href="#">Home</a></li>
                             <li>Portfolio</li>
                         </ul>
                     </div>
                 </div>
-                <div class="row">
+                <div className="row">
                    {this.renderportfolioItems()}
-                </div>
-                <div class="scroll-down flex flex-column justify-content-center align-items-center d-none d-lg-block">
-                    <span class="arrow-down flex justify-content-center align-items-center"><img src={Down} alt="arrow" /></span>
-                    <span class="scroll-text">Scroll Down</span>
                 </div>
             </div>
         </div>
