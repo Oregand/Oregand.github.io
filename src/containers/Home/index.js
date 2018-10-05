@@ -49,8 +49,13 @@ class Home extends Component {
                     <div>
                       <h5>My big loves</h5>
                       <p>
-                        Quisque mollis mi ac aliquet accumsan. Sed sed dapibus
-                        libero. Nullam luctus purus duis sensibus signiferumque.
+                        JavaScript. Maths. Functional Programming. React. Redux.
+                        RXJS. JavaScript.{' '}
+                        <a href="https://twitter.com/dan_abramov">
+                          Dan Abramov.
+                        </a>{' '}
+                        <a href="http://jussi.hallila.com/">Jussi Hallila.</a>{' '}
+                        Did I mention JavaScript?
                       </p>
                     </div>
                   </div>
@@ -62,8 +67,10 @@ class Home extends Component {
                     <div>
                       <h5>Stuff I am good at</h5>
                       <p>
-                        Quisque mollis mi ac aliquet accumsan. Sed sed dapibus
-                        libero. Nullam luctus purus duis sensibus signiferumque.
+                        My career has taken me down a front end focused
+                        discipline when it comes to development, so im pretty
+                        niffty in terms of just about anything front end
+                        related.
                       </p>
                     </div>
                   </div>
@@ -75,8 +82,12 @@ class Home extends Component {
                     <div>
                       <h5>Stuff I am ok at</h5>
                       <p>
-                        Quisque mollis mi ac aliquet accumsan. Sed sed dapibus
-                        libero. Nullam luctus purus duis sensibus signiferumque.
+                        I take time to ensure I can work across a stack,
+                        learning Python, Java, Kotlin, Jenkins, Mongo, SQL, AWS
+                        and much more to ensure that I have a reasonable grasp
+                        of all the technology I touch on a daily basis. Its very
+                        important to me to be comfortable with all levels of the
+                        tech stack.
                       </p>
                     </div>
                   </div>
@@ -88,8 +99,8 @@ class Home extends Component {
                     <div>
                       <h5>Stuff I suck at</h5>
                       <p>
-                        Quisque mollis mi ac aliquet accumsan. Sed sed dapibus
-                        libero. Nullam luctus purus duis sensibus signiferumque.
+                        Writing self deprecating lists. Using classes. Trying to
+                        not use composition to solve a problem.
                       </p>
                     </div>
                   </div>
