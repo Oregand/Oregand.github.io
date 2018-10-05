@@ -13,8 +13,6 @@ import {
   DropdownItem
 } from 'reactstrap'
 
-import logo from 'assets/img/logo.png'
-
 class Header extends React.Component {
   constructor(props) {
     super(props)
@@ -33,9 +31,7 @@ class Header extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">
-            <img src={logo} alt="logo" />
-          </NavbarBrand>
+          <NavbarBrand href="/">GET. SHIT. DONE.</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

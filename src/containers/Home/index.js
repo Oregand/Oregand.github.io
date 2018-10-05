@@ -1,53 +1,244 @@
 import React, { Component } from 'react'
+import { Container, Row, Col } from 'reactstrap'
+
+import './styles/index.css'
+
+import david from '../../assets/img/david.jpg'
 
 class Home extends Component {
   render() {
     return (
       <div>
-        <div className="inner-wrapper mt-auto mb-auto container">
-          <div className="row">
-            <div className="col-lg-5 col-md-5 col-sm-12 mt-auto mb-auto mr-3">
-              <h1 className="welcome-heading display-4 text-white">
-                Keep Your Files in Sync
-              </h1>
-              <p className="text-muted">
-                Keep your files in sync using the most secure and advanced
-                solution to date.
-              </p>
-              <a
-                href="https://designrevision.com/download/shards"
-                className="btn btn-lg btn-success btn-pill align-self-center"
-              >
-                <i className="fa fa-download mr-2" />
-                Download
-              </a>
+        <div className="welcome d-flex justify-content-center flex-column">
+          <Container className="inner-wrapper mt-auto mb-auto">
+            <Row>
+              <div className="col-lg-5 col-md-5 col-sm-12 mt-auto mb-auto mr-3">
+                <h1 className="welcome-heading display-4 text-white">
+                  David O'Regan
+                </h1>
+                <p className="text-white">Getting shit done.</p>
+              </div>
+            </Row>
+          </Container>
+        </div>
+        <div id="app-features" className="app-features section">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="app-screenshot col-lg-4 col-md-12 col-sm-12 px-0 py-5">
+                <img
+                  className="mt-auto mb-auto"
+                  src="images/app-promo/iphone-app-screenshot.png"
+                  alt="App Screenshot - Shards App Promo Demo Page"
+                />
+              </div>
 
-              <div className="d-block mt-4">
-                <a href="https://designrevision.com/download/shards">
-                  <img
-                    className="w-25 mt-2 mr-3"
-                    src="images/app-promo/badge-apple-store.png"
-                    alt="Get it on Apple Store"
-                  />
-                </a>
-                <a href="https://designrevision.com/download/shards">
-                  <img
-                    className="w-25 mt-2"
-                    src="images/app-promo/badge-google-play-store.png"
-                    alt="Get it on Google Play Store"
-                  />
-                </a>
+              <div className="app-features-wrapper col-lg-4 col-md-6 col-sm-12 py-5 mx-auto">
+                <div className="container">
+                  <h3 className="section-title underline--left my-5">
+                    Features
+                  </h3>
+                  <div className="feature py-4 d-flex">
+                    <div className="icon text-white bg-default mr-5">
+                      <i className="fa fa-refresh" />
+                    </div>
+                    <div>
+                      <h5>Everything Synced</h5>
+                      <p>
+                        Quisque mollis mi ac aliquet accumsan. Sed sed dapibus
+                        libero. Nullam luctus purus duis sensibus signiferumque.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="feature py-4 d-flex">
+                    <div className="icon text-white bg-default mr-5">
+                      <i className="fa fa-shield" />
+                    </div>
+                    <div>
+                      <h5>Security</h5>
+                      <p>
+                        Quisque mollis mi ac aliquet accumsan. Sed sed dapibus
+                        libero. Nullam luctus purus duis sensibus signiferumque.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="feature py-4 d-flex">
+                    <div className="icon text-white bg-default mr-5">
+                      <i className="fa fa-share" />
+                    </div>
+                    <div>
+                      <h5>Sharing</h5>
+                      <p>
+                        Quisque mollis mi ac aliquet accumsan. Sed sed dapibus
+                        libero. Nullam luctus purus duis sensibus signiferumque.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="feature py-4 d-flex">
+                    <div className="icon text-white bg-default mr-5">
+                      <i className="fa fa-globe" />
+                    </div>
+                    <div>
+                      <h5>Access Anywhere</h5>
+                      <p>
+                        Quisque mollis mi ac aliquet accumsan. Sed sed dapibus
+                        libero. Nullam luctus purus duis sensibus signiferumque.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="testimonials section py-4">
+          <h3 className="section-title text-center m-5">Testimonials</h3>
 
-            <div className="col-lg-4 col-md-5 col-sm-12 ml-auto">
-              <img
-                className="iphone-mockup ml-auto"
-                src="images/app-promo/iphone-app-mockup.png"
-                alt="iPhone App Mockup - Shards App Promo Demo"
-              />
+          <div className="container py-5">
+            <div className="row">
+              <div className="col-md-4 testimonial text-center">
+                <div className="avatar rounded-circle with-shadows mb-3 ml-auto mr-auto">
+                  <img
+                    src="images/common/avatar-1.jpeg"
+                    className="w-100"
+                    alt="Testimonial Avatar"
+                  />
+                </div>
+                <h5 className="mb-1">Osbourne Tranter</h5>
+                <span className="text-muted d-block mb-2">CEO at Megacorp</span>
+                <p>
+                  Vivamus quis ex mattis, gravida erat a, iaculis urna. Proin ac
+                  eleifend tortor. Nunc in augue eget enim venenatis viverra.
+                </p>
+              </div>
+
+              <div className="col-md-4 testimonial text-center">
+                <div className="avatar rounded-circle with-shadows mb-3 ml-auto mr-auto">
+                  <img
+                    src="images/common/avatar-2.jpeg"
+                    className="w-100"
+                    alt="Testimonial Avatar"
+                  />
+                </div>
+                <h5 className="mb-1">Darrin Ollie</h5>
+                <span className="text-muted d-block mb-2">CEO at Megacorp</span>
+                <p>
+                  Nullam eu ligula facilisis, commodo velit non, vulputate
+                  dolor. Aenean congue euismod vestibulum.
+                </p>
+              </div>
+
+              <div className="col-md-4 testimonial text-center">
+                <div className="avatar rounded-circle with-shadows mb-3 ml-auto mr-auto">
+                  <img
+                    src="images/common/avatar-3.jpeg"
+                    className="w-100"
+                    alt="Testimonial Avatar"
+                  />
+                </div>
+                <h5 className="mb-1">Quinton Bruce</h5>
+                <span className="text-muted d-block mb-2">CEO at Megacorp</span>
+                <p>
+                  {' '}
+                  Aenean imperdiet ultrices tortor id convallis. Donec id metus
+                  magna. Morbi pretium odio faucibus blandit gravida.
+                </p>
+              </div>
             </div>
           </div>
+        </div>
+        <div className="blog section section-invert py-4">
+          <h3 className="section-title text-center m-5">Latest Posts</h3>
+          <div className="container">
+            <div className="py-4">
+              <div className="row">
+                <div className="card-deck">
+                  <div className="col-md-12 col-lg-4">
+                    <div className="card mb-4">
+                      <img
+                        className="card-img-top"
+                        src="images/common/card-1.jpg"
+                        alt="Card image cap"
+                      />
+                      <div className="card-body">
+                        <h4 className="card-title">
+                          Find Great Places to Work While Travelling
+                        </h4>
+                        <p className="card-text">
+                          He seems sinking under the evidence could not only
+                          grieve and a visit. The father is to bless and placed
+                          in his length hid...
+                        </p>
+                        <a
+                          className="btn btn-outline-success btn-pill"
+                          href="#"
+                        >
+                          Read More &rarr;
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-md-12 col-lg-4">
+                    <div className="card mb-4">
+                      <img
+                        className="card-img-top"
+                        src="images/common/card-3.jpg"
+                        alt="Card image cap"
+                      />
+                      <div className="card-body">
+                        <h4 className="card-title">
+                          Quick Tips for Improving Your Website's Design
+                        </h4>
+                        <p className="card-text">
+                          He seems sinking under the evidence could not only
+                          grieve and a visit. The father is to bless and placed
+                          in his length hid...
+                        </p>
+                        <a
+                          className="btn btn-outline-success btn-pill"
+                          href="#"
+                        >
+                          Read More &rarr;
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col-md-12 col-lg-4">
+                    <div className="card mb-4">
+                      <img
+                        className="card-img-top"
+                        src="images/common/card-2.jpg"
+                        alt="Card image cap"
+                      />
+                      <div className="card-body">
+                        <h4 className="card-title">
+                          A Designer's Tips While Travelling and Working
+                        </h4>
+                        <p className="card-text">
+                          He seems sinking under the evidence could not only
+                          grieve and a visit. The father is to bless and placed
+                          in his length hid...
+                        </p>
+                        <a
+                          className="btn btn-outline-success btn-pill"
+                          href="#"
+                        >
+                          Read More &rarr;
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="contact section-invert py-4">
+          <h3 className="section-title text-center m-5">Contact Me</h3>
         </div>
       </div>
     )
