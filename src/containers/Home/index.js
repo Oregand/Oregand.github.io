@@ -119,85 +119,62 @@ class Home extends Component {
           </Container>
         </div>
         <div className="blog section section-invert py-4">
-          <h3 className="section-title text-center m-5">Blog</h3>
+          <h3 className="section-title text-center m-5">Talks Ive Given</h3>
           <div className="container">
             <div className="py-4">
               <div className="row">
                 <div className="card-deck">
                   <div className="col-md-12 col-lg-4">
                     <div className="card mb-4">
-                      <img
-                        className="card-img-top"
-                        src="images/common/card-1.jpg"
-                        alt="Card image cap"
-                      />
                       <div className="card-body">
-                        <h4 className="card-title">
-                          Find Great Places to Work While Travelling
-                        </h4>
                         <p className="card-text">
-                          He seems sinking under the evidence could not only
-                          grieve and a visit. The father is to bless and placed
-                          in his length hid...
+                          <iframe
+                            src="//slides.com/davidoregan/deck-1d2e04b1-2543-4342-a453-94091d966b73/embed"
+                            width="300"
+                            height="300"
+                            scrolling="no"
+                            frameBorder="0"
+                            webkitallowfullscreen
+                            mozallowfullscreen
+                            allowFullScreen
+                          />
                         </p>
-                        <a
-                          className="btn btn-outline-success btn-pill"
-                          href="#"
-                        >
-                          Read More &rarr;
-                        </a>
                       </div>
                     </div>
                   </div>
-
                   <div className="col-md-12 col-lg-4">
                     <div className="card mb-4">
-                      <img
-                        className="card-img-top"
-                        src="images/common/card-3.jpg"
-                        alt="Card image cap"
-                      />
                       <div className="card-body">
-                        <h4 className="card-title">
-                          Quick Tips for Improving Your Website's Design
-                        </h4>
                         <p className="card-text">
-                          He seems sinking under the evidence could not only
-                          grieve and a visit. The father is to bless and placed
-                          in his length hid...
+                          <iframe
+                            src="//slides.com/davidoregan/deck/embed"
+                            width="300"
+                            height="300"
+                            scrolling="no"
+                            frameBorder="0"
+                            webkitallowfullscreen
+                            mozallowfullscreen
+                            allowFullScreen
+                          />
                         </p>
-                        <a
-                          className="btn btn-outline-success btn-pill"
-                          href="#"
-                        >
-                          Read More &rarr;
-                        </a>
                       </div>
                     </div>
                   </div>
-
                   <div className="col-md-12 col-lg-4">
                     <div className="card mb-4">
-                      <img
-                        className="card-img-top"
-                        src="images/common/card-2.jpg"
-                        alt="Card image cap"
-                      />
                       <div className="card-body">
-                        <h4 className="card-title">
-                          A Designer's Tips While Travelling and Working
-                        </h4>
                         <p className="card-text">
-                          He seems sinking under the evidence could not only
-                          grieve and a visit. The father is to bless and placed
-                          in his length hid...
+                          <iframe
+                            src="//slides.com/davidoregan/deck-2/embed"
+                            width="300"
+                            height="300"
+                            scrolling="no"
+                            frameBorder="0"
+                            webkitallowfullscreen
+                            mozallowfullscreen
+                            allowFullScreen
+                          />
                         </p>
-                        <a
-                          className="btn btn-outline-success btn-pill"
-                          href="#"
-                        >
-                          Read More &rarr;
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -218,7 +195,7 @@ class Home extends Component {
                   </h3>
                   <div className="feature py-4 d-flex">
                     <div className="icon text-white bg-primary mr-5">
-                      <FontAwesomeIcon icon="code" />
+                      <FontAwesomeIcon icon="atom" />
                     </div>
                     <div>
                       <h5>Work Expierience</h5>
@@ -242,7 +219,7 @@ class Home extends Component {
 
                   <div className="feature py-4 d-flex">
                     <div className="icon text-white bg-primary mr-5">
-                      <FontAwesomeIcon icon="terminal" />
+                      <FontAwesomeIcon icon="graduation-cap" />
                     </div>
                     <div>
                       <h5>Education</h5>
@@ -259,7 +236,7 @@ class Home extends Component {
                   </div>
                   <div className="feature py-4 d-flex">
                     <div className="icon text-white bg-primary mr-5">
-                      <FontAwesomeIcon icon="terminal" />
+                      <FontAwesomeIcon icon="project-diagram" />
                     </div>
                     <div style={{ width: '100%' }}>
                       <h5>Skills</h5>

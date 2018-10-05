@@ -18,7 +18,10 @@ import {
   faInbox,
   faDove,
   faBarcode,
-  faLaptopCode
+  faLaptopCode,
+  faAtom,
+  faGraduationCap,
+  faProjectDiagram
 } from '@fortawesome/free-solid-svg-icons'
 
 library.add(
@@ -30,7 +33,10 @@ library.add(
   faInbox,
   faDove,
   faBarcode,
-  faLaptopCode
+  faLaptopCode,
+  faAtom,
+  faGraduationCap,
+  faProjectDiagram
 )
 
 class App extends Component {
