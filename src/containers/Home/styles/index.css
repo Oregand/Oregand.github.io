@@ -2,8 +2,7 @@
   position: relative;
   height: 100vh;
   min-height: 700px;
-  background: url('../../../assets/img/welcome-cover.jpg') no-repeat center
-    center fixed;
+  background: url('../../../assets/img/map.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 

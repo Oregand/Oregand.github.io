@@ -12,6 +12,7 @@ import {
   DropdownMenu,
   DropdownItem
 } from 'reactstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Header extends React.Component {
   constructor(props) {

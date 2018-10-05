@@ -12,10 +12,26 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import {
   faCode,
   faTerminal,
-  faCodeBranch
+  faCodeBranch,
+  faEnvelope,
+  faPhone,
+  faInbox,
+  faDove,
+  faBarcode,
+  faLaptopCode
 } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faCode, faTerminal, faCodeBranch)
+library.add(
+  faCode,
+  faTerminal,
+  faCodeBranch,
+  faEnvelope,
+  faPhone,
+  faInbox,
+  faDove,
+  faBarcode,
+  faLaptopCode
+)
 
 class App extends Component {
   render() {
