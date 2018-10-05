@@ -18,8 +18,8 @@ class Home extends Component {
                 </h1>
                 <p className="text-white">
                   So one day I noticed I was basically a large collection of
-                  atoms that had somehow become concious, currently living on a
-                  activly hostile planet made of molten lava. Bit odd, but sure
+                  atoms that had somehow become conscious, currently living on a
+                  actively hostile planet made of molten lava. Bit odd, but sure
                   look have a cup of tea and keep going. It'll be grand.
                 </p>
               </div>
@@ -47,7 +47,7 @@ class Home extends Component {
                       <FontAwesomeIcon icon="code" />
                     </div>
                     <div>
-                      <h5>My Big Loves</h5>
+                      <h5>My big loves</h5>
                       <p>
                         Quisque mollis mi ac aliquet accumsan. Sed sed dapibus
                         libero. Nullam luctus purus duis sensibus signiferumque.
@@ -57,10 +57,10 @@ class Home extends Component {
 
                   <div className="feature py-4 d-flex">
                     <div className="icon text-muted bg-default mr-5">
-                      <i className="fa fa-shield" />
+                      <FontAwesomeIcon icon="terminal" />
                     </div>
                     <div>
-                      <h5>Security</h5>
+                      <h5>Stuff I am good at</h5>
                       <p>
                         Quisque mollis mi ac aliquet accumsan. Sed sed dapibus
                         libero. Nullam luctus purus duis sensibus signiferumque.
@@ -70,10 +70,10 @@ class Home extends Component {
 
                   <div className="feature py-4 d-flex">
                     <div className="icon text-muted bg-default mr-5">
-                      <i className="fa fa-share" />
+                      <FontAwesomeIcon icon="code-branch" />
                     </div>
                     <div>
-                      <h5>Sharing</h5>
+                      <h5>Stuff I am ok at</h5>
                       <p>
                         Quisque mollis mi ac aliquet accumsan. Sed sed dapibus
                         libero. Nullam luctus purus duis sensibus signiferumque.
@@ -83,10 +83,10 @@ class Home extends Component {
 
                   <div className="feature py-4 d-flex">
                     <div className="icon text-muted bg-default mr-5">
-                      <i className="fa fa-globe" />
+                      <FontAwesomeIcon icon="code-branch" />
                     </div>
                     <div>
-                      <h5>Access Anywhere</h5>
+                      <h5>Stuff I suck at</h5>
                       <p>
                         Quisque mollis mi ac aliquet accumsan. Sed sed dapibus
                         libero. Nullam luctus purus duis sensibus signiferumque.
