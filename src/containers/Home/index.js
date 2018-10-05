@@ -255,6 +255,11 @@ class Home extends Component {
         </div>
         <div className="contact section-invert py-4">
           <h3 className="section-title text-center m-5">Contact Me</h3>
+          <Row>
+            <Col md="4" />
+            <Col md="4" />
+            <Col md="4" />
+          </Row>
         </div>
       </div>
     )
