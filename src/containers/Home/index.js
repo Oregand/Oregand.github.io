@@ -183,7 +183,16 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <div id="app-features" className="app-features section">
+        <div className="testimonials section py-4">
+          <h3 className="section-title text-center m-5">Blog</h3>
+
+          <Container className="py-5">
+            <Row>
+              <Col md="12">Coming soon</Col>
+            </Row>
+          </Container>
+        </div>
+        <div id="app-features" className="app-features section section-invert">
           <div className="container-fluid">
             <div className="row">
               <div className="app-screenshot col-lg-2 col-md-12 col-sm-12 px-0 py-5" />
@@ -269,7 +278,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <div className="contact section-invert py-4">
+        <div className="contact section py-4">
           <Container className="text-center">
             <h3 className="section-title text-center m-5">Contact Me</h3>
             <Row>

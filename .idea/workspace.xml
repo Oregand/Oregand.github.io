@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bf9fc24-f743-4b16-846a-443019aacfed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/containers/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/App/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +46,7 @@
           <entry key="css" value="96" />
           <entry key="env" value="2" />
           <entry key="html" value="26" />
-          <entry key="js" value="3876" />
+          <entry key="js" value="3930" />
           <entry key="json" value="29" />
         </counts>
       </usages-collector>
@@ -56,7 +55,7 @@
           <entry key="CSS" value="96" />
           <entry key="HTML" value="26" />
           <entry key="JSON" value="29" />
-          <entry key="JavaScript" value="3876" />
+          <entry key="JavaScript" value="3930" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -82,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/containers/App/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="690">
-              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -105,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/Home/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="164" column="103" selection-start-line="164" selection-start-column="103" selection-end-line="164" selection-end-column="103" />
+            <state relative-caret-position="-345">
+              <caret line="280" column="39" selection-start-line="280" selection-start-column="39" selection-end-line="280" selection-end-column="39" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
                 <element signature="e#1107#4655#0" />
@@ -287,7 +286,7 @@
     <property name="SearchEverywhereHistoryKey" value="header&#9;null&#9;null&#10;index.css&#9;FILE&#9;file:///home/david/dev/oregand/Oregand.github.io/src/containers/Home/styles/index.css&#10;index&#9;FILE&#9;file:///home/david/dev/oregand/Oregand.github.io/src/styles/index.css&#10;inde&#9;FILE&#9;file:///home/david/dev/oregand/Oregand.github.io/src/styles/index.css" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538771705884" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538771845980" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/shards/app-promo.html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -321,12 +320,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538683824616</updated>
-      <workItem from="1538683826718" duration="20843000" />
+      <workItem from="1538683826718" duration="21100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20843000" />
+    <option name="totallyTimeSpent" value="21100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="35" width="2560" height="1405" extended-state="6" />
@@ -487,7 +486,7 @@
     <entry file="file://$PROJECT_DIR$/src/containers/App/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -496,8 +495,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Home/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="164" column="103" selection-start-line="164" selection-start-column="103" selection-end-line="164" selection-end-column="103" />
+        <state relative-caret-position="-345">
+          <caret line="280" column="39" selection-start-line="280" selection-start-column="39" selection-end-line="280" selection-end-column="39" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
             <element signature="e#1107#4655#0" />
