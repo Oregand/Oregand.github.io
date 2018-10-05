@@ -8,6 +8,11 @@ import Header from 'components/organisims/Header'
 
 import './App.css'
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faCode, faKey } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faCode, faKey)
+
 class App extends Component {
   render() {
     return (

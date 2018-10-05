@@ -157,11 +157,12 @@
 }
 
 .app-screenshot img {
-  max-width: 300px;
+  border-radius: 5px;
+  max-width: 80vh;
   position: absolute;
   z-index: 1;
   top: 50%;
-  left: 100%;
+  left: 90%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   box-shadow: 0 13px 25px rgba(0, 0, 0, 0.05),

@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'reactstrap'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import './styles/index.css'
-
 import david from '../../assets/img/david.jpg'
 
 class Home extends Component {
@@ -16,7 +16,12 @@ class Home extends Component {
                 <h1 className="welcome-heading display-4 text-white">
                   David O'Regan
                 </h1>
-                <p className="text-white">Getting shit done.</p>
+                <p className="text-white">
+                  So one day I noticed I was basically a large collection of
+                  atoms that had somehow become concious, currently living on a
+                  activly hostile planet made of molten lava. Bit odd, but sure
+                  look have a cup of tea and keep going. It'll be grand.
+                </p>
               </div>
             </Row>
           </Container>
@@ -27,22 +32,22 @@ class Home extends Component {
               <div className="app-screenshot col-lg-4 col-md-12 col-sm-12 px-0 py-5">
                 <img
                   className="mt-auto mb-auto"
-                  src="images/app-promo/iphone-app-screenshot.png"
-                  alt="App Screenshot - Shards App Promo Demo Page"
+                  src={david}
+                  alt="Personal Photo"
                 />
               </div>
 
               <div className="app-features-wrapper col-lg-4 col-md-6 col-sm-12 py-5 mx-auto">
                 <div className="container">
                   <h3 className="section-title underline--left my-5">
-                    Features
+                    About Me
                   </h3>
                   <div className="feature py-4 d-flex">
-                    <div className="icon text-white bg-default mr-5">
-                      <i className="fa fa-refresh" />
+                    <div className="icon text-muted bg-default mr-5">
+                      <FontAwesomeIcon icon="code" />
                     </div>
                     <div>
-                      <h5>Everything Synced</h5>
+                      <h5>My Big Loves</h5>
                       <p>
                         Quisque mollis mi ac aliquet accumsan. Sed sed dapibus
                         libero. Nullam luctus purus duis sensibus signiferumque.
@@ -51,7 +56,7 @@ class Home extends Component {
                   </div>
 
                   <div className="feature py-4 d-flex">
-                    <div className="icon text-white bg-default mr-5">
+                    <div className="icon text-muted bg-default mr-5">
                       <i className="fa fa-shield" />
                     </div>
                     <div>
@@ -64,7 +69,7 @@ class Home extends Component {
                   </div>
 
                   <div className="feature py-4 d-flex">
-                    <div className="icon text-white bg-default mr-5">
+                    <div className="icon text-muted bg-default mr-5">
                       <i className="fa fa-share" />
                     </div>
                     <div>
@@ -77,7 +82,7 @@ class Home extends Component {
                   </div>
 
                   <div className="feature py-4 d-flex">
-                    <div className="icon text-white bg-default mr-5">
+                    <div className="icon text-muted bg-default mr-5">
                       <i className="fa fa-globe" />
                     </div>
                     <div>
@@ -94,7 +99,7 @@ class Home extends Component {
           </div>
         </div>
         <div className="testimonials section py-4">
-          <h3 className="section-title text-center m-5">Testimonials</h3>
+          <h3 className="section-title text-center m-5">Portfolio</h3>
 
           <div className="container py-5">
             <div className="row">
@@ -150,7 +155,7 @@ class Home extends Component {
           </div>
         </div>
         <div className="blog section section-invert py-4">
-          <h3 className="section-title text-center m-5">Latest Posts</h3>
+          <h3 className="section-title text-center m-5">Blog</h3>
           <div className="container">
             <div className="py-4">
               <div className="row">
