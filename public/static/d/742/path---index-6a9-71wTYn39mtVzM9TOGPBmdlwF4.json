@@ -1,0 +1,17 @@
+{
+  "data": {
+    "site": { "siteMetadata": { "title": "Get. Shit. Done." } },
+    "allMarkdownRemark": {
+      "edges": [
+        {
+          "node": {
+            "excerpt": "Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from\nchicken eggs, though the…",
+            "fields": { "slug": "/my-second-post/" },
+            "frontmatter": { "date": "May 06, 2015", "title": "My First Post!" }
+          }
+        }
+      ]
+    }
+  },
+  "pageContext": {}
+}

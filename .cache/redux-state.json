@@ -2214,94 +2214,6 @@
       "ctime": "2019-02-01T22:08:11.847Z",
       "birthtime": "2019-02-01T22:08:11.847Z"
     },
-    "3ce6cbd3-6bd7-506e-b5d6-c935f2515146": {
-      "id": "3ce6cbd3-6bd7-506e-b5d6-c935f2515146",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "4906767bfda52b96ecfcce9dac72ebdb",
-        "type": "Directory",
-        "description": "Directory \"content/blog/hello-world\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/hello-world",
-      "relativePath": "hello-world",
-      "extension": "",
-      "size": 4096,
-      "prettySize": "4.1 kB",
-      "modifiedTime": "2019-02-01T22:21:01.143Z",
-      "accessTime": "2019-02-01T22:21:01.167Z",
-      "changeTime": "2019-02-01T22:21:01.143Z",
-      "birthTime": "2019-02-01T22:21:01.143Z",
-      "root": "/",
-      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
-      "base": "hello-world",
-      "ext": "",
-      "name": "hello-world",
-      "relativeDirectory": "",
-      "dev": 66306,
-      "mode": 16893,
-      "nlink": 2,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 29363789,
-      "blocks": 8,
-      "atimeMs": 1549059661166.9004,
-      "mtimeMs": 1549059661142.9004,
-      "ctimeMs": 1549059661142.9004,
-      "birthtimeMs": 1549059661142.9004,
-      "atime": "2019-02-01T22:21:01.167Z",
-      "mtime": "2019-02-01T22:21:01.143Z",
-      "ctime": "2019-02-01T22:21:01.143Z",
-      "birthtime": "2019-02-01T22:21:01.143Z"
-    },
-    "c9f4cf25-d0eb-5f0c-b7e1-ce0d41f540c0": {
-      "id": "c9f4cf25-d0eb-5f0c-b7e1-ce0d41f540c0",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "2415a6d9f5ff60177786a17b803ae811",
-        "type": "Directory",
-        "description": "Directory \"content/blog/hi-folks\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/hi-folks",
-      "relativePath": "hi-folks",
-      "extension": "",
-      "size": 4096,
-      "prettySize": "4.1 kB",
-      "modifiedTime": "2019-02-01T22:21:01.143Z",
-      "accessTime": "2019-02-01T22:21:01.171Z",
-      "changeTime": "2019-02-01T22:21:01.143Z",
-      "birthTime": "2019-02-01T22:21:01.143Z",
-      "root": "/",
-      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
-      "base": "hi-folks",
-      "ext": "",
-      "name": "hi-folks",
-      "relativeDirectory": "",
-      "dev": 66306,
-      "mode": 16893,
-      "nlink": 2,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 2364406,
-      "blocks": 8,
-      "atimeMs": 1549059661170.9004,
-      "mtimeMs": 1549059661142.9004,
-      "ctimeMs": 1549059661142.9004,
-      "birthtimeMs": 1549059661142.9004,
-      "atime": "2019-02-01T22:21:01.171Z",
-      "mtime": "2019-02-01T22:21:01.143Z",
-      "ctime": "2019-02-01T22:21:01.143Z",
-      "birthtime": "2019-02-01T22:21:01.143Z"
-    },
     "d9e1835f-eb0d-5932-82ad-6b2fced4e8d8": {
       "id": "d9e1835f-eb0d-5932-82ad-6b2fced4e8d8",
       "children": [],
@@ -2346,100 +2258,6 @@
       "ctime": "2019-02-01T22:21:01.143Z",
       "birthtime": "2019-02-01T22:21:01.143Z"
     },
-    "d09544aa-ab77-5401-a699-2730cf8d8301": {
-      "id": "d09544aa-ab77-5401-a699-2730cf8d8301",
-      "children": [
-        "be726e53-4f33-5c69-82aa-98599e547e45"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "b1ebb3ad63596c127c13f27d0e88abb4",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/hello-world/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/hello-world/index.md",
-      "relativePath": "hello-world/index.md",
-      "extension": "md",
-      "size": 857,
-      "prettySize": "857 B",
-      "modifiedTime": "2019-02-01T22:21:01.139Z",
-      "accessTime": "2019-02-01T22:21:01.163Z",
-      "changeTime": "2019-02-01T22:21:01.139Z",
-      "birthTime": "2019-02-01T22:21:01.139Z",
-      "root": "/",
-      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/hello-world",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "hello-world",
-      "dev": 66306,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 29363790,
-      "blocks": 8,
-      "atimeMs": 1549059661162.9004,
-      "mtimeMs": 1549059661138.9004,
-      "ctimeMs": 1549059661138.9004,
-      "birthtimeMs": 1549059661138.9004,
-      "atime": "2019-02-01T22:21:01.163Z",
-      "mtime": "2019-02-01T22:21:01.139Z",
-      "ctime": "2019-02-01T22:21:01.139Z",
-      "birthtime": "2019-02-01T22:21:01.139Z"
-    },
-    "d601425e-419d-5c68-8e96-aefb48f9425b": {
-      "id": "d601425e-419d-5c68-8e96-aefb48f9425b",
-      "children": [
-        "d738e1da-6dc0-5ccf-813b-bff2ca8e716b"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "a326e7e4bd42297f62daeed38c93c8d6",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/hi-folks/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/hi-folks/index.md",
-      "relativePath": "hi-folks/index.md",
-      "extension": "md",
-      "size": 5460,
-      "prettySize": "5.46 kB",
-      "modifiedTime": "2019-02-01T22:21:01.143Z",
-      "accessTime": "2019-02-01T22:21:01.171Z",
-      "changeTime": "2019-02-01T22:21:01.143Z",
-      "birthTime": "2019-02-01T22:21:01.143Z",
-      "root": "/",
-      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/hi-folks",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "hi-folks",
-      "dev": 66306,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 2364409,
-      "blocks": 16,
-      "atimeMs": 1549059661170.9004,
-      "mtimeMs": 1549059661142.9004,
-      "ctimeMs": 1549059661142.9004,
-      "birthtimeMs": 1549059661142.9004,
-      "atime": "2019-02-01T22:21:01.171Z",
-      "mtime": "2019-02-01T22:21:01.143Z",
-      "ctime": "2019-02-01T22:21:01.143Z",
-      "birthtime": "2019-02-01T22:21:01.143Z"
-    },
     "af217c11-1434-51df-b374-e99dd4561048": {
       "id": "af217c11-1434-51df-b374-e99dd4561048",
       "children": [
@@ -2447,7 +2265,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "390c19705008265942fa890ddf4a0852",
+        "contentDigest": "63517166504f7f690f63d2591039b682",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/my-second-post/index.md\"",
@@ -2457,12 +2275,12 @@
       "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post/index.md",
       "relativePath": "my-second-post/index.md",
       "extension": "md",
-      "size": 378,
-      "prettySize": "378 B",
-      "modifiedTime": "2019-02-01T22:21:01.143Z",
-      "accessTime": "2019-02-01T22:21:01.171Z",
-      "changeTime": "2019-02-01T22:21:01.143Z",
-      "birthTime": "2019-02-01T22:21:01.143Z",
+      "size": 377,
+      "prettySize": "377 B",
+      "modifiedTime": "2019-02-01T22:41:35.395Z",
+      "accessTime": "2019-02-01T22:41:02.631Z",
+      "changeTime": "2019-02-01T22:41:35.395Z",
+      "birthTime": "2019-02-01T22:41:35.395Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post",
       "base": "index.md",
@@ -2478,143 +2296,14 @@
       "blksize": 4096,
       "ino": 2364414,
       "blocks": 8,
-      "atimeMs": 1549059661170.9004,
-      "mtimeMs": 1549059661142.9004,
-      "ctimeMs": 1549059661142.9004,
-      "birthtimeMs": 1549059661142.9004,
-      "atime": "2019-02-01T22:21:01.171Z",
-      "mtime": "2019-02-01T22:21:01.143Z",
-      "ctime": "2019-02-01T22:21:01.143Z",
-      "birthtime": "2019-02-01T22:21:01.143Z"
-    },
-    "be726e53-4f33-5c69-82aa-98599e547e45": {
-      "id": "be726e53-4f33-5c69-82aa-98599e547e45",
-      "children": [],
-      "parent": "d09544aa-ab77-5401-a699-2730cf8d8301",
-      "internal": {
-        "content": "\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on\n[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n> A salted duck egg is a Chinese preserved food product made by soaking duck\n> eggs in brine, or packing each egg in damp, salted charcoal. In Asian\n> supermarkets, these eggs are sometimes sold covered in a thick layer of salted\n> charcoal paste. The eggs may also be sold with the salted paste removed,\n> wrapped in plastic, and vacuum packed. From the salt curing process, the\n> salted duck eggs have a briny aroma, a gelatin-like egg white and a\n> firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "f7afdbecbb8324891d975704082b7105",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Hello World",
-        "date": "2015-05-01T22:12:03.284Z"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on\n[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n> A salted duck egg is a Chinese preserved food product made by soaking duck\n> eggs in brine, or packing each egg in damp, salted charcoal. In Asian\n> supermarkets, these eggs are sometimes sold covered in a thick layer of salted\n> charcoal paste. The eggs may also be sold with the salted paste removed,\n> wrapped in plastic, and vacuum packed. From the salt curing process, the\n> salted duck eggs have a briny aroma, a gelatin-like egg white and a\n> firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
-      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/hello-world/index.md",
-      "fields": {
-        "slug": "/hello-world/"
-      }
-    },
-    "5f76ec03-61e2-55d6-99bc-6aba2bcb87b5": {
-      "id": "5f76ec03-61e2-55d6-99bc-6aba2bcb87b5",
-      "children": [],
-      "parent": "af217c11-1434-51df-b374-e99dd4561048",
-      "internal": {
-        "content": "\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"?\n([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "6c0bb7582a03cdd7f07a8bbc68f978af",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "My Second Post!",
-        "date": "2015-05-06T23:46:37.121Z"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"?\n([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
-      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post/index.md",
-      "fields": {
-        "slug": "/my-second-post/"
-      }
-    },
-    "d738e1da-6dc0-5ccf-813b-bff2ca8e716b": {
-      "id": "d738e1da-6dc0-5ccf-813b-bff2ca8e716b",
-      "children": [],
-      "parent": "d601425e-419d-5c68-8e96-aefb48f9425b",
-      "internal": {
-        "content": "\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\nDuden flows by their place and supplies it with the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n- This however showed weasel\n- Well uncritical so misled\n  - this is very interesting\n- Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she had a last\nview back on the skyline of her hometown _Bookmarksgrove_, the headline of\n[Alphabet Village](http://google.com) and the subline of her own road, the Line\nLane. Pityful a rethoric question ran over her cheek, then she continued her\nway. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with\n[Longe and Parole](http://google.com) and dragged her into their agency, where\nthey abused her for their projects again and again. And if she hasn’t been\nrewritten, then they are still using her.\n\n> Far far away, behind the word mountains, far from the countries Vokalia and\n> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove\n> right at the coast of the Semantics, a large language ocean.\n\nIt is a paradisematic country, in which roasted parts of sentences fly into your\nmouth. Even the all-powerful Pointing has no control about the blind texts it is\nan almost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic\n    impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a last view\nback on the skyline of her hometown Bookmarksgrove, the headline of Alphabet\nVillage and the subline of her own road, the Line Lane. Pityful a rethoric\nquestion ran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n> The copy warned the Little Blind Text, that where it came from it would have\n> been rewritten a thousand times and everything that was left from its origin\n> would be the word \"and\" and the Little Blind Text should turn around and\n> return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with Longe and Parole\nand dragged her into their agency, where they abused her for their projects\nagain and again. And if she hasn’t been rewritten, then they are still using\nher. Far far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the Semantics, a\nlarge language ocean. A small river named Duden flows by their place and\nsupplies it with the necessary regelialia. It is a paradisematic country, in\nwhich roasted parts of sentences fly into your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts it is an\nalmost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox\nadvised her not to do so, because there were thousands of bad Commas, wild\nQuestion Marks and devious Semikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and made herself on\nthe way. When she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the headline of\nAlphabet Village and the subline of her own road, the Line Lane. Pityful a\nrethoric question ran over her cheek, then she continued her way. On her way she\nmet a copy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it would have\nbeen rewritten a thousand times and everything that was left from its origin\nwould be the word \"and\" and the Little Blind Text should turn around and return\nto its own, safe country. But nothing the copy said could convince her and so it\ndidn’t take long until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they abused her\nfor their projects again and again.\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "bebfe301c21a0558a767b31cbd83517b",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "New Beginnings",
-        "date": "2015-05-28T22:40:32.169Z"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\nDuden flows by their place and supplies it with the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n- This however showed weasel\n- Well uncritical so misled\n  - this is very interesting\n- Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she had a last\nview back on the skyline of her hometown _Bookmarksgrove_, the headline of\n[Alphabet Village](http://google.com) and the subline of her own road, the Line\nLane. Pityful a rethoric question ran over her cheek, then she continued her\nway. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with\n[Longe and Parole](http://google.com) and dragged her into their agency, where\nthey abused her for their projects again and again. And if she hasn’t been\nrewritten, then they are still using her.\n\n> Far far away, behind the word mountains, far from the countries Vokalia and\n> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove\n> right at the coast of the Semantics, a large language ocean.\n\nIt is a paradisematic country, in which roasted parts of sentences fly into your\nmouth. Even the all-powerful Pointing has no control about the blind texts it is\nan almost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic\n    impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a last view\nback on the skyline of her hometown Bookmarksgrove, the headline of Alphabet\nVillage and the subline of her own road, the Line Lane. Pityful a rethoric\nquestion ran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n> The copy warned the Little Blind Text, that where it came from it would have\n> been rewritten a thousand times and everything that was left from its origin\n> would be the word \"and\" and the Little Blind Text should turn around and\n> return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with Longe and Parole\nand dragged her into their agency, where they abused her for their projects\nagain and again. And if she hasn’t been rewritten, then they are still using\nher. Far far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the Semantics, a\nlarge language ocean. A small river named Duden flows by their place and\nsupplies it with the necessary regelialia. It is a paradisematic country, in\nwhich roasted parts of sentences fly into your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts it is an\nalmost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox\nadvised her not to do so, because there were thousands of bad Commas, wild\nQuestion Marks and devious Semikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and made herself on\nthe way. When she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the headline of\nAlphabet Village and the subline of her own road, the Line Lane. Pityful a\nrethoric question ran over her cheek, then she continued her way. On her way she\nmet a copy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it would have\nbeen rewritten a thousand times and everything that was left from its origin\nwould be the word \"and\" and the Little Blind Text should turn around and return\nto its own, safe country. But nothing the copy said could convince her and so it\ndidn’t take long until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they abused her\nfor their projects again and again.\n",
-      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/hi-folks/index.md",
-      "fields": {
-        "slug": "/hi-folks/"
-      }
-    },
-    "d572bce3-e7dd-5e35-b9e8-f362e8a8617d": {
-      "id": "d572bce3-e7dd-5e35-b9e8-f362e8a8617d",
-      "children": [
-        "7d5ecf92-d7e4-547b-aa4f-9a8f3b1ce147"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"content/blog/hello-world/salty_egg.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/hello-world/salty_egg.jpg",
-      "relativePath": "hello-world/salty_egg.jpg",
-      "extension": "jpg",
-      "size": 684322,
-      "prettySize": "684 kB",
-      "modifiedTime": "2019-02-01T22:21:01.143Z",
-      "accessTime": "2019-02-01T22:21:01.163Z",
-      "changeTime": "2019-02-01T22:21:01.143Z",
-      "birthTime": "2019-02-01T22:21:01.143Z",
-      "root": "/",
-      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/hello-world",
-      "base": "salty_egg.jpg",
-      "ext": ".jpg",
-      "name": "salty_egg",
-      "relativeDirectory": "hello-world",
-      "dev": 66306,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 29363791,
-      "blocks": 1344,
-      "atimeMs": 1549059661162.9004,
-      "mtimeMs": 1549059661142.9004,
-      "ctimeMs": 1549059661142.9004,
-      "birthtimeMs": 1549059661142.9004,
-      "atime": "2019-02-01T22:21:01.163Z",
-      "mtime": "2019-02-01T22:21:01.143Z",
-      "ctime": "2019-02-01T22:21:01.143Z",
-      "birthtime": "2019-02-01T22:21:01.143Z"
-    },
-    "7d5ecf92-d7e4-547b-aa4f-9a8f3b1ce147": {
-      "id": "7d5ecf92-d7e4-547b-aa4f-9a8f3b1ce147",
-      "children": [],
-      "parent": "d572bce3-e7dd-5e35-b9e8-f362e8a8617d",
-      "internal": {
-        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
+      "atimeMs": 1549060862630.9788,
+      "mtimeMs": 1549060895394.9678,
+      "ctimeMs": 1549060895394.9678,
+      "birthtimeMs": 1549060895394.9678,
+      "atime": "2019-02-01T22:41:02.631Z",
+      "mtime": "2019-02-01T22:41:35.395Z",
+      "ctime": "2019-02-01T22:41:35.395Z",
+      "birthtime": "2019-02-01T22:41:35.395Z"
     },
     "cf0e24f3-9040-5f02-9a0c-e5d12e750370": {
       "id": "cf0e24f3-9040-5f02-9a0c-e5d12e750370",
@@ -2659,63 +2348,6 @@
       "mtime": "2019-02-01T22:24:42.900Z",
       "ctime": "2019-02-01T22:24:42.900Z",
       "birthtime": "2019-02-01T22:24:42.900Z"
-    },
-    "b5c0d021-da00-5f59-a452-147412ed40f4": {
-      "id": "b5c0d021-da00-5f59-a452-147412ed40f4",
-      "children": [
-        "1faf30ec-1cb1-5542-8188-8f35847059fa"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"content/assets/gatsby-icon.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "assets",
-      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/assets/gatsby-icon.png",
-      "relativePath": "gatsby-icon.png",
-      "extension": "png",
-      "size": 21212,
-      "prettySize": "21.2 kB",
-      "modifiedTime": "2019-02-01T22:21:01.139Z",
-      "accessTime": "2019-02-01T22:21:01.163Z",
-      "changeTime": "2019-02-01T22:21:01.139Z",
-      "birthTime": "2019-02-01T22:21:01.139Z",
-      "root": "/",
-      "dir": "/home/david/dev/oregand/Oregand.github.io/content/assets",
-      "base": "gatsby-icon.png",
-      "ext": ".png",
-      "name": "gatsby-icon",
-      "relativeDirectory": "",
-      "dev": 66306,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 29363779,
-      "blocks": 48,
-      "atimeMs": 1549059661162.9004,
-      "mtimeMs": 1549059661138.9004,
-      "ctimeMs": 1549059661138.9004,
-      "birthtimeMs": 1549059661138.9004,
-      "atime": "2019-02-01T22:21:01.163Z",
-      "mtime": "2019-02-01T22:21:01.139Z",
-      "ctime": "2019-02-01T22:21:01.139Z",
-      "birthtime": "2019-02-01T22:21:01.139Z"
-    },
-    "1faf30ec-1cb1-5542-8188-8f35847059fa": {
-      "id": "1faf30ec-1cb1-5542-8188-8f35847059fa",
-      "children": [],
-      "parent": "b5c0d021-da00-5f59-a452-147412ed40f4",
-      "internal": {
-        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "d9528317-0fcd-53d0-91de-b3fcab2148d2": {
       "id": "d9528317-0fcd-53d0-91de-b3fcab2148d2",
@@ -2813,22 +2445,8 @@
       "componentChunkName": "component---src-templates-blog-post-js",
       "context": {
         "slug": "/my-second-post/",
-        "previous": {
-          "fields": {
-            "slug": "/hello-world/"
-          },
-          "frontmatter": {
-            "title": "Hello World"
-          }
-        },
-        "next": {
-          "fields": {
-            "slug": "/hi-folks/"
-          },
-          "frontmatter": {
-            "title": "New Beginnings"
-          }
-        }
+        "previous": null,
+        "next": null
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
@@ -2838,7 +2456,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1c969e4b8b96555ebcf3ba438a387bce",
+        "contentDigest": "169bf1648323d44109ab5fb145601294",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2933,6 +2551,30 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "5f76ec03-61e2-55d6-99bc-6aba2bcb87b5": {
+      "id": "5f76ec03-61e2-55d6-99bc-6aba2bcb87b5",
+      "children": [],
+      "parent": "af217c11-1434-51df-b374-e99dd4561048",
+      "internal": {
+        "content": "\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"?\n([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "ad8ec37df7d4b79ed36aa24dea0be3e8",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "My First Post!",
+        "date": "2015-05-06T23:46:37.121Z"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"?\n([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
+      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post/index.md",
+      "fields": {
+        "slug": "/my-second-post/"
+      }
     }
   },
   "status": {
@@ -2948,8 +2590,8 @@
         "/hello-world/",
         "/404/",
         "/404.html",
-        "sq--src-components-seo-js",
-        "sq--src-components-bio-js"
+        "sq--src-components-bio-js",
+        "sq--src-components-seo-js"
       ],
       "d9528317-0fcd-53d0-91de-b3fcab2148d2": [
         "sq--src-components-bio-js"
@@ -2976,13 +2618,13 @@
   },
   "jsonDataPaths": {
     "sq--src-components-seo-js": 1025518380,
-    "hi-folks-a2b": "893/path---hi-folks-a-2-b-1cc-LEkWdhhgi4mmMKUkXdlpRTTVa28",
+    "hi-folks-a2b": "452/path---hi-folks-a-2-b-1cc-Q4TvVDPHCDLanmlLxQlvkbAAgqY",
     "sq--src-components-bio-js": 2455242068,
-    "my-second-post-2aa": "892/path---my-second-post-2-aa-e94-YNDMhVu5DWog8EmFcOkAjbde208",
+    "my-second-post-2aa": "856/path---my-second-post-2-aa-e94-pjrX6jBD0T55AoM5NWMqlVxNUGs",
     "404-22d": "731/path---404-22-d-bce-EVaHXcHipTKNxCBcOiCr2NBFk",
-    "index": "727/path---index-6a9-prKUx5a9mZAj5oz0lgECCuxQ",
+    "index": "742/path---index-6a9-71wTYn39mtVzM9TOGPBmdlwF4",
     "404-html-516": "82/path---404-html-516-62a-EVaHXcHipTKNxCBcOiCr2NBFk",
-    "hello-world-8bc": "358/path---hello-world-8-bc-b62-EZMK7bI73byL7thTkhMsaYJUCQ",
+    "hello-world-8bc": "751/path---hello-world-8-bc-b62-01FPJfZ7XTH82FcziOFKc2rymk",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {

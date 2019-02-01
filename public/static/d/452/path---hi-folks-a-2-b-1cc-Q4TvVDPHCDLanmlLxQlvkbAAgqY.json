@@ -1,0 +1,16 @@
+{
+  "data": {
+    "site": {
+      "siteMetadata": { "title": "Get. Shit. Done.", "author": "David O'Regan" }
+    },
+    "markdownRemark": null
+  },
+  "pageContext": {
+    "slug": "/hi-folks/",
+    "previous": {
+      "fields": { "slug": "/my-second-post/" },
+      "frontmatter": { "title": "My Second Post!" }
+    },
+    "next": null
+  }
+}
