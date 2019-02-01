@@ -2142,7 +2142,7 @@
       "children": ["5f76ec03-61e2-55d6-99bc-6aba2bcb87b5"],
       "parent": null,
       "internal": {
-        "contentDigest": "2255687594a7c2f5cee0d320cfb60981",
+        "contentDigest": "2b46e5259f6871d20dbf225661c94c0e",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/my-second-post/index.md\"",
@@ -2152,12 +2152,12 @@
       "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post/index.md",
       "relativePath": "my-second-post/index.md",
       "extension": "md",
-      "size": 950,
-      "prettySize": "950 B",
-      "modifiedTime": "2019-02-01T23:21:59.461Z",
-      "accessTime": "2019-02-01T23:21:44.249Z",
-      "changeTime": "2019-02-01T23:21:59.461Z",
-      "birthTime": "2019-02-01T23:21:59.461Z",
+      "size": 1503,
+      "prettySize": "1.5 kB",
+      "modifiedTime": "2019-02-01T23:31:12.277Z",
+      "accessTime": "2019-02-01T23:29:57.097Z",
+      "changeTime": "2019-02-01T23:31:12.277Z",
+      "birthTime": "2019-02-01T23:31:12.277Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post",
       "base": "index.md",
@@ -2173,14 +2173,14 @@
       "blksize": 4096,
       "ino": 2364414,
       "blocks": 8,
-      "atimeMs": 1549063304249.0276,
-      "mtimeMs": 1549063319461.1409,
-      "ctimeMs": 1549063319461.1409,
-      "birthtimeMs": 1549063319461.1409,
-      "atime": "2019-02-01T23:21:44.249Z",
-      "mtime": "2019-02-01T23:21:59.461Z",
-      "ctime": "2019-02-01T23:21:59.461Z",
-      "birthtime": "2019-02-01T23:21:59.461Z"
+      "atimeMs": 1549063797096.5913,
+      "mtimeMs": 1549063872277.1216,
+      "ctimeMs": 1549063872277.1216,
+      "birthtimeMs": 1549063872277.1216,
+      "atime": "2019-02-01T23:29:57.097Z",
+      "mtime": "2019-02-01T23:31:12.277Z",
+      "ctime": "2019-02-01T23:31:12.277Z",
+      "birthtime": "2019-02-01T23:31:12.277Z"
     },
     "cf0e24f3-9040-5f02-9a0c-e5d12e750370": {
       "id": "cf0e24f3-9040-5f02-9a0c-e5d12e750370",
@@ -2425,9 +2425,9 @@
       "children": [],
       "parent": "af217c11-1434-51df-b374-e99dd4561048",
       "internal": {
-        "content": "\nSo, at some point in your career as a software developer, you're going to run into a moment of: `Shit, deploy or keep tweaking?`. Don't panic, it's a normal reaction and a cross roads we all come to eventually.\n\nIf you think of yourself as a good developer, you probably spend a lot of time trying to improve the quality of your own code. Even if you dont think you're a particulary good developer, I bet you still spend a lot of time trying to write the *best* code.\n\n+ You spend time reading best practices from your developer heros.\n+ You refractor your old awful code again and again.\n+ You spend time reading best practices, you refractor your old, awful code\n\nIt encourages readable, correct and performant code, and helps developers fall into [the pit of success](https://blog.codinghorror.com/falling-into-the-pit-of-success/).\n",
+        "content": "\nSo, at some point in your career as a software developer, you're going to run into a moment of: `Shit, deploy or keep tweaking?`. Don't panic, it's a normal reaction and a cross roads we all come to eventually.\n\nIf you think of yourself as a good developer, you probably spend a lot of time trying to improve the quality of your own code. Even if you dont think you're a particulary good developer, I bet you still spend a lot of time trying to write the _best_ code.\n\n- You spend time reading best practices from your developer heros - Looking at you [Jussi Hallila](http://jussi.hallila.com/).\n- You refractor your old awful code time and time again.\n-\n\nAnd so, we spend a lot of time and energy trying to perfect our own craft, writing code that other people will awe at but how does this type of idealism stack up in the real world against business requirements?\n\nIn my experience, theres a bit of a disconect between what developers feel they need to deliver and what we actually need to deliver.\n\nWhy though?\n\nSometimes we like to feel smart, sometimes we want to prove we know what we're doing, sometimes we need to push ourseleves. None of these motivations however relate at all to buisness value delivered. \n\nIt encourages readable, correct and performant code, and helps developers fall into [the pit of success](https://blog.codinghorror.com/falling-into-the-pit-of-success/).\n",
         "type": "MarkdownRemark",
-        "contentDigest": "9bf05a2e1a6e195e7062c6159ad6fbe9",
+        "contentDigest": "3ac5bbd93e8e95444a9be92af694e3b8",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -2439,7 +2439,7 @@
         "spoiler": "When is it good enough to deploy?"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\nSo, at some point in your career as a software developer, you're going to run into a moment of: `Shit, deploy or keep tweaking?`. Don't panic, it's a normal reaction and a cross roads we all come to eventually.\n\nIf you think of yourself as a good developer, you probably spend a lot of time trying to improve the quality of your own code. Even if you dont think you're a particulary good developer, I bet you still spend a lot of time trying to write the *best* code.\n\n+ You spend time reading best practices from your developer heros.\n+ You refractor your old awful code again and again.\n+ You spend time reading best practices, you refractor your old, awful code\n\nIt encourages readable, correct and performant code, and helps developers fall into [the pit of success](https://blog.codinghorror.com/falling-into-the-pit-of-success/).\n",
+      "rawMarkdownBody": "\nSo, at some point in your career as a software developer, you're going to run into a moment of: `Shit, deploy or keep tweaking?`. Don't panic, it's a normal reaction and a cross roads we all come to eventually.\n\nIf you think of yourself as a good developer, you probably spend a lot of time trying to improve the quality of your own code. Even if you dont think you're a particulary good developer, I bet you still spend a lot of time trying to write the _best_ code.\n\n- You spend time reading best practices from your developer heros - Looking at you [Jussi Hallila](http://jussi.hallila.com/).\n- You refractor your old awful code time and time again.\n-\n\nAnd so, we spend a lot of time and energy trying to perfect our own craft, writing code that other people will awe at but how does this type of idealism stack up in the real world against business requirements?\n\nIn my experience, theres a bit of a disconect between what developers feel they need to deliver and what we actually need to deliver.\n\nWhy though?\n\nSometimes we like to feel smart, sometimes we want to prove we know what we're doing, sometimes we need to push ourseleves. None of these motivations however relate at all to buisness value delivered. \n\nIt encourages readable, correct and performant code, and helps developers fall into [the pit of success](https://blog.codinghorror.com/falling-into-the-pit-of-success/).\n",
       "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post/index.md",
       "fields": {
         "slug": "/my-second-post/"
@@ -2474,7 +2474,7 @@
     "sq--src-components-seo-js": 1025518380,
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "392/path---index-6a9-iGdyVF9hArDr9qsT8VxZYHGo",
-    "my-second-post-2aa": "268/path---my-second-post-2-aa-e94-Ug0xcBjfOGq02qsYSGG4zKDek",
+    "my-second-post-2aa": "167/path---my-second-post-2-aa-e94-rkIHQnEGOrm5Dx8bPuA16ktAIg",
     "sq--src-components-bio-js": 2455242068
   },
   "components": {
