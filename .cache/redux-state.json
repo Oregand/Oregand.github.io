@@ -28,9 +28,7 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [
-        "createPagesStatefully"
-      ],
+      "nodeAPIs": ["createPagesStatefully"],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
@@ -63,9 +61,7 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [
-        "onPreBootstrap"
-      ],
+      "nodeAPIs": ["onPreBootstrap"],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
@@ -98,10 +94,7 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [
-        "sourceNodes",
-        "onCreatePage"
-      ],
+      "nodeAPIs": ["sourceNodes", "onCreatePage"],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
@@ -134,9 +127,7 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [
-        "onCreatePage"
-      ],
+      "nodeAPIs": ["onCreatePage"],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
@@ -169,9 +160,7 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [
-        "onCreatePage"
-      ],
+      "nodeAPIs": ["onCreatePage"],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
@@ -204,9 +193,7 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [
-        "onCreateWebpackConfig"
-      ],
+      "nodeAPIs": ["onCreateWebpackConfig"],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
@@ -241,10 +228,7 @@
         "path": "/home/david/dev/oregand/Oregand.github.io/content/blog",
         "name": "blog"
       },
-      "nodeAPIs": [
-        "sourceNodes",
-        "setFieldsOnGraphQLNodeType"
-      ],
+      "nodeAPIs": ["sourceNodes", "setFieldsOnGraphQLNodeType"],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-source-filesystem",
@@ -252,10 +236,7 @@
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
         "version": "2.0.20",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
+        "keywords": ["gatsby", "gatsby-plugin"],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -365,10 +346,7 @@
         "path": "/home/david/dev/oregand/Oregand.github.io/content/assets",
         "name": "assets"
       },
-      "nodeAPIs": [
-        "sourceNodes",
-        "setFieldsOnGraphQLNodeType"
-      ],
+      "nodeAPIs": ["sourceNodes", "setFieldsOnGraphQLNodeType"],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-source-filesystem",
@@ -376,10 +354,7 @@
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
         "version": "2.0.20",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
+        "keywords": ["gatsby", "gatsby-plugin"],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -540,13 +515,7 @@
             "version": "2.0.9",
             "pluginOptions": {
               "plugins": [],
-              "ignoreFileExtensions": [
-                "png",
-                "jpg",
-                "jpeg",
-                "bmp",
-                "tiff"
-              ]
+              "ignoreFileExtensions": ["png", "jpg", "jpeg", "bmp", "tiff"]
             },
             "nodeAPIs": [],
             "browserAPIs": [],
@@ -568,10 +537,7 @@
           }
         ]
       },
-      "nodeAPIs": [
-        "onCreateNode",
-        "setFieldsOnGraphQLNodeType"
-      ],
+      "nodeAPIs": ["onCreateNode", "setFieldsOnGraphQLNodeType"],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-transformer-remark",
@@ -579,12 +545,7 @@
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
         "version": "2.2.3",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "markdown",
-          "remark"
-        ],
+        "keywords": ["gatsby", "gatsby-plugin", "markdown", "remark"],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -821,11 +782,7 @@
         "description": "Make iframes in Markdown processed by Remark responsive",
         "version": "2.0.9",
         "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "remark"
-        ],
+        "keywords": ["gatsby", "gatsby-plugin", "remark"],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -910,12 +867,7 @@
         "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
         "version": "3.2.4",
         "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "prismjs",
-          "remark"
-        ],
+        "keywords": ["gatsby", "gatsby-plugin", "prismjs", "remark"],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -986,13 +938,7 @@
       "version": "2.0.9",
       "pluginOptions": {
         "plugins": [],
-        "ignoreFileExtensions": [
-          "png",
-          "jpg",
-          "jpeg",
-          "bmp",
-          "tiff"
-        ]
+        "ignoreFileExtensions": ["png", "jpg", "jpeg", "bmp", "tiff"]
       },
       "nodeAPIs": [],
       "browserAPIs": [],
@@ -1003,12 +949,7 @@
         "description": "Find files which are linked to from markdown and copy them to the public directory",
         "version": "2.0.9",
         "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "prismjs",
-          "remark"
-        ],
+        "keywords": ["gatsby", "gatsby-plugin", "prismjs", "remark"],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -1097,11 +1038,7 @@
         "description": "Use retext-smartypants to auto-enhance typography of markdown",
         "version": "2.0.8",
         "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "smartypants"
-        ],
+        "keywords": ["gatsby", "gatsby-plugin", "smartypants"],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -1177,12 +1114,7 @@
         "name": "gatsby-transformer-sharp",
         "description": "Gatsby transformer plugin for images using Sharp",
         "version": "2.1.13",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "image",
-          "sharp"
-        ],
+        "keywords": ["gatsby", "gatsby-plugin", "image", "sharp"],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -1258,9 +1190,7 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [
-        "onPreInit"
-      ],
+      "nodeAPIs": ["onPreInit"],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-sharp",
@@ -1269,12 +1199,7 @@
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
         "version": "2.0.20",
         "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "image",
-          "sharp"
-        ],
+        "keywords": ["gatsby", "gatsby-plugin", "image", "sharp"],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -1387,23 +1312,15 @@
         "plugins": []
       },
       "nodeAPIs": [],
-      "browserAPIs": [
-        "onRouteUpdate"
-      ],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
+      "browserAPIs": ["onRouteUpdate"],
+      "ssrAPIs": ["onRenderBody"],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-google-analytics",
       "packageJson": {
         "name": "gatsby-plugin-google-analytics",
         "description": "Gatsby plugin to add google analytics onto a site",
         "version": "2.0.13",
         "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "google analytics"
-        ],
+        "keywords": ["gatsby", "gatsby-plugin", "google analytics"],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -1455,26 +1372,16 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [
-        "onPostBuild"
-      ],
+      "nodeAPIs": ["onPostBuild"],
       "browserAPIs": [],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
+      "ssrAPIs": ["onRenderBody"],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-feed",
       "packageJson": {
         "name": "gatsby-plugin-feed",
         "description": "Creates an RSS feed for your Gatsby site.",
         "version": "2.0.13",
         "main": "index.js",
-        "keywords": [
-          "atom",
-          "feed",
-          "gatsby",
-          "gatsby-plugin",
-          "rss"
-        ],
+        "keywords": ["atom", "feed", "gatsby", "gatsby-plugin", "rss"],
         "author": "Nicholas Young <nicholas@nicholaswyoung.com>",
         "license": "MIT",
         "dependencies": [
@@ -1549,13 +1456,9 @@
         "display": "minimal-ui",
         "icon": "content/assets/logo.jpg"
       },
-      "nodeAPIs": [
-        "onPostBootstrap"
-      ],
+      "nodeAPIs": ["onPostBootstrap"],
       "browserAPIs": [],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
+      "ssrAPIs": ["onRenderBody"],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-manifest",
       "packageJson": {
         "name": "gatsby-plugin-manifest",
@@ -1630,10 +1533,7 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [
-        "createPages",
-        "onPostBuild"
-      ],
+      "nodeAPIs": ["createPages", "onPostBuild"],
       "browserAPIs": [
         "registerServiceWorker",
         "onServiceWorkerActive",
@@ -1726,9 +1626,7 @@
       },
       "nodeAPIs": [],
       "browserAPIs": [],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
+      "ssrAPIs": ["onRenderBody"],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
@@ -1807,27 +1705,16 @@
         "plugins": [],
         "pathToConfigModule": "src/utils/typography"
       },
-      "nodeAPIs": [
-        "onPreBootstrap"
-      ],
-      "browserAPIs": [
-        "onClientEntry"
-      ],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
+      "nodeAPIs": ["onPreBootstrap"],
+      "browserAPIs": ["onClientEntry"],
+      "ssrAPIs": ["onRenderBody"],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-typography",
       "packageJson": {
         "name": "gatsby-plugin-typography",
         "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
         "version": "2.2.7",
         "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "typography",
-          "typography.js"
-        ],
+        "keywords": ["gatsby", "gatsby-plugin", "typography", "typography.js"],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -1895,10 +1782,7 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [
-        "createPages",
-        "onCreateNode"
-      ],
+      "nodeAPIs": ["createPages", "onCreateNode"],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io",
@@ -1907,9 +1791,7 @@
         "description": "My personal blog.",
         "version": "0.1.0",
         "main": "n/a",
-        "keywords": [
-          "gatsby, react, david, developer, blog"
-        ],
+        "keywords": ["gatsby, react, david, developer, blog"],
         "author": "David O'Regan <davidoregan91@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -2058,9 +1940,7 @@
         "path": "/home/david/dev/oregand/Oregand.github.io/src/pages",
         "pathCheck": false
       },
-      "nodeAPIs": [
-        "createPagesStatefully"
-      ],
+      "nodeAPIs": ["createPagesStatefully"],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-page-creator",
@@ -2069,10 +1949,7 @@
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
         "version": "2.0.6",
         "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin"
-        ],
+        "keywords": ["gatsby", "gatsby-plugin"],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -2262,12 +2139,10 @@
     },
     "af217c11-1434-51df-b374-e99dd4561048": {
       "id": "af217c11-1434-51df-b374-e99dd4561048",
-      "children": [
-        "5f76ec03-61e2-55d6-99bc-6aba2bcb87b5"
-      ],
+      "children": ["5f76ec03-61e2-55d6-99bc-6aba2bcb87b5"],
       "parent": null,
       "internal": {
-        "contentDigest": "a16294d668488bc3865a7bcea4908426",
+        "contentDigest": "2255687594a7c2f5cee0d320cfb60981",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/my-second-post/index.md\"",
@@ -2277,12 +2152,12 @@
       "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post/index.md",
       "relativePath": "my-second-post/index.md",
       "extension": "md",
-      "size": 1515,
-      "prettySize": "1.51 kB",
-      "modifiedTime": "2019-02-01T23:13:00.969Z",
-      "accessTime": "2019-02-01T23:13:01.169Z",
-      "changeTime": "2019-02-01T23:13:00.969Z",
-      "birthTime": "2019-02-01T23:13:00.969Z",
+      "size": 950,
+      "prettySize": "950 B",
+      "modifiedTime": "2019-02-01T23:21:59.461Z",
+      "accessTime": "2019-02-01T23:21:44.249Z",
+      "changeTime": "2019-02-01T23:21:59.461Z",
+      "birthTime": "2019-02-01T23:21:59.461Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post",
       "base": "index.md",
@@ -2298,14 +2173,14 @@
       "blksize": 4096,
       "ino": 2364414,
       "blocks": 8,
-      "atimeMs": 1549062781168.8894,
-      "mtimeMs": 1549062780968.8877,
-      "ctimeMs": 1549062780968.8877,
-      "birthtimeMs": 1549062780968.8877,
-      "atime": "2019-02-01T23:13:01.169Z",
-      "mtime": "2019-02-01T23:13:00.969Z",
-      "ctime": "2019-02-01T23:13:00.969Z",
-      "birthtime": "2019-02-01T23:13:00.969Z"
+      "atimeMs": 1549063304249.0276,
+      "mtimeMs": 1549063319461.1409,
+      "ctimeMs": 1549063319461.1409,
+      "birthtimeMs": 1549063319461.1409,
+      "atime": "2019-02-01T23:21:44.249Z",
+      "mtime": "2019-02-01T23:21:59.461Z",
+      "ctime": "2019-02-01T23:21:59.461Z",
+      "birthtime": "2019-02-01T23:21:59.461Z"
     },
     "cf0e24f3-9040-5f02-9a0c-e5d12e750370": {
       "id": "cf0e24f3-9040-5f02-9a0c-e5d12e750370",
@@ -2353,9 +2228,7 @@
     },
     "f809abc7-b01b-5829-a12a-a1e2d6a43da8": {
       "id": "f809abc7-b01b-5829-a12a-a1e2d6a43da8",
-      "children": [
-        "68e9411a-cf46-552a-8704-1c4ac05e53fa"
-      ],
+      "children": ["68e9411a-cf46-552a-8704-1c4ac05e53fa"],
       "parent": null,
       "internal": {
         "contentDigest": "a010c2ad73f4071b8dff0a77a679846b",
@@ -2410,9 +2283,7 @@
     },
     "d9528317-0fcd-53d0-91de-b3fcab2148d2": {
       "id": "d9528317-0fcd-53d0-91de-b3fcab2148d2",
-      "children": [
-        "f716a1cf-1a30-5143-86b7-4d2515d9d3d2"
-      ],
+      "children": ["f716a1cf-1a30-5143-86b7-4d2515d9d3d2"],
       "parent": null,
       "internal": {
         "contentDigest": "5127f0562f9026cee741fd1b6763e531",
@@ -2554,9 +2425,9 @@
       "children": [],
       "parent": "af217c11-1434-51df-b374-e99dd4561048",
       "internal": {
-        "content": "\n_Good_ API design is memorable and unambiguous. It encourages readable, correct and performant code, and helps developers fall into [the pit of success](https://blog.codinghorror.com/falling-into-the-pit-of-success/).\n\nI call these design aspects “first order” because they are the first things a library developer tends to focus on. You might have to compromise on some of them and make tradeoffs but at least they’re always on your mind.\n\nHowever, unless you’re sending a rover to Mars, your code will probably change over time. And so will the code of your API consumers.\n\nThe best API designers I know don’t stop at the “first order” aspects like readability. They dedicate just as much, if not more, effort to what I call the “second order” API design: **how code using this API would evolve over time.**\n\nA slight change in requirements can make the most elegant code fall apart.\n\n_Great_ APIs anticipate that. They anticipate that you’ll want to move some code. Copy and paste some part. Rename it. Unify special cases into a generic reusable helper. Unwind an abstraction back into specific cases. Add a hack. Optimize a bottleneck. Throw away a part and start it anew. Make a mistake. Navigate between the cause and the effect. Fix a bug. Review the fix.\n\nGreat APIs not only let you fall into a pit of success, but help you _stay_ there.\n\nThey’re optimized for change.\n",
+        "content": "\nSo, at some point in your career as a software developer, you're going to run into a moment of: `Shit, deploy or keep tweaking?`. Don't panic, it's a normal reaction and a cross roads we all come to eventually.\n\nIf you think of yourself as a good developer, you probably spend a lot of time trying to improve the quality of your own code. Even if you dont think you're a particulary good developer, I bet you still spend a lot of time trying to write the *best* code.\n\n+ You spend time reading best practices from your developer heros.\n+ You refractor your old awful code again and again.\n+ You spend time reading best practices, you refractor your old, awful code\n\nIt encourages readable, correct and performant code, and helps developers fall into [the pit of success](https://blog.codinghorror.com/falling-into-the-pit-of-success/).\n",
         "type": "MarkdownRemark",
-        "contentDigest": "141e05c1ce834b6ae988557c6bbc30d2",
+        "contentDigest": "9bf05a2e1a6e195e7062c6159ad6fbe9",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -2568,7 +2439,7 @@
         "spoiler": "When is it good enough to deploy?"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n_Good_ API design is memorable and unambiguous. It encourages readable, correct and performant code, and helps developers fall into [the pit of success](https://blog.codinghorror.com/falling-into-the-pit-of-success/).\n\nI call these design aspects “first order” because they are the first things a library developer tends to focus on. You might have to compromise on some of them and make tradeoffs but at least they’re always on your mind.\n\nHowever, unless you’re sending a rover to Mars, your code will probably change over time. And so will the code of your API consumers.\n\nThe best API designers I know don’t stop at the “first order” aspects like readability. They dedicate just as much, if not more, effort to what I call the “second order” API design: **how code using this API would evolve over time.**\n\nA slight change in requirements can make the most elegant code fall apart.\n\n_Great_ APIs anticipate that. They anticipate that you’ll want to move some code. Copy and paste some part. Rename it. Unify special cases into a generic reusable helper. Unwind an abstraction back into specific cases. Add a hack. Optimize a bottleneck. Throw away a part and start it anew. Make a mistake. Navigate between the cause and the effect. Fix a bug. Review the fix.\n\nGreat APIs not only let you fall into a pit of success, but help you _stay_ there.\n\nThey’re optimized for change.\n",
+      "rawMarkdownBody": "\nSo, at some point in your career as a software developer, you're going to run into a moment of: `Shit, deploy or keep tweaking?`. Don't panic, it's a normal reaction and a cross roads we all come to eventually.\n\nIf you think of yourself as a good developer, you probably spend a lot of time trying to improve the quality of your own code. Even if you dont think you're a particulary good developer, I bet you still spend a lot of time trying to write the *best* code.\n\n+ You spend time reading best practices from your developer heros.\n+ You refractor your old awful code again and again.\n+ You spend time reading best practices, you refractor your old, awful code\n\nIt encourages readable, correct and performant code, and helps developers fall into [the pit of success](https://blog.codinghorror.com/falling-into-the-pit-of-success/).\n",
       "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post/index.md",
       "fields": {
         "slug": "/my-second-post/"
@@ -2589,21 +2460,12 @@
         "sq--src-components-bio-js",
         "sq--src-components-seo-js"
       ],
-      "d9528317-0fcd-53d0-91de-b3fcab2148d2": [
-        "sq--src-components-bio-js"
-      ],
-      "f716a1cf-1a30-5143-86b7-4d2515d9d3d2": [
-        "sq--src-components-bio-js"
-      ],
-      "5f76ec03-61e2-55d6-99bc-6aba2bcb87b5": [
-        "/my-second-post/"
-      ]
+      "d9528317-0fcd-53d0-91de-b3fcab2148d2": ["sq--src-components-bio-js"],
+      "f716a1cf-1a30-5143-86b7-4d2515d9d3d2": ["sq--src-components-bio-js"],
+      "5f76ec03-61e2-55d6-99bc-6aba2bcb87b5": ["/my-second-post/"]
     },
     "connections": {
-      "MarkdownRemark": [
-        null,
-        "/"
-      ]
+      "MarkdownRemark": [null, "/"]
     }
   },
   "jsonDataPaths": {
@@ -2611,8 +2473,8 @@
     "404-22d": "731/path---404-22-d-bce-EVaHXcHipTKNxCBcOiCr2NBFk",
     "sq--src-components-seo-js": 1025518380,
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "275/path---index-6a9-9VmUcid0cjUXUaN01q3YmNOb1k8",
-    "my-second-post-2aa": "342/path---my-second-post-2-aa-e94-uLl4fP3n9sxnzR1gSE3m1XqMTc",
+    "index": "392/path---index-6a9-iGdyVF9hArDr9qsT8VxZYHGo",
+    "my-second-post-2aa": "268/path---my-second-post-2-aa-e94-Ug0xcBjfOGq02qsYSGG4zKDek",
     "sq--src-components-bio-js": 2455242068
   },
   "components": {

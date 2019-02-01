@@ -1,0 +1,224 @@
+{
+  "expireTime": 9007200803804088000,
+  "key": "transformer-remark-markdown-ast-358572756e53e6a24c6c3146d38d78ed-gatsby-remark-imagesgatsby-remark-responsive-iframegatsby-remark-prismjsgatsby-remark-copy-linked-filesgatsby-remark-smartypants-",
+  "val": {
+    "type": "root",
+    "children": [
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "So, at some point in your career as a software developer, you’re going to run into a moment of: ",
+            "position": {
+              "start": { "line": 2, "column": 1, "offset": 1 },
+              "end": { "line": 2, "column": 97, "offset": 97 },
+              "indent": []
+            }
+          },
+          {
+            "type": "html",
+            "value": "<code class=\"language-text\">Shit, deploy or keep tweaking?</code>",
+            "position": {
+              "start": { "line": 2, "column": 97, "offset": 97 },
+              "end": { "line": 2, "column": 129, "offset": 129 },
+              "indent": []
+            }
+          },
+          {
+            "type": "text",
+            "value": ". Don’t panic, it’s a normal reaction and a cross roads we all come to eventually.",
+            "position": {
+              "start": { "line": 2, "column": 129, "offset": 129 },
+              "end": { "line": 2, "column": 211, "offset": 211 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 2, "column": 1, "offset": 1 },
+          "end": { "line": 2, "column": 211, "offset": 211 },
+          "indent": []
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "If you think of yourself as a good developer, you probably spend a lot of time trying to improve the qaulity of your on code.",
+            "position": {
+              "start": { "line": 4, "column": 1, "offset": 213 },
+              "end": { "line": 4, "column": 126, "offset": 338 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 4, "column": 1, "offset": 213 },
+          "end": { "line": 4, "column": 126, "offset": 338 },
+          "indent": []
+        }
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "start": null,
+        "loose": false,
+        "children": [
+          {
+            "type": "listItem",
+            "loose": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "You spend time reading best practices from your developer heros.",
+                    "position": {
+                      "start": { "line": 6, "column": 3, "offset": 342 },
+                      "end": { "line": 6, "column": 67, "offset": 406 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 6, "column": 3, "offset": 342 },
+                  "end": { "line": 6, "column": 67, "offset": 406 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 6, "column": 1, "offset": 340 },
+              "end": { "line": 6, "column": 67, "offset": 406 },
+              "indent": []
+            }
+          },
+          {
+            "type": "listItem",
+            "loose": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "You refractor your old awful code again and again.",
+                    "position": {
+                      "start": { "line": 7, "column": 3, "offset": 409 },
+                      "end": { "line": 7, "column": 53, "offset": 459 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 7, "column": 3, "offset": 409 },
+                  "end": { "line": 7, "column": 53, "offset": 459 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 7, "column": 1, "offset": 407 },
+              "end": { "line": 7, "column": 53, "offset": 459 },
+              "indent": []
+            }
+          },
+          {
+            "type": "listItem",
+            "loose": false,
+            "checked": null,
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "You spend time reading best practices, you refractor your old, awful code ",
+                    "position": {
+                      "start": { "line": 8, "column": 3, "offset": 462 },
+                      "end": { "line": 8, "column": 77, "offset": 536 },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 8, "column": 3, "offset": 462 },
+                  "end": { "line": 8, "column": 77, "offset": 536 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 8, "column": 1, "offset": 460 },
+              "end": { "line": 8, "column": 77, "offset": 536 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 6, "column": 1, "offset": 340 },
+          "end": { "line": 8, "column": 77, "offset": 536 },
+          "indent": [1, 1]
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "It encourages readable, correct and performant code, and helps developers fall into ",
+            "position": {
+              "start": { "line": 10, "column": 1, "offset": 538 },
+              "end": { "line": 10, "column": 85, "offset": 622 },
+              "indent": []
+            }
+          },
+          {
+            "type": "link",
+            "title": null,
+            "url": "https://blog.codinghorror.com/falling-into-the-pit-of-success/",
+            "children": [
+              {
+                "type": "text",
+                "value": "the pit of success",
+                "position": {
+                  "start": { "line": 10, "column": 86, "offset": 623 },
+                  "end": { "line": 10, "column": 104, "offset": 641 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 10, "column": 85, "offset": 622 },
+              "end": { "line": 10, "column": 169, "offset": 706 },
+              "indent": []
+            }
+          },
+          {
+            "type": "text",
+            "value": ".",
+            "position": {
+              "start": { "line": 10, "column": 169, "offset": 706 },
+              "end": { "line": 10, "column": 170, "offset": 707 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 10, "column": 1, "offset": 538 },
+          "end": { "line": 10, "column": 170, "offset": 707 },
+          "indent": []
+        }
+      }
+    ],
+    "position": {
+      "start": { "line": 1, "column": 1, "offset": 0 },
+      "end": { "line": 11, "column": 1, "offset": 708 }
+    }
+  }
+}

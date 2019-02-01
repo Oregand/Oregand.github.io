@@ -1,0 +1,18 @@
+{
+  "data": {
+    "site": {
+      "siteMetadata": { "title": "Get. Shit. Done.", "author": "David O'Regan" }
+    },
+    "markdownRemark": {
+      "id": "5f76ec03-61e2-55d6-99bc-6aba2bcb87b5",
+      "excerpt": "So, at some point in your career as a software developer, you’re going to run into a moment of:  . Don’t panic, it’s a normal reaction and a cross roads we all…",
+      "html": "<p>So, at some point in your career as a software developer, you’re going to run into a moment of: <code class=\"language-text\">Shit, deploy or keep tweaking?</code>. Don’t panic, it’s a normal reaction and a cross roads we all come to eventually.</p>\n<p>If you think of yourself as a good developer, you probably spend a lot of time trying to improve the qaulity of your on code.</p>\n<ul>\n<li>You spend time reading best practices, you refractor your old, awful code</li>\n<li>You spend time reading best practices, you refractor your old, awful code</li>\n<li>You spend time reading best practices, you refractor your old, awful code </li>\n</ul>\n<p>It encourages readable, correct and performant code, and helps developers fall into <a href=\"https://blog.codinghorror.com/falling-into-the-pit-of-success/\">the pit of success</a>.</p>",
+      "timeToRead": 1,
+      "frontmatter": {
+        "title": "Being Ok With Deploying Shitty Code",
+        "date": "February 01, 2019"
+      }
+    }
+  },
+  "pageContext": { "slug": "/my-second-post/", "previous": null, "next": null }
+}
