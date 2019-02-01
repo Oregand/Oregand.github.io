@@ -62,9 +62,19 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
+        <footer
+          style={{
+            marginTop: rhythm(2.5),
+            paddingTop: rhythm(1)
+          }}
+        >
+          <div style={{ float: 'right' }}>
+            <a href="/rss.xml" target="_blank" rel="noopener noreferrer">
+              rss
+            </a>
+          </div>
           <a
-            href="https://mobile.twitter.com/dan_abramov"
+            href="https://twitter.com/doregand"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -72,7 +82,7 @@ class Layout extends React.Component {
           </a>{' '}
           &bull;{' '}
           <a
-            href="https://github.com/gaearon"
+            href="https://github.com/Oregand"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -80,7 +90,7 @@ class Layout extends React.Component {
           </a>{' '}
           &bull;{' '}
           <a
-            href="https://stackoverflow.com/users/458193/dan-abramov"
+            href="https://stackoverflow.com/users/1788750/david-oregan"
             target="_blank"
             rel="noopener noreferrer"
           >
