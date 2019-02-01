@@ -1,0 +1,20 @@
+{
+  "data": {
+    "site": { "siteMetadata": { "title": "Get. Shit. Done." } },
+    "allMarkdownRemark": {
+      "edges": [
+        {
+          "node": {
+            "excerpt": "Good  API design is memorable and unambiguous. It encourages readable, correct and performant code, and helps developers fall into  the pit…",
+            "fields": { "slug": "/my-second-post/" },
+            "frontmatter": {
+              "date": "February 01, 2019",
+              "title": "Being Ok With Deploying Shitty Code"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "pageContext": {}
+}

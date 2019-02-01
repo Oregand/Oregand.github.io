@@ -1534,20 +1534,20 @@
         "owner": "internal-data-bridge"
       }
     },
-    "dee44986-459d-5a9c-bea6-1de7842285fd": {
+    "8858a31a-e4f3-5c41-8fd7-21ba561adcf6": {
       "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-manifest",
-      "id": "dee44986-459d-5a9c-bea6-1de7842285fd",
+      "id": "8858a31a-e4f3-5c41-8fd7-21ba561adcf6",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.17",
       "pluginOptions": {
         "plugins": [],
-        "name": "Gatsby Starter Blog",
-        "short_name": "GatsbyJS",
+        "name": "Get. Shit. Done.",
+        "short_name": "Get. Shit. Done.",
         "start_url": "/",
         "background_color": "#ffffff",
         "theme_color": "#663399",
         "display": "minimal-ui",
-        "icon": "content/assets/gatsby-icon.png"
+        "icon": "content/assets/logo.jpg"
       },
       "nodeAPIs": [
         "onPostBootstrap"
@@ -1617,7 +1617,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "427ff8b9d7981eecc56f278eff0d575b",
+        "contentDigest": "0573e4da20b7b34f556caa60c5b45ab5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1891,7 +1891,7 @@
       "resolve": "/home/david/dev/oregand/Oregand.github.io",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "31b7f37f2bb6959caa383d93217d3630",
+      "version": "0e7845dacdd0bcd31b09e9b02ec580f5",
       "pluginOptions": {
         "plugins": []
       },
@@ -2043,7 +2043,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "4506ba2e427b34e66a0142a0847375f6",
+        "contentDigest": "993b413f600df0f9818bc001d1962162",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -2160,12 +2160,14 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2019-02-01T22:29:12.286Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-02-01T22:54:58.356Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "e50b006c16b7db8b0085c5a334874002",
+        "contentDigest": "e974657bc753a3e7a0c6044b612b74d5",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2175,7 +2177,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "2d8ac5875f6888fca7bd33bad52e2936",
+        "contentDigest": "a91e20d1f5ecc88e7550b6de3746d7a2",
         "type": "Directory",
         "description": "Directory \"content/blog\"",
         "owner": "gatsby-source-filesystem"
@@ -2186,10 +2188,10 @@
       "extension": "",
       "size": 4096,
       "prettySize": "4.1 kB",
-      "modifiedTime": "2019-02-01T22:04:27.842Z",
-      "accessTime": "2019-02-01T22:08:18.831Z",
-      "changeTime": "2019-02-01T22:08:11.847Z",
-      "birthTime": "2019-02-01T22:08:11.847Z",
+      "modifiedTime": "2019-02-01T22:40:51.967Z",
+      "accessTime": "2019-02-01T22:40:51.975Z",
+      "changeTime": "2019-02-01T22:40:51.967Z",
+      "birthTime": "2019-02-01T22:40:51.967Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content",
       "base": "blog",
@@ -2198,21 +2200,21 @@
       "relativeDirectory": "..",
       "dev": 66306,
       "mode": 16893,
-      "nlink": 5,
+      "nlink": 3,
       "uid": 1000,
       "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
       "ino": 29363788,
       "blocks": 8,
-      "atimeMs": 1549058898830.9048,
-      "mtimeMs": 1549058667841.697,
-      "ctimeMs": 1549058891846.8684,
-      "birthtimeMs": 1549058891846.8684,
-      "atime": "2019-02-01T22:08:18.831Z",
-      "mtime": "2019-02-01T22:04:27.842Z",
-      "ctime": "2019-02-01T22:08:11.847Z",
-      "birthtime": "2019-02-01T22:08:11.847Z"
+      "atimeMs": 1549060851974.9214,
+      "mtimeMs": 1549060851966.9214,
+      "ctimeMs": 1549060851966.9214,
+      "birthtimeMs": 1549060851966.9214,
+      "atime": "2019-02-01T22:40:51.975Z",
+      "mtime": "2019-02-01T22:40:51.967Z",
+      "ctime": "2019-02-01T22:40:51.967Z",
+      "birthtime": "2019-02-01T22:40:51.967Z"
     },
     "d9e1835f-eb0d-5932-82ad-6b2fced4e8d8": {
       "id": "d9e1835f-eb0d-5932-82ad-6b2fced4e8d8",
@@ -2265,7 +2267,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "63517166504f7f690f63d2591039b682",
+        "contentDigest": "a16294d668488bc3865a7bcea4908426",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/my-second-post/index.md\"",
@@ -2275,12 +2277,12 @@
       "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post/index.md",
       "relativePath": "my-second-post/index.md",
       "extension": "md",
-      "size": 377,
-      "prettySize": "377 B",
-      "modifiedTime": "2019-02-01T22:41:35.395Z",
-      "accessTime": "2019-02-01T22:41:02.631Z",
-      "changeTime": "2019-02-01T22:41:35.395Z",
-      "birthTime": "2019-02-01T22:41:35.395Z",
+      "size": 1515,
+      "prettySize": "1.51 kB",
+      "modifiedTime": "2019-02-01T23:13:00.969Z",
+      "accessTime": "2019-02-01T23:13:01.169Z",
+      "changeTime": "2019-02-01T23:13:00.969Z",
+      "birthTime": "2019-02-01T23:13:00.969Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post",
       "base": "index.md",
@@ -2296,21 +2298,21 @@
       "blksize": 4096,
       "ino": 2364414,
       "blocks": 8,
-      "atimeMs": 1549060862630.9788,
-      "mtimeMs": 1549060895394.9678,
-      "ctimeMs": 1549060895394.9678,
-      "birthtimeMs": 1549060895394.9678,
-      "atime": "2019-02-01T22:41:02.631Z",
-      "mtime": "2019-02-01T22:41:35.395Z",
-      "ctime": "2019-02-01T22:41:35.395Z",
-      "birthtime": "2019-02-01T22:41:35.395Z"
+      "atimeMs": 1549062781168.8894,
+      "mtimeMs": 1549062780968.8877,
+      "ctimeMs": 1549062780968.8877,
+      "birthtimeMs": 1549062780968.8877,
+      "atime": "2019-02-01T23:13:01.169Z",
+      "mtime": "2019-02-01T23:13:00.969Z",
+      "ctime": "2019-02-01T23:13:00.969Z",
+      "birthtime": "2019-02-01T23:13:00.969Z"
     },
     "cf0e24f3-9040-5f02-9a0c-e5d12e750370": {
       "id": "cf0e24f3-9040-5f02-9a0c-e5d12e750370",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "31fffbca2480c47d10f259af6427e591",
+        "contentDigest": "e7d57996d242dfa84a7b5f12491494a1",
         "type": "Directory",
         "description": "Directory \"content/assets\"",
         "owner": "gatsby-source-filesystem"
@@ -2321,10 +2323,10 @@
       "extension": "",
       "size": 4096,
       "prettySize": "4.1 kB",
-      "modifiedTime": "2019-02-01T22:24:42.900Z",
-      "accessTime": "2019-02-01T22:24:45.264Z",
-      "changeTime": "2019-02-01T22:24:42.900Z",
-      "birthTime": "2019-02-01T22:24:42.900Z",
+      "modifiedTime": "2019-02-01T22:54:29.096Z",
+      "accessTime": "2019-02-01T22:54:29.100Z",
+      "changeTime": "2019-02-01T22:54:29.096Z",
+      "birthTime": "2019-02-01T22:54:29.096Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content",
       "base": "assets",
@@ -2340,14 +2342,71 @@
       "blksize": 4096,
       "ino": 29363778,
       "blocks": 8,
-      "atimeMs": 1549059885264.0764,
-      "mtimeMs": 1549059882900.064,
-      "ctimeMs": 1549059882900.064,
-      "birthtimeMs": 1549059882900.064,
-      "atime": "2019-02-01T22:24:45.264Z",
-      "mtime": "2019-02-01T22:24:42.900Z",
-      "ctime": "2019-02-01T22:24:42.900Z",
-      "birthtime": "2019-02-01T22:24:42.900Z"
+      "atimeMs": 1549061669099.9587,
+      "mtimeMs": 1549061669095.9587,
+      "ctimeMs": 1549061669095.9587,
+      "birthtimeMs": 1549061669095.9587,
+      "atime": "2019-02-01T22:54:29.100Z",
+      "mtime": "2019-02-01T22:54:29.096Z",
+      "ctime": "2019-02-01T22:54:29.096Z",
+      "birthtime": "2019-02-01T22:54:29.096Z"
+    },
+    "f809abc7-b01b-5829-a12a-a1e2d6a43da8": {
+      "id": "f809abc7-b01b-5829-a12a-a1e2d6a43da8",
+      "children": [
+        "68e9411a-cf46-552a-8704-1c4ac05e53fa"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a010c2ad73f4071b8dff0a77a679846b",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"content/assets/logo.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/assets/logo.jpg",
+      "relativePath": "logo.jpg",
+      "extension": "jpg",
+      "size": 24438,
+      "prettySize": "24.4 kB",
+      "modifiedTime": "2019-02-01T22:54:29.096Z",
+      "accessTime": "2019-02-01T22:54:29.736Z",
+      "changeTime": "2019-02-01T22:54:29.204Z",
+      "birthTime": "2019-02-01T22:54:29.204Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/assets",
+      "base": "logo.jpg",
+      "ext": ".jpg",
+      "name": "logo",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29364664,
+      "blocks": 48,
+      "atimeMs": 1549061669735.9646,
+      "mtimeMs": 1549061669095.9587,
+      "ctimeMs": 1549061669203.9597,
+      "birthtimeMs": 1549061669203.9597,
+      "atime": "2019-02-01T22:54:29.736Z",
+      "mtime": "2019-02-01T22:54:29.096Z",
+      "ctime": "2019-02-01T22:54:29.204Z",
+      "birthtime": "2019-02-01T22:54:29.204Z"
+    },
+    "68e9411a-cf46-552a-8704-1c4ac05e53fa": {
+      "id": "68e9411a-cf46-552a-8704-1c4ac05e53fa",
+      "children": [],
+      "parent": "f809abc7-b01b-5829-a12a-a1e2d6a43da8",
+      "internal": {
+        "contentDigest": "a010c2ad73f4071b8dff0a77a679846b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "d9528317-0fcd-53d0-91de-b3fcab2148d2": {
       "id": "d9528317-0fcd-53d0-91de-b3fcab2148d2",
@@ -2406,37 +2465,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "SitePage /hi-folks/": {
-      "jsonName": "hi-folks-a2b",
-      "internalComponentName": "ComponentHiFolks",
-      "path": "/hi-folks/",
-      "component": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "/hi-folks/",
-        "previous": {
-          "fields": {
-            "slug": "/my-second-post/"
-          },
-          "frontmatter": {
-            "title": "My Second Post!"
-          }
-        },
-        "next": null
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
-      "id": "SitePage /hi-folks/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "9021577f7761163b17ef3cc2632fdfa7",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /my-second-post/": {
       "jsonName": "my-second-post-2aa",
       "internalComponentName": "ComponentMySecondPost",
@@ -2457,37 +2485,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "169bf1648323d44109ab5fb145601294",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /hello-world/": {
-      "jsonName": "hello-world-8bc",
-      "internalComponentName": "ComponentHelloWorld",
-      "path": "/hello-world/",
-      "component": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "/hello-world/",
-        "previous": null,
-        "next": {
-          "fields": {
-            "slug": "/my-second-post/"
-          },
-          "frontmatter": {
-            "title": "My Second Post!"
-          }
-        }
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
-      "id": "SitePage /hello-world/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "6859fe2090e0daba62abb5ec950f93ac",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2557,20 +2554,21 @@
       "children": [],
       "parent": "af217c11-1434-51df-b374-e99dd4561048",
       "internal": {
-        "content": "\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"?\n([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
+        "content": "\n_Good_ API design is memorable and unambiguous. It encourages readable, correct and performant code, and helps developers fall into [the pit of success](https://blog.codinghorror.com/falling-into-the-pit-of-success/).\n\nI call these design aspects “first order” because they are the first things a library developer tends to focus on. You might have to compromise on some of them and make tradeoffs but at least they’re always on your mind.\n\nHowever, unless you’re sending a rover to Mars, your code will probably change over time. And so will the code of your API consumers.\n\nThe best API designers I know don’t stop at the “first order” aspects like readability. They dedicate just as much, if not more, effort to what I call the “second order” API design: **how code using this API would evolve over time.**\n\nA slight change in requirements can make the most elegant code fall apart.\n\n_Great_ APIs anticipate that. They anticipate that you’ll want to move some code. Copy and paste some part. Rename it. Unify special cases into a generic reusable helper. Unwind an abstraction back into specific cases. Add a hack. Optimize a bottleneck. Throw away a part and start it anew. Make a mistake. Navigate between the cause and the effect. Fix a bug. Review the fix.\n\nGreat APIs not only let you fall into a pit of success, but help you _stay_ there.\n\nThey’re optimized for change.\n",
         "type": "MarkdownRemark",
-        "contentDigest": "ad8ec37df7d4b79ed36aa24dea0be3e8",
+        "contentDigest": "141e05c1ce834b6ae988557c6bbc30d2",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "My First Post!",
-        "date": "2015-05-06T23:46:37.121Z"
+        "title": "Being Ok With Deploying Shitty Code",
+        "date": "2019-02-01",
+        "spoiler": "When is it good enough to deploy?"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"?\n([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
+      "rawMarkdownBody": "\n_Good_ API design is memorable and unambiguous. It encourages readable, correct and performant code, and helps developers fall into [the pit of success](https://blog.codinghorror.com/falling-into-the-pit-of-success/).\n\nI call these design aspects “first order” because they are the first things a library developer tends to focus on. You might have to compromise on some of them and make tradeoffs but at least they’re always on your mind.\n\nHowever, unless you’re sending a rover to Mars, your code will probably change over time. And so will the code of your API consumers.\n\nThe best API designers I know don’t stop at the “first order” aspects like readability. They dedicate just as much, if not more, effort to what I call the “second order” API design: **how code using this API would evolve over time.**\n\nA slight change in requirements can make the most elegant code fall apart.\n\n_Great_ APIs anticipate that. They anticipate that you’ll want to move some code. Copy and paste some part. Rename it. Unify special cases into a generic reusable helper. Unwind an abstraction back into specific cases. Add a hack. Optimize a bottleneck. Throw away a part and start it anew. Make a mistake. Navigate between the cause and the effect. Fix a bug. Review the fix.\n\nGreat APIs not only let you fall into a pit of success, but help you _stay_ there.\n\nThey’re optimized for change.\n",
       "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post/index.md",
       "fields": {
         "slug": "/my-second-post/"
@@ -2579,17 +2577,15 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "3f5506e4a5c3bd5bf7b44bafc7b2164a"
+    "PLUGINS_HASH": "1275530f3ebd8720fe9be1d9fb3df521"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "/",
-        "/hi-folks/",
-        "/my-second-post/",
-        "/hello-world/",
         "/404/",
         "/404.html",
+        "/my-second-post/",
+        "/",
         "sq--src-components-bio-js",
         "sq--src-components-seo-js"
       ],
@@ -2599,14 +2595,8 @@
       "f716a1cf-1a30-5143-86b7-4d2515d9d3d2": [
         "sq--src-components-bio-js"
       ],
-      "d738e1da-6dc0-5ccf-813b-bff2ca8e716b": [
-        "/hi-folks/"
-      ],
       "5f76ec03-61e2-55d6-99bc-6aba2bcb87b5": [
         "/my-second-post/"
-      ],
-      "be726e53-4f33-5c69-82aa-98599e547e45": [
-        "/hello-world/"
       ]
     },
     "connections": {
@@ -2617,19 +2607,17 @@
     }
   },
   "jsonDataPaths": {
-    "sq--src-components-seo-js": 1025518380,
-    "hi-folks-a2b": "452/path---hi-folks-a-2-b-1cc-Q4TvVDPHCDLanmlLxQlvkbAAgqY",
-    "sq--src-components-bio-js": 2455242068,
-    "my-second-post-2aa": "856/path---my-second-post-2-aa-e94-pjrX6jBD0T55AoM5NWMqlVxNUGs",
-    "404-22d": "731/path---404-22-d-bce-EVaHXcHipTKNxCBcOiCr2NBFk",
-    "index": "742/path---index-6a9-71wTYn39mtVzM9TOGPBmdlwF4",
     "404-html-516": "82/path---404-html-516-62a-EVaHXcHipTKNxCBcOiCr2NBFk",
-    "hello-world-8bc": "751/path---hello-world-8-bc-b62-01FPJfZ7XTH82FcziOFKc2rymk",
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-22d": "731/path---404-22-d-bce-EVaHXcHipTKNxCBcOiCr2NBFk",
+    "sq--src-components-seo-js": 1025518380,
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index": "275/path---index-6a9-9VmUcid0cjUXUaN01q3YmNOb1k8",
+    "my-second-post-2aa": "342/path---my-second-post-2-aa-e94-uLl4fP3n9sxnzR1gSE3m1XqMTc",
+    "sq--src-components-bio-js": 2455242068
   },
   "components": {
     "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js": {
-      "query": "query BlogPostBySlug(\n  $slug: String!\n) {\n  site {\n    siteMetadata {\n      title\n      author\n    }\n  }\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    id\n    excerpt(pruneLength: 160)\n    html\n    frontmatter {\n      title\n      date(formatString: \"MMMM DD, YYYY\")\n    }\n  }\n}\n",
+      "query": "query BlogPostBySlug(\n  $slug: String!\n) {\n  site {\n    siteMetadata {\n      title\n      author\n    }\n  }\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    id\n    excerpt(pruneLength: 160)\n    html\n    timeToRead\n    frontmatter {\n      title\n      date(formatString: \"MMMM DD, YYYY\")\n    }\n  }\n}\n",
       "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js"
     },
     "/home/david/dev/oregand/Oregand.github.io/.cache/dev-404-page.js": {
@@ -2641,7 +2629,7 @@
       "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/pages/404.js"
     },
     "/home/david/dev/oregand/Oregand.github.io/src/pages/index.js": {
-      "query": "query homeDavidDevOregandOregandGithubIoSrcPagesIndexJs1623555389 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        excerpt\n        fields {\n          slug\n        }\n        frontmatter {\n          date(formatString: \"MMMM DD, YYYY\")\n          title\n        }\n      }\n    }\n  }\n}\n",
+      "query": "query homeDavidDevOregandOregandGithubIoSrcPagesIndexJs2411369271 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        excerpt\n        fields {\n          slug\n        }\n        timeToRead\n        frontmatter {\n          date(formatString: \"MMMM DD, YYYY\")\n          title\n        }\n      }\n    }\n  }\n}\n",
       "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/pages/index.js"
     }
   },

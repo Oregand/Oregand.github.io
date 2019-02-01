@@ -22,28 +22,16 @@
     },
     {
       "componentChunkName": "component---src-templates-blog-post-js",
-      "jsonName": "hello-world-8bc",
-      "path": "/hello-world/"
-    },
-    {
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "jsonName": "hi-folks-a2b",
-      "path": "/hi-folks/"
-    },
-    {
-      "componentChunkName": "component---src-templates-blog-post-js",
       "jsonName": "my-second-post-2aa",
       "path": "/my-second-post/"
     }
   ],
   "dataPaths": {
-    "404-22d": "421/path---404-22-d-bce-F4pjHas3qdeFDC0IGXymHm2hc",
-    "404-html-516": "2/path---404-html-516-62a-F4pjHas3qdeFDC0IGXymHm2hc",
+    "404-22d": "731/path---404-22-d-bce-EVaHXcHipTKNxCBcOiCr2NBFk",
+    "404-html-516": "82/path---404-html-516-62a-EVaHXcHipTKNxCBcOiCr2NBFk",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "hello-world-8bc": "505/path---hello-world-8-bc-b62-NUcKzlesseszicryc3TU7DQJ90",
-    "hi-folks-a2b": "963/path---hi-folks-a-2-b-1cc-YpVUCzJ3Px5eOuaH9cgnCZGk2Y",
-    "index": "503/path---index-6a9-P6RNZHADZfK5TBK0cyTe4WUSq14",
-    "my-second-post-2aa": "805/path---my-second-post-2-aa-e94-xieotKOQbcBfeBYVuo5mNZcsVo",
+    "index": "742/path---index-6a9-71wTYn39mtVzM9TOGPBmdlwF4",
+    "my-second-post-2aa": "856/path---my-second-post-2-aa-e94-pjrX6jBD0T55AoM5NWMqlVxNUGs",
     "sq--src-components-bio-js": 2455242068,
     "sq--src-components-seo-js": 1025518380
   }

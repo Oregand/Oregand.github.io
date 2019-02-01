@@ -11,13 +11,13 @@ var plugins = [
     plugin: require('/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
     options: {
       plugins: [],
-      name: 'Gatsby Starter Blog',
-      short_name: 'GatsbyJS',
+      name: 'Get. Shit. Done.',
+      short_name: 'Get. Shit. Done.',
       start_url: '/',
       background_color: '#ffffff',
       theme_color: '#663399',
       display: 'minimal-ui',
-      icon: 'static/favicon.ico'
+      icon: 'content/assets/logo.jpg'
     }
   },
   {
