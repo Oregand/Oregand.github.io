@@ -10,7 +10,7 @@ If you think of yourself as a good developer, you probably spend a lot of time t
 
 - You spend time reading best practices from your developer heros - Looking at you [Jussi Hallila](http://jussi.hallila.com/).
 - You refractor your old awful code time and time again.
--
+- You curl up in the corner and cry yourself stupid after trying to remove all the `if` statements from your latest pet project.
 
 And so, we spend a lot of time and energy trying to perfect our own craft, writing code that other people will awe at but how does this type of idealism stack up in the real world against business requirements?
 
@@ -20,4 +20,4 @@ Why though?
 
 Sometimes we like to feel smart, sometimes we want to prove we know what we're doing, sometimes we need to push ourseleves. None of these motivations however relate at all to buisness value delivered.
 
-It encourages readable, correct and performant code, and helps developers fall into [the pit of success](https://blog.codinghorror.com/falling-into-the-pit-of-success/).
+When we write code, the end goal should _always_ be to deliver the most amount of value to the person at the other end of our program. Or in other words, your value as a developer shouldnt be measured in the quality of your code but rather the quality of the application you deliver to your user.
