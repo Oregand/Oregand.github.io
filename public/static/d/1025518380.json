@@ -2,9 +2,9 @@
   "data": {
     "site": {
       "siteMetadata": {
-        "title": "Gatsby Starter Blog",
-        "description": "A starter blog demonstrating what Gatsby can do.",
-        "author": "Kyle Mathews"
+        "title": "Get. Shit. Done.",
+        "description": "Personal blog by David O'Regan. I explain with words and code.",
+        "author": "David O'Regan"
       }
     }
   }

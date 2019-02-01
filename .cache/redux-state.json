@@ -1,0 +1,3024 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/home/david/dev/oregand/Oregand.github.io/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7301d1cf0e6f951e6bf14b0cb939f45d",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "11a4ce95811fcdfafe41a5a86b4f42cf",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1fc32581-893a-55e8-8927-bcd667e2b700": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
+      "name": "load-babel-config",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "packageJson": {
+        "name": "load-babel-config",
+        "description": "Internal plugin that handles loading Babel configs",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "30dda69779962b434ee9ba101872df4c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "1bb8439da1c3169476843f70fcf466df",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "be83ebfb320e0ec28b84202f1e5bbec5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "6e009d6c38bb421031dad66769b55002",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "82f57739e62a299f2593b6de59ee4825",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "cbfb025a-c2a9-5b59-8d68-f61cd8d830a6": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-source-filesystem",
+      "id": "cbfb025a-c2a9-5b59-8d68-f61cd8d830a6",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+        "name": "blog"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "993647a3cde6ccccf297998ad2fe0b5d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "455068e9-deb2-55e5-9294-bc6e9403ccb8": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-source-filesystem",
+      "id": "455068e9-deb2-55e5-9294-bc6e9403ccb8",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/home/david/dev/oregand/Oregand.github.io/content/assets",
+        "name": "assets"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.20",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "file-type",
+            "version": "^10.2.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "read-chunk",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a20190dafa0a55ea43ad6893e7fdbe96",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "24da35b5-13b8-504f-8b08-db58445bda76": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-transformer-remark",
+      "id": "24da35b5-13b8-504f-8b08-db58445bda76",
+      "name": "gatsby-transformer-remark",
+      "version": "2.2.3",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-images",
+            "id": "4a359a36-fef3-5c49-a0f9-45c24a5fd434",
+            "name": "gatsby-remark-images",
+            "version": "2.0.6",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 590,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "showCaptions": false,
+              "pathPrefix": "",
+              "withWebp": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-responsive-iframe",
+            "id": "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163",
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "2.0.9",
+            "pluginOptions": {
+              "plugins": [],
+              "wrapperStyle": "margin-bottom: 1.0725rem"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-responsive-iframe"
+          },
+          {
+            "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-prismjs",
+            "id": "b8d3a2f5-5540-5699-b862-153e57b2c618",
+            "name": "gatsby-remark-prismjs",
+            "version": "3.2.4",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-copy-linked-files",
+            "id": "80533a5b-ad2d-50ff-af51-726674869458",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "2.0.9",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-copy-linked-files"
+          },
+          {
+            "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-smartypants",
+            "id": "90305615-131b-5991-a708-2c2d1c43d946",
+            "name": "gatsby-remark-smartypants",
+            "version": "2.0.8",
+            "pluginOptions": {
+              "plugins": []
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-smartypants"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.2.3",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "570948925fd2649816c0ed9e1e02623f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "4a359a36-fef3-5c49-a0f9-45c24a5fd434": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-images",
+      "id": "4a359a36-fef3-5c49-a0f9-45c24a5fd434",
+      "name": "gatsby-remark-images",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 590,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "showCaptions": false,
+        "pathPrefix": "",
+        "withWebp": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit-parents",
+            "version": "^2.0.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.5"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "ad2bc6d9b6f2aa7c58d6db547638e27a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-responsive-iframe",
+      "id": "1a3d9dbf-c3c7-50dc-9f59-97f0cf8bb163",
+      "name": "gatsby-remark-responsive-iframe",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": [],
+        "wrapperStyle": "margin-bottom: 1.0725rem"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-responsive-iframe",
+      "packageJson": {
+        "name": "gatsby-remark-responsive-iframe",
+        "description": "Make iframes in Markdown processed by Remark responsive",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "b064da02a009713d353b1aa6bf2c3027",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b8d3a2f5-5540-5699-b862-153e57b2c618": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-prismjs",
+      "id": "b8d3a2f5-5540-5699-b862-153e57b2c618",
+      "name": "gatsby-remark-prismjs",
+      "version": "3.2.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "3.2.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "4ebc008a9fcac47255aaefc71d0001fd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "80533a5b-ad2d-50ff-af51-726674869458": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-copy-linked-files",
+      "id": "80533a5b-ad2d-50ff-af51-726674869458",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "2.0.9",
+      "pluginOptions": {
+        "plugins": [],
+        "ignoreFileExtensions": [
+          "png",
+          "jpg",
+          "jpeg",
+          "bmp",
+          "tiff"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "2.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "a2660a693e7689624d47e710d6a8f624",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "90305615-131b-5991-a708-2c2d1c43d946": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-smartypants",
+      "id": "90305615-131b-5991-a708-2c2d1c43d946",
+      "name": "gatsby-remark-smartypants",
+      "version": "2.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-smartypants",
+      "packageJson": {
+        "name": "gatsby-remark-smartypants",
+        "description": "Use retext-smartypants to auto-enhance typography of markdown",
+        "version": "2.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "retext",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-smartypants",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "18437dcce362cac737d00875969a5296",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-transformer-sharp",
+      "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
+      "name": "gatsby-transformer-sharp",
+      "version": "2.1.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "2.1.13",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.0-beta.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "fe17e9cddee8520e03faead91657cb31",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "84d6154d-4241-556c-a679-cc8339cac100": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-sharp",
+      "id": "84d6154d-4241-556c-a679-cc8339cac100",
+      "name": "gatsby-plugin-sharp",
+      "version": "2.0.20",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreInit"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "2.0.20",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-mozjpeg",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "^6.0.0"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8be873ad9b4ff8e9259fa00acc6d17cc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "624c196c-30dd-59e4-bcdd-a6f980c0396f": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-google-analytics",
+      "id": "624c196c-30dd-59e4-bcdd-a6f980c0396f",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.13",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "49172e6f530eb001dc9636fb6014b44e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "e1a9b6ff-843f-5a8b-b9fa-7ab223df58a2": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-feed",
+      "id": "e1a9b6ff-843f-5a8b-b9fa-7ab223df58a2",
+      "name": "gatsby-plugin-feed",
+      "version": "2.0.13",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-feed",
+      "packageJson": {
+        "name": "gatsby-plugin-feed",
+        "description": "Creates an RSS feed for your Gatsby site.",
+        "version": "2.0.13",
+        "main": "index.js",
+        "keywords": [
+          "atom",
+          "feed",
+          "gatsby",
+          "gatsby-plugin",
+          "rss"
+        ],
+        "author": "Nicholas Young <nicholas@nicholaswyoung.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "lodash.merge",
+            "version": "^4.6.0"
+          },
+          {
+            "name": "mkdirp",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "pify",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "rss",
+            "version": "^1.2.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "8f67a91ab1298674eba3dd892e657c2c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "dee44986-459d-5a9c-bea6-1de7842285fd": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-manifest",
+      "id": "dee44986-459d-5a9c-bea6-1de7842285fd",
+      "name": "gatsby-plugin-manifest",
+      "version": "2.0.17",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "Gatsby Starter Blog",
+        "short_name": "GatsbyJS",
+        "start_url": "/",
+        "background_color": "#ffffff",
+        "theme_color": "#663399",
+        "display": "minimal-ui",
+        "icon": "content/assets/gatsby-icon.png"
+      },
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-manifest",
+      "packageJson": {
+        "name": "gatsby-plugin-manifest",
+        "description": "Gatsby plugin which adds a manifest.webmanifest to make sites progressive web apps",
+        "version": "2.0.17",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "icons",
+          "manifest.webmanifest",
+          "progressive-web-app",
+          "pwa"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.21.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "427ff8b9d7981eecc56f278eff0d575b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "63e5f7ff-e5f1-58f7-8e2c-55872ac42281": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-offline",
+      "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "name": "gatsby-plugin-offline",
+      "version": "2.0.22",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
+      "browserAPIs": [
+        "registerServiceWorker",
+        "onServiceWorkerActive",
+        "onPostPrefetchPathname"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-offline",
+      "packageJson": {
+        "name": "gatsby-plugin-offline",
+        "description": "Gatsby plugin which sets up a site to be able to run offline",
+        "version": "2.0.22",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "offline",
+          "precache",
+          "service-worker"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "cpx",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "idb-keyval",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "workbox-build",
+            "version": "^3.6.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.100"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "3da5a44b2bc1fb40a29f897f9093bd9b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9238d0ad40f818ba6ff2e508086f81d6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "64059fc2-eafe-53ab-a542-ad6d70a5c7ff": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-typography",
+      "id": "64059fc2-eafe-53ab-a542-ad6d70a5c7ff",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.7",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.7",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "35fca98e38445840d563be946415df7c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io",
+      "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "name": "default-site-plugin",
+      "version": "31b7f37f2bb6959caa383d93217d3630",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages",
+        "onCreateNode"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io",
+      "packageJson": {
+        "name": "Oregand.github.io",
+        "description": "My personal blog.",
+        "version": "0.1.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby, react, david, developer, blog"
+        ],
+        "author": "David O'Regan <davidoregan91@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.107"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^2.0.29"
+          },
+          {
+            "name": "gatsby-plugin-feed",
+            "version": "^2.0.12"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.12"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.0.16"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^2.0.22"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.5"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^2.0.19"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.6"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^2.0.8"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^2.0.6"
+          },
+          {
+            "name": "gatsby-remark-prismjs",
+            "version": "^3.2.3"
+          },
+          {
+            "name": "gatsby-remark-responsive-iframe",
+            "version": "^2.0.8"
+          },
+          {
+            "name": "gatsby-remark-smartypants",
+            "version": "^2.0.7"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.19"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.2.2"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^2.1.13"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "react",
+            "version": "next"
+          },
+          {
+            "name": "react-dom",
+            "version": "next"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typeface-merriweather",
+            "version": "0.0.54"
+          },
+          {
+            "name": "typeface-montserrat",
+            "version": "0.0.54"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.18"
+          },
+          {
+            "name": "typography-theme-wordpress-2016",
+            "version": "^0.16.18"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "husky",
+            "version": "^1.3.1"
+          },
+          {
+            "name": "lint-staged",
+            "version": "^8.1.1"
+          },
+          {
+            "name": "prettier",
+            "version": "1.16.3"
+          },
+          {
+            "name": "gh-pages",
+            "version": "^2.0.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "4506ba2e427b34e66a0142a0847375f6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "6d7b46e5-5699-5efd-b541-f734cdaefce6": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-page-creator",
+      "id": "6d7b46e5-5699-5efd-b541-f734cdaefce6",
+      "name": "gatsby-plugin-page-creator",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/home/david/dev/oregand/Oregand.github.io/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "2.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-exists-cached",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "9dee1f35a9b6a53cba152353913dc1cc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Get. Shit. Done.",
+        "author": "David O'Regan",
+        "description": "Personal blog by David O'Regan. I explain with words and code.",
+        "siteUrl": "http://doregan.com/",
+        "social": {
+          "twitter": "doregand"
+        }
+      },
+      "port": "8000",
+      "host": "localhost",
+      "buildTime": "2019-02-01T22:29:12.286Z",
+      "id": "Site",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "e50b006c16b7db8b0085c5a334874002",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "c6afd0f8-f7b7-5530-a36e-f66d6156ecec": {
+      "id": "c6afd0f8-f7b7-5530-a36e-f66d6156ecec",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2d8ac5875f6888fca7bd33bad52e2936",
+        "type": "Directory",
+        "description": "Directory \"content/blog\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "relativePath": "",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-01T22:04:27.842Z",
+      "accessTime": "2019-02-01T22:08:18.831Z",
+      "changeTime": "2019-02-01T22:08:11.847Z",
+      "birthTime": "2019-02-01T22:08:11.847Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content",
+      "base": "blog",
+      "ext": "",
+      "name": "blog",
+      "relativeDirectory": "..",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 5,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29363788,
+      "blocks": 8,
+      "atimeMs": 1549058898830.9048,
+      "mtimeMs": 1549058667841.697,
+      "ctimeMs": 1549058891846.8684,
+      "birthtimeMs": 1549058891846.8684,
+      "atime": "2019-02-01T22:08:18.831Z",
+      "mtime": "2019-02-01T22:04:27.842Z",
+      "ctime": "2019-02-01T22:08:11.847Z",
+      "birthtime": "2019-02-01T22:08:11.847Z"
+    },
+    "3ce6cbd3-6bd7-506e-b5d6-c935f2515146": {
+      "id": "3ce6cbd3-6bd7-506e-b5d6-c935f2515146",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4906767bfda52b96ecfcce9dac72ebdb",
+        "type": "Directory",
+        "description": "Directory \"content/blog/hello-world\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/hello-world",
+      "relativePath": "hello-world",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-01T22:21:01.143Z",
+      "accessTime": "2019-02-01T22:21:01.167Z",
+      "changeTime": "2019-02-01T22:21:01.143Z",
+      "birthTime": "2019-02-01T22:21:01.143Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "base": "hello-world",
+      "ext": "",
+      "name": "hello-world",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29363789,
+      "blocks": 8,
+      "atimeMs": 1549059661166.9004,
+      "mtimeMs": 1549059661142.9004,
+      "ctimeMs": 1549059661142.9004,
+      "birthtimeMs": 1549059661142.9004,
+      "atime": "2019-02-01T22:21:01.167Z",
+      "mtime": "2019-02-01T22:21:01.143Z",
+      "ctime": "2019-02-01T22:21:01.143Z",
+      "birthtime": "2019-02-01T22:21:01.143Z"
+    },
+    "c9f4cf25-d0eb-5f0c-b7e1-ce0d41f540c0": {
+      "id": "c9f4cf25-d0eb-5f0c-b7e1-ce0d41f540c0",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2415a6d9f5ff60177786a17b803ae811",
+        "type": "Directory",
+        "description": "Directory \"content/blog/hi-folks\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/hi-folks",
+      "relativePath": "hi-folks",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-01T22:21:01.143Z",
+      "accessTime": "2019-02-01T22:21:01.171Z",
+      "changeTime": "2019-02-01T22:21:01.143Z",
+      "birthTime": "2019-02-01T22:21:01.143Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "base": "hi-folks",
+      "ext": "",
+      "name": "hi-folks",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2364406,
+      "blocks": 8,
+      "atimeMs": 1549059661170.9004,
+      "mtimeMs": 1549059661142.9004,
+      "ctimeMs": 1549059661142.9004,
+      "birthtimeMs": 1549059661142.9004,
+      "atime": "2019-02-01T22:21:01.171Z",
+      "mtime": "2019-02-01T22:21:01.143Z",
+      "ctime": "2019-02-01T22:21:01.143Z",
+      "birthtime": "2019-02-01T22:21:01.143Z"
+    },
+    "d9e1835f-eb0d-5932-82ad-6b2fced4e8d8": {
+      "id": "d9e1835f-eb0d-5932-82ad-6b2fced4e8d8",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "50b70d32a714817677422943533184ed",
+        "type": "Directory",
+        "description": "Directory \"content/blog/my-second-post\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post",
+      "relativePath": "my-second-post",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-01T22:21:01.143Z",
+      "accessTime": "2019-02-01T22:21:01.171Z",
+      "changeTime": "2019-02-01T22:21:01.143Z",
+      "birthTime": "2019-02-01T22:21:01.143Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "base": "my-second-post",
+      "ext": "",
+      "name": "my-second-post",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2364413,
+      "blocks": 8,
+      "atimeMs": 1549059661170.9004,
+      "mtimeMs": 1549059661142.9004,
+      "ctimeMs": 1549059661142.9004,
+      "birthtimeMs": 1549059661142.9004,
+      "atime": "2019-02-01T22:21:01.171Z",
+      "mtime": "2019-02-01T22:21:01.143Z",
+      "ctime": "2019-02-01T22:21:01.143Z",
+      "birthtime": "2019-02-01T22:21:01.143Z"
+    },
+    "d09544aa-ab77-5401-a699-2730cf8d8301": {
+      "id": "d09544aa-ab77-5401-a699-2730cf8d8301",
+      "children": [
+        "be726e53-4f33-5c69-82aa-98599e547e45"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "b1ebb3ad63596c127c13f27d0e88abb4",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/hello-world/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/hello-world/index.md",
+      "relativePath": "hello-world/index.md",
+      "extension": "md",
+      "size": 857,
+      "prettySize": "857 B",
+      "modifiedTime": "2019-02-01T22:21:01.139Z",
+      "accessTime": "2019-02-01T22:21:01.163Z",
+      "changeTime": "2019-02-01T22:21:01.139Z",
+      "birthTime": "2019-02-01T22:21:01.139Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/hello-world",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hello-world",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29363790,
+      "blocks": 8,
+      "atimeMs": 1549059661162.9004,
+      "mtimeMs": 1549059661138.9004,
+      "ctimeMs": 1549059661138.9004,
+      "birthtimeMs": 1549059661138.9004,
+      "atime": "2019-02-01T22:21:01.163Z",
+      "mtime": "2019-02-01T22:21:01.139Z",
+      "ctime": "2019-02-01T22:21:01.139Z",
+      "birthtime": "2019-02-01T22:21:01.139Z"
+    },
+    "d601425e-419d-5c68-8e96-aefb48f9425b": {
+      "id": "d601425e-419d-5c68-8e96-aefb48f9425b",
+      "children": [
+        "d738e1da-6dc0-5ccf-813b-bff2ca8e716b"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a326e7e4bd42297f62daeed38c93c8d6",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/hi-folks/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/hi-folks/index.md",
+      "relativePath": "hi-folks/index.md",
+      "extension": "md",
+      "size": 5460,
+      "prettySize": "5.46 kB",
+      "modifiedTime": "2019-02-01T22:21:01.143Z",
+      "accessTime": "2019-02-01T22:21:01.171Z",
+      "changeTime": "2019-02-01T22:21:01.143Z",
+      "birthTime": "2019-02-01T22:21:01.143Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/hi-folks",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hi-folks",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2364409,
+      "blocks": 16,
+      "atimeMs": 1549059661170.9004,
+      "mtimeMs": 1549059661142.9004,
+      "ctimeMs": 1549059661142.9004,
+      "birthtimeMs": 1549059661142.9004,
+      "atime": "2019-02-01T22:21:01.171Z",
+      "mtime": "2019-02-01T22:21:01.143Z",
+      "ctime": "2019-02-01T22:21:01.143Z",
+      "birthtime": "2019-02-01T22:21:01.143Z"
+    },
+    "af217c11-1434-51df-b374-e99dd4561048": {
+      "id": "af217c11-1434-51df-b374-e99dd4561048",
+      "children": [
+        "5f76ec03-61e2-55d6-99bc-6aba2bcb87b5"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "390c19705008265942fa890ddf4a0852",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/my-second-post/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post/index.md",
+      "relativePath": "my-second-post/index.md",
+      "extension": "md",
+      "size": 378,
+      "prettySize": "378 B",
+      "modifiedTime": "2019-02-01T22:21:01.143Z",
+      "accessTime": "2019-02-01T22:21:01.171Z",
+      "changeTime": "2019-02-01T22:21:01.143Z",
+      "birthTime": "2019-02-01T22:21:01.143Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "my-second-post",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 2364414,
+      "blocks": 8,
+      "atimeMs": 1549059661170.9004,
+      "mtimeMs": 1549059661142.9004,
+      "ctimeMs": 1549059661142.9004,
+      "birthtimeMs": 1549059661142.9004,
+      "atime": "2019-02-01T22:21:01.171Z",
+      "mtime": "2019-02-01T22:21:01.143Z",
+      "ctime": "2019-02-01T22:21:01.143Z",
+      "birthtime": "2019-02-01T22:21:01.143Z"
+    },
+    "be726e53-4f33-5c69-82aa-98599e547e45": {
+      "id": "be726e53-4f33-5c69-82aa-98599e547e45",
+      "children": [],
+      "parent": "d09544aa-ab77-5401-a699-2730cf8d8301",
+      "internal": {
+        "content": "\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on\n[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n> A salted duck egg is a Chinese preserved food product made by soaking duck\n> eggs in brine, or packing each egg in damp, salted charcoal. In Asian\n> supermarkets, these eggs are sometimes sold covered in a thick layer of salted\n> charcoal paste. The eggs may also be sold with the salted paste removed,\n> wrapped in plastic, and vacuum packed. From the salt curing process, the\n> salted duck eggs have a briny aroma, a gelatin-like egg white and a\n> firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "f7afdbecbb8324891d975704082b7105",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Hello World",
+        "date": "2015-05-01T22:12:03.284Z"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on\n[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n> A salted duck egg is a Chinese preserved food product made by soaking duck\n> eggs in brine, or packing each egg in damp, salted charcoal. In Asian\n> supermarkets, these eggs are sometimes sold covered in a thick layer of salted\n> charcoal paste. The eggs may also be sold with the salted paste removed,\n> wrapped in plastic, and vacuum packed. From the salt curing process, the\n> salted duck eggs have a briny aroma, a gelatin-like egg white and a\n> firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/hello-world/index.md",
+      "fields": {
+        "slug": "/hello-world/"
+      }
+    },
+    "5f76ec03-61e2-55d6-99bc-6aba2bcb87b5": {
+      "id": "5f76ec03-61e2-55d6-99bc-6aba2bcb87b5",
+      "children": [],
+      "parent": "af217c11-1434-51df-b374-e99dd4561048",
+      "internal": {
+        "content": "\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"?\n([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "6c0bb7582a03cdd7f07a8bbc68f978af",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "My Second Post!",
+        "date": "2015-05-06T23:46:37.121Z"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from\nchicken eggs, though the taste and texture will be somewhat different, and the\negg yolk will be less rich.\"?\n([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
+      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/my-second-post/index.md",
+      "fields": {
+        "slug": "/my-second-post/"
+      }
+    },
+    "d738e1da-6dc0-5ccf-813b-bff2ca8e716b": {
+      "id": "d738e1da-6dc0-5ccf-813b-bff2ca8e716b",
+      "children": [],
+      "parent": "d601425e-419d-5c68-8e96-aefb48f9425b",
+      "internal": {
+        "content": "\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\nDuden flows by their place and supplies it with the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n- This however showed weasel\n- Well uncritical so misled\n  - this is very interesting\n- Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she had a last\nview back on the skyline of her hometown _Bookmarksgrove_, the headline of\n[Alphabet Village](http://google.com) and the subline of her own road, the Line\nLane. Pityful a rethoric question ran over her cheek, then she continued her\nway. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with\n[Longe and Parole](http://google.com) and dragged her into their agency, where\nthey abused her for their projects again and again. And if she hasn’t been\nrewritten, then they are still using her.\n\n> Far far away, behind the word mountains, far from the countries Vokalia and\n> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove\n> right at the coast of the Semantics, a large language ocean.\n\nIt is a paradisematic country, in which roasted parts of sentences fly into your\nmouth. Even the all-powerful Pointing has no control about the blind texts it is\nan almost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic\n    impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a last view\nback on the skyline of her hometown Bookmarksgrove, the headline of Alphabet\nVillage and the subline of her own road, the Line Lane. Pityful a rethoric\nquestion ran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n> The copy warned the Little Blind Text, that where it came from it would have\n> been rewritten a thousand times and everything that was left from its origin\n> would be the word \"and\" and the Little Blind Text should turn around and\n> return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with Longe and Parole\nand dragged her into their agency, where they abused her for their projects\nagain and again. And if she hasn’t been rewritten, then they are still using\nher. Far far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the Semantics, a\nlarge language ocean. A small river named Duden flows by their place and\nsupplies it with the necessary regelialia. It is a paradisematic country, in\nwhich roasted parts of sentences fly into your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts it is an\nalmost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox\nadvised her not to do so, because there were thousands of bad Commas, wild\nQuestion Marks and devious Semikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and made herself on\nthe way. When she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the headline of\nAlphabet Village and the subline of her own road, the Line Lane. Pityful a\nrethoric question ran over her cheek, then she continued her way. On her way she\nmet a copy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it would have\nbeen rewritten a thousand times and everything that was left from its origin\nwould be the word \"and\" and the Little Blind Text should turn around and return\nto its own, safe country. But nothing the copy said could convince her and so it\ndidn’t take long until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they abused her\nfor their projects again and again.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "bebfe301c21a0558a767b31cbd83517b",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "New Beginnings",
+        "date": "2015-05-28T22:40:32.169Z"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nFar far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts. Separated they live in Bookmarksgrove\nright at the coast of the Semantics, a large language ocean. A small river named\nDuden flows by their place and supplies it with the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n- This however showed weasel\n- Well uncritical so misled\n  - this is very interesting\n- Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she had a last\nview back on the skyline of her hometown _Bookmarksgrove_, the headline of\n[Alphabet Village](http://google.com) and the subline of her own road, the Line\nLane. Pityful a rethoric question ran over her cheek, then she continued her\nway. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with\n[Longe and Parole](http://google.com) and dragged her into their agency, where\nthey abused her for their projects again and again. And if she hasn’t been\nrewritten, then they are still using her.\n\n> Far far away, behind the word mountains, far from the countries Vokalia and\n> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove\n> right at the coast of the Semantics, a large language ocean.\n\nIt is a paradisematic country, in which roasted parts of sentences fly into your\nmouth. Even the all-powerful Pointing has no control about the blind texts it is\nan almost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands of bad\nCommas, wild Question Marks and devious Semikoli, but the Little Blind Text\ndidn’t listen. She packed her seven versalia, put her initial into the belt and\nmade herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic\n    impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a last view\nback on the skyline of her hometown Bookmarksgrove, the headline of Alphabet\nVillage and the subline of her own road, the Line Lane. Pityful a rethoric\nquestion ran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n> The copy warned the Little Blind Text, that where it came from it would have\n> been rewritten a thousand times and everything that was left from its origin\n> would be the word \"and\" and the Little Blind Text should turn around and\n> return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take long until a\nfew insidious Copy Writers ambushed her, made her drunk with Longe and Parole\nand dragged her into their agency, where they abused her for their projects\nagain and again. And if she hasn’t been rewritten, then they are still using\nher. Far far away, behind the word mountains, far from the countries Vokalia and\nConsonantia, there live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the Semantics, a\nlarge language ocean. A small river named Duden flows by their place and\nsupplies it with the necessary regelialia. It is a paradisematic country, in\nwhich roasted parts of sentences fly into your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts it is an\nalmost unorthographic life One day however a small line of blind text by the\nname of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox\nadvised her not to do so, because there were thousands of bad Commas, wild\nQuestion Marks and devious Semikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and made herself on\nthe way. When she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the headline of\nAlphabet Village and the subline of her own road, the Line Lane. Pityful a\nrethoric question ran over her cheek, then she continued her way. On her way she\nmet a copy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it would have\nbeen rewritten a thousand times and everything that was left from its origin\nwould be the word \"and\" and the Little Blind Text should turn around and return\nto its own, safe country. But nothing the copy said could convince her and so it\ndidn’t take long until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they abused her\nfor their projects again and again.\n",
+      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/hi-folks/index.md",
+      "fields": {
+        "slug": "/hi-folks/"
+      }
+    },
+    "d572bce3-e7dd-5e35-b9e8-f362e8a8617d": {
+      "id": "d572bce3-e7dd-5e35-b9e8-f362e8a8617d",
+      "children": [
+        "7d5ecf92-d7e4-547b-aa4f-9a8f3b1ce147"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"content/blog/hello-world/salty_egg.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/hello-world/salty_egg.jpg",
+      "relativePath": "hello-world/salty_egg.jpg",
+      "extension": "jpg",
+      "size": 684322,
+      "prettySize": "684 kB",
+      "modifiedTime": "2019-02-01T22:21:01.143Z",
+      "accessTime": "2019-02-01T22:21:01.163Z",
+      "changeTime": "2019-02-01T22:21:01.143Z",
+      "birthTime": "2019-02-01T22:21:01.143Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/hello-world",
+      "base": "salty_egg.jpg",
+      "ext": ".jpg",
+      "name": "salty_egg",
+      "relativeDirectory": "hello-world",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29363791,
+      "blocks": 1344,
+      "atimeMs": 1549059661162.9004,
+      "mtimeMs": 1549059661142.9004,
+      "ctimeMs": 1549059661142.9004,
+      "birthtimeMs": 1549059661142.9004,
+      "atime": "2019-02-01T22:21:01.163Z",
+      "mtime": "2019-02-01T22:21:01.143Z",
+      "ctime": "2019-02-01T22:21:01.143Z",
+      "birthtime": "2019-02-01T22:21:01.143Z"
+    },
+    "7d5ecf92-d7e4-547b-aa4f-9a8f3b1ce147": {
+      "id": "7d5ecf92-d7e4-547b-aa4f-9a8f3b1ce147",
+      "children": [],
+      "parent": "d572bce3-e7dd-5e35-b9e8-f362e8a8617d",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "cf0e24f3-9040-5f02-9a0c-e5d12e750370": {
+      "id": "cf0e24f3-9040-5f02-9a0c-e5d12e750370",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "31fffbca2480c47d10f259af6427e591",
+        "type": "Directory",
+        "description": "Directory \"content/assets\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/assets",
+      "relativePath": "",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-01T22:24:42.900Z",
+      "accessTime": "2019-02-01T22:24:45.264Z",
+      "changeTime": "2019-02-01T22:24:42.900Z",
+      "birthTime": "2019-02-01T22:24:42.900Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content",
+      "base": "assets",
+      "ext": "",
+      "name": "assets",
+      "relativeDirectory": "..",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29363778,
+      "blocks": 8,
+      "atimeMs": 1549059885264.0764,
+      "mtimeMs": 1549059882900.064,
+      "ctimeMs": 1549059882900.064,
+      "birthtimeMs": 1549059882900.064,
+      "atime": "2019-02-01T22:24:45.264Z",
+      "mtime": "2019-02-01T22:24:42.900Z",
+      "ctime": "2019-02-01T22:24:42.900Z",
+      "birthtime": "2019-02-01T22:24:42.900Z"
+    },
+    "b5c0d021-da00-5f59-a452-147412ed40f4": {
+      "id": "b5c0d021-da00-5f59-a452-147412ed40f4",
+      "children": [
+        "1faf30ec-1cb1-5542-8188-8f35847059fa"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"content/assets/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/assets/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2019-02-01T22:21:01.139Z",
+      "accessTime": "2019-02-01T22:21:01.163Z",
+      "changeTime": "2019-02-01T22:21:01.139Z",
+      "birthTime": "2019-02-01T22:21:01.139Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/assets",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29363779,
+      "blocks": 48,
+      "atimeMs": 1549059661162.9004,
+      "mtimeMs": 1549059661138.9004,
+      "ctimeMs": 1549059661138.9004,
+      "birthtimeMs": 1549059661138.9004,
+      "atime": "2019-02-01T22:21:01.163Z",
+      "mtime": "2019-02-01T22:21:01.139Z",
+      "ctime": "2019-02-01T22:21:01.139Z",
+      "birthtime": "2019-02-01T22:21:01.139Z"
+    },
+    "1faf30ec-1cb1-5542-8188-8f35847059fa": {
+      "id": "1faf30ec-1cb1-5542-8188-8f35847059fa",
+      "children": [],
+      "parent": "b5c0d021-da00-5f59-a452-147412ed40f4",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "d9528317-0fcd-53d0-91de-b3fcab2148d2": {
+      "id": "d9528317-0fcd-53d0-91de-b3fcab2148d2",
+      "children": [
+        "f716a1cf-1a30-5143-86b7-4d2515d9d3d2"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5127f0562f9026cee741fd1b6763e531",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"content/assets/david.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/assets/david.jpg",
+      "relativePath": "david.jpg",
+      "extension": "jpg",
+      "size": 172983,
+      "prettySize": "173 kB",
+      "modifiedTime": "2019-02-01T22:02:26.473Z",
+      "accessTime": "2019-02-01T22:24:54.868Z",
+      "changeTime": "2019-02-01T22:24:36.812Z",
+      "birthTime": "2019-02-01T22:24:36.812Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/assets",
+      "base": "david.jpg",
+      "ext": ".jpg",
+      "name": "david",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 29363929,
+      "blocks": 344,
+      "atimeMs": 1549059894868.127,
+      "mtimeMs": 1549058546473.064,
+      "ctimeMs": 1549059876812.0322,
+      "birthtimeMs": 1549059876812.0322,
+      "atime": "2019-02-01T22:24:54.868Z",
+      "mtime": "2019-02-01T22:02:26.473Z",
+      "ctime": "2019-02-01T22:24:36.812Z",
+      "birthtime": "2019-02-01T22:24:36.812Z"
+    },
+    "f716a1cf-1a30-5143-86b7-4d2515d9d3d2": {
+      "id": "f716a1cf-1a30-5143-86b7-4d2515d9d3d2",
+      "children": [],
+      "parent": "d9528317-0fcd-53d0-91de-b3fcab2148d2",
+      "internal": {
+        "contentDigest": "5127f0562f9026cee741fd1b6763e531",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /hi-folks/": {
+      "jsonName": "hi-folks-a2b",
+      "internalComponentName": "ComponentHiFolks",
+      "path": "/hi-folks/",
+      "component": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/hi-folks/",
+        "previous": {
+          "fields": {
+            "slug": "/my-second-post/"
+          },
+          "frontmatter": {
+            "title": "My Second Post!"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "id": "SitePage /hi-folks/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9021577f7761163b17ef3cc2632fdfa7",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /my-second-post/": {
+      "jsonName": "my-second-post-2aa",
+      "internalComponentName": "ComponentMySecondPost",
+      "path": "/my-second-post/",
+      "component": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/my-second-post/",
+        "previous": {
+          "fields": {
+            "slug": "/hello-world/"
+          },
+          "frontmatter": {
+            "title": "Hello World"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/hi-folks/"
+          },
+          "frontmatter": {
+            "title": "New Beginnings"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "id": "SitePage /my-second-post/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1c969e4b8b96555ebcf3ba438a387bce",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /hello-world/": {
+      "jsonName": "hello-world-8bc",
+      "internalComponentName": "ComponentHelloWorld",
+      "path": "/hello-world/",
+      "component": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/hello-world/",
+        "previous": null,
+        "next": {
+          "fields": {
+            "slug": "/my-second-post/"
+          },
+          "frontmatter": {
+            "title": "My Second Post!"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "id": "SitePage /hello-world/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6859fe2090e0daba62abb5ec950f93ac",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "jsonName": "404-22d",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/home/david/dev/oregand/Oregand.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "6d7b46e5-5699-5efd-b541-f734cdaefce6",
+      "pluginCreatorId": "6d7b46e5-5699-5efd-b541-f734cdaefce6",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8a7c3f9a4fc4a6502bd4a668129d8adf",
+        "description": "6d7b46e5-5699-5efd-b541-f734cdaefce6",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/home/david/dev/oregand/Oregand.github.io/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "6d7b46e5-5699-5efd-b541-f734cdaefce6",
+      "pluginCreatorId": "6d7b46e5-5699-5efd-b541-f734cdaefce6",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f17b55eb19fe4a158bc0a0b824f7f414",
+        "description": "6d7b46e5-5699-5efd-b541-f734cdaefce6",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "jsonName": "404-html-516",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/home/david/dev/oregand/Oregand.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "51ada2bfdd7a10f457371a8a7b856e3e",
+        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "3f5506e4a5c3bd5bf7b44bafc7b2164a"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "/",
+        "/hi-folks/",
+        "/my-second-post/",
+        "/hello-world/",
+        "/404/",
+        "/404.html",
+        "sq--src-components-seo-js",
+        "sq--src-components-bio-js"
+      ],
+      "d9528317-0fcd-53d0-91de-b3fcab2148d2": [
+        "sq--src-components-bio-js"
+      ],
+      "f716a1cf-1a30-5143-86b7-4d2515d9d3d2": [
+        "sq--src-components-bio-js"
+      ],
+      "d738e1da-6dc0-5ccf-813b-bff2ca8e716b": [
+        "/hi-folks/"
+      ],
+      "5f76ec03-61e2-55d6-99bc-6aba2bcb87b5": [
+        "/my-second-post/"
+      ],
+      "be726e53-4f33-5c69-82aa-98599e547e45": [
+        "/hello-world/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        null,
+        "/"
+      ]
+    }
+  },
+  "jsonDataPaths": {
+    "sq--src-components-seo-js": 1025518380,
+    "hi-folks-a2b": "893/path---hi-folks-a-2-b-1cc-LEkWdhhgi4mmMKUkXdlpRTTVa28",
+    "sq--src-components-bio-js": 2455242068,
+    "my-second-post-2aa": "892/path---my-second-post-2-aa-e94-YNDMhVu5DWog8EmFcOkAjbde208",
+    "404-22d": "731/path---404-22-d-bce-EVaHXcHipTKNxCBcOiCr2NBFk",
+    "index": "727/path---index-6a9-prKUx5a9mZAj5oz0lgECCuxQ",
+    "404-html-516": "82/path---404-html-516-62a-EVaHXcHipTKNxCBcOiCr2NBFk",
+    "hello-world-8bc": "358/path---hello-world-8-bc-b62-EZMK7bI73byL7thTkhMsaYJUCQ",
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
+  },
+  "components": {
+    "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js": {
+      "query": "query BlogPostBySlug(\n  $slug: String!\n) {\n  site {\n    siteMetadata {\n      title\n      author\n    }\n  }\n  markdownRemark(fields: {slug: {eq: $slug}}) {\n    id\n    excerpt(pruneLength: 160)\n    html\n    frontmatter {\n      title\n      date(formatString: \"MMMM DD, YYYY\")\n    }\n  }\n}\n",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js"
+    },
+    "/home/david/dev/oregand/Oregand.github.io/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/.cache/dev-404-page.js"
+    },
+    "/home/david/dev/oregand/Oregand.github.io/src/pages/404.js": {
+      "query": "query homeDavidDevOregandOregandGithubIoSrcPages404Js1097489062 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/pages/404.js"
+    },
+    "/home/david/dev/oregand/Oregand.github.io/src/pages/index.js": {
+      "query": "query homeDavidDevOregandOregandGithubIoSrcPagesIndexJs1623555389 {\n  site {\n    siteMetadata {\n      title\n    }\n  }\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        excerpt\n        fields {\n          slug\n        }\n        frontmatter {\n          date(formatString: \"MMMM DD, YYYY\")\n          title\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/pages/index.js"
+    }
+  },
+  "staticQueryComponents": {
+    "sq--src-components-bio-js": {
+      "name": "BioQuery",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/components/Bio.js",
+      "id": "sq--src-components-bio-js",
+      "jsonName": "sq--src-components-bio-js",
+      "query": "query BioQuery {\n  avatar: file(absolutePath: {regex: \"/david.jpg/\"}) {\n    childImageSharp {\n      fixed(width: 50, height: 50) {\n        ...GatsbyImageSharpFixed\n      }\n    }\n  }\n  site {\n    siteMetadata {\n      author\n      social {\n        twitter\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFixed on ImageSharpFixed {\n  base64\n  width\n  height\n  src\n  srcSet\n}\n",
+      "hash": 2455242068
+    },
+    "sq--src-components-seo-js": {
+      "name": "DefaultSEOQuery",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/components/seo.js",
+      "id": "sq--src-components-seo-js",
+      "jsonName": "sq--src-components-seo-js",
+      "query": "query DefaultSEOQuery {\n  site {\n    siteMetadata {\n      title\n      description\n      author\n    }\n  }\n}\n",
+      "hash": 1025518380
+    }
+  }
+}
