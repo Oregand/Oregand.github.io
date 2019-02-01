@@ -1,0 +1,11 @@
+{
+  "data": {
+    "site": {
+      "siteMetadata": {
+        "title": "Gatsby Starter Blog",
+        "description": "A starter blog demonstrating what Gatsby can do.",
+        "author": "Kyle Mathews"
+      }
+    }
+  }
+}

@@ -1,45 +1,56 @@
 {
-  "name": "oregand.gitgub.io",
-  "homepage": "http://oregand.gitgub.io/oregand.gitgub.io",
-  "version": "0.1.0",
+  "name": "gatsby-starter-blog",
   "private": true,
+  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.4",
-    "@fortawesome/free-solid-svg-icons": "^5.3.1",
-    "@fortawesome/react-fontawesome": "^0.1.3",
-    "bootstrap": "^4.1.3",
-    "dev": "^0.1.3",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.4",
-    "reactstrap": "^6.4.0",
-    "redux": "^4.0.0",
-    "styled-components": "^3.4.9"
+    "gatsby": "^2.0.107",
+    "gatsby-image": "^2.0.29",
+    "gatsby-plugin-feed": "^2.0.12",
+    "gatsby-plugin-google-analytics": "^2.0.12",
+    "gatsby-plugin-manifest": "^2.0.16",
+    "gatsby-plugin-offline": "^2.0.22",
+    "gatsby-plugin-react-helmet": "^3.0.5",
+    "gatsby-plugin-sharp": "^2.0.19",
+    "gatsby-plugin-typography": "^2.2.6",
+    "gatsby-remark-copy-linked-files": "^2.0.8",
+    "gatsby-remark-images": "^2.0.6",
+    "gatsby-remark-prismjs": "^3.2.3",
+    "gatsby-remark-responsive-iframe": "^2.0.8",
+    "gatsby-remark-smartypants": "^2.0.7",
+    "gatsby-source-filesystem": "^2.0.19",
+    "gatsby-transformer-remark": "^2.2.2",
+    "gatsby-transformer-sharp": "^2.1.13",
+    "prismjs": "^1.15.0",
+    "react": "next",
+    "react-dom": "next",
+    "react-helmet": "^5.2.0",
+    "react-typography": "^0.16.18",
+    "typeface-merriweather": "0.0.54",
+    "typeface-montserrat": "0.0.54",
+    "typography": "^0.16.18",
+    "typography-theme-wordpress-2016": "^0.16.18"
+  },
+  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "husky": "^1.1.0",
-    "lint-staged": "^7.3.0",
-    "prettier": "1.14.3"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "husky": {
     "hooks": {
@@ -51,5 +62,10 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "devDependencies": {
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.1",
+    "prettier": "1.16.3"
   }
 }
