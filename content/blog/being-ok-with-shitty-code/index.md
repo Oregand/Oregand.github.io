@@ -9,12 +9,12 @@ So, at some point in your career as a software developer, you're going to run in
 If you think of yourself as a good developer, you probably spend a lot of time trying to improve the quality of your own code. Even if you dont think you're a particulary good developer, I bet you still spend a lot of time trying to write the _best_ code.
 
 - You spend time reading best practices from your developer heros - Looking at you [Jussi Hallila](http://jussi.hallila.com/).
-- You refractor your old awful code time and time again.
+- You refactor your old awful code time and time again.
 - You curl up in the corner and cry yourself stupid after trying to remove all the `if` statements from your latest pet project.
 
 And so, we spend a lot of time and energy trying to perfect our own craft, writing code that other people will awe at but how does this type of idealism stack up in the real world against business requirements?
 
-In my experience, theres a bit of a disconect between what developers feel they need to deliver and what we actually need to deliver.
+In my experience, theres a bit of a disconnect between what developers feel they need to deliver and what we actually need to deliver.
 
 Why though?
 
