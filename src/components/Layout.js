@@ -96,6 +96,13 @@ class Layout extends React.Component {
           >
             stack overflow
           </a>
+          <a
+            href="/assets/David_O_Regan_-_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            CV
+          </a>
         </footer>
       </div>
     )

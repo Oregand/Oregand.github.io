@@ -15,13 +15,28 @@
     "path": "/404/"
   },
   {
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "jsonName": "ambition-132",
+    "path": "/ambition/"
+  },
+  {
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "jsonName": "being-ok-with-shitty-code-696",
+    "path": "/being-ok-with-shitty-code/"
+  },
+  {
     "componentChunkName": "component---cache-dev-404-page-js",
     "jsonName": "dev-404-page-5f9",
     "path": "/dev-404-page/"
   },
   {
     "componentChunkName": "component---src-templates-blog-post-js",
-    "jsonName": "my-second-post-2aa",
-    "path": "/my-second-post/"
+    "jsonName": "failing-forward-8b9",
+    "path": "/failing-forward/"
+  },
+  {
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "jsonName": "graceful-depreciation-c0d",
+    "path": "/graceful-depreciation/"
   }
 ]

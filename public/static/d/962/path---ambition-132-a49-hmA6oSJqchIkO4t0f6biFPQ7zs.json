@@ -1,0 +1,22 @@
+{
+  "data": {
+    "site": {
+      "siteMetadata": { "title": "Get. Shit. Done.", "author": "David O'Regan" }
+    },
+    "markdownRemark": {
+      "id": "7df0935d-fae2-53b8-8edd-574cb7acb340",
+      "excerpt": "",
+      "html": "",
+      "timeToRead": 1,
+      "frontmatter": { "title": "Ambition", "date": "February 09, 2019" }
+    }
+  },
+  "pageContext": {
+    "slug": "/ambition/",
+    "previous": {
+      "fields": { "slug": "/being-ok-with-shitty-code/" },
+      "frontmatter": { "title": "Being Ok With Deploying Shitty Code" }
+    },
+    "next": null
+  }
+}
