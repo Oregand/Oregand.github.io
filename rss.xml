@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Get. Shit. Done.]]></title><description><![CDATA[Personal blog by David O'Regan. I explain with words and code.]]></description><link>http://doregan.com/</link><generator>RSS for Node</generator><lastBuildDate>Fri, 15 Feb 2019 19:23:23 GMT</lastBuildDate><item><title><![CDATA[VueJS Amsterdam 2019 - The Best Bits]]></title><description><![CDATA[VueJS Amsterdam 2019 - The Best Bits The state of Vue 3.0 Composing Components 5 rules for performant Vue Applications NuxtJS - Whats new…]]></description><link>http://doregan.com//top-bits-of-vuejsamsterdam/</link><guid isPermaLink="false">http://doregan.com//top-bits-of-vuejsamsterdam/</guid><pubDate>Fri, 15 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;VueJS Amsterdam 2019 - The Best Bits&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;The state of Vue 3.0&lt;/h2&gt;
+&lt;h2&gt;Composing Components&lt;/h2&gt;
+&lt;h2&gt;5 rules for performant Vue Applications&lt;/h2&gt;
+&lt;h2&gt;NuxtJS - Whats new?&lt;/h2&gt;
+&lt;h2&gt;Accessability in a Vue SPA&lt;/h2&gt;
+&lt;h2&gt;Lazy Load All The Things&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[Ambition]]></title><link>http://doregan.com//ambition/</link><guid isPermaLink="false">http://doregan.com//ambition/</guid><pubDate>Tue, 12 Feb 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Failing Forward]]></title><link>http://doregan.com//failing-forward/</link><guid isPermaLink="false">http://doregan.com//failing-forward/</guid><pubDate>Tue, 12 Feb 2019 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Graceful Depreciation]]></title><description><![CDATA[How do we depreciate code in a safe way for a user while still allowing a developer room for improvement? It is, a tough question. Lets say…]]></description><link>http://doregan.com//graceful-depreciation/</link><guid isPermaLink="false">http://doregan.com//graceful-depreciation/</guid><pubDate>Tue, 12 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;How do we depreciate code in a safe way for a user while still allowing a developer room for improvement?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;It is, a tough question.&lt;/p&gt;
+&lt;p&gt;Lets say for instance, we have a application which maintains a dependency to a external toolbox. This external tool box uses strict semantic versions to help keep some measure of santiy.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;@namelessorganization/core&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;private&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@namelessorganization/toolbox&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;5.9.5&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Our toolbox represents a collection of components, each of which maintain a workable API contract with the core application. Each component lives under this version and different components are leveraged all over our core application like so:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Button &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;@namelessorganization/toolbox&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Now, lets say we have a set of defined forms in a handful of locations which re-use the same component set.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  Button&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  Form&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  FormGroup&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  Label&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  CheckBox
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;@namelessorganization/toolbox&apos;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Form&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;FormGroup&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Label&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Form &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; Input&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;Label&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Checkbox &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;FormGroup&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Button color&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;primary&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;Submit&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;Button&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;Form&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Our component set is used in a handful of locations which creates a established, understood and hopefully predicable API contract between &lt;code class=&quot;language-text&quot;&gt;toolbox&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;core&lt;/code&gt;. Such that, our &lt;code class=&quot;language-text&quot;&gt;&amp;lt;Form&amp;gt;&lt;/code&gt; can be developed in confidence as the functionality of our component set is expected.&lt;/p&gt;
+&lt;p&gt;But, what happens when we need to depreciate a current component in lue of a better implementation?&lt;/p&gt;
+&lt;p&gt;The benefits of our previously contract between &lt;code class=&quot;language-text&quot;&gt;toolbox&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;core&lt;/code&gt; now become a burden. To illustrate why this contract has now become a burden, lets look at what I consider the best migration path.&lt;/p&gt;
+&lt;h2&gt;Depreciating / Maintaining Multiple Versions&lt;/h2&gt;
+&lt;p&gt;This is probably the most widely assumed and used strategy for a depreciation of “generic” components. In our &lt;code class=&quot;language-text&quot;&gt;toolbox&lt;/code&gt; we now create a second version of our component in question and begin to replace the instances in &lt;code class=&quot;language-text&quot;&gt;core&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// toolbox&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; ButtonOld
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; ButtonNew&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// core&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; ButtonOld&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; ButonNew &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;@namelessorganization/toolbox&apos;&lt;/span&gt;
+
+
+&lt;span class=&quot;token comment&quot;&gt;// Comp A&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ButtonOld &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// Comp B&lt;/span&gt;
+
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ButtonNew &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Over time, &lt;code class=&quot;language-text&quot;&gt;&amp;lt;ButtonOld /&amp;gt;&lt;/code&gt; will be removed from our &lt;code class=&quot;language-text&quot;&gt;core&lt;/code&gt; application to ensure a graceful migration from the old depreciated code base without shattering the current application.&lt;/p&gt;
+&lt;h3&gt;Pros&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Easy to implement a non-breaking migration&lt;/li&gt;
+&lt;li&gt;Easy to track versions and ensure proper refractoring&lt;/li&gt;
+&lt;li&gt;Depreciated components can be planned for full removal during a major release&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Cons&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Must be mindful to keep a very strict rules for amount of components available&lt;/li&gt;
+&lt;li&gt;Harder to keep track of changes as they are in multiple files&lt;/li&gt;
+&lt;li&gt;Doucmentation is harder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;code class=&quot;language-text&quot;&gt;next&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Given we have a open migration path with the above pattern, we can make use of a experimental branch &lt;code class=&quot;language-text&quot;&gt;next&lt;/code&gt; as a place for our major breaking changes to be published and tested.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;json&quot;&gt;&lt;pre class=&quot;language-json&quot;&gt;&lt;code class=&quot;language-json&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;@namelessorganization/core&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;private&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token property&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token property&quot;&gt;&quot;@namelessorganization/toolbox&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;next&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This allows developers to test, push and pull code from the bleeding edge in a fearless way.&lt;/p&gt;
+&lt;p&gt;Our &lt;code class=&quot;language-text&quot;&gt;toolbox&lt;/code&gt; can benifit from aggresive pushing of imporvement, while &lt;code class=&quot;language-text&quot;&gt;core&lt;/code&gt; can remain functionally safe for our end users.&lt;/p&gt;
+&lt;p&gt;The most important aspect of this style of development is promoting a sense of &lt;em&gt;failing forward&lt;/em&gt;. Which for a sucessful project is one of the most overlooked aspects of sucess.&lt;/p&gt;
+&lt;p&gt;As mark Z said; “Move fast, break shit, fix it”.&lt;/p&gt;
+&lt;h3&gt;Caveeat&lt;/h3&gt;
+&lt;p&gt;For this migration strategy to work, there must be a &lt;em&gt;strict&lt;/em&gt; deployment process in agreement between the developers, QA and ops team.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;Major&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&gt;&lt;/span&gt; Every &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt; months &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; a &lt;span class=&quot;token keyword&quot;&gt;break&lt;/span&gt;
+
+Minor&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&gt;&lt;/span&gt; Every week &lt;span class=&quot;token keyword&quot;&gt;with&lt;/span&gt; no breaks
+
+Patch&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&gt;&gt;&lt;/span&gt; Night release &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token string&quot;&gt;`next`&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Users need to keep faith in an applications resiliance, and so during major breaks, companies need to work harder in terms of timing and response to ensure users dont suffer.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Being Ok With Deploying Shitty Code]]></title><description><![CDATA[So, at some point in your career as a software developer, you’re going to run into a moment of:  . Don’t panic, it’s a normal reaction and a…]]></description><link>http://doregan.com//being-ok-with-shitty-code/</link><guid isPermaLink="false">http://doregan.com//being-ok-with-shitty-code/</guid><pubDate>Fri, 01 Feb 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;So, at some point in your career as a software developer, you’re going to run into a moment of: &lt;code class=&quot;language-text&quot;&gt;Shit, deploy or keep tweaking?&lt;/code&gt;. Don’t panic, it’s a normal reaction and a cross roads we all come to eventually.&lt;/p&gt;
+&lt;p&gt;If you think of yourself as a good developer, you probably spend a lot of time trying to improve the quality of your own code. Even if you dont think you’re a particulary good developer, I bet you still spend a lot of time trying to write the &lt;em&gt;best&lt;/em&gt; code.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You spend time reading best practices from your developer heros - Looking at you &lt;a href=&quot;http://jussi.hallila.com/&quot;&gt;Jussi Hallila&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;You refactor your old awful code time and time again.&lt;/li&gt;
+&lt;li&gt;You curl up in the corner and cry yourself stupid after trying to remove all the &lt;code class=&quot;language-text&quot;&gt;if&lt;/code&gt; statements from your latest pet project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And so, we spend a lot of time and energy trying to perfect our own craft, writing code that other people will awe at but how does this type of idealism stack up in the real world against business requirements?&lt;/p&gt;
+&lt;p&gt;In my experience, theres a bit of a disconnect between what developers feel they need to deliver and what we actually need to deliver.&lt;/p&gt;
+&lt;p&gt;Why though?&lt;/p&gt;
+&lt;p&gt;Sometimes we like to feel smart, sometimes we want to prove we know what we’re doing, sometimes we need to push ourseleves. None of these motivations however relate at all to buisness value delivered.&lt;/p&gt;
+&lt;p&gt;When we write code, the end goal should &lt;em&gt;always&lt;/em&gt; be to deliver the most amount of value to the person at the other end of our program. Or in other words, your value as a developer shouldnt be measured in the quality of your code but rather the quality of the application you deliver to your user.&lt;/p&gt;</content:encoded></item></channel></rss>

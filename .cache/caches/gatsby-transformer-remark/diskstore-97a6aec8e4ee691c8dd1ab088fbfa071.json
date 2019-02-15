@@ -1,5 +1,0 @@
-{
-  "expireTime": 9007200803804088000,
-  "key": "transformer-remark-markdown-html-358572756e53e6a24c6c3146d38d78ed-gatsby-remark-imagesgatsby-remark-responsive-iframegatsby-remark-prismjsgatsby-remark-copy-linked-filesgatsby-remark-smartypants-",
-  "val": "<p>So, at some point in your career as a software developer, you’re going to run into a moment of: <code class=\"language-text\">Shit, deploy or keep tweaking?</code>. Don’t panic, it’s a normal reaction and a cross roads we all come to eventually.</p>\n<p>If you think of yourself as a good developer, you probably spend a lot of time trying to improve the qaulity of your on code.</p>\n<ul>\n<li>You spend time reading best practices from your developer heros.</li>\n<li>You refractor your old awful code again and again.</li>\n<li>You spend time reading best practices, you refractor your old, awful code </li>\n</ul>\n<p>It encourages readable, correct and performant code, and helps developers fall into <a href=\"https://blog.codinghorror.com/falling-into-the-pit-of-success/\">the pit of success</a>.</p>"
-}

@@ -1,0 +1,51 @@
+{
+  "data": {
+    "site": { "siteMetadata": { "title": "Get. Shit. Done." } },
+    "allMarkdownRemark": {
+      "edges": [
+        {
+          "node": {
+            "excerpt": "",
+            "fields": { "slug": "/ambition/" },
+            "timeToRead": 1,
+            "frontmatter": { "date": "February 12, 2019", "title": "Ambition" }
+          }
+        },
+        {
+          "node": {
+            "excerpt": "",
+            "fields": { "slug": "/failing-forward/" },
+            "timeToRead": 1,
+            "frontmatter": {
+              "date": "February 12, 2019",
+              "title": "Failing Forward"
+            }
+          }
+        },
+        {
+          "node": {
+            "excerpt": "How do we depreciate code in a safe way for a user while still allowing a developer room for improvement? It is, a tough question.  Lets say…",
+            "fields": { "slug": "/graceful-depreciation/" },
+            "timeToRead": 1,
+            "frontmatter": {
+              "date": "February 12, 2019",
+              "title": "Graceful Depreciation"
+            }
+          }
+        },
+        {
+          "node": {
+            "excerpt": "So, at some point in your career as a software developer, you’re going to run into a moment of:  . Don’t panic, it’s a normal reaction and a…",
+            "fields": { "slug": "/being-ok-with-shitty-code/" },
+            "timeToRead": 1,
+            "frontmatter": {
+              "date": "February 01, 2019",
+              "title": "Being Ok With Deploying Shitty Code"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "pageContext": {}
+}
