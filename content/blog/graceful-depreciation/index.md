@@ -36,7 +36,6 @@ import {
   Label,
   CheckBox
 } from '@namelessorganization/toolbox'
-
 ;<Form>
   <FormGroup>
     <Label>Form 1 Input</Label>
@@ -52,9 +51,9 @@ Our component set is used in a handful of locations which creates a established,
 
 But, what happens when we need to depreciate a current component in lue of a better implementation?
 
-The benefits of our previously contract between `toolbox` and `core` now become a burden. To illustrate why this contract has now become a burden, lets look at a few possible migration paths.
+The benefits of our previously contract between `toolbox` and `core` now become a burden. To illustrate why this contract has now become a burden, lets look at what I consider the best migration path.
 
-## Multiple Versions
+## Depreciating / Maintaining Multiple Versions
 
 This is probably the most widely assumed and used strategy for a depreciation of "generic" components. In our `toolbox` we now create a second version of our component in question and begin to replace the instances in `core`.
 
@@ -95,6 +94,38 @@ Over time, `<ButtonOld />` will be removed from our `core` application to ensure
 - Harder to keep track of changes as they are in multiple files
 - Doucmentation is harder
 
-## HOC / Composing
-
 ## `next`
+
+Given we have a open migration path with the above pattern, we can make use of a experimental branch `next` as a place for our major breaking changes to be published and tested.
+
+```json
+{
+  "name": "@namelessorganization/core",
+  "private": true,
+  "dependencies": {
+    "@namelessorganization/toolbox": "next"
+  }
+}
+```
+
+This allows developers to test, push and pull code from the bleeding edge in a fearless way.
+
+Our `toolbox` can benifit from aggresive pushing of imporvement, while `core` can remain functionally safe for our end users.
+
+The most important aspect of this style of development is promoting a sense of _failing forward_. Which for a sucessful project is one of the most overlooked aspects of sucess.
+
+As mark Z said; "Move fast, break shit, fix it".
+
+### Caveeat
+
+For this migration strategy to work, there must be a _strict_ deployment process in agreement between the developers, QA and ops team.
+
+```js
+Major: >>> Every 6 months for a break
+
+Minor: >>> Every week with no breaks
+
+Patch: >>> Night release `next`
+```
+
+Users need to keep faith in an applications resiliance, and so during major breaks, companies need to work harder in terms of timing and response to ensure users dont suffer.
