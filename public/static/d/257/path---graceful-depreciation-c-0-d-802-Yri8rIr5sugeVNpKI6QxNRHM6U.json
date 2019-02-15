@@ -1,0 +1,28 @@
+{
+  "data": {
+    "site": {
+      "siteMetadata": { "title": "Get. Shit. Done.", "author": "David O'Regan" }
+    },
+    "markdownRemark": {
+      "id": "37cb5327-517d-5d6a-8875-d210f3a80479",
+      "excerpt": "How do we depreciate code in a safe way for a user while still allowing a developer room for improvement? It is, a tough question.  Lets say for instance, we…",
+      "html": "<p><em>How do we depreciate code in a safe way for a user while still allowing a developer room for improvement?</em></p>\n<p>It is, a tough question. </p>\n<p>Lets say for instance, we have a application which maintains a dependency to a external toolbox. This external tool box uses strict semantic versions to help keep some measure of santiy.</p>\n<div class=\"gatsby-highlight\" data-language=\"json\"><pre class=\"language-json\"><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n    <span class=\"token property\">\"name\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"@namelessorganization/core\"</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"private\"</span><span class=\"token operator\">:</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">,</span>\n    <span class=\"token property\">\"dependencies\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span>\n        <span class=\"token property\">\"@namelessorganization/toolbox\"</span> <span class=\"token operator\">:</span> '<span class=\"token number\">5.9</span><span class=\"token number\">.5</span>'<span class=\"token punctuation\">,</span>\n    <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span></code></pre></div>\n<p>Our toolbox represents a collection of components, each of which maintain a workable API contract with the core application. Each component lives under this version and different components are leveraged all over our core application like so:</p>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token keyword\">import</span> <span class=\"token punctuation\">{</span> Button <span class=\"token punctuation\">}</span> <span class=\"token keyword\">from</span> <span class=\"token string\">'@namelessorganization/toolbox'</span></code></pre></div>\n<p>Now, lets say we have a set of defined forms in a handful of locations which re-use the same component set.</p>\n<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token keyword\">import</span> <span class=\"token punctuation\">{</span> Button<span class=\"token punctuation\">,</span> Form<span class=\"token punctuation\">,</span> FormGroup<span class=\"token punctuation\">,</span> Label<span class=\"token punctuation\">,</span> CheckBox <span class=\"token punctuation\">}</span> <span class=\"token keyword\">from</span> <span class=\"token string\">'@namelessorganization/toolbox'</span></code></pre></div>",
+      "timeToRead": 1,
+      "frontmatter": {
+        "title": "Graceful Depreciation",
+        "date": "February 12, 2019"
+      }
+    }
+  },
+  "pageContext": {
+    "slug": "/graceful-depreciation/",
+    "previous": {
+      "fields": { "slug": "/being-ok-with-shitty-code/" },
+      "frontmatter": { "title": "Being Ok With Deploying Shitty Code" }
+    },
+    "next": {
+      "fields": { "slug": "/failing-forward/" },
+      "frontmatter": { "title": "Failing Forward" }
+    }
+  }
+}

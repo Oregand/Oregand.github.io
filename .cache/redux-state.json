@@ -237,10 +237,7 @@
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
         "version": "2.0.20",
         "keywords": ["gatsby", "gatsby-plugin"],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -358,10 +355,7 @@
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
         "version": "2.0.20",
         "keywords": ["gatsby", "gatsby-plugin"],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -464,7 +458,7 @@
       "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-transformer-remark",
       "id": "24da35b5-13b8-504f-8b08-db58445bda76",
       "name": "gatsby-transformer-remark",
-      "version": "2.2.4",
+      "version": "2.2.3",
       "pluginOptions": {
         "plugins": [
           {
@@ -550,12 +544,9 @@
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
-        "version": "2.2.4",
+        "version": "2.2.3",
         "keywords": ["gatsby", "gatsby-plugin", "markdown", "remark"],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -616,7 +607,7 @@
           },
           {
             "name": "underscore.string",
-            "version": "^3.3.5"
+            "version": "^3.3.4"
           },
           {
             "name": "unified",
@@ -665,7 +656,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "b746ec2cd9ad03477820830886b9baa9",
+        "contentDigest": "570948925fd2649816c0ed9e1e02623f",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -702,10 +693,7 @@
           "remark",
           "responsive images"
         ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -795,10 +783,7 @@
         "version": "2.0.9",
         "main": "index.js",
         "keywords": ["gatsby", "gatsby-plugin", "remark"],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -883,10 +868,7 @@
         "version": "3.2.4",
         "main": "index.js",
         "keywords": ["gatsby", "gatsby-plugin", "prismjs", "remark"],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -968,10 +950,7 @@
         "version": "2.0.9",
         "main": "index.js",
         "keywords": ["gatsby", "gatsby-plugin", "prismjs", "remark"],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -1060,10 +1039,7 @@
         "version": "2.0.8",
         "main": "index.js",
         "keywords": ["gatsby", "gatsby-plugin", "smartypants"],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -1139,10 +1115,7 @@
         "description": "Gatsby transformer plugin for images using Sharp",
         "version": "2.1.13",
         "keywords": ["gatsby", "gatsby-plugin", "image", "sharp"],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -1227,10 +1200,7 @@
         "version": "2.0.20",
         "main": "index.js",
         "keywords": ["gatsby", "gatsby-plugin", "image", "sharp"],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -1351,10 +1321,7 @@
         "version": "2.0.13",
         "main": "index.js",
         "keywords": ["gatsby", "gatsby-plugin", "google analytics"],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -1415,10 +1382,7 @@
         "version": "2.0.13",
         "main": "index.js",
         "keywords": ["atom", "feed", "gatsby", "gatsby-plugin", "rss"],
-        "author": {
-          "name": "Nicholas Young",
-          "email": "nicholas@nicholaswyoung.com"
-        },
+        "author": "Nicholas Young <nicholas@nicholaswyoung.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -1510,10 +1474,7 @@
           "progressive-web-app",
           "pwa"
         ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -1568,7 +1529,7 @@
       "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-offline",
       "id": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
       "name": "gatsby-plugin-offline",
-      "version": "2.0.23",
+      "version": "2.0.22",
       "pluginOptions": {
         "plugins": []
       },
@@ -1583,7 +1544,7 @@
       "packageJson": {
         "name": "gatsby-plugin-offline",
         "description": "Gatsby plugin which sets up a site to be able to run offline",
-        "version": "2.0.23",
+        "version": "2.0.22",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -1592,10 +1553,7 @@
           "precache",
           "service-worker"
         ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -1653,7 +1611,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "1e28ac40f7583377f69d6d6f69bf92b7",
+        "contentDigest": "3da5a44b2bc1fb40a29f897f9093bd9b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1691,10 +1649,7 @@
           "noscript",
           "style"
         ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "matthews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <matthews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -1760,10 +1715,7 @@
         "version": "2.2.7",
         "main": "index.js",
         "keywords": ["gatsby", "gatsby-plugin", "typography", "typography.js"],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -1837,7 +1789,7 @@
       "packageJson": {
         "name": "Oregand.github.io",
         "description": "My personal blog.",
-        "version": "0.1.0",
+        "version": "0.1.1",
         "main": "n/a",
         "keywords": ["gatsby, react, david, developer, blog"],
         "author": "David O'Regan <davidoregan91@gmail.com>",
@@ -1932,6 +1884,10 @@
             "version": "^0.16.18"
           },
           {
+            "name": "standard-version",
+            "version": "^4.4.0"
+          },
+          {
             "name": "typeface-merriweather",
             "version": "0.0.54"
           },
@@ -1950,6 +1906,10 @@
         ],
         "devDependencies": [
           {
+            "name": "gh-pages",
+            "version": "^2.0.1"
+          },
+          {
             "name": "husky",
             "version": "^1.3.1"
           },
@@ -1960,10 +1920,6 @@
           {
             "name": "prettier",
             "version": "1.16.3"
-          },
-          {
-            "name": "gh-pages",
-            "version": "^2.0.1"
           }
         ],
         "peerDependencies": [],
@@ -1998,10 +1954,7 @@
         "version": "2.0.6",
         "main": "index.js",
         "keywords": ["gatsby", "gatsby-plugin"],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -2090,12 +2043,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-13T15:01:40.001Z",
+      "buildTime": "2019-02-13T18:48:58.572Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "7a32eb6521f83619898e9d32f00aacd2",
+        "contentDigest": "590c5d24f6d27d75ebb74d8b513c5e2a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2149,7 +2102,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "a69b8e448a62b9604f485e69b0c933ec",
+        "contentDigest": "a1b23ecb2386d193c89438bd2dff8bf3",
         "type": "Directory",
         "description": "Directory \"content/blog/ambition\"",
         "owner": "gatsby-source-filesystem"
@@ -2161,7 +2114,7 @@
       "size": 4096,
       "prettySize": "4.1 kB",
       "modifiedTime": "2019-02-12T15:59:12.788Z",
-      "accessTime": "2019-02-12T15:59:21.176Z",
+      "accessTime": "2019-02-13T18:47:23.180Z",
       "changeTime": "2019-02-12T15:59:12.788Z",
       "birthTime": "2019-02-12T15:59:12.788Z",
       "root": "/",
@@ -2179,11 +2132,11 @@
       "blksize": 4096,
       "ino": 28837489,
       "blocks": 8,
-      "atimeMs": 1549987161176.4546,
+      "atimeMs": 1550083643180.0298,
       "mtimeMs": 1549987152788.443,
       "ctimeMs": 1549987152788.443,
       "birthtimeMs": 1549987152788.443,
-      "atime": "2019-02-12T15:59:21.176Z",
+      "atime": "2019-02-13T18:47:23.180Z",
       "mtime": "2019-02-12T15:59:12.788Z",
       "ctime": "2019-02-12T15:59:12.788Z",
       "birthtime": "2019-02-12T15:59:12.788Z"
@@ -2193,7 +2146,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "1c6625201a096c534ae26a21b3f64466",
+        "contentDigest": "7f7a41f9c9483b3868d3070c05833cf5",
         "type": "Directory",
         "description": "Directory \"content/blog/being-ok-with-shitty-code\"",
         "owner": "gatsby-source-filesystem"
@@ -2205,7 +2158,7 @@
       "size": 4096,
       "prettySize": "4.1 kB",
       "modifiedTime": "2019-02-12T15:46:22.246Z",
-      "accessTime": "2019-02-12T15:46:37.378Z",
+      "accessTime": "2019-02-13T18:47:23.180Z",
       "changeTime": "2019-02-12T15:46:37.338Z",
       "birthTime": "2019-02-12T15:46:37.338Z",
       "root": "/",
@@ -2223,11 +2176,11 @@
       "blksize": 4096,
       "ino": 28726188,
       "blocks": 8,
-      "atimeMs": 1549986397378.0554,
+      "atimeMs": 1550083643180.0298,
       "mtimeMs": 1549986382245.934,
       "ctimeMs": 1549986397338.055,
       "birthtimeMs": 1549986397338.055,
-      "atime": "2019-02-12T15:46:37.378Z",
+      "atime": "2019-02-13T18:47:23.180Z",
       "mtime": "2019-02-12T15:46:22.246Z",
       "ctime": "2019-02-12T15:46:37.338Z",
       "birthtime": "2019-02-12T15:46:37.338Z"
@@ -2320,96 +2273,6 @@
       "ctime": "2019-02-13T10:34:53.648Z",
       "birthtime": "2019-02-13T10:34:53.648Z"
     },
-    "270fa852-091a-5840-a9dc-0ae530abc86b": {
-      "id": "270fa852-091a-5840-a9dc-0ae530abc86b",
-      "children": ["7df0935d-fae2-53b8-8edd-574cb7acb340"],
-      "parent": null,
-      "internal": {
-        "contentDigest": "4f8de0212eb25130b212208aa259d02f",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/ambition/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/ambition/index.md",
-      "relativePath": "ambition/index.md",
-      "extension": "md",
-      "size": 81,
-      "prettySize": "81 B",
-      "modifiedTime": "2019-02-12T15:59:12.780Z",
-      "accessTime": "2019-02-12T15:59:13.400Z",
-      "changeTime": "2019-02-12T15:59:12.788Z",
-      "birthTime": "2019-02-12T15:59:12.788Z",
-      "root": "/",
-      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/ambition",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "ambition",
-      "dev": 66306,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 28837491,
-      "blocks": 8,
-      "atimeMs": 1549987153400.4438,
-      "mtimeMs": 1549987152780.443,
-      "ctimeMs": 1549987152788.443,
-      "birthtimeMs": 1549987152788.443,
-      "atime": "2019-02-12T15:59:13.400Z",
-      "mtime": "2019-02-12T15:59:12.780Z",
-      "ctime": "2019-02-12T15:59:12.788Z",
-      "birthtime": "2019-02-12T15:59:12.788Z"
-    },
-    "954aee62-3dc3-5397-93d2-4fcfe9dd5b7b": {
-      "id": "954aee62-3dc3-5397-93d2-4fcfe9dd5b7b",
-      "children": ["6fe008a6-a3e8-5a94-836f-a2897719a0fe"],
-      "parent": null,
-      "internal": {
-        "contentDigest": "5e0e5f28a92fa4c192c326b60f7e6e6d",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/failing-forward/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/failing-forward/index.md",
-      "relativePath": "failing-forward/index.md",
-      "extension": "md",
-      "size": 104,
-      "prettySize": "104 B",
-      "modifiedTime": "2019-02-13T10:34:53.652Z",
-      "accessTime": "2019-02-13T10:34:54.252Z",
-      "changeTime": "2019-02-13T10:34:53.652Z",
-      "birthTime": "2019-02-13T10:34:53.652Z",
-      "root": "/",
-      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/failing-forward",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "failing-forward",
-      "dev": 66306,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 28837497,
-      "blocks": 8,
-      "atimeMs": 1550054094252.035,
-      "mtimeMs": 1550054093652.005,
-      "ctimeMs": 1550054093652.005,
-      "birthtimeMs": 1550054093652.005,
-      "atime": "2019-02-13T10:34:54.252Z",
-      "mtime": "2019-02-13T10:34:53.652Z",
-      "ctime": "2019-02-13T10:34:53.652Z",
-      "birthtime": "2019-02-13T10:34:53.652Z"
-    },
     "590e8b28-914d-5e2a-953d-74f84b4ad091": {
       "id": "590e8b28-914d-5e2a-953d-74f84b4ad091",
       "children": ["2bc23295-2374-5b12-b7e6-8e2813cefa55"],
@@ -2455,12 +2318,102 @@
       "ctime": "2019-02-12T15:46:22.246Z",
       "birthtime": "2019-02-12T15:46:22.246Z"
     },
+    "270fa852-091a-5840-a9dc-0ae530abc86b": {
+      "id": "270fa852-091a-5840-a9dc-0ae530abc86b",
+      "children": ["7df0935d-fae2-53b8-8edd-574cb7acb340"],
+      "parent": null,
+      "internal": {
+        "contentDigest": "e4dbba709131c5049bcd859c3cde7d8a",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/ambition/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/ambition/index.md",
+      "relativePath": "ambition/index.md",
+      "extension": "md",
+      "size": 82,
+      "prettySize": "82 B",
+      "modifiedTime": "2019-02-13T15:04:54.244Z",
+      "accessTime": "2019-02-13T15:04:55.364Z",
+      "changeTime": "2019-02-13T15:04:54.244Z",
+      "birthTime": "2019-02-13T15:04:54.244Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/ambition",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "ambition",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28837491,
+      "blocks": 8,
+      "atimeMs": 1550070295363.9167,
+      "mtimeMs": 1550070294243.9094,
+      "ctimeMs": 1550070294243.9094,
+      "birthtimeMs": 1550070294243.9094,
+      "atime": "2019-02-13T15:04:55.364Z",
+      "mtime": "2019-02-13T15:04:54.244Z",
+      "ctime": "2019-02-13T15:04:54.244Z",
+      "birthtime": "2019-02-13T15:04:54.244Z"
+    },
+    "954aee62-3dc3-5397-93d2-4fcfe9dd5b7b": {
+      "id": "954aee62-3dc3-5397-93d2-4fcfe9dd5b7b",
+      "children": ["6fe008a6-a3e8-5a94-836f-a2897719a0fe"],
+      "parent": null,
+      "internal": {
+        "contentDigest": "902c45d9742f1b111c6de900d2a4d41b",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/failing-forward/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/failing-forward/index.md",
+      "relativePath": "failing-forward/index.md",
+      "extension": "md",
+      "size": 105,
+      "prettySize": "105 B",
+      "modifiedTime": "2019-02-13T15:04:54.236Z",
+      "accessTime": "2019-02-13T15:04:55.364Z",
+      "changeTime": "2019-02-13T15:04:54.236Z",
+      "birthTime": "2019-02-13T15:04:54.236Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/failing-forward",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "failing-forward",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28837497,
+      "blocks": 8,
+      "atimeMs": 1550070295363.9167,
+      "mtimeMs": 1550070294235.9092,
+      "ctimeMs": 1550070294235.9092,
+      "birthtimeMs": 1550070294235.9092,
+      "atime": "2019-02-13T15:04:55.364Z",
+      "mtime": "2019-02-13T15:04:54.236Z",
+      "ctime": "2019-02-13T15:04:54.236Z",
+      "birthtime": "2019-02-13T15:04:54.236Z"
+    },
     "40270064-6001-5742-9fdd-3af229dec9d6": {
       "id": "40270064-6001-5742-9fdd-3af229dec9d6",
       "children": ["37cb5327-517d-5d6a-8875-d210f3a80479"],
       "parent": null,
       "internal": {
-        "contentDigest": "7f243d91ee9ec1b591482649a846b4d8",
+        "contentDigest": "1cd67b10f4ae478864ecaffd686c1662",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/graceful-depreciation/index.md\"",
@@ -2470,12 +2423,12 @@
       "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/graceful-depreciation/index.md",
       "relativePath": "graceful-depreciation/index.md",
       "extension": "md",
-      "size": 100,
-      "prettySize": "100 B",
-      "modifiedTime": "2019-02-13T10:34:53.640Z",
-      "accessTime": "2019-02-13T10:34:54.252Z",
-      "changeTime": "2019-02-13T10:34:53.648Z",
-      "birthTime": "2019-02-13T10:34:53.648Z",
+      "size": 2316,
+      "prettySize": "2.32 kB",
+      "modifiedTime": "2019-02-15T18:28:51.944Z",
+      "accessTime": "2019-02-15T18:28:51.944Z",
+      "changeTime": "2019-02-15T18:28:51.948Z",
+      "birthTime": "2019-02-15T18:28:51.948Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/graceful-depreciation",
       "base": "index.md",
@@ -2489,16 +2442,16 @@
       "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 28837493,
+      "ino": 28841105,
       "blocks": 8,
-      "atimeMs": 1550054094252.035,
-      "mtimeMs": 1550054093640.0042,
-      "ctimeMs": 1550054093648.0046,
-      "birthtimeMs": 1550054093648.0046,
-      "atime": "2019-02-13T10:34:54.252Z",
-      "mtime": "2019-02-13T10:34:53.640Z",
-      "ctime": "2019-02-13T10:34:53.648Z",
-      "birthtime": "2019-02-13T10:34:53.648Z"
+      "atimeMs": 1550255331944.4006,
+      "mtimeMs": 1550255331944.4006,
+      "ctimeMs": 1550255331948.4006,
+      "birthtimeMs": 1550255331948.4006,
+      "atime": "2019-02-15T18:28:51.944Z",
+      "mtime": "2019-02-15T18:28:51.944Z",
+      "ctime": "2019-02-15T18:28:51.948Z",
+      "birthtime": "2019-02-15T18:28:51.948Z"
     },
     "7df0935d-fae2-53b8-8edd-574cb7acb340": {
       "id": "7df0935d-fae2-53b8-8edd-574cb7acb340",
@@ -2523,31 +2476,6 @@
       "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/ambition/index.md",
       "fields": {
         "slug": "/ambition/"
-      }
-    },
-    "6fe008a6-a3e8-5a94-836f-a2897719a0fe": {
-      "id": "6fe008a6-a3e8-5a94-836f-a2897719a0fe",
-      "children": [],
-      "parent": "954aee62-3dc3-5397-93d2-4fcfe9dd5b7b",
-      "internal": {
-        "content": "",
-        "type": "MarkdownRemark",
-        "contentDigest": "b32925bcc6da0fe17fe0a13ea3c73a37",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Failing Forward",
-        "date": "2019-02-12",
-        "spoiler": "Faster reactions over pre-mature optimization"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "",
-      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/failing-forward/index.md",
-      "fields": {
-        "slug": "/failing-forward/"
       }
     },
     "2bc23295-2374-5b12-b7e6-8e2813cefa55": {
@@ -2575,29 +2503,29 @@
         "slug": "/being-ok-with-shitty-code/"
       }
     },
-    "37cb5327-517d-5d6a-8875-d210f3a80479": {
-      "id": "37cb5327-517d-5d6a-8875-d210f3a80479",
+    "6fe008a6-a3e8-5a94-836f-a2897719a0fe": {
+      "id": "6fe008a6-a3e8-5a94-836f-a2897719a0fe",
       "children": [],
-      "parent": "40270064-6001-5742-9fdd-3af229dec9d6",
+      "parent": "954aee62-3dc3-5397-93d2-4fcfe9dd5b7b",
       "internal": {
         "content": "",
         "type": "MarkdownRemark",
-        "contentDigest": "557a12f7f48e758eff46eb4b5a21c408",
+        "contentDigest": "b32925bcc6da0fe17fe0a13ea3c73a37",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "Graceful Depreciation",
+        "title": "Failing Forward",
         "date": "2019-02-12",
-        "spoiler": "Keeping a path open for improvement"
+        "spoiler": "Faster reactions over pre-mature optimization"
       },
       "excerpt": "",
       "rawMarkdownBody": "",
-      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/graceful-depreciation/index.md",
+      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/failing-forward/index.md",
       "fields": {
-        "slug": "/graceful-depreciation/"
+        "slug": "/failing-forward/"
       }
     },
     "cf0e24f3-9040-5f02-9a0c-e5d12e750370": {
@@ -2641,51 +2569,6 @@
       "birthtimeMs": 1550069975233.8271,
       "atime": "2019-02-13T14:59:35.250Z",
       "mtime": "2019-02-13T14:59:35.234Z",
-      "ctime": "2019-02-13T14:59:35.234Z",
-      "birthtime": "2019-02-13T14:59:35.234Z"
-    },
-    "01def64e-a403-5af3-89fd-b8f282189f3d": {
-      "id": "01def64e-a403-5af3-89fd-b8f282189f3d",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "6b2469019e4d940cc05087e76441e8a3",
-        "type": "File",
-        "mediaType": "application/pdf",
-        "description": "File \"content/assets/David_O_Regan_-_Resume.pdf\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "assets",
-      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/assets/David_O_Regan_-_Resume.pdf",
-      "relativePath": "David_O_Regan_-_Resume.pdf",
-      "extension": "pdf",
-      "size": 92223,
-      "prettySize": "92.2 kB",
-      "modifiedTime": "2019-02-13T13:02:39.000Z",
-      "accessTime": "2019-02-13T14:59:37.578Z",
-      "changeTime": "2019-02-13T14:59:35.234Z",
-      "birthTime": "2019-02-13T14:59:35.234Z",
-      "root": "/",
-      "dir": "/home/david/dev/oregand/Oregand.github.io/content/assets",
-      "base": "David_O_Regan_-_Resume.pdf",
-      "ext": ".pdf",
-      "name": "David_O_Regan_-_Resume",
-      "relativeDirectory": "",
-      "dev": 66306,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 28710737,
-      "blocks": 184,
-      "atimeMs": 1550069977577.8423,
-      "mtimeMs": 1550062959000,
-      "ctimeMs": 1550069975233.8271,
-      "birthtimeMs": 1550069975233.8271,
-      "atime": "2019-02-13T14:59:37.578Z",
-      "mtime": "2019-02-13T13:02:39.000Z",
       "ctime": "2019-02-13T14:59:35.234Z",
       "birthtime": "2019-02-13T14:59:35.234Z"
     },
@@ -2734,6 +2617,61 @@
       "ctime": "2019-02-12T15:45:39.782Z",
       "birthtime": "2019-02-12T15:45:39.782Z"
     },
+    "68e9411a-cf46-552a-8704-1c4ac05e53fa": {
+      "id": "68e9411a-cf46-552a-8704-1c4ac05e53fa",
+      "children": [],
+      "parent": "f809abc7-b01b-5829-a12a-a1e2d6a43da8",
+      "internal": {
+        "contentDigest": "a010c2ad73f4071b8dff0a77a679846b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "01def64e-a403-5af3-89fd-b8f282189f3d": {
+      "id": "01def64e-a403-5af3-89fd-b8f282189f3d",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "6b2469019e4d940cc05087e76441e8a3",
+        "type": "File",
+        "mediaType": "application/pdf",
+        "description": "File \"content/assets/David_O_Regan_-_Resume.pdf\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "assets",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/assets/David_O_Regan_-_Resume.pdf",
+      "relativePath": "David_O_Regan_-_Resume.pdf",
+      "extension": "pdf",
+      "size": 92223,
+      "prettySize": "92.2 kB",
+      "modifiedTime": "2019-02-13T13:02:39.000Z",
+      "accessTime": "2019-02-13T14:59:37.578Z",
+      "changeTime": "2019-02-13T14:59:35.234Z",
+      "birthTime": "2019-02-13T14:59:35.234Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/assets",
+      "base": "David_O_Regan_-_Resume.pdf",
+      "ext": ".pdf",
+      "name": "David_O_Regan_-_Resume",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28710737,
+      "blocks": 184,
+      "atimeMs": 1550069977577.8423,
+      "mtimeMs": 1550062959000,
+      "ctimeMs": 1550069975233.8271,
+      "birthtimeMs": 1550069975233.8271,
+      "atime": "2019-02-13T14:59:37.578Z",
+      "mtime": "2019-02-13T13:02:39.000Z",
+      "ctime": "2019-02-13T14:59:35.234Z",
+      "birthtime": "2019-02-13T14:59:35.234Z"
+    },
     "d9528317-0fcd-53d0-91de-b3fcab2148d2": {
       "id": "d9528317-0fcd-53d0-91de-b3fcab2148d2",
       "children": ["f716a1cf-1a30-5143-86b7-4d2515d9d3d2"],
@@ -2778,16 +2716,6 @@
       "mtime": "2019-02-12T15:45:39.778Z",
       "ctime": "2019-02-12T15:45:39.778Z",
       "birthtime": "2019-02-12T15:45:39.778Z"
-    },
-    "68e9411a-cf46-552a-8704-1c4ac05e53fa": {
-      "id": "68e9411a-cf46-552a-8704-1c4ac05e53fa",
-      "children": [],
-      "parent": "f809abc7-b01b-5829-a12a-a1e2d6a43da8",
-      "internal": {
-        "contentDigest": "a010c2ad73f4071b8dff0a77a679846b",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "f716a1cf-1a30-5143-86b7-4d2515d9d3d2": {
       "id": "f716a1cf-1a30-5143-86b7-4d2515d9d3d2",
@@ -2996,18 +2924,43 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "37cb5327-517d-5d6a-8875-d210f3a80479": {
+      "id": "37cb5327-517d-5d6a-8875-d210f3a80479",
+      "children": [],
+      "parent": "40270064-6001-5742-9fdd-3af229dec9d6",
+      "internal": {
+        "content": "\n*How do we depreciate code in a safe way for a user while still allowing a developer room for improvement?*\n\nIt is, a tough question. \n\nLets say for instance, we have a application which maintains a dependency to a external toolbox. This external tool box uses strict semantic versions to help keep some measure of santiy.\n\n```json\n{\n    \"name\": \"@namelessorganization/core\",\n    \"private\": true,\n    \"dependencies\": {\n        \"@namelessorganization/toolbox\" : '5.9.5',\n    }\n}\n``` \n\nOur toolbox represents a collection of components, each of which maintain a workable API contract with the core application. Each component lives under this version and different components are leveraged all over our core application like so:\n\n```js\nimport { Button } from '@namelessorganization/toolbox'\n```\n\nNow, lets say we have a set of defined forms in a handful of locations which re-use the same component set.\n\n\n```js\nimport { Button, Form, FormGroup, Label, CheckBox } from '@namelessorganization/toolbox'\n\n<Form>\n    <FormGroup>\n        <Label>Form 1 Input</Label>\n        <Checkbox />\n    </FormGroup>\n    <div>\n        <Button color={'primary'}>\n            Submit\n        </Button>\n    </div>\n</Form>\n```\n\nOur component set is used in a handful of locations which creates a established, understood and hopefully predicable API contract between `toolbox`  and `core`. Such that, our `<Form>` can be developed in confidence as the functionality of our component set is expected.\n\n\nBut, what happens when we need to depreciate a current component in lue of a better implementation? \n \nThe benefits of our previously contract between `toolbox` and `core` now become a burden. To illustrate why this contract has now become a burden, lets look at a few possible migration paths.\n\n## Multiple Versions\n\nThis is probably the most widely assumed and used strategy for a depreciation of \"generic\" components. In our `toolbox` we now create a second version of our component in question and begin to replace the instances in `core`.\n\n```js\n// toolbox\n\nexport default ButtonOld\n\nexport default ButtonNew\n```\n\n```js\n// core\n\nimport { ButtonOld, ButonNew } from '@namelessorganization/toolbox'\n```\n\n## if / else\n\n## HOC\n\n## `next`",
+        "type": "MarkdownRemark",
+        "contentDigest": "2f36c741112adbc564092999497cf48e",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Graceful Depreciation",
+        "date": "2019-02-12",
+        "spoiler": "Keeping a path open for improvement"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n*How do we depreciate code in a safe way for a user while still allowing a developer room for improvement?*\n\nIt is, a tough question. \n\nLets say for instance, we have a application which maintains a dependency to a external toolbox. This external tool box uses strict semantic versions to help keep some measure of santiy.\n\n```json\n{\n    \"name\": \"@namelessorganization/core\",\n    \"private\": true,\n    \"dependencies\": {\n        \"@namelessorganization/toolbox\" : '5.9.5',\n    }\n}\n``` \n\nOur toolbox represents a collection of components, each of which maintain a workable API contract with the core application. Each component lives under this version and different components are leveraged all over our core application like so:\n\n```js\nimport { Button } from '@namelessorganization/toolbox'\n```\n\nNow, lets say we have a set of defined forms in a handful of locations which re-use the same component set.\n\n\n```js\nimport { Button, Form, FormGroup, Label, CheckBox } from '@namelessorganization/toolbox'\n\n<Form>\n    <FormGroup>\n        <Label>Form 1 Input</Label>\n        <Checkbox />\n    </FormGroup>\n    <div>\n        <Button color={'primary'}>\n            Submit\n        </Button>\n    </div>\n</Form>\n```\n\nOur component set is used in a handful of locations which creates a established, understood and hopefully predicable API contract between `toolbox`  and `core`. Such that, our `<Form>` can be developed in confidence as the functionality of our component set is expected.\n\n\nBut, what happens when we need to depreciate a current component in lue of a better implementation? \n \nThe benefits of our previously contract between `toolbox` and `core` now become a burden. To illustrate why this contract has now become a burden, lets look at a few possible migration paths.\n\n## Multiple Versions\n\nThis is probably the most widely assumed and used strategy for a depreciation of \"generic\" components. In our `toolbox` we now create a second version of our component in question and begin to replace the instances in `core`.\n\n```js\n// toolbox\n\nexport default ButtonOld\n\nexport default ButtonNew\n```\n\n```js\n// core\n\nimport { ButtonOld, ButonNew } from '@namelessorganization/toolbox'\n```\n\n## if / else\n\n## HOC\n\n## `next`",
+      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/graceful-depreciation/index.md",
+      "fields": {
+        "slug": "/graceful-depreciation/"
+      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "02fe35f69f14cfd11b72a17eb78377ed"
+    "PLUGINS_HASH": "440cd999a7e776165d24d8a52fe61f99"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
+        "/",
         "/404/",
         "/404.html",
-        "/",
         "/ambition/",
         "/failing-forward/",
         "/graceful-depreciation/",
@@ -3031,12 +2984,12 @@
     "404-22d": "731/path---404-22-d-bce-EVaHXcHipTKNxCBcOiCr2NBFk",
     "sq--src-components-seo-js": 1025518380,
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "576/path---index-6a9-LtpR3DPLTEAWLj2oDuYN6Qxf8w",
+    "index": "890/path---index-6a9-DeoB44f9WA8OzghDmgyacItKR0",
     "my-second-post-2aa": "838/path---my-second-post-2-aa-e94-93mQPGQ5DB5h2fgZt7LRBcYg4c",
     "sq--src-components-bio-js": 2455242068,
     "ambition-132": "457/path---ambition-132-a49-9F6YRNNx6y9ODvNiH8ZpP8jhJo",
     "failing-forward-8b9": "545/path---failing-forward-8-b-9-e25-DtM4BAG3m88lKRc5P7OhSvh9KRA",
-    "graceful-depreciation-c0d": "620/path---graceful-depreciation-c-0-d-802-6BG2st4A07cTM3z2BKKVFOs",
+    "graceful-depreciation-c0d": "15/path---graceful-depreciation-c-0-d-802-akMZEQBmwce7d7mqSeVb0CnpHzU",
     "being-ok-with-shitty-code-696": "662/path---being-ok-with-shitty-code-696-a53-gLBbq9F6fOfWldYMeORu7PUZ8s"
   },
   "components": {

@@ -95,9 +95,10 @@ class Layout extends React.Component {
             rel="noopener noreferrer"
           >
             stack overflow
-          </a>
+          </a>{' '}
+          &bull;{' '}
           <a
-            href="/assets/David_O_Regan_-_Resume.pdf"
+            href="src/assets/David_O_Regan_-_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >

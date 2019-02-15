@@ -2,101 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95ce332e-2733-4e59-a092-fecd8cfa51db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/assets/David_O_Regan_-_Resume.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/blog/ambition/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/blog/failing-forward/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/blog/graceful-depreciation/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/__tests__/error-overlay-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/__tests__/error-overlay-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/__tests__/find-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/__tests__/find-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/__tests__/minimal-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/__tests__/minimal-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/__tests__/static-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/__tests__/static-entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/api-runner-browser-plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/api-runner-browser-plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/api-runner-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/api-runner-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/api-runner-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/api-runner-ssr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/api-ssr-docs.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/api-ssr-docs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-030ce364d4626f7ebae29965e6c079a8.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-0551b2cb6febbee4d36d6c8ffd958fe0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-0b6815533392b0b956a228fb9a34a621.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-0c158c9f16bc56a032d234f16c1a64f4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-0d4437ecb6d0008ed30712d41e3f543f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-132179400a49d748e2e8874e64771475.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-15764bad4df652f38ee9c0d59bb2d30f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-18c38ee39e629995056204480d6f1565.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-19a6a7a249318e8e93f5759472883e97.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-1ab89ab48d773623c3006687faf3e05b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-1be4ad05984a9844717401b083b7513e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-1cd9c15e28527fb2b07715d00c342ff6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-1eb9968894399d35841f65603025814d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-1ee5f6ac875828cc2e91b0c195fb8a6a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-203384d6ba8be14ba4963ce4d203466d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-2165c16147a5645c765f86c098023520.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-22644037bd1221cc8a0adbd32cacb602.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-28e4ac73ba1927e78a23179e989c1a91.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-296ac02babb3782989bfeae3e4c35fbb.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-2d1a4a27d4e41f0a8aa9111f03c590dd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-3009e29fad32f5f4a54d9b73ace0d9dd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-3d3e1769216532cd8d86af960db864e6.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-410248688815673b2d9aa5fbb664d25d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-42519fe4621ebe5c2962111b738a6520.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-42c50a0356978731bd4bf03cd3c52cef.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-49f5e553bd912ee93e59769f2ff8cb60.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-4afebf7533dcc9365438725796e47872.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-4d893aa5d8d0b13bc8d09460847d5c8a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-501237efa3aaf22c251f7ee54bf5fe47.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-52553cee282cf2b2352a77e233409f13.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-5ae9c2a2a6c325859a5a350e0e329d6c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-60bd789ef54de4f89d97d381640adbaf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-63cee79df228437c81d68d5e9cafc284.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-64a009fce17f3d701c666a7d0508d6c9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-664c9a46e9f01997e4d3b9dfae1f9b92.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-69aaaae74414d824dd2d78d6a69dc353.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-71dd33244bfd7ba450d4e84866b7e88f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-782f5bd639a546232c37ca42ea17d683.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-7b45ec4cf6fe6355289cea4aaaf4a627.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-821dcbe2ac596559571c03ca3d8df2ca.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-82c62bd3ab56182fb7803ca3efcf648d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-84dcdef1a54ef147f5e3c05cca9c4daf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-8ba5bc87ef7b4fcd610b43beb99ba05f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-8d7df3a549f966039325d09878c7fad1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-8f8c1a6eafd9afe9f56761db9b13c165.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-9283e7b50c965fa0546a3bd6ef0c2165.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-93eb96a015f5132aee7e17cd9488afbc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-969d0bdba64737c16920b073b3c24ae0.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-97134b29fbb71a38ec327c22a417461f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-97a6aec8e4ee691c8dd1ab088fbfa071.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-983dc7a15eff90c0cbb5ea46caaada2f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-9aaa2d8adcaa6c2904a26a333d6a8615.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-9d8deef811789f236c2356a6490cbc02.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-a53ca3523b5fad682dc25493e4cd924c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-a6a45cde3f7dee37ffe60e312e9647f5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-b3f1bea7d73194a8c4b637f7a99d285e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-b69ae09aed601f7c929bc253d83dab36.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-bf829e6784fe1ca809ac452ba16edd9e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-c0766f48850b5d4c1ea78d73844f1b67.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-c5ac7d6eb6b3159449ae8a8ac5d41d92.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-c63066035cfc71efcf76dfe2a301e850.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-cb4bbea7affdc99dfc1ed4b834c6987c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-cd95403c94c04e2ec5aab7f37590ed40.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-cf73e0ee3400ad9f5b89ca1903b655ab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-d12c7f9cb27123941a6c5d79505777c9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-d1b12fe6410c7f9cbfc5a371135a0330.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-d1fa6dff5964adad28d51f6b1c73188f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-d3043133ea97864b2ba18007ab44dd30.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-d60553d2e0f4d776bfa21592f0664a47.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-d876020b9ae66657718c61612cc6e246.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-de027675602bd0037703e8f9b8f10f1b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-e017e56564c0244e7ffc7c0cca77bda5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-e242000c043b20394cd4a99886c54527.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-e372c71c375848bff5ce6b65162a22fa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-e8d2a89e41b4d1c6f204e175a94a5e29.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-eaa73ea23fc57397cf99b6813d52702f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-f30563c7bc4253a3907fa9ce66865645.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-f58ce47f2b392dbc0d415b0dec8ba9fd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-f7280b23a2af435d70f0406928c95cad.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-f8a6270b47ae36490676a42f50d00181.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-fdecb220ef17cda74e2e8e23aeece184.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/async-requires.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/async-requires.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/babelState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/babelState.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-25182dc772780f162d0309fcfa9d65bb.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-25182dc772780f162d0309fcfa9d65bb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-3fa94567ae3a2a7e9eae238b0b7b37a4.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-3fa94567ae3a2a7e9eae238b0b7b37a4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-499c14522ffb72ebd808d14d8f3705f1.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-499c14522ffb72ebd808d14d8f3705f1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-608bb7795782060c30d2bf98f4a119f0.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-608bb7795782060c30d2bf98f4a119f0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-68ce2f698c1228d2d05da59008048935.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-68ce2f698c1228d2d05da59008048935.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-6ad7c3d0d0600b16c4fe436d6cedf98c.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-6ad7c3d0d0600b16c4fe436d6cedf98c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-72d131e81eee4c8d89a40688695f14c4.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-72d131e81eee4c8d89a40688695f14c4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-92e0f81ee5f34c8d734c6312a40ada41.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-92e0f81ee5f34c8d734c6312a40ada41.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-bf0c03271e5fca6fea88d2ecc4b55fe4.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-bf0c03271e5fca6fea88d2ecc4b55fe4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-d0443000b350d7af933f3d7daffeec6f.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-d0443000b350d7af933f3d7daffeec6f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-e74cfccbe7a5b52e7e9dc8e285cb409a.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-e74cfccbe7a5b52e7e9dc8e285cb409a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-f5f4af52a9c710016558b5fe76b76b29.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-remark/diskstore-f5f4af52a9c710016558b5fe76b76b29.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-62a6e4dcebcaee652480cf9ff0e66d92.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/caches/gatsby-transformer-sharp/diskstore-62a6e4dcebcaee652480cf9ff0e66d92.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/api-runner-browser-plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/api-runner-browser-plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/api-runner-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/api-runner-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/api-runner-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/api-runner-ssr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/commonjs/api-ssr-docs.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/api-ssr-docs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/create-react-context.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/create-react-context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/default-html.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/default-html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/develop-static-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/develop-static-entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/emitter.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/emitter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/ensure-resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/ensure-resources.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/error-overlay-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/error-overlay-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/find-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/find-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/gatsby-browser-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/gatsby-browser-entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/json-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/json-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/page-renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/page-renderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/parse-path.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/parse-path.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/prefetch.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/prefetch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/production-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/production-app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/public-page-renderer-dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/public-page-renderer-dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/public-page-renderer-prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/public-page-renderer-prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/public-page-renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/public-page-renderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/react-lifecycles-compat.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/react-lifecycles-compat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/register-service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/register-service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/root.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/socketIo.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/socketIo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/static-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/static-entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/commonjs/strip-prefix.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/commonjs/strip-prefix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/create-react-context.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/create-react-context.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/default-html.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/default-html.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/dev-404-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/dev-404-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/develop-static-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/develop-static-entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/emitter.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/emitter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/ensure-resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/ensure-resources.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/error-overlay-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/error-overlay-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/find-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/find-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/fragments/image-sharp-fragments.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/fragments/image-sharp-fragments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/gatsby-browser-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/gatsby-browser-entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/json-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/json-store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/page-renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/page-renderer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/parse-path.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/parse-path.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/production-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/production-app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/public-page-renderer-dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/public-page-renderer-dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/public-page-renderer-prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/public-page-renderer-prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/redirects.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/redirects.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/redux-state.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/redux-state.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/register-service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/register-service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/root.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/root.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/socketIo.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/socketIo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/static-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/static-entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/sync-requires.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/sync-requires.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/test-require-error.js" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/test-require-error.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/graceful-depreciation/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/graceful-depreciation/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/render-page.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/render-page.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/1025518380.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/d/1025518380.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/2455242068.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/d/2455242068.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/457/path---ambition-132-a49-9F6YRNNx6y9ODvNiH8ZpP8jhJo.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/d/457/path---ambition-132-a49-9F6YRNNx6y9ODvNiH8ZpP8jhJo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/545/path---failing-forward-8-b-9-e25-DtM4BAG3m88lKRc5P7OhSvh9KRA.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/d/545/path---failing-forward-8-b-9-e25-DtM4BAG3m88lKRc5P7OhSvh9KRA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/576/path---index-6a9-LtpR3DPLTEAWLj2oDuYN6Qxf8w.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/d/576/path---index-6a9-LtpR3DPLTEAWLj2oDuYN6Qxf8w.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/620/path---graceful-depreciation-c-0-d-802-6BG2st4A07cTM3z2BKKVFOs.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/d/620/path---graceful-depreciation-c-0-d-802-6BG2st4A07cTM3z2BKKVFOs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/662/path---being-ok-with-shitty-code-696-a53-gLBbq9F6fOfWldYMeORu7PUZ8s.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/d/662/path---being-ok-with-shitty-code-696-a53-gLBbq9F6fOfWldYMeORu7PUZ8s.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/731/path---404-22-d-bce-EVaHXcHipTKNxCBcOiCr2NBFk.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/d/731/path---404-22-d-bce-EVaHXcHipTKNxCBcOiCr2NBFk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/82/path---404-html-516-62a-EVaHXcHipTKNxCBcOiCr2NBFk.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/d/82/path---404-html-516-62a-EVaHXcHipTKNxCBcOiCr2NBFk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/d/920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,12 +109,13 @@
     <session id="-38851597">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -147,9 +149,9 @@
           <entry key="css" value="96" />
           <entry key="env" value="2" />
           <entry key="html" value="26" />
-          <entry key="js" value="3991" />
+          <entry key="js" value="3998" />
           <entry key="json" value="49" />
-          <entry key="md" value="191" />
+          <entry key="md" value="2543" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -157,14 +159,14 @@
           <entry key="CSS" value="96" />
           <entry key="HTML" value="26" />
           <entry key="JSON" value="49" />
-          <entry key="JavaScript" value="3991" />
-          <entry key="Markdown" value="191" />
+          <entry key="JavaScript" value="4026" />
+          <entry key="Markdown" value="2515" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="3" />
+          <entry key="ESLintLanguageService" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -175,7 +177,7 @@
         <entry file="file://$PROJECT_DIR$/content/blog/being-ok-with-shitty-code/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="208">
+              <first_editor relative-caret-position="390">
                 <caret line="13" selection-end-line="23" />
               </first_editor>
               <second_editor />
@@ -187,7 +189,7 @@
         <entry file="file://$PROJECT_DIR$/content/blog/ambition/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="64">
+              <first_editor relative-caret-position="120">
                 <caret line="4" column="3" selection-end-line="5" />
               </first_editor>
               <second_editor />
@@ -199,7 +201,7 @@
         <entry file="file://$PROJECT_DIR$/content/blog/failing-forward/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="64">
+              <first_editor relative-caret-position="120">
                 <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               </first_editor>
               <second_editor />
@@ -207,61 +209,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/blog/graceful-depreciation/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="64">
-                <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <first_editor relative-caret-position="657">
+                <caret line="69" column="67" selection-start-line="69" selection-start-column="67" selection-end-line="69" selection-end-column="67" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/blog-post.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Bio.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Layout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1094">
-              <caret line="102" column="11" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -269,17 +224,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="30">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="2" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -323,11 +269,11 @@
         <option value="$PROJECT_DIR$/content/blog/my-second-post/index.md" />
         <option value="$PROJECT_DIR$/content/blog/ambition/index.js" />
         <option value="$PROJECT_DIR$/content/blog/ambition/index.md" />
-        <option value="$PROJECT_DIR$/content/blog/graceful-depreciation/index.md" />
         <option value="$PROJECT_DIR$/content/blog/failing-forward/index.md" />
-        <option value="$PROJECT_DIR$/src/components/Layout.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/components/Layout.js" />
+        <option value="$PROJECT_DIR$/content/blog/graceful-depreciation/index.md" />
       </list>
     </option>
   </component>
@@ -345,11 +291,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="1720" />
-    <option name="y" value="25" />
-    <option name="width" value="1720" />
-    <option name="height" value="1415" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1280" />
+    <option name="y" value="81" />
+    <option name="width" value="1280" />
+    <option name="height" value="1359" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -430,6 +376,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -487,7 +434,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -541,15 +487,16 @@
       <workItem from="1541582425847" duration="4000" />
       <workItem from="1541651637639" duration="5000" />
       <workItem from="1547104359851" duration="190000" />
-      <workItem from="1550053758764" duration="2606000" />
+      <workItem from="1550053758764" duration="3243000" />
+      <workItem from="1550083722704" duration="2989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27989000" />
+    <option name="totallyTimeSpent" value="31615000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1720" y="25" width="1720" height="1415" extended-state="4" />
+    <frame x="0" y="35" width="2560" height="1405" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -558,7 +505,7 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Learn" order="4" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24534884" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.16328125" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="1" />
@@ -650,10 +597,17 @@
     <entry file="file://$PROJECT_DIR$/src/containers/Education/index.js" />
     <entry file="file://$PROJECT_DIR$/content/blog/my-second-post/index.md" />
     <entry file="file://$PROJECT_DIR$/content/blog/ambition/index.js" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/content/blog/being-ok-with-shitty-code/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="208">
+          <first_editor relative-caret-position="390">
             <caret line="13" selection-end-line="23" />
           </first_editor>
           <second_editor />
@@ -663,7 +617,7 @@
     <entry file="file://$PROJECT_DIR$/content/blog/ambition/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="64">
+          <first_editor relative-caret-position="120">
             <caret line="4" column="3" selection-end-line="5" />
           </first_editor>
           <second_editor />
@@ -673,20 +627,40 @@
     <entry file="file://$PROJECT_DIR$/content/blog/failing-forward/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="64">
+          <first_editor relative-caret-position="120">
             <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/graceful-depreciation/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="64">
-            <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/templates/blog-post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="92" column="64" selection-start-line="92" selection-start-column="64" selection-end-line="92" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Bio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -699,47 +673,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Bio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1094">
-          <caret line="102" column="11" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/blog-post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="30">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+    <entry file="file://$PROJECT_DIR$/content/blog/graceful-depreciation/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="657">
+            <caret line="69" column="67" selection-start-line="69" selection-start-column="67" selection-end-line="69" selection-end-column="67" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
