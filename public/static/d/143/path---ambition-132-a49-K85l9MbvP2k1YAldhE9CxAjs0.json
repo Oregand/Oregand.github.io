@@ -1,0 +1,25 @@
+{
+  "data": {
+    "site": {
+      "siteMetadata": { "title": "Get. Shit. Done.", "author": "David O'Regan" }
+    },
+    "markdownRemark": {
+      "id": "7df0935d-fae2-53b8-8edd-574cb7acb340",
+      "excerpt": "",
+      "html": "",
+      "timeToRead": 1,
+      "frontmatter": { "title": "Ambition", "date": "February 12, 2019" }
+    }
+  },
+  "pageContext": {
+    "slug": "/ambition/",
+    "previous": {
+      "fields": { "slug": "/failing-forward/" },
+      "frontmatter": { "title": "Failing Forward" }
+    },
+    "next": {
+      "fields": { "slug": "/top-bits-of-vuejsamsterdam/" },
+      "frontmatter": { "title": "VueJS Amsterdam 2019 - The Best Bits" }
+    }
+  }
+}

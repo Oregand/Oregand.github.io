@@ -38,5 +38,10 @@
     "componentChunkName": "component---src-templates-blog-post-js",
     "jsonName": "graceful-depreciation-c0d",
     "path": "/graceful-depreciation/"
+  },
+  {
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "jsonName": "vuejsamsterdam-2019-the-best-bits-9ab",
+    "path": "/vuejsamsterdam-2019-the-best-bits/"
   }
 ]

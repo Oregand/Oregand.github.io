@@ -1,0 +1,25 @@
+{
+  "data": {
+    "site": {
+      "siteMetadata": { "title": "Get. Shit. Done.", "author": "David O'Regan" }
+    },
+    "markdownRemark": {
+      "id": "7df0935d-fae2-53b8-8edd-574cb7acb340",
+      "excerpt": "",
+      "html": "",
+      "timeToRead": 1,
+      "frontmatter": { "title": "Ambition", "date": "February 12, 2019" }
+    }
+  },
+  "pageContext": {
+    "slug": "/ambition/",
+    "previous": {
+      "fields": { "slug": "/graceful-depreciation/" },
+      "frontmatter": { "title": "Graceful Depreciation" }
+    },
+    "next": {
+      "fields": { "slug": "/vuejsamsterdam-2019-the-best-bits/" },
+      "frontmatter": { "title": "VueJS Amsterdam 2019 - The Best Bits" }
+    }
+  }
+}

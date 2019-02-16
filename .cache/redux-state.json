@@ -2043,12 +2043,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-13T18:48:58.572Z",
+      "buildTime": "2019-02-16T20:47:34.772Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "590c5d24f6d27d75ebb74d8b513c5e2a",
+        "contentDigest": "66819e3be724b09d54142e82ac4ab53f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2058,7 +2058,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "b027b0bdca4f0f02789778bc273c7740",
+        "contentDigest": "073c895cc1cdfde85b1b69c0d715fab4",
         "type": "Directory",
         "description": "Directory \"content/blog\"",
         "owner": "gatsby-source-filesystem"
@@ -2069,10 +2069,10 @@
       "extension": "",
       "size": 4096,
       "prettySize": "4.1 kB",
-      "modifiedTime": "2019-02-13T10:33:05.743Z",
-      "accessTime": "2019-02-13T10:33:06.375Z",
-      "changeTime": "2019-02-13T10:33:05.743Z",
-      "birthTime": "2019-02-13T10:33:05.743Z",
+      "modifiedTime": "2019-02-16T20:14:40.948Z",
+      "accessTime": "2019-02-16T20:14:42.184Z",
+      "changeTime": "2019-02-16T20:14:40.948Z",
+      "birthTime": "2019-02-16T20:14:40.948Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content",
       "base": "blog",
@@ -2081,28 +2081,28 @@
       "relativeDirectory": "..",
       "dev": 66306,
       "mode": 16893,
-      "nlink": 6,
+      "nlink": 11,
       "uid": 1000,
       "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
       "ino": 28726187,
       "blocks": 8,
-      "atimeMs": 1550053986374.6494,
-      "mtimeMs": 1550053985742.618,
-      "ctimeMs": 1550053985742.618,
-      "birthtimeMs": 1550053985742.618,
-      "atime": "2019-02-13T10:33:06.375Z",
-      "mtime": "2019-02-13T10:33:05.743Z",
-      "ctime": "2019-02-13T10:33:05.743Z",
-      "birthtime": "2019-02-13T10:33:05.743Z"
+      "atimeMs": 1550348082183.6025,
+      "mtimeMs": 1550348080947.5981,
+      "ctimeMs": 1550348080947.5981,
+      "birthtimeMs": 1550348080947.5981,
+      "atime": "2019-02-16T20:14:42.184Z",
+      "mtime": "2019-02-16T20:14:40.948Z",
+      "ctime": "2019-02-16T20:14:40.948Z",
+      "birthtime": "2019-02-16T20:14:40.948Z"
     },
     "f6c9c957-0a7b-52af-b4b3-5f729b05dea2": {
       "id": "f6c9c957-0a7b-52af-b4b3-5f729b05dea2",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "a1b23ecb2386d193c89438bd2dff8bf3",
+        "contentDigest": "6278af4fe3866b5d049d3c3d999acce2",
         "type": "Directory",
         "description": "Directory \"content/blog/ambition\"",
         "owner": "gatsby-source-filesystem"
@@ -2114,7 +2114,7 @@
       "size": 4096,
       "prettySize": "4.1 kB",
       "modifiedTime": "2019-02-12T15:59:12.788Z",
-      "accessTime": "2019-02-13T18:47:23.180Z",
+      "accessTime": "2019-02-16T20:14:42.184Z",
       "changeTime": "2019-02-12T15:59:12.788Z",
       "birthTime": "2019-02-12T15:59:12.788Z",
       "root": "/",
@@ -2132,11 +2132,11 @@
       "blksize": 4096,
       "ino": 28837489,
       "blocks": 8,
-      "atimeMs": 1550083643180.0298,
+      "atimeMs": 1550348082183.6025,
       "mtimeMs": 1549987152788.443,
       "ctimeMs": 1549987152788.443,
       "birthtimeMs": 1549987152788.443,
-      "atime": "2019-02-13T18:47:23.180Z",
+      "atime": "2019-02-16T20:14:42.184Z",
       "mtime": "2019-02-12T15:59:12.788Z",
       "ctime": "2019-02-12T15:59:12.788Z",
       "birthtime": "2019-02-12T15:59:12.788Z"
@@ -2146,7 +2146,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "7f7a41f9c9483b3868d3070c05833cf5",
+        "contentDigest": "2ebbdc3fc8db44fecb496871748d0b90",
         "type": "Directory",
         "description": "Directory \"content/blog/being-ok-with-shitty-code\"",
         "owner": "gatsby-source-filesystem"
@@ -2157,10 +2157,10 @@
       "extension": "",
       "size": 4096,
       "prettySize": "4.1 kB",
-      "modifiedTime": "2019-02-12T15:46:22.246Z",
-      "accessTime": "2019-02-13T18:47:23.180Z",
-      "changeTime": "2019-02-12T15:46:37.338Z",
-      "birthTime": "2019-02-12T15:46:37.338Z",
+      "modifiedTime": "2019-02-15T19:21:02.996Z",
+      "accessTime": "2019-02-16T20:14:42.184Z",
+      "changeTime": "2019-02-15T19:21:02.996Z",
+      "birthTime": "2019-02-15T19:21:02.996Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
       "base": "being-ok-with-shitty-code",
@@ -2174,23 +2174,23 @@
       "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 28726188,
+      "ino": 28836251,
       "blocks": 8,
-      "atimeMs": 1550083643180.0298,
-      "mtimeMs": 1549986382245.934,
-      "ctimeMs": 1549986397338.055,
-      "birthtimeMs": 1549986397338.055,
-      "atime": "2019-02-13T18:47:23.180Z",
-      "mtime": "2019-02-12T15:46:22.246Z",
-      "ctime": "2019-02-12T15:46:37.338Z",
-      "birthtime": "2019-02-12T15:46:37.338Z"
+      "atimeMs": 1550348082183.6025,
+      "mtimeMs": 1550258462996.2666,
+      "ctimeMs": 1550258462996.2666,
+      "birthtimeMs": 1550258462996.2666,
+      "atime": "2019-02-16T20:14:42.184Z",
+      "mtime": "2019-02-15T19:21:02.996Z",
+      "ctime": "2019-02-15T19:21:02.996Z",
+      "birthtime": "2019-02-15T19:21:02.996Z"
     },
     "d0f162ac-a060-5fe6-ac6a-379615a6ae63": {
       "id": "d0f162ac-a060-5fe6-ac6a-379615a6ae63",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "7b7be300add38a596be9686e297ccf21",
+        "contentDigest": "c01c16bbbf19a2bf2e0b4dcca18bfcfd",
         "type": "Directory",
         "description": "Directory \"content/blog/failing-forward\"",
         "owner": "gatsby-source-filesystem"
@@ -2202,7 +2202,7 @@
       "size": 4096,
       "prettySize": "4.1 kB",
       "modifiedTime": "2019-02-13T10:34:53.652Z",
-      "accessTime": "2019-02-13T10:36:13.348Z",
+      "accessTime": "2019-02-16T20:14:42.184Z",
       "changeTime": "2019-02-13T10:34:53.652Z",
       "birthTime": "2019-02-13T10:34:53.652Z",
       "root": "/",
@@ -2220,11 +2220,11 @@
       "blksize": 4096,
       "ino": 28837090,
       "blocks": 8,
-      "atimeMs": 1550054173347.9856,
+      "atimeMs": 1550348082183.6025,
       "mtimeMs": 1550054093652.005,
       "ctimeMs": 1550054093652.005,
       "birthtimeMs": 1550054093652.005,
-      "atime": "2019-02-13T10:36:13.348Z",
+      "atime": "2019-02-16T20:14:42.184Z",
       "mtime": "2019-02-13T10:34:53.652Z",
       "ctime": "2019-02-13T10:34:53.652Z",
       "birthtime": "2019-02-13T10:34:53.652Z"
@@ -2234,7 +2234,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "7378ee8c60825a52eb42e72fe004383b",
+        "contentDigest": "d55223a3b2bae6de40099c5d72c39c64",
         "type": "Directory",
         "description": "Directory \"content/blog/graceful-depreciation\"",
         "owner": "gatsby-source-filesystem"
@@ -2245,10 +2245,10 @@
       "extension": "",
       "size": 4096,
       "prettySize": "4.1 kB",
-      "modifiedTime": "2019-02-13T10:34:53.648Z",
-      "accessTime": "2019-02-13T10:36:13.348Z",
-      "changeTime": "2019-02-13T10:34:53.648Z",
-      "birthTime": "2019-02-13T10:34:53.648Z",
+      "modifiedTime": "2019-02-15T18:28:51.948Z",
+      "accessTime": "2019-02-16T20:14:42.184Z",
+      "changeTime": "2019-02-15T18:28:51.948Z",
+      "birthTime": "2019-02-15T18:28:51.948Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
       "base": "graceful-depreciation",
@@ -2264,14 +2264,14 @@
       "blksize": 4096,
       "ino": 28837094,
       "blocks": 8,
-      "atimeMs": 1550054173347.9856,
-      "mtimeMs": 1550054093648.0046,
-      "ctimeMs": 1550054093648.0046,
-      "birthtimeMs": 1550054093648.0046,
-      "atime": "2019-02-13T10:36:13.348Z",
-      "mtime": "2019-02-13T10:34:53.648Z",
-      "ctime": "2019-02-13T10:34:53.648Z",
-      "birthtime": "2019-02-13T10:34:53.648Z"
+      "atimeMs": 1550348082183.6025,
+      "mtimeMs": 1550255331948.4006,
+      "ctimeMs": 1550255331948.4006,
+      "birthtimeMs": 1550255331948.4006,
+      "atime": "2019-02-16T20:14:42.184Z",
+      "mtime": "2019-02-15T18:28:51.948Z",
+      "ctime": "2019-02-15T18:28:51.948Z",
+      "birthtime": "2019-02-15T18:28:51.948Z"
     },
     "590e8b28-914d-5e2a-953d-74f84b4ad091": {
       "id": "590e8b28-914d-5e2a-953d-74f84b4ad091",
@@ -2368,7 +2368,7 @@
       "children": ["6fe008a6-a3e8-5a94-836f-a2897719a0fe"],
       "parent": null,
       "internal": {
-        "contentDigest": "902c45d9742f1b111c6de900d2a4d41b",
+        "contentDigest": "2731b78683ad91ccdfaed1829ca07662",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/failing-forward/index.md\"",
@@ -2378,12 +2378,12 @@
       "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/failing-forward/index.md",
       "relativePath": "failing-forward/index.md",
       "extension": "md",
-      "size": 105,
-      "prettySize": "105 B",
-      "modifiedTime": "2019-02-13T15:04:54.236Z",
-      "accessTime": "2019-02-13T15:04:55.364Z",
-      "changeTime": "2019-02-13T15:04:54.236Z",
-      "birthTime": "2019-02-13T15:04:54.236Z",
+      "size": 587,
+      "prettySize": "587 B",
+      "modifiedTime": "2019-02-16T18:04:01.867Z",
+      "accessTime": "2019-02-16T18:04:02.175Z",
+      "changeTime": "2019-02-16T18:04:01.867Z",
+      "birthTime": "2019-02-16T18:04:01.867Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/failing-forward",
       "base": "index.md",
@@ -2399,21 +2399,21 @@
       "blksize": 4096,
       "ino": 28837497,
       "blocks": 8,
-      "atimeMs": 1550070295363.9167,
-      "mtimeMs": 1550070294235.9092,
-      "ctimeMs": 1550070294235.9092,
-      "birthtimeMs": 1550070294235.9092,
-      "atime": "2019-02-13T15:04:55.364Z",
-      "mtime": "2019-02-13T15:04:54.236Z",
-      "ctime": "2019-02-13T15:04:54.236Z",
-      "birthtime": "2019-02-13T15:04:54.236Z"
+      "atimeMs": 1550340242175.314,
+      "mtimeMs": 1550340241867.3118,
+      "ctimeMs": 1550340241867.3118,
+      "birthtimeMs": 1550340241867.3118,
+      "atime": "2019-02-16T18:04:02.175Z",
+      "mtime": "2019-02-16T18:04:01.867Z",
+      "ctime": "2019-02-16T18:04:01.867Z",
+      "birthtime": "2019-02-16T18:04:01.867Z"
     },
     "40270064-6001-5742-9fdd-3af229dec9d6": {
       "id": "40270064-6001-5742-9fdd-3af229dec9d6",
       "children": ["37cb5327-517d-5d6a-8875-d210f3a80479"],
       "parent": null,
       "internal": {
-        "contentDigest": "1cd67b10f4ae478864ecaffd686c1662",
+        "contentDigest": "472e2f764cab5f0b1dc408eb5672ebe2",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/graceful-depreciation/index.md\"",
@@ -2423,12 +2423,12 @@
       "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/graceful-depreciation/index.md",
       "relativePath": "graceful-depreciation/index.md",
       "extension": "md",
-      "size": 2316,
-      "prettySize": "2.32 kB",
-      "modifiedTime": "2019-02-15T18:28:51.944Z",
-      "accessTime": "2019-02-15T18:28:51.944Z",
-      "changeTime": "2019-02-15T18:28:51.948Z",
-      "birthTime": "2019-02-15T18:28:51.948Z",
+      "size": 4104,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-15T19:18:40.158Z",
+      "accessTime": "2019-02-15T19:18:40.174Z",
+      "changeTime": "2019-02-15T19:18:40.158Z",
+      "birthTime": "2019-02-15T19:18:40.158Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/graceful-depreciation",
       "base": "index.md",
@@ -2443,15 +2443,15 @@
       "rdev": 0,
       "blksize": 4096,
       "ino": 28841105,
-      "blocks": 8,
-      "atimeMs": 1550255331944.4006,
-      "mtimeMs": 1550255331944.4006,
-      "ctimeMs": 1550255331948.4006,
-      "birthtimeMs": 1550255331948.4006,
-      "atime": "2019-02-15T18:28:51.944Z",
-      "mtime": "2019-02-15T18:28:51.944Z",
-      "ctime": "2019-02-15T18:28:51.948Z",
-      "birthtime": "2019-02-15T18:28:51.948Z"
+      "blocks": 16,
+      "atimeMs": 1550258320173.9097,
+      "mtimeMs": 1550258320157.909,
+      "ctimeMs": 1550258320157.909,
+      "birthtimeMs": 1550258320157.909,
+      "atime": "2019-02-15T19:18:40.174Z",
+      "mtime": "2019-02-15T19:18:40.158Z",
+      "ctime": "2019-02-15T19:18:40.158Z",
+      "birthtime": "2019-02-15T19:18:40.158Z"
     },
     "7df0935d-fae2-53b8-8edd-574cb7acb340": {
       "id": "7df0935d-fae2-53b8-8edd-574cb7acb340",
@@ -2503,37 +2503,12 @@
         "slug": "/being-ok-with-shitty-code/"
       }
     },
-    "6fe008a6-a3e8-5a94-836f-a2897719a0fe": {
-      "id": "6fe008a6-a3e8-5a94-836f-a2897719a0fe",
-      "children": [],
-      "parent": "954aee62-3dc3-5397-93d2-4fcfe9dd5b7b",
-      "internal": {
-        "content": "",
-        "type": "MarkdownRemark",
-        "contentDigest": "b32925bcc6da0fe17fe0a13ea3c73a37",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Failing Forward",
-        "date": "2019-02-12",
-        "spoiler": "Faster reactions over pre-mature optimization"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "",
-      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/failing-forward/index.md",
-      "fields": {
-        "slug": "/failing-forward/"
-      }
-    },
     "cf0e24f3-9040-5f02-9a0c-e5d12e750370": {
       "id": "cf0e24f3-9040-5f02-9a0c-e5d12e750370",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "e107acae7f1931dbcf64d6eed16db0d9",
+        "contentDigest": "8973281b0e93d990ff28b8f67cfd1252",
         "type": "Directory",
         "description": "Directory \"content/assets\"",
         "owner": "gatsby-source-filesystem"
@@ -2544,10 +2519,10 @@
       "extension": "",
       "size": 4096,
       "prettySize": "4.1 kB",
-      "modifiedTime": "2019-02-13T14:59:35.234Z",
-      "accessTime": "2019-02-13T14:59:35.250Z",
-      "changeTime": "2019-02-13T14:59:35.234Z",
-      "birthTime": "2019-02-13T14:59:35.234Z",
+      "modifiedTime": "2019-02-15T19:21:02.996Z",
+      "accessTime": "2019-02-16T20:14:42.184Z",
+      "changeTime": "2019-02-15T19:21:02.996Z",
+      "birthTime": "2019-02-15T19:21:02.996Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content",
       "base": "assets",
@@ -2563,14 +2538,14 @@
       "blksize": 4096,
       "ino": 28726184,
       "blocks": 8,
-      "atimeMs": 1550069975249.8271,
-      "mtimeMs": 1550069975233.8271,
-      "ctimeMs": 1550069975233.8271,
-      "birthtimeMs": 1550069975233.8271,
-      "atime": "2019-02-13T14:59:35.250Z",
-      "mtime": "2019-02-13T14:59:35.234Z",
-      "ctime": "2019-02-13T14:59:35.234Z",
-      "birthtime": "2019-02-13T14:59:35.234Z"
+      "atimeMs": 1550348082183.6025,
+      "mtimeMs": 1550258462996.2666,
+      "ctimeMs": 1550258462996.2666,
+      "birthtimeMs": 1550258462996.2666,
+      "atime": "2019-02-16T20:14:42.184Z",
+      "mtime": "2019-02-15T19:21:02.996Z",
+      "ctime": "2019-02-15T19:21:02.996Z",
+      "birthtime": "2019-02-15T19:21:02.996Z"
     },
     "f809abc7-b01b-5829-a12a-a1e2d6a43da8": {
       "id": "f809abc7-b01b-5829-a12a-a1e2d6a43da8",
@@ -2727,6 +2702,377 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "37cb5327-517d-5d6a-8875-d210f3a80479": {
+      "id": "37cb5327-517d-5d6a-8875-d210f3a80479",
+      "children": [],
+      "parent": "40270064-6001-5742-9fdd-3af229dec9d6",
+      "internal": {
+        "content": "\n_How do we depreciate code in a safe way for a user while still allowing a developer room for improvement?_\n\nIt is, a tough question.\n\nLets say for instance, we have a application which maintains a dependency to a external toolbox. This external tool box uses strict semantic versions to help keep some measure of santiy.\n\n```json\n{\n  \"name\": \"@namelessorganization/core\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@namelessorganization/toolbox\": \"5.9.5\"\n  }\n}\n```\n\nOur toolbox represents a collection of components, each of which maintain a workable API contract with the core application. Each component lives under this version and different components are leveraged all over our core application like so:\n\n```js\nimport { Button } from '@namelessorganization/toolbox'\n```\n\nNow, lets say we have a set of defined forms in a handful of locations which re-use the same component set.\n\n```js\nimport {\n  Button,\n  Form,\n  FormGroup,\n  Label,\n  CheckBox\n} from '@namelessorganization/toolbox'\n;<Form>\n  <FormGroup>\n    <Label>Form 1 Input</Label>\n    <Checkbox />\n  </FormGroup>\n  <div>\n    <Button color={'primary'}>Submit</Button>\n  </div>\n</Form>\n```\n\nOur component set is used in a handful of locations which creates a established, understood and hopefully predicable API contract between `toolbox` and `core`. Such that, our `<Form>` can be developed in confidence as the functionality of our component set is expected.\n\nBut, what happens when we need to depreciate a current component in lue of a better implementation?\n\nThe benefits of our previously contract between `toolbox` and `core` now become a burden. To illustrate why this contract has now become a burden, lets look at what I consider the best migration path.\n\n## Depreciating / Maintaining Multiple Versions\n\nThis is probably the most widely assumed and used strategy for a depreciation of \"generic\" components. In our `toolbox` we now create a second version of our component in question and begin to replace the instances in `core`.\n\n```js\n// toolbox\n\nexport default ButtonOld\n\nexport default ButtonNew\n```\n\n```js\n// core\n\nimport { ButtonOld, ButonNew } from '@namelessorganization/toolbox'\n\n\n// Comp A\n\n<ButtonOld />\n\n// Comp B\n\n<ButtonNew />\n```\n\nOver time, `<ButtonOld />` will be removed from our `core` application to ensure a graceful migration from the old depreciated code base without shattering the current application.\n\n### Pros\n\n- Easy to implement a non-breaking migration\n- Easy to track versions and ensure proper refractoring\n- Depreciated components can be planned for full removal during a major release\n\n### Cons\n\n- Must be mindful to keep a very strict rules for amount of components available\n- Harder to keep track of changes as they are in multiple files\n- Doucmentation is harder\n\n## `next`\n\nGiven we have a open migration path with the above pattern, we can make use of a experimental branch `next` as a place for our major breaking changes to be published and tested.\n\n```json\n{\n  \"name\": \"@namelessorganization/core\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@namelessorganization/toolbox\": \"next\"\n  }\n}\n```\n\nThis allows developers to test, push and pull code from the bleeding edge in a fearless way.\n\nOur `toolbox` can benifit from aggresive pushing of imporvement, while `core` can remain functionally safe for our end users.\n\nThe most important aspect of this style of development is promoting a sense of _failing forward_. Which for a sucessful project is one of the most overlooked aspects of sucess.\n\nAs mark Z said; \"Move fast, break shit, fix it\".\n\n### Caveeat\n\nFor this migration strategy to work, there must be a _strict_ deployment process in agreement between the developers, QA and ops team.\n\n```js\nMajor: >>> Every 6 months for a break\n\nMinor: >>> Every week with no breaks\n\nPatch: >>> Night release `next`\n```\n\nUsers need to keep faith in an applications resiliance, and so during major breaks, companies need to work harder in terms of timing and response to ensure users dont suffer.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "cf759eebd24121f81117d581eeeb58ba",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Graceful Depreciation",
+        "date": "2019-02-12",
+        "spoiler": "Keeping a path open for improvement"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n_How do we depreciate code in a safe way for a user while still allowing a developer room for improvement?_\n\nIt is, a tough question.\n\nLets say for instance, we have a application which maintains a dependency to a external toolbox. This external tool box uses strict semantic versions to help keep some measure of santiy.\n\n```json\n{\n  \"name\": \"@namelessorganization/core\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@namelessorganization/toolbox\": \"5.9.5\"\n  }\n}\n```\n\nOur toolbox represents a collection of components, each of which maintain a workable API contract with the core application. Each component lives under this version and different components are leveraged all over our core application like so:\n\n```js\nimport { Button } from '@namelessorganization/toolbox'\n```\n\nNow, lets say we have a set of defined forms in a handful of locations which re-use the same component set.\n\n```js\nimport {\n  Button,\n  Form,\n  FormGroup,\n  Label,\n  CheckBox\n} from '@namelessorganization/toolbox'\n;<Form>\n  <FormGroup>\n    <Label>Form 1 Input</Label>\n    <Checkbox />\n  </FormGroup>\n  <div>\n    <Button color={'primary'}>Submit</Button>\n  </div>\n</Form>\n```\n\nOur component set is used in a handful of locations which creates a established, understood and hopefully predicable API contract between `toolbox` and `core`. Such that, our `<Form>` can be developed in confidence as the functionality of our component set is expected.\n\nBut, what happens when we need to depreciate a current component in lue of a better implementation?\n\nThe benefits of our previously contract between `toolbox` and `core` now become a burden. To illustrate why this contract has now become a burden, lets look at what I consider the best migration path.\n\n## Depreciating / Maintaining Multiple Versions\n\nThis is probably the most widely assumed and used strategy for a depreciation of \"generic\" components. In our `toolbox` we now create a second version of our component in question and begin to replace the instances in `core`.\n\n```js\n// toolbox\n\nexport default ButtonOld\n\nexport default ButtonNew\n```\n\n```js\n// core\n\nimport { ButtonOld, ButonNew } from '@namelessorganization/toolbox'\n\n\n// Comp A\n\n<ButtonOld />\n\n// Comp B\n\n<ButtonNew />\n```\n\nOver time, `<ButtonOld />` will be removed from our `core` application to ensure a graceful migration from the old depreciated code base without shattering the current application.\n\n### Pros\n\n- Easy to implement a non-breaking migration\n- Easy to track versions and ensure proper refractoring\n- Depreciated components can be planned for full removal during a major release\n\n### Cons\n\n- Must be mindful to keep a very strict rules for amount of components available\n- Harder to keep track of changes as they are in multiple files\n- Doucmentation is harder\n\n## `next`\n\nGiven we have a open migration path with the above pattern, we can make use of a experimental branch `next` as a place for our major breaking changes to be published and tested.\n\n```json\n{\n  \"name\": \"@namelessorganization/core\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@namelessorganization/toolbox\": \"next\"\n  }\n}\n```\n\nThis allows developers to test, push and pull code from the bleeding edge in a fearless way.\n\nOur `toolbox` can benifit from aggresive pushing of imporvement, while `core` can remain functionally safe for our end users.\n\nThe most important aspect of this style of development is promoting a sense of _failing forward_. Which for a sucessful project is one of the most overlooked aspects of sucess.\n\nAs mark Z said; \"Move fast, break shit, fix it\".\n\n### Caveeat\n\nFor this migration strategy to work, there must be a _strict_ deployment process in agreement between the developers, QA and ops team.\n\n```js\nMajor: >>> Every 6 months for a break\n\nMinor: >>> Every week with no breaks\n\nPatch: >>> Night release `next`\n```\n\nUsers need to keep faith in an applications resiliance, and so during major breaks, companies need to work harder in terms of timing and response to ensure users dont suffer.\n",
+      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/graceful-depreciation/index.md",
+      "fields": {
+        "slug": "/graceful-depreciation/"
+      }
+    },
+    "b268ddb2-4fee-553e-ac75-c532a2e809ee": {
+      "id": "b268ddb2-4fee-553e-ac75-c532a2e809ee",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "5a2eaf874d1b42998fa9a394a424dc26",
+        "type": "Directory",
+        "description": "Directory \"content/blog/getting-fired-as-a-junior-developer\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/getting-fired-as-a-junior-developer",
+      "relativePath": "getting-fired-as-a-junior-developer",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-16T17:01:42.291Z",
+      "accessTime": "2019-02-16T17:01:42.299Z",
+      "changeTime": "2019-02-16T17:01:42.291Z",
+      "birthTime": "2019-02-16T17:01:42.291Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "base": "getting-fired-as-a-junior-developer",
+      "ext": "",
+      "name": "getting-fired-as-a-junior-developer",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28841215,
+      "blocks": 8,
+      "atimeMs": 1550336502299.3845,
+      "mtimeMs": 1550336502291.3845,
+      "ctimeMs": 1550336502291.3845,
+      "birthtimeMs": 1550336502291.3845,
+      "atime": "2019-02-16T17:01:42.299Z",
+      "mtime": "2019-02-16T17:01:42.291Z",
+      "ctime": "2019-02-16T17:01:42.291Z",
+      "birthtime": "2019-02-16T17:01:42.291Z"
+    },
+    "7e69fb09-6c41-5ec3-a0a7-a27de4dc76c8": {
+      "id": "7e69fb09-6c41-5ec3-a0a7-a27de4dc76c8",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "aba7d7efeb83f4e8b75c6d05689cb819",
+        "type": "Directory",
+        "description": "Directory \"content/blog/react-best-practices\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/react-best-practices",
+      "relativePath": "react-best-practices",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-16T16:30:09.720Z",
+      "accessTime": "2019-02-16T16:30:09.728Z",
+      "changeTime": "2019-02-16T16:30:09.720Z",
+      "birthTime": "2019-02-16T16:30:09.720Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "base": "react-best-practices",
+      "ext": "",
+      "name": "react-best-practices",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28841213,
+      "blocks": 8,
+      "atimeMs": 1550334609728.0823,
+      "mtimeMs": 1550334609720.0823,
+      "ctimeMs": 1550334609720.0823,
+      "birthtimeMs": 1550334609720.0823,
+      "atime": "2019-02-16T16:30:09.728Z",
+      "mtime": "2019-02-16T16:30:09.720Z",
+      "ctime": "2019-02-16T16:30:09.720Z",
+      "birthtime": "2019-02-16T16:30:09.720Z"
+    },
+    "8ff6360e-e5be-5626-909d-e87e7b5e7863": {
+      "id": "8ff6360e-e5be-5626-909d-e87e7b5e7863",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "f6642107ded7dfaa061544f1f31d6b4b",
+        "type": "Directory",
+        "description": "Directory \"content/blog/scaling-vue-applications\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/scaling-vue-applications",
+      "relativePath": "scaling-vue-applications",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-16T16:29:38.548Z",
+      "accessTime": "2019-02-16T16:29:38.556Z",
+      "changeTime": "2019-02-16T16:29:38.548Z",
+      "birthTime": "2019-02-16T16:29:38.548Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "base": "scaling-vue-applications",
+      "ext": "",
+      "name": "scaling-vue-applications",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28841212,
+      "blocks": 8,
+      "atimeMs": 1550334578555.8188,
+      "mtimeMs": 1550334578547.8188,
+      "ctimeMs": 1550334578547.8188,
+      "birthtimeMs": 1550334578547.8188,
+      "atime": "2019-02-16T16:29:38.556Z",
+      "mtime": "2019-02-16T16:29:38.548Z",
+      "ctime": "2019-02-16T16:29:38.548Z",
+      "birthtime": "2019-02-16T16:29:38.548Z"
+    },
+    "c72955c7-ef56-5ca7-b3ff-64b0f8e60aa1": {
+      "id": "c72955c7-ef56-5ca7-b3ff-64b0f8e60aa1",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "8f46daf7685028f862809d5aa47b74d7",
+        "type": "Directory",
+        "description": "Directory \"content/blog/vuejsamsterdam-2019-the-best-bits\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/vuejsamsterdam-2019-the-best-bits",
+      "relativePath": "vuejsamsterdam-2019-the-best-bits",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-15T18:57:20.625Z",
+      "accessTime": "2019-02-16T20:14:41.016Z",
+      "changeTime": "2019-02-16T20:14:40.948Z",
+      "birthTime": "2019-02-16T20:14:40.948Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "base": "vuejsamsterdam-2019-the-best-bits",
+      "ext": "",
+      "name": "vuejsamsterdam-2019-the-best-bits",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28841117,
+      "blocks": 8,
+      "atimeMs": 1550348081015.5984,
+      "mtimeMs": 1550257040624.8572,
+      "ctimeMs": 1550348080947.5981,
+      "birthtimeMs": 1550348080947.5981,
+      "atime": "2019-02-16T20:14:41.016Z",
+      "mtime": "2019-02-15T18:57:20.625Z",
+      "ctime": "2019-02-16T20:14:40.948Z",
+      "birthtime": "2019-02-16T20:14:40.948Z"
+    },
+    "2a947fbd-cb2f-502d-a652-893118081ad2": {
+      "id": "2a947fbd-cb2f-502d-a652-893118081ad2",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "dc6ff95ee1e08cd10a9f097e1ffa1c07",
+        "type": "Directory",
+        "description": "Directory \"content/blog/working-with-people-smarter-than-you\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/working-with-people-smarter-than-you",
+      "relativePath": "working-with-people-smarter-than-you",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-16T16:59:13.135Z",
+      "accessTime": "2019-02-16T16:59:13.139Z",
+      "changeTime": "2019-02-16T16:59:13.135Z",
+      "birthTime": "2019-02-16T16:59:13.135Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "base": "working-with-people-smarter-than-you",
+      "ext": "",
+      "name": "working-with-people-smarter-than-you",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28841214,
+      "blocks": 8,
+      "atimeMs": 1550336353138.5996,
+      "mtimeMs": 1550336353134.5996,
+      "ctimeMs": 1550336353134.5996,
+      "birthtimeMs": 1550336353134.5996,
+      "atime": "2019-02-16T16:59:13.139Z",
+      "mtime": "2019-02-16T16:59:13.135Z",
+      "ctime": "2019-02-16T16:59:13.135Z",
+      "birthtime": "2019-02-16T16:59:13.135Z"
+    },
+    "197ed36f-2a17-5c61-993f-e9b5288c4258": {
+      "id": "197ed36f-2a17-5c61-993f-e9b5288c4258",
+      "children": ["2994bb50-69b6-5d56-810a-75ca8f5806a3"],
+      "parent": null,
+      "internal": {
+        "contentDigest": "1a1ae7c46e715316de95e45be80f6f97",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/vuejsamsterdam-2019-the-best-bits/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/vuejsamsterdam-2019-the-best-bits/index.md",
+      "relativePath": "vuejsamsterdam-2019-the-best-bits/index.md",
+      "extension": "md",
+      "size": 5086,
+      "prettySize": "5.09 kB",
+      "modifiedTime": "2019-02-16T20:47:14.724Z",
+      "accessTime": "2019-02-16T20:47:14.720Z",
+      "changeTime": "2019-02-16T20:47:14.724Z",
+      "birthTime": "2019-02-16T20:47:14.724Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/vuejsamsterdam-2019-the-best-bits",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "vuejsamsterdam-2019-the-best-bits",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28841118,
+      "blocks": 16,
+      "atimeMs": 1550350034720.2698,
+      "mtimeMs": 1550350034724.2698,
+      "ctimeMs": 1550350034724.2698,
+      "birthtimeMs": 1550350034724.2698,
+      "atime": "2019-02-16T20:47:14.720Z",
+      "mtime": "2019-02-16T20:47:14.724Z",
+      "ctime": "2019-02-16T20:47:14.724Z",
+      "birthtime": "2019-02-16T20:47:14.724Z"
+    },
+    "6fe008a6-a3e8-5a94-836f-a2897719a0fe": {
+      "id": "6fe008a6-a3e8-5a94-836f-a2897719a0fe",
+      "children": [],
+      "parent": "954aee62-3dc3-5397-93d2-4fcfe9dd5b7b",
+      "internal": {
+        "content": "\n> Human beings work on the basis of low complexity but high risk situations. This is our natural state as dictated by nature. Software by oppoisition is high complextiy but low risk. \n\nOver my carrer of 10 years as a software developer Ive ntocied a trend with those that I consider to be sucessful and ive often been told that sucess leaves clues. The trend in question was a air of fearlessness when it came to failure, and failure in terms of deploying software specifically. \n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "0902ba14e555cad46ad6e3797348ef00",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Failing Forward",
+        "date": "2019-02-12",
+        "spoiler": "Faster reactions over pre-mature optimization"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n> Human beings work on the basis of low complexity but high risk situations. This is our natural state as dictated by nature. Software by oppoisition is high complextiy but low risk. \n\nOver my carrer of 10 years as a software developer Ive ntocied a trend with those that I consider to be sucessful and ive often been told that sucess leaves clues. The trend in question was a air of fearlessness when it came to failure, and failure in terms of deploying software specifically. \n\n",
+      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/failing-forward/index.md",
+      "fields": {
+        "slug": "/failing-forward/"
+      }
+    },
+    "2994bb50-69b6-5d56-810a-75ca8f5806a3": {
+      "id": "2994bb50-69b6-5d56-810a-75ca8f5806a3",
+      "children": [],
+      "parent": "197ed36f-2a17-5c61-993f-e9b5288c4258",
+      "internal": {
+        "content": "\n_VueJS Amsterdam 2019 - The Best Bits_\n\nhttps://www.vuejs.amsterdam/\n\nSo this week I attended VueJS Amsterdam and it was a blast. Over the years Ive been to various software conferences(UX/DX, ReactConf, JSConf, JSBrazil, etc) and out of all of the conferences Ive been to, VueJS Amsterdam might have been the best.\n\n2 years ago my company, VSWare adopted a very early Vue.js setup as our main FE framework over others we had considered(react, Rivets, backbone, ember). We had needed something plug and play that would sit into our main application's archatecture without too much time being wasted on intergration. Our stack today is: tomcat, Java 8, maven, SQL, Vue, jQuery and SCSS.\n\nGiven Vue has picked up so much popularity in the FE world over the last year, I wanted to see what the state of the community was in, and pick up a few tricks for my own work life.\n\n_This is what I learned_\n\n## The state of Vue 3.0\n\nEvan You kicked things off on the Thursday with a breakdown of the current state of things within the Vue ecosystem and whats new in not only Vue 2.6 but also Vue 3.0.\n\nWe were all hoping he might consider a early release during the conference but alas, it wasnt to be.\n\nEvan pointed out some interesting metrics about Vue, such as the jsDelivr stats:\n\n```json\nJust found out Vue has 461M hits/month on jsDelivr: https://data.jsdelivr.com/v1/package/npm/vue/badge … that’s… a lot\n```\n\nWhich completely blew me away given I remember using Vue a few years ago when no one had ever even heard of it in Ireland!\n\nCheck out the full breakdown here: https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf\n\n## Composing Components\n\n_The was my favouriye talk_\n\nThis talk was given by: [https://twitter.com/DamianDulisz](Damian Dulisz). \n\nHe lead the talk with a quote from Eric Elliot: \"Favour composition over inheritance\" and demonstrated this to the audiance by having us mentally build a `Button` component in our minds. \n\nMore than 60% of us built this mental component using a prop based approach, he was quick to point out the drawbacks of this method and demonstrate a better method using a compositional pattern.\n\nAs someone who has never been able to let go of my love for functional programming, his talk was music to my ears and I enjoyed seeing someone from the core team objecively showing the pros && cons of both approaches. \n\n\n_(Loved it when some people from the audience answered they use scoped slots but not slots)_\n\nYou can find the repo here and try it yourself:\n\nhttps://github.com/shentao/composing-components\n\n## 5 rules for performant Vue Applications\n\nThis talk was given by [https://twitter.com/filrakowski](Filip Rakowski)\n\n> 1. Lazy Load All Routes\n\n> 2. Vendor Bundle Anti Pattern\n\n> 3. Lazy Loading Vuex Store\n\n> 4. Finding smaller libaries\n\n> 5. Prefetching Components\n\nCheck it out in more detail here:\n\nhttps://itnext.io/vue-js-app-performance-optimization-part-2-lazy-loading-routes-and-vendor-bundle-anti-pattern-4a62236e09f9\n\n## NuxtJS - Whats new?\n\nBefore this talk I had actually never heard of the Nuxt framework(I'm a react kinda guy so Next.js was the cloest thing I knew of). \n\nBy the end of the 45 minute presentation I was utterly blown away by how cool some of the features of this framework were. I was especially taken aback by DOM driven preFetched components! \n\nThe Copain brothers take a: _less is more_ approach, abstracting away config or in Sebastiens own words: \"I wanted to focus on writing `.vue` files.\"\n\nThis includes auto route generation, a full vuex setup, auto updated core deps, webpack config with best practices([https://twitter.com/TheLarkInn](Sean Larkin) approved).\n\nFind the presentation here: https://nuxtjs.org/\n\n## Accessability in a Vue SPA\n\n_Maya Shavin gave a great breakdown of how to tink in terms of accessability._\n\nI learned a lot from [https://twitter.com/mayashavin](Maya) about accessability during her demo. Everything from color issues, using icons properly to why Beyonce got sued.\n\nHer talk was really informative in terms of writing `aria` labels correctly and how we can begin to think in terms of accessability when writing websites. \n\nHer demo can be found here: https://github.com/mayashavin/vue-accessibility-demo\n\n## Mixologly with NativeScript && Kraggle\n\n_Being Irish, this one has a special place in my heart_\n\nSo in the Vue community Jen Looper(Crazy Aunt Jen) is a pretty special lady being the founder of Vue Vixens and helping drive the mobile Vue community via NativeScript.\n\nCheck here our here: https://twitter.com/jenlooper\n\nHer talk focused on a mobile application she developed using NativeScript and some base Machine Learning to figure out what cocktails you can make from your hotel minibar. \n\nI learned a good deal about NativeScript with its new Vue support and how best to massage data from kraggle when training sets for any ML. \n\nCheck it out here: https://slides.com/telerikdevrel/minibar#/",
+        "type": "MarkdownRemark",
+        "contentDigest": "15f8d3f5d624428ddc3e390a967b5e6f",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "VueJS Amsterdam 2019 - The Best Bits",
+        "date": "2019-02-15",
+        "spoiler": "The best things I saw at VueJS Amsterdam 2019"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n_VueJS Amsterdam 2019 - The Best Bits_\n\nhttps://www.vuejs.amsterdam/\n\nSo this week I attended VueJS Amsterdam and it was a blast. Over the years Ive been to various software conferences(UX/DX, ReactConf, JSConf, JSBrazil, etc) and out of all of the conferences Ive been to, VueJS Amsterdam might have been the best.\n\n2 years ago my company, VSWare adopted a very early Vue.js setup as our main FE framework over others we had considered(react, Rivets, backbone, ember). We had needed something plug and play that would sit into our main application's archatecture without too much time being wasted on intergration. Our stack today is: tomcat, Java 8, maven, SQL, Vue, jQuery and SCSS.\n\nGiven Vue has picked up so much popularity in the FE world over the last year, I wanted to see what the state of the community was in, and pick up a few tricks for my own work life.\n\n_This is what I learned_\n\n## The state of Vue 3.0\n\nEvan You kicked things off on the Thursday with a breakdown of the current state of things within the Vue ecosystem and whats new in not only Vue 2.6 but also Vue 3.0.\n\nWe were all hoping he might consider a early release during the conference but alas, it wasnt to be.\n\nEvan pointed out some interesting metrics about Vue, such as the jsDelivr stats:\n\n```json\nJust found out Vue has 461M hits/month on jsDelivr: https://data.jsdelivr.com/v1/package/npm/vue/badge … that’s… a lot\n```\n\nWhich completely blew me away given I remember using Vue a few years ago when no one had ever even heard of it in Ireland!\n\nCheck out the full breakdown here: https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf\n\n## Composing Components\n\n_The was my favouriye talk_\n\nThis talk was given by: [https://twitter.com/DamianDulisz](Damian Dulisz). \n\nHe lead the talk with a quote from Eric Elliot: \"Favour composition over inheritance\" and demonstrated this to the audiance by having us mentally build a `Button` component in our minds. \n\nMore than 60% of us built this mental component using a prop based approach, he was quick to point out the drawbacks of this method and demonstrate a better method using a compositional pattern.\n\nAs someone who has never been able to let go of my love for functional programming, his talk was music to my ears and I enjoyed seeing someone from the core team objecively showing the pros && cons of both approaches. \n\n\n_(Loved it when some people from the audience answered they use scoped slots but not slots)_\n\nYou can find the repo here and try it yourself:\n\nhttps://github.com/shentao/composing-components\n\n## 5 rules for performant Vue Applications\n\nThis talk was given by [https://twitter.com/filrakowski](Filip Rakowski)\n\n> 1. Lazy Load All Routes\n\n> 2. Vendor Bundle Anti Pattern\n\n> 3. Lazy Loading Vuex Store\n\n> 4. Finding smaller libaries\n\n> 5. Prefetching Components\n\nCheck it out in more detail here:\n\nhttps://itnext.io/vue-js-app-performance-optimization-part-2-lazy-loading-routes-and-vendor-bundle-anti-pattern-4a62236e09f9\n\n## NuxtJS - Whats new?\n\nBefore this talk I had actually never heard of the Nuxt framework(I'm a react kinda guy so Next.js was the cloest thing I knew of). \n\nBy the end of the 45 minute presentation I was utterly blown away by how cool some of the features of this framework were. I was especially taken aback by DOM driven preFetched components! \n\nThe Copain brothers take a: _less is more_ approach, abstracting away config or in Sebastiens own words: \"I wanted to focus on writing `.vue` files.\"\n\nThis includes auto route generation, a full vuex setup, auto updated core deps, webpack config with best practices([https://twitter.com/TheLarkInn](Sean Larkin) approved).\n\nFind the presentation here: https://nuxtjs.org/\n\n## Accessability in a Vue SPA\n\n_Maya Shavin gave a great breakdown of how to tink in terms of accessability._\n\nI learned a lot from [https://twitter.com/mayashavin](Maya) about accessability during her demo. Everything from color issues, using icons properly to why Beyonce got sued.\n\nHer talk was really informative in terms of writing `aria` labels correctly and how we can begin to think in terms of accessability when writing websites. \n\nHer demo can be found here: https://github.com/mayashavin/vue-accessibility-demo\n\n## Mixologly with NativeScript && Kraggle\n\n_Being Irish, this one has a special place in my heart_\n\nSo in the Vue community Jen Looper(Crazy Aunt Jen) is a pretty special lady being the founder of Vue Vixens and helping drive the mobile Vue community via NativeScript.\n\nCheck here our here: https://twitter.com/jenlooper\n\nHer talk focused on a mobile application she developed using NativeScript and some base Machine Learning to figure out what cocktails you can make from your hotel minibar. \n\nI learned a good deal about NativeScript with its new Vue support and how best to massage data from kraggle when training sets for any ML. \n\nCheck it out here: https://slides.com/telerikdevrel/minibar#/",
+      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/vuejsamsterdam-2019-the-best-bits/index.md",
+      "fields": {
+        "slug": "/vuejsamsterdam-2019-the-best-bits/"
+      }
+    },
+    "SitePage /vuejsamsterdam-2019-the-best-bits/": {
+      "jsonName": "vuejsamsterdam-2019-the-best-bits-9ab",
+      "internalComponentName": "ComponentVuejsamsterdam2019TheBestBits",
+      "path": "/vuejsamsterdam-2019-the-best-bits/",
+      "component": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/vuejsamsterdam-2019-the-best-bits/",
+        "previous": {
+          "fields": {
+            "slug": "/ambition/"
+          },
+          "frontmatter": {
+            "title": "Ambition"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "id": "SitePage /vuejsamsterdam-2019-the-best-bits/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cea8f25536d0d5c10b9e0962bafcf27a",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /ambition/": {
       "jsonName": "ambition-132",
       "internalComponentName": "ComponentAmbition",
@@ -2737,13 +3083,20 @@
         "slug": "/ambition/",
         "previous": {
           "fields": {
-            "slug": "/failing-forward/"
+            "slug": "/graceful-depreciation/"
           },
           "frontmatter": {
-            "title": "Failing Forward"
+            "title": "Graceful Depreciation"
           }
         },
-        "next": null
+        "next": {
+          "fields": {
+            "slug": "/vuejsamsterdam-2019-the-best-bits/"
+          },
+          "frontmatter": {
+            "title": "VueJS Amsterdam 2019 - The Best Bits"
+          }
+        }
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
@@ -2753,45 +3106,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "eafb820001dcad4df8084436c7aec131",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /failing-forward/": {
-      "jsonName": "failing-forward-8b9",
-      "internalComponentName": "ComponentFailingForward",
-      "path": "/failing-forward/",
-      "component": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "/failing-forward/",
-        "previous": {
-          "fields": {
-            "slug": "/graceful-depreciation/"
-          },
-          "frontmatter": {
-            "title": "Graceful Depreciation"
-          }
-        },
-        "next": {
-          "fields": {
-            "slug": "/ambition/"
-          },
-          "frontmatter": {
-            "title": "Ambition"
-          }
-        }
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
-      "id": "SitePage /failing-forward/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "2e2fa11e6f1485825c95259a64769c33",
+        "contentDigest": "1788db7c6943d190929cf824bd7b7a54",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2806,18 +3121,18 @@
         "slug": "/graceful-depreciation/",
         "previous": {
           "fields": {
-            "slug": "/being-ok-with-shitty-code/"
-          },
-          "frontmatter": {
-            "title": "Being Ok With Deploying Shitty Code"
-          }
-        },
-        "next": {
-          "fields": {
             "slug": "/failing-forward/"
           },
           "frontmatter": {
             "title": "Failing Forward"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/ambition/"
+          },
+          "frontmatter": {
+            "title": "Ambition"
           }
         }
       },
@@ -2829,7 +3144,45 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b2f0a0465e3edca4312b9c3ceaaac440",
+        "contentDigest": "633be7669f4dad247015dcc928c626ec",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /failing-forward/": {
+      "jsonName": "failing-forward-8b9",
+      "internalComponentName": "ComponentFailingForward",
+      "path": "/failing-forward/",
+      "component": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/failing-forward/",
+        "previous": {
+          "fields": {
+            "slug": "/being-ok-with-shitty-code/"
+          },
+          "frontmatter": {
+            "title": "Being Ok With Deploying Shitty Code"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/graceful-depreciation/"
+          },
+          "frontmatter": {
+            "title": "Graceful Depreciation"
+          }
+        }
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "id": "SitePage /failing-forward/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "58d481b3067bbd4ad90603c20b37fb76",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2845,10 +3198,10 @@
         "previous": null,
         "next": {
           "fields": {
-            "slug": "/graceful-depreciation/"
+            "slug": "/failing-forward/"
           },
           "frontmatter": {
-            "title": "Graceful Depreciation"
+            "title": "Failing Forward"
           }
         }
       },
@@ -2860,7 +3213,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f5f175a07797a20285f748a8f75dd8cb",
+        "contentDigest": "5ee94faa5b15100ca573831469cfccdf",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2924,31 +3277,6 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
-    },
-    "37cb5327-517d-5d6a-8875-d210f3a80479": {
-      "id": "37cb5327-517d-5d6a-8875-d210f3a80479",
-      "children": [],
-      "parent": "40270064-6001-5742-9fdd-3af229dec9d6",
-      "internal": {
-        "content": "\n*How do we depreciate code in a safe way for a user while still allowing a developer room for improvement?*\n\nIt is, a tough question. \n\nLets say for instance, we have a application which maintains a dependency to a external toolbox. This external tool box uses strict semantic versions to help keep some measure of santiy.\n\n```json\n{\n    \"name\": \"@namelessorganization/core\",\n    \"private\": true,\n    \"dependencies\": {\n        \"@namelessorganization/toolbox\" : '5.9.5',\n    }\n}\n``` \n\nOur toolbox represents a collection of components, each of which maintain a workable API contract with the core application. Each component lives under this version and different components are leveraged all over our core application like so:\n\n```js\nimport { Button } from '@namelessorganization/toolbox'\n```\n\nNow, lets say we have a set of defined forms in a handful of locations which re-use the same component set.\n\n\n```js\nimport { Button, Form, FormGroup, Label, CheckBox } from '@namelessorganization/toolbox'\n\n<Form>\n    <FormGroup>\n        <Label>Form 1 Input</Label>\n        <Checkbox />\n    </FormGroup>\n    <div>\n        <Button color={'primary'}>\n            Submit\n        </Button>\n    </div>\n</Form>\n```\n\nOur component set is used in a handful of locations which creates a established, understood and hopefully predicable API contract between `toolbox`  and `core`. Such that, our `<Form>` can be developed in confidence as the functionality of our component set is expected.\n\n\nBut, what happens when we need to depreciate a current component in lue of a better implementation? \n \nThe benefits of our previously contract between `toolbox` and `core` now become a burden. To illustrate why this contract has now become a burden, lets look at a few possible migration paths.\n\n## Multiple Versions\n\nThis is probably the most widely assumed and used strategy for a depreciation of \"generic\" components. In our `toolbox` we now create a second version of our component in question and begin to replace the instances in `core`.\n\n```js\n// toolbox\n\nexport default ButtonOld\n\nexport default ButtonNew\n```\n\n```js\n// core\n\nimport { ButtonOld, ButonNew } from '@namelessorganization/toolbox'\n```\n\n## if / else\n\n## HOC\n\n## `next`",
-        "type": "MarkdownRemark",
-        "contentDigest": "2f36c741112adbc564092999497cf48e",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Graceful Depreciation",
-        "date": "2019-02-12",
-        "spoiler": "Keeping a path open for improvement"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n*How do we depreciate code in a safe way for a user while still allowing a developer room for improvement?*\n\nIt is, a tough question. \n\nLets say for instance, we have a application which maintains a dependency to a external toolbox. This external tool box uses strict semantic versions to help keep some measure of santiy.\n\n```json\n{\n    \"name\": \"@namelessorganization/core\",\n    \"private\": true,\n    \"dependencies\": {\n        \"@namelessorganization/toolbox\" : '5.9.5',\n    }\n}\n``` \n\nOur toolbox represents a collection of components, each of which maintain a workable API contract with the core application. Each component lives under this version and different components are leveraged all over our core application like so:\n\n```js\nimport { Button } from '@namelessorganization/toolbox'\n```\n\nNow, lets say we have a set of defined forms in a handful of locations which re-use the same component set.\n\n\n```js\nimport { Button, Form, FormGroup, Label, CheckBox } from '@namelessorganization/toolbox'\n\n<Form>\n    <FormGroup>\n        <Label>Form 1 Input</Label>\n        <Checkbox />\n    </FormGroup>\n    <div>\n        <Button color={'primary'}>\n            Submit\n        </Button>\n    </div>\n</Form>\n```\n\nOur component set is used in a handful of locations which creates a established, understood and hopefully predicable API contract between `toolbox`  and `core`. Such that, our `<Form>` can be developed in confidence as the functionality of our component set is expected.\n\n\nBut, what happens when we need to depreciate a current component in lue of a better implementation? \n \nThe benefits of our previously contract between `toolbox` and `core` now become a burden. To illustrate why this contract has now become a burden, lets look at a few possible migration paths.\n\n## Multiple Versions\n\nThis is probably the most widely assumed and used strategy for a depreciation of \"generic\" components. In our `toolbox` we now create a second version of our component in question and begin to replace the instances in `core`.\n\n```js\n// toolbox\n\nexport default ButtonOld\n\nexport default ButtonNew\n```\n\n```js\n// core\n\nimport { ButtonOld, ButonNew } from '@namelessorganization/toolbox'\n```\n\n## if / else\n\n## HOC\n\n## `next`",
-      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/graceful-depreciation/index.md",
-      "fields": {
-        "slug": "/graceful-depreciation/"
-      }
     }
   },
   "status": {
@@ -2965,18 +3293,24 @@
         "/failing-forward/",
         "/graceful-depreciation/",
         "/being-ok-with-shitty-code/",
+        "/top-bits-of-vuejsamsterdam/",
+        "sq--src-components-seo-js",
         "sq--src-components-bio-js",
-        "sq--src-components-seo-js"
+        "/vuejsamsterdam-2019-the-best-bits/"
       ],
       "d9528317-0fcd-53d0-91de-b3fcab2148d2": ["sq--src-components-bio-js"],
       "f716a1cf-1a30-5143-86b7-4d2515d9d3d2": ["sq--src-components-bio-js"],
       "7df0935d-fae2-53b8-8edd-574cb7acb340": ["/ambition/"],
       "6fe008a6-a3e8-5a94-836f-a2897719a0fe": ["/failing-forward/"],
       "37cb5327-517d-5d6a-8875-d210f3a80479": ["/graceful-depreciation/"],
-      "2bc23295-2374-5b12-b7e6-8e2813cefa55": ["/being-ok-with-shitty-code/"]
+      "2bc23295-2374-5b12-b7e6-8e2813cefa55": ["/being-ok-with-shitty-code/"],
+      "7657211c-c443-5afe-9d19-328382913274": ["/top-bits-of-vuejsamsterdam/"],
+      "2994bb50-69b6-5d56-810a-75ca8f5806a3": [
+        "/vuejsamsterdam-2019-the-best-bits/"
+      ]
     },
     "connections": {
-      "MarkdownRemark": [null, "/"]
+      "MarkdownRemark": [null, "/", null]
     }
   },
   "jsonDataPaths": {
@@ -2984,13 +3318,15 @@
     "404-22d": "731/path---404-22-d-bce-EVaHXcHipTKNxCBcOiCr2NBFk",
     "sq--src-components-seo-js": 1025518380,
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "890/path---index-6a9-DeoB44f9WA8OzghDmgyacItKR0",
+    "index": "812/path---index-6a9-BDS40W41Nn3eUkGuf4GpYdWDzM",
     "my-second-post-2aa": "838/path---my-second-post-2-aa-e94-93mQPGQ5DB5h2fgZt7LRBcYg4c",
     "sq--src-components-bio-js": 2455242068,
-    "ambition-132": "457/path---ambition-132-a49-9F6YRNNx6y9ODvNiH8ZpP8jhJo",
-    "failing-forward-8b9": "545/path---failing-forward-8-b-9-e25-DtM4BAG3m88lKRc5P7OhSvh9KRA",
-    "graceful-depreciation-c0d": "15/path---graceful-depreciation-c-0-d-802-akMZEQBmwce7d7mqSeVb0CnpHzU",
-    "being-ok-with-shitty-code-696": "662/path---being-ok-with-shitty-code-696-a53-gLBbq9F6fOfWldYMeORu7PUZ8s"
+    "ambition-132": "264/path---ambition-132-a49-D3vEnKZNpoG5B2juF2vUzWjVFYM",
+    "failing-forward-8b9": "642/path---failing-forward-8-b-9-e25-lRhArDGnknjfFzx5BpzSoH1sOTI",
+    "graceful-depreciation-c0d": "541/path---graceful-depreciation-c-0-d-802-B2Rg7rrtJc4JmjvRxOS2KD1E030",
+    "being-ok-with-shitty-code-696": "344/path---being-ok-with-shitty-code-696-a53-mRzD4R4NhgTKlwKEhTLGcOr3QtA",
+    "top-bits-of-vuejsamsterdam-327": "158/path---top-bits-of-vuejsamsterdam-327-f05-llSm8KTA5QXpm5xP4oMhYAa0R0M",
+    "vuejsamsterdam-2019-the-best-bits-9ab": "537/path---vuejsamsterdam-2019-the-best-bits-9-ab-88b-0a6AY0iJYEtFdu0P5AYM49HBo"
   },
   "components": {
     "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js": {

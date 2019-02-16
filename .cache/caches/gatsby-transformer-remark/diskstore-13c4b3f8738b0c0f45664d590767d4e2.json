@@ -1,0 +1,918 @@
+{
+  "expireTime": 9007200805007289000,
+  "key": "transformer-remark-markdown-html-ast-cf759eebd24121f81117d581eeeb58ba-gatsby-remark-imagesgatsby-remark-responsive-iframegatsby-remark-prismjsgatsby-remark-copy-linked-filesgatsby-remark-smartypants-",
+  "val": {
+    "type": "root",
+    "children": [
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "How do we depreciate code in a safe way for a user while still allowing a developer room for improvement?",
+                "position": {
+                  "start": { "line": 2, "column": 2, "offset": 2 },
+                  "end": { "line": 2, "column": 107, "offset": 107 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 2, "column": 1, "offset": 1 },
+              "end": { "line": 2, "column": 108, "offset": 108 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 2, "column": 1, "offset": 1 },
+          "end": { "line": 2, "column": 108, "offset": 108 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "It is, a tough question.",
+            "position": {
+              "start": { "line": 4, "column": 1, "offset": 110 },
+              "end": { "line": 4, "column": 25, "offset": 134 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 4, "column": 1, "offset": 110 },
+          "end": { "line": 4, "column": 25, "offset": 134 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Lets say for instance, we have a application which maintains a dependency to a external toolbox. This external tool box uses strict semantic versions to help keep some measure of santiy.",
+            "position": {
+              "start": { "line": 6, "column": 1, "offset": 136 },
+              "end": { "line": 6, "column": 187, "offset": 322 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 6, "column": 1, "offset": 136 },
+          "end": { "line": 6, "column": 187, "offset": 322 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "raw",
+        "value": "<div class=\"gatsby-highlight\" data-language=\"json\"><pre class=\"language-json\"><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"name\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"@namelessorganization/core\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"private\"</span><span class=\"token operator\">:</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"dependencies\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token property\">\"@namelessorganization/toolbox\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"5.9.5\"</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span></code></pre></div>",
+        "position": {
+          "start": { "line": 8, "column": 1, "offset": 324 },
+          "end": { "line": 16, "column": 4, "offset": 467 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Our toolbox represents a collection of components, each of which maintain a workable API contract with the core application. Each component lives under this version and different components are leveraged all over our core application like so:",
+            "position": {
+              "start": { "line": 18, "column": 1, "offset": 469 },
+              "end": { "line": 18, "column": 243, "offset": 711 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 18, "column": 1, "offset": 469 },
+          "end": { "line": 18, "column": 243, "offset": 711 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "raw",
+        "value": "<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token keyword\">import</span> <span class=\"token punctuation\">{</span> Button <span class=\"token punctuation\">}</span> <span class=\"token keyword\">from</span> <span class=\"token string\">'@namelessorganization/toolbox'</span></code></pre></div>",
+        "position": {
+          "start": { "line": 20, "column": 1, "offset": 713 },
+          "end": { "line": 22, "column": 4, "offset": 777 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Now, lets say we have a set of defined forms in a handful of locations which re-use the same component set.",
+            "position": {
+              "start": { "line": 24, "column": 1, "offset": 779 },
+              "end": { "line": 24, "column": 108, "offset": 886 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 24, "column": 1, "offset": 779 },
+          "end": { "line": 24, "column": 108, "offset": 886 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "raw",
+        "value": "<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token keyword\">import</span> <span class=\"token punctuation\">{</span>\n  Button<span class=\"token punctuation\">,</span>\n  Form<span class=\"token punctuation\">,</span>\n  FormGroup<span class=\"token punctuation\">,</span>\n  Label<span class=\"token punctuation\">,</span>\n  CheckBox\n<span class=\"token punctuation\">}</span> <span class=\"token keyword\">from</span> <span class=\"token string\">'@namelessorganization/toolbox'</span>\n<span class=\"token punctuation\">;</span><span class=\"token operator\">&lt;</span>Form<span class=\"token operator\">></span>\n  <span class=\"token operator\">&lt;</span>FormGroup<span class=\"token operator\">></span>\n    <span class=\"token operator\">&lt;</span>Label<span class=\"token operator\">></span>Form <span class=\"token number\">1</span> Input<span class=\"token operator\">&lt;</span><span class=\"token operator\">/</span>Label<span class=\"token operator\">></span>\n    <span class=\"token operator\">&lt;</span>Checkbox <span class=\"token operator\">/</span><span class=\"token operator\">></span>\n  <span class=\"token operator\">&lt;</span><span class=\"token operator\">/</span>FormGroup<span class=\"token operator\">></span>\n  <span class=\"token operator\">&lt;</span>div<span class=\"token operator\">></span>\n    <span class=\"token operator\">&lt;</span>Button color<span class=\"token operator\">=</span><span class=\"token punctuation\">{</span><span class=\"token string\">'primary'</span><span class=\"token punctuation\">}</span><span class=\"token operator\">></span>Submit<span class=\"token operator\">&lt;</span><span class=\"token operator\">/</span>Button<span class=\"token operator\">></span>\n  <span class=\"token operator\">&lt;</span><span class=\"token operator\">/</span>div<span class=\"token operator\">></span>\n<span class=\"token operator\">&lt;</span><span class=\"token operator\">/</span>Form<span class=\"token operator\">></span></code></pre></div>",
+        "position": {
+          "start": { "line": 26, "column": 1, "offset": 888 },
+          "end": { "line": 43, "column": 4, "offset": 1153 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Our component set is used in a handful of locations which creates a established, understood and hopefully predicable API contract between ",
+            "position": {
+              "start": { "line": 45, "column": 1, "offset": 1155 },
+              "end": { "line": 45, "column": 139, "offset": 1293 }
+            }
+          },
+          {
+            "type": "raw",
+            "value": "<code class=\"language-text\">toolbox</code>",
+            "position": {
+              "start": { "line": 45, "column": 139, "offset": 1293 },
+              "end": { "line": 45, "column": 148, "offset": 1302 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " and ",
+            "position": {
+              "start": { "line": 45, "column": 148, "offset": 1302 },
+              "end": { "line": 45, "column": 153, "offset": 1307 }
+            }
+          },
+          {
+            "type": "raw",
+            "value": "<code class=\"language-text\">core</code>",
+            "position": {
+              "start": { "line": 45, "column": 153, "offset": 1307 },
+              "end": { "line": 45, "column": 159, "offset": 1313 }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". Such that, our ",
+            "position": {
+              "start": { "line": 45, "column": 159, "offset": 1313 },
+              "end": { "line": 45, "column": 176, "offset": 1330 }
+            }
+          },
+          {
+            "type": "raw",
+            "value": "<code class=\"language-text\">&lt;Form&gt;</code>",
+            "position": {
+              "start": { "line": 45, "column": 176, "offset": 1330 },
+              "end": { "line": 45, "column": 184, "offset": 1338 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " can be developed in confidence as the functionality of our component set is expected.",
+            "position": {
+              "start": { "line": 45, "column": 184, "offset": 1338 },
+              "end": { "line": 45, "column": 270, "offset": 1424 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 45, "column": 1, "offset": 1155 },
+          "end": { "line": 45, "column": 270, "offset": 1424 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "But, what happens when we need to depreciate a current component in lue of a better implementation?",
+            "position": {
+              "start": { "line": 47, "column": 1, "offset": 1426 },
+              "end": { "line": 47, "column": 100, "offset": 1525 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 47, "column": 1, "offset": 1426 },
+          "end": { "line": 47, "column": 100, "offset": 1525 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The benefits of our previously contract between ",
+            "position": {
+              "start": { "line": 49, "column": 1, "offset": 1527 },
+              "end": { "line": 49, "column": 49, "offset": 1575 }
+            }
+          },
+          {
+            "type": "raw",
+            "value": "<code class=\"language-text\">toolbox</code>",
+            "position": {
+              "start": { "line": 49, "column": 49, "offset": 1575 },
+              "end": { "line": 49, "column": 58, "offset": 1584 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " and ",
+            "position": {
+              "start": { "line": 49, "column": 58, "offset": 1584 },
+              "end": { "line": 49, "column": 63, "offset": 1589 }
+            }
+          },
+          {
+            "type": "raw",
+            "value": "<code class=\"language-text\">core</code>",
+            "position": {
+              "start": { "line": 49, "column": 63, "offset": 1589 },
+              "end": { "line": 49, "column": 69, "offset": 1595 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " now become a burden. To illustrate why this contract has now become a burden, lets look at what I consider the best migration path.",
+            "position": {
+              "start": { "line": 49, "column": 69, "offset": 1595 },
+              "end": { "line": 49, "column": 201, "offset": 1727 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 49, "column": 1, "offset": 1527 },
+          "end": { "line": 49, "column": 201, "offset": 1727 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Depreciating / Maintaining Multiple Versions",
+            "position": {
+              "start": { "line": 51, "column": 4, "offset": 1732 },
+              "end": { "line": 51, "column": 48, "offset": 1776 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 51, "column": 1, "offset": 1729 },
+          "end": { "line": 51, "column": 48, "offset": 1776 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "This is probably the most widely assumed and used strategy for a depreciation of “generic” components. In our ",
+            "position": {
+              "start": { "line": 53, "column": 1, "offset": 1778 },
+              "end": { "line": 53, "column": 111, "offset": 1888 }
+            }
+          },
+          {
+            "type": "raw",
+            "value": "<code class=\"language-text\">toolbox</code>",
+            "position": {
+              "start": { "line": 53, "column": 111, "offset": 1888 },
+              "end": { "line": 53, "column": 120, "offset": 1897 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " we now create a second version of our component in question and begin to replace the instances in ",
+            "position": {
+              "start": { "line": 53, "column": 120, "offset": 1897 },
+              "end": { "line": 53, "column": 219, "offset": 1996 }
+            }
+          },
+          {
+            "type": "raw",
+            "value": "<code class=\"language-text\">core</code>",
+            "position": {
+              "start": { "line": 53, "column": 219, "offset": 1996 },
+              "end": { "line": 53, "column": 225, "offset": 2002 }
+            }
+          },
+          {
+            "type": "text",
+            "value": ".",
+            "position": {
+              "start": { "line": 53, "column": 225, "offset": 2002 },
+              "end": { "line": 53, "column": 226, "offset": 2003 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 53, "column": 1, "offset": 1778 },
+          "end": { "line": 53, "column": 226, "offset": 2003 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "raw",
+        "value": "<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token comment\">// toolbox</span>\n\n<span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> ButtonOld\n\n<span class=\"token keyword\">export</span> <span class=\"token keyword\">default</span> ButtonNew</code></pre></div>",
+        "position": {
+          "start": { "line": 55, "column": 1, "offset": 2005 },
+          "end": { "line": 61, "column": 4, "offset": 2077 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "raw",
+        "value": "<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\"><span class=\"token comment\">// core</span>\n\n<span class=\"token keyword\">import</span> <span class=\"token punctuation\">{</span> ButtonOld<span class=\"token punctuation\">,</span> ButonNew <span class=\"token punctuation\">}</span> <span class=\"token keyword\">from</span> <span class=\"token string\">'@namelessorganization/toolbox'</span>\n\n\n<span class=\"token comment\">// Comp A</span>\n\n<span class=\"token operator\">&lt;</span>ButtonOld <span class=\"token operator\">/</span><span class=\"token operator\">></span>\n\n<span class=\"token comment\">// Comp B</span>\n\n<span class=\"token operator\">&lt;</span>ButtonNew <span class=\"token operator\">/</span><span class=\"token operator\">></span></code></pre></div>",
+        "position": {
+          "start": { "line": 63, "column": 1, "offset": 2079 },
+          "end": { "line": 76, "column": 4, "offset": 2218 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Over time, ",
+            "position": {
+              "start": { "line": 78, "column": 1, "offset": 2220 },
+              "end": { "line": 78, "column": 12, "offset": 2231 }
+            }
+          },
+          {
+            "type": "raw",
+            "value": "<code class=\"language-text\">&lt;ButtonOld /&gt;</code>",
+            "position": {
+              "start": { "line": 78, "column": 12, "offset": 2231 },
+              "end": { "line": 78, "column": 27, "offset": 2246 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " will be removed from our ",
+            "position": {
+              "start": { "line": 78, "column": 27, "offset": 2246 },
+              "end": { "line": 78, "column": 53, "offset": 2272 }
+            }
+          },
+          {
+            "type": "raw",
+            "value": "<code class=\"language-text\">core</code>",
+            "position": {
+              "start": { "line": 78, "column": 53, "offset": 2272 },
+              "end": { "line": 78, "column": 59, "offset": 2278 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " application to ensure a graceful migration from the old depreciated code base without shattering the current application.",
+            "position": {
+              "start": { "line": 78, "column": 59, "offset": 2278 },
+              "end": { "line": 78, "column": 181, "offset": 2400 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 78, "column": 1, "offset": 2220 },
+          "end": { "line": 78, "column": 181, "offset": 2400 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Pros",
+            "position": {
+              "start": { "line": 80, "column": 5, "offset": 2406 },
+              "end": { "line": 80, "column": 9, "offset": 2410 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 80, "column": 1, "offset": 2402 },
+          "end": { "line": 80, "column": 9, "offset": 2410 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "ul",
+        "properties": {},
+        "children": [
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Easy to implement a non-breaking migration",
+                "position": {
+                  "start": { "line": 82, "column": 3, "offset": 2414 },
+                  "end": { "line": 82, "column": 45, "offset": 2456 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 82, "column": 1, "offset": 2412 },
+              "end": { "line": 82, "column": 45, "offset": 2456 }
+            }
+          },
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Easy to track versions and ensure proper refractoring",
+                "position": {
+                  "start": { "line": 83, "column": 3, "offset": 2459 },
+                  "end": { "line": 83, "column": 56, "offset": 2512 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 83, "column": 1, "offset": 2457 },
+              "end": { "line": 83, "column": 56, "offset": 2512 }
+            }
+          },
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Depreciated components can be planned for full removal during a major release",
+                "position": {
+                  "start": { "line": 84, "column": 3, "offset": 2515 },
+                  "end": { "line": 84, "column": 80, "offset": 2592 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 84, "column": 1, "offset": 2513 },
+              "end": { "line": 84, "column": 80, "offset": 2592 }
+            }
+          },
+          { "type": "text", "value": "\n" }
+        ],
+        "position": {
+          "start": { "line": 82, "column": 1, "offset": 2412 },
+          "end": { "line": 84, "column": 80, "offset": 2592 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Cons",
+            "position": {
+              "start": { "line": 86, "column": 5, "offset": 2598 },
+              "end": { "line": 86, "column": 9, "offset": 2602 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 86, "column": 1, "offset": 2594 },
+          "end": { "line": 86, "column": 9, "offset": 2602 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "ul",
+        "properties": {},
+        "children": [
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Must be mindful to keep a very strict rules for amount of components available",
+                "position": {
+                  "start": { "line": 88, "column": 3, "offset": 2606 },
+                  "end": { "line": 88, "column": 81, "offset": 2684 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 88, "column": 1, "offset": 2604 },
+              "end": { "line": 88, "column": 81, "offset": 2684 }
+            }
+          },
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Harder to keep track of changes as they are in multiple files",
+                "position": {
+                  "start": { "line": 89, "column": 3, "offset": 2687 },
+                  "end": { "line": 89, "column": 64, "offset": 2748 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 89, "column": 1, "offset": 2685 },
+              "end": { "line": 89, "column": 64, "offset": 2748 }
+            }
+          },
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "li",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Doucmentation is harder",
+                "position": {
+                  "start": { "line": 90, "column": 3, "offset": 2751 },
+                  "end": { "line": 90, "column": 26, "offset": 2774 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 90, "column": 1, "offset": 2749 },
+              "end": { "line": 90, "column": 26, "offset": 2774 }
+            }
+          },
+          { "type": "text", "value": "\n" }
+        ],
+        "position": {
+          "start": { "line": 88, "column": 1, "offset": 2604 },
+          "end": { "line": 90, "column": 26, "offset": 2774 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "raw",
+            "value": "<code class=\"language-text\">next</code>",
+            "position": {
+              "start": { "line": 92, "column": 4, "offset": 2779 },
+              "end": { "line": 92, "column": 10, "offset": 2785 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 92, "column": 1, "offset": 2776 },
+          "end": { "line": 92, "column": 10, "offset": 2785 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Given we have a open migration path with the above pattern, we can make use of a experimental branch ",
+            "position": {
+              "start": { "line": 94, "column": 1, "offset": 2787 },
+              "end": { "line": 94, "column": 102, "offset": 2888 }
+            }
+          },
+          {
+            "type": "raw",
+            "value": "<code class=\"language-text\">next</code>",
+            "position": {
+              "start": { "line": 94, "column": 102, "offset": 2888 },
+              "end": { "line": 94, "column": 108, "offset": 2894 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " as a place for our major breaking changes to be published and tested.",
+            "position": {
+              "start": { "line": 94, "column": 108, "offset": 2894 },
+              "end": { "line": 94, "column": 178, "offset": 2964 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 94, "column": 1, "offset": 2787 },
+          "end": { "line": 94, "column": 178, "offset": 2964 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "raw",
+        "value": "<div class=\"gatsby-highlight\" data-language=\"json\"><pre class=\"language-json\"><code class=\"language-json\"><span class=\"token punctuation\">{</span>\n  <span class=\"token property\">\"name\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"@namelessorganization/core\"</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"private\"</span><span class=\"token operator\">:</span> <span class=\"token boolean\">true</span><span class=\"token punctuation\">,</span>\n  <span class=\"token property\">\"dependencies\"</span><span class=\"token operator\">:</span> <span class=\"token punctuation\">{</span>\n    <span class=\"token property\">\"@namelessorganization/toolbox\"</span><span class=\"token operator\">:</span> <span class=\"token string\">\"next\"</span>\n  <span class=\"token punctuation\">}</span>\n<span class=\"token punctuation\">}</span></code></pre></div>",
+        "position": {
+          "start": { "line": 96, "column": 1, "offset": 2966 },
+          "end": { "line": 104, "column": 4, "offset": 3108 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "This allows developers to test, push and pull code from the bleeding edge in a fearless way.",
+            "position": {
+              "start": { "line": 106, "column": 1, "offset": 3110 },
+              "end": { "line": 106, "column": 93, "offset": 3202 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 106, "column": 1, "offset": 3110 },
+          "end": { "line": 106, "column": 93, "offset": 3202 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Our ",
+            "position": {
+              "start": { "line": 108, "column": 1, "offset": 3204 },
+              "end": { "line": 108, "column": 5, "offset": 3208 }
+            }
+          },
+          {
+            "type": "raw",
+            "value": "<code class=\"language-text\">toolbox</code>",
+            "position": {
+              "start": { "line": 108, "column": 5, "offset": 3208 },
+              "end": { "line": 108, "column": 14, "offset": 3217 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " can benifit from aggresive pushing of imporvement, while ",
+            "position": {
+              "start": { "line": 108, "column": 14, "offset": 3217 },
+              "end": { "line": 108, "column": 72, "offset": 3275 }
+            }
+          },
+          {
+            "type": "raw",
+            "value": "<code class=\"language-text\">core</code>",
+            "position": {
+              "start": { "line": 108, "column": 72, "offset": 3275 },
+              "end": { "line": 108, "column": 78, "offset": 3281 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " can remain functionally safe for our end users.",
+            "position": {
+              "start": { "line": 108, "column": 78, "offset": 3281 },
+              "end": { "line": 108, "column": 126, "offset": 3329 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 108, "column": 1, "offset": 3204 },
+          "end": { "line": 108, "column": 126, "offset": 3329 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The most important aspect of this style of development is promoting a sense of ",
+            "position": {
+              "start": { "line": 110, "column": 1, "offset": 3331 },
+              "end": { "line": 110, "column": 80, "offset": 3410 }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "failing forward",
+                "position": {
+                  "start": { "line": 110, "column": 81, "offset": 3411 },
+                  "end": { "line": 110, "column": 96, "offset": 3426 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 110, "column": 80, "offset": 3410 },
+              "end": { "line": 110, "column": 97, "offset": 3427 }
+            }
+          },
+          {
+            "type": "text",
+            "value": ". Which for a sucessful project is one of the most overlooked aspects of sucess.",
+            "position": {
+              "start": { "line": 110, "column": 97, "offset": 3427 },
+              "end": { "line": 110, "column": 177, "offset": 3507 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 110, "column": 1, "offset": 3331 },
+          "end": { "line": 110, "column": 177, "offset": 3507 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "As mark Z said; “Move fast, break shit, fix it”.",
+            "position": {
+              "start": { "line": 112, "column": 1, "offset": 3509 },
+              "end": { "line": 112, "column": 49, "offset": 3557 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 112, "column": 1, "offset": 3509 },
+          "end": { "line": 112, "column": 49, "offset": 3557 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "h3",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Caveeat",
+            "position": {
+              "start": { "line": 114, "column": 5, "offset": 3563 },
+              "end": { "line": 114, "column": 12, "offset": 3570 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 114, "column": 1, "offset": 3559 },
+          "end": { "line": 114, "column": 12, "offset": 3570 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "For this migration strategy to work, there must be a ",
+            "position": {
+              "start": { "line": 116, "column": 1, "offset": 3572 },
+              "end": { "line": 116, "column": 54, "offset": 3625 }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "strict",
+                "position": {
+                  "start": { "line": 116, "column": 55, "offset": 3626 },
+                  "end": { "line": 116, "column": 61, "offset": 3632 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 116, "column": 54, "offset": 3625 },
+              "end": { "line": 116, "column": 62, "offset": 3633 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " deployment process in agreement between the developers, QA and ops team.",
+            "position": {
+              "start": { "line": 116, "column": 62, "offset": 3633 },
+              "end": { "line": 116, "column": 135, "offset": 3706 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 116, "column": 1, "offset": 3572 },
+          "end": { "line": 116, "column": 135, "offset": 3706 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "raw",
+        "value": "<div class=\"gatsby-highlight\" data-language=\"js\"><pre class=\"language-js\"><code class=\"language-js\">Major<span class=\"token punctuation\">:</span> <span class=\"token operator\">>>></span> Every <span class=\"token number\">6</span> months <span class=\"token keyword\">for</span> a <span class=\"token keyword\">break</span>\n\nMinor<span class=\"token punctuation\">:</span> <span class=\"token operator\">>>></span> Every week <span class=\"token keyword\">with</span> no breaks\n\nPatch<span class=\"token punctuation\">:</span> <span class=\"token operator\">>>></span> Night release <span class=\"token template-string\"><span class=\"token string\">`next`</span></span></code></pre></div>",
+        "position": {
+          "start": { "line": 118, "column": 1, "offset": 3708 },
+          "end": { "line": 124, "column": 4, "offset": 3826 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Users need to keep faith in an applications resiliance, and so during major breaks, companies need to work harder in terms of timing and response to ensure users dont suffer.",
+            "position": {
+              "start": { "line": 126, "column": 1, "offset": 3828 },
+              "end": { "line": 126, "column": 175, "offset": 4002 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 126, "column": 1, "offset": 3828 },
+          "end": { "line": 126, "column": 175, "offset": 4002 }
+        }
+      }
+    ],
+    "position": {
+      "start": { "line": 1, "column": 1, "offset": 0 },
+      "end": { "line": 127, "column": 1, "offset": 4003 }
+    }
+  }
+}
