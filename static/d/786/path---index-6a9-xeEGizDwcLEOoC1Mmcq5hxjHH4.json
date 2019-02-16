@@ -5,7 +5,7 @@
       "edges": [
         {
           "node": {
-            "excerpt": "VueJS Amsterdam 2019 - The Best Bits The state of Vue 3.0 Composing Components 5 rules for performant Vue Applications NuxtJS - Whats new…",
+            "excerpt": "VueJS Amsterdam 2019 - The Best Bits So this week I attended VueJS Amsterdam and it was a blast. Over the years Ive been to various software…",
             "fields": { "slug": "/top-bits-of-vuejsamsterdam/" },
             "timeToRead": 1,
             "frontmatter": {
