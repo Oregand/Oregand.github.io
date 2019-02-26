@@ -1,0 +1,232 @@
+{
+  "expireTime": 9007200805922339000,
+  "key": "transformer-remark-markdown-html-ast-f1f08cde53a3586b9a2ef59bf0949069-gatsby-remark-prismjs-",
+  "val": {
+    "type": "root",
+    "children": [
+      {
+        "type": "element",
+        "tagName": "blockquote",
+        "properties": {},
+        "children": [
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Human beings work on the basis of low complexity but high risk situations. This is our natural state as dictated by nature. Software by oppoisition is high complextiy but low risk.",
+                "position": {
+                  "start": { "line": 2, "column": 3, "offset": 3 },
+                  "end": { "line": 2, "column": 183, "offset": 183 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 2, "column": 3, "offset": 3 },
+              "end": { "line": 2, "column": 183, "offset": 183 }
+            }
+          },
+          { "type": "text", "value": "\n" }
+        ],
+        "position": {
+          "start": { "line": 2, "column": 1, "offset": 1 },
+          "end": { "line": 2, "column": 183, "offset": 183 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Over my career of 10 years as a software developer Ive noticed a trend with those that I consider to be successful and ive often been told that success leaves clues. The trend in question was a air of fearlessness when it came to failure, and failure in terms of deploying software specifically.",
+            "position": {
+              "start": { "line": 4, "column": 1, "offset": 185 },
+              "end": { "line": 4, "column": 296, "offset": 480 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 4, "column": 1, "offset": 185 },
+          "end": { "line": 4, "column": 296, "offset": 480 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Though, what does failing forward look like? I mean, can it be done in a productive sense so you don't frustrate your co-workers? Saying to someone, \"Hey, failing forward is the key\" is all fine and dandy, but what happens when you ",
+            "position": {
+              "start": { "line": 6, "column": 1, "offset": 482 },
+              "end": { "line": 6, "column": 233, "offset": 714 }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "fail forward",
+                "position": {
+                  "start": { "line": 6, "column": 234, "offset": 715 },
+                  "end": { "line": 6, "column": 246, "offset": 727 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 6, "column": 233, "offset": 714 },
+              "end": { "line": 6, "column": 247, "offset": 728 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " and shit can production?  ",
+            "position": {
+              "start": { "line": 6, "column": 247, "offset": 728 },
+              "end": { "line": 6, "column": 274, "offset": 755 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 6, "column": 1, "offset": 482 },
+          "end": { "line": 6, "column": 274, "offset": 755 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The truth is, failing forward is an exceptionally difficult paradigm to follow because its basically frowned upon for business value. Up time counts, user satisfaction counts, ",
+            "position": {
+              "start": { "line": 8, "column": 1, "offset": 757 },
+              "end": { "line": 8, "column": 177, "offset": 933 }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "quality",
+                "position": {
+                  "start": { "line": 8, "column": 179, "offset": 935 },
+                  "end": { "line": 8, "column": 186, "offset": 942 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 8, "column": 177, "offset": 933 },
+              "end": { "line": 8, "column": 188, "offset": 944 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " counts. Over time, the pattern of failing forward may have become apparent to me, but a dark pattern also came with it; pretending you don't. No one wants to admit they fail forward, it shakes confidence. ",
+            "position": {
+              "start": { "line": 8, "column": 188, "offset": 944 },
+              "end": { "line": 8, "column": 394, "offset": 1150 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 8, "column": 1, "offset": 757 },
+          "end": { "line": 8, "column": 394, "offset": 1150 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "So, if failing forward is at such odds(useful but dangerous), how can we implement it as a viable delivery model?",
+            "position": {
+              "start": { "line": 10, "column": 1, "offset": 1152 },
+              "end": { "line": 10, "column": 114, "offset": 1265 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 10, "column": 1, "offset": 1152 },
+          "end": { "line": 10, "column": 114, "offset": 1265 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "My thoughts are echoed by one of my developer heros:",
+            "position": {
+              "start": { "line": 16, "column": 1, "offset": 1271 },
+              "end": { "line": 16, "column": 53, "offset": 1323 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 16, "column": 1, "offset": 1271 },
+          "end": { "line": 16, "column": 53, "offset": 1323 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://www.youtube.com/watch?v=mchoEOXGskU&t"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "FunFunFunction",
+                "position": {
+                  "start": { "line": 18, "column": 2, "offset": 1326 },
+                  "end": { "line": 18, "column": 16, "offset": 1340 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 18, "column": 1, "offset": 1325 },
+              "end": { "line": 18, "column": 64, "offset": 1388 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 18, "column": 1, "offset": 1325 },
+          "end": { "line": 18, "column": 64, "offset": 1388 }
+        }
+      }
+    ],
+    "position": {
+      "start": { "line": 1, "column": 1, "offset": 0 },
+      "end": { "line": 18, "column": 64, "offset": 1388 }
+    }
+  }
+}

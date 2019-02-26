@@ -1,0 +1,80 @@
+{
+  "expireTime": 9007200805919347000,
+  "key": "transformer-remark-markdown-ast-8789509bf6a69d207e79e833ffe7cf3f-gatsby-remark-prismjs-",
+  "val": {
+    "type": "root",
+    "children": [
+      {
+        "type": "blockquote",
+        "children": [
+          {
+            "type": "paragraph",
+            "children": [
+              {
+                "type": "text",
+                "value": "Human beings work on the basis of low complexity but high risk situations. This is our natural state as dictated by nature. Software by oppoisition is high complextiy but low risk.",
+                "position": {
+                  "start": { "line": 2, "column": 3, "offset": 3 },
+                  "end": { "line": 2, "column": 183, "offset": 183 },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 2, "column": 3, "offset": 3 },
+              "end": { "line": 2, "column": 183, "offset": 183 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 2, "column": 1, "offset": 1 },
+          "end": { "line": 2, "column": 183, "offset": 183 },
+          "indent": []
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Over my carrer of 10 years as a software developer Ive ntocied a trend with those that I consider to be sucessful and ive often been told that sucess leaves clues. The trend in question was a air of fearlessness when it came to failure, and failure in terms of deploying software specifically.",
+            "position": {
+              "start": { "line": 4, "column": 1, "offset": 185 },
+              "end": { "line": 4, "column": 294, "offset": 478 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 4, "column": 1, "offset": 185 },
+          "end": { "line": 4, "column": 294, "offset": 478 },
+          "indent": []
+        }
+      },
+      {
+        "type": "paragraph",
+        "children": [
+          {
+            "type": "text",
+            "value": "Though, what does failing forward look like?",
+            "position": {
+              "start": { "line": 6, "column": 1, "offset": 480 },
+              "end": { "line": 6, "column": 45, "offset": 524 },
+              "indent": []
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 6, "column": 1, "offset": 480 },
+          "end": { "line": 6, "column": 45, "offset": 524 },
+          "indent": []
+        }
+      }
+    ],
+    "position": {
+      "start": { "line": 1, "column": 1, "offset": 0 },
+      "end": { "line": 6, "column": 45, "offset": 524 }
+    }
+  }
+}

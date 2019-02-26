@@ -10,7 +10,7 @@ It is, a tough question.
 
 Lets say for instance, we have a application which maintains a dependency to a external toolbox. This external tool box uses strict semantic versions to help keep some measure of santiy.
 
-```json
+```javascript
 {
   "name": "@namelessorganization/core",
   "private": true,
@@ -22,13 +22,13 @@ Lets say for instance, we have a application which maintains a dependency to a e
 
 Our toolbox represents a collection of components, each of which maintain a workable API contract with the core application. Each component lives under this version and different components are leveraged all over our core application like so:
 
-```js
+```javascript
 import { Button } from '@namelessorganization/toolbox'
 ```
 
 Now, lets say we have a set of defined forms in a handful of locations which re-use the same component set.
 
-```js
+```javascript
 import {
   Button,
   Form,
@@ -57,7 +57,7 @@ The benefits of our previously contract between `toolbox` and `core` now become 
 
 This is probably the most widely assumed and used strategy for a depreciation of "generic" components. In our `toolbox` we now create a second version of our component in question and begin to replace the instances in `core`.
 
-```js
+```javascript
 // toolbox
 
 export default ButtonOld
@@ -65,7 +65,7 @@ export default ButtonOld
 export default ButtonNew
 ```
 
-```js
+```javascript
 // core
 
 import { ButtonOld, ButonNew } from '@namelessorganization/toolbox'
@@ -98,7 +98,7 @@ Over time, `<ButtonOld />` will be removed from our `core` application to ensure
 
 Given we have a open migration path with the above pattern, we can make use of a experimental branch `next` as a place for our major breaking changes to be published and tested.
 
-```json
+```javascript
 {
   "name": "@namelessorganization/core",
   "private": true,
@@ -120,7 +120,7 @@ As mark Z said; "Move fast, break shit, fix it".
 
 For this migration strategy to work, there must be a _strict_ deployment process in agreement between the developers, QA and ops team.
 
-```js
+```javascript
 Major: >>> Every 6 months for a break
 
 Minor: >>> Every week with no breaks

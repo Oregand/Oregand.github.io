@@ -1,0 +1,112 @@
+{
+  "expireTime": 9007200805921402000,
+  "key": "transformer-remark-markdown-html-ast-24ffc716f8e023cd9adb59b966c20422-gatsby-remark-prismjs-",
+  "val": {
+    "type": "root",
+    "children": [
+      {
+        "type": "element",
+        "tagName": "blockquote",
+        "properties": {},
+        "children": [
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Human beings work on the basis of low complexity but high risk situations. This is our natural state as dictated by nature. Software by oppoisition is high complextiy but low risk.",
+                "position": {
+                  "start": { "line": 2, "column": 3, "offset": 3 },
+                  "end": { "line": 2, "column": 183, "offset": 183 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 2, "column": 3, "offset": 3 },
+              "end": { "line": 2, "column": 183, "offset": 183 }
+            }
+          },
+          { "type": "text", "value": "\n" }
+        ],
+        "position": {
+          "start": { "line": 2, "column": 1, "offset": 1 },
+          "end": { "line": 2, "column": 183, "offset": 183 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Over my carrer of 10 years as a software developer Ive ntocied a trend with those that I consider to be sucessful and ive often been told that sucess leaves clues. The trend in question was a air of fearlessness when it came to failure, and failure in terms of deploying software specifically.",
+            "position": {
+              "start": { "line": 4, "column": 1, "offset": 185 },
+              "end": { "line": 4, "column": 294, "offset": 478 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 4, "column": 1, "offset": 185 },
+          "end": { "line": 4, "column": 294, "offset": 478 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Though, what does failing forward look like? I mean, can it be done in a productive sense so you don't frustrate your co-workers? Saying to someone, \"Hey, failing forward is the key\" is all fine and dandy, but what happens when you ",
+            "position": {
+              "start": { "line": 6, "column": 1, "offset": 480 },
+              "end": { "line": 6, "column": 233, "offset": 712 }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "fail forward",
+                "position": {
+                  "start": { "line": 6, "column": 234, "offset": 713 },
+                  "end": { "line": 6, "column": 246, "offset": 725 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 6, "column": 233, "offset": 712 },
+              "end": { "line": 6, "column": 247, "offset": 726 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " and shit can production, what then?  ",
+            "position": {
+              "start": { "line": 6, "column": 247, "offset": 726 },
+              "end": { "line": 6, "column": 285, "offset": 764 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 6, "column": 1, "offset": 480 },
+          "end": { "line": 6, "column": 285, "offset": 764 }
+        }
+      }
+    ],
+    "position": {
+      "start": { "line": 1, "column": 1, "offset": 0 },
+      "end": { "line": 10, "column": 1, "offset": 768 }
+    }
+  }
+}

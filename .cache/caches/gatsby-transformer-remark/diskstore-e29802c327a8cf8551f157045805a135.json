@@ -1,0 +1,12 @@
+{
+  "expireTime": 9007200805919347000,
+  "key": "transformer-remark-markdown-ast-456281b20a76644bcc39e97a89dbeca6-gatsby-remark-prismjs-",
+  "val": {
+    "type": "root",
+    "children": [],
+    "position": {
+      "start": { "line": 1, "column": 1, "offset": 0 },
+      "end": { "line": 1, "column": 1, "offset": 0 }
+    }
+  }
+}

@@ -36,8 +36,23 @@
   },
   {
     "componentChunkName": "component---src-templates-blog-post-js",
+    "jsonName": "functional-javascript-391",
+    "path": "/functional-javascript/"
+  },
+  {
+    "componentChunkName": "component---src-templates-blog-post-js",
     "jsonName": "graceful-depreciation-c0d",
     "path": "/graceful-depreciation/"
+  },
+  {
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "jsonName": "rules-of-coding-36b",
+    "path": "/rules-of-coding/"
+  },
+  {
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "jsonName": "vue-vs-react-f79",
+    "path": "/vue-vs-react/"
   },
   {
     "componentChunkName": "component---src-templates-blog-post-js",

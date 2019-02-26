@@ -1,0 +1,179 @@
+{
+  "expireTime": 9007200805922260000,
+  "key": "transformer-remark-markdown-html-ast-cc8ba260c7881bb04fc29214375ec1c0-gatsby-remark-prismjs-",
+  "val": {
+    "type": "root",
+    "children": [
+      {
+        "type": "element",
+        "tagName": "blockquote",
+        "properties": {},
+        "children": [
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "p",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Human beings work on the basis of low complexity but high risk situations. This is our natural state as dictated by nature. Software by oppoisition is high complextiy but low risk.",
+                "position": {
+                  "start": { "line": 2, "column": 3, "offset": 3 },
+                  "end": { "line": 2, "column": 183, "offset": 183 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 2, "column": 3, "offset": 3 },
+              "end": { "line": 2, "column": 183, "offset": 183 }
+            }
+          },
+          { "type": "text", "value": "\n" }
+        ],
+        "position": {
+          "start": { "line": 2, "column": 1, "offset": 1 },
+          "end": { "line": 2, "column": 183, "offset": 183 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Over my carrer of 10 years as a software developer Ive noticed a trend with those that I consider to be successful and ive often been told that sucess leaves clues. The trend in question was a air of fearlessness when it came to failure, and failure in terms of deploying software specifically.",
+            "position": {
+              "start": { "line": 4, "column": 1, "offset": 185 },
+              "end": { "line": 4, "column": 295, "offset": 479 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 4, "column": 1, "offset": 185 },
+          "end": { "line": 4, "column": 295, "offset": 479 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Though, what does failing forward look like? I mean, can it be done in a productive sense so you don't frustrate your co-workers? Saying to someone, \"Hey, failing forward is the key\" is all fine and dandy, but what happens when you ",
+            "position": {
+              "start": { "line": 6, "column": 1, "offset": 481 },
+              "end": { "line": 6, "column": 233, "offset": 713 }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "fail forward",
+                "position": {
+                  "start": { "line": 6, "column": 234, "offset": 714 },
+                  "end": { "line": 6, "column": 246, "offset": 726 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 6, "column": 233, "offset": 713 },
+              "end": { "line": 6, "column": 247, "offset": 727 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " and shit can production?  ",
+            "position": {
+              "start": { "line": 6, "column": 247, "offset": 727 },
+              "end": { "line": 6, "column": 274, "offset": 754 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 6, "column": 1, "offset": 481 },
+          "end": { "line": 6, "column": 274, "offset": 754 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The truth is, failing forward is an exceptionally difficult paradigm to follow because its basically frowned upon for business value. Up time counts, user satisfaction counts, ",
+            "position": {
+              "start": { "line": 8, "column": 1, "offset": 756 },
+              "end": { "line": 8, "column": 177, "offset": 932 }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "strong",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "quality",
+                "position": {
+                  "start": { "line": 8, "column": 179, "offset": 934 },
+                  "end": { "line": 8, "column": 186, "offset": 941 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 8, "column": 177, "offset": 932 },
+              "end": { "line": 8, "column": 188, "offset": 943 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " counts. Over time, the pattern of failing forward may have become apparent to me, but a dark pattern also came with it; pretending you don't. No one wants to admit they fail forward, it shakes confidence. ",
+            "position": {
+              "start": { "line": 8, "column": 188, "offset": 943 },
+              "end": { "line": 8, "column": 394, "offset": 1149 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 8, "column": 1, "offset": 756 },
+          "end": { "line": 8, "column": 394, "offset": 1149 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "So, if failing forward is at such odds(useful but dangerous), how can we implement it as a viable delivery model?",
+            "position": {
+              "start": { "line": 10, "column": 1, "offset": 1151 },
+              "end": { "line": 10, "column": 114, "offset": 1264 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 10, "column": 1, "offset": 1151 },
+          "end": { "line": 10, "column": 114, "offset": 1264 }
+        }
+      }
+    ],
+    "position": {
+      "start": { "line": 1, "column": 1, "offset": 0 },
+      "end": { "line": 12, "column": 1, "offset": 1266 }
+    }
+  }
+}

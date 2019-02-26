@@ -1,0 +1,1574 @@
+{
+  "expireTime": 9007200805922201000,
+  "key": "transformer-remark-markdown-html-ast-538d7bfe694be70489a50aa69a196617-gatsby-remark-prismjs-",
+  "val": {
+    "type": "root",
+    "children": [
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "VueJS Amsterdam 2019 - The Best Bits",
+                "position": {
+                  "start": { "line": 2, "column": 2, "offset": 2 },
+                  "end": { "line": 2, "column": 38, "offset": 38 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 2, "column": 1, "offset": 1 },
+              "end": { "line": 2, "column": 39, "offset": 39 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 2, "column": 1, "offset": 1 },
+          "end": { "line": 2, "column": 39, "offset": 39 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": { "href": "https://www.vuejs.amsterdam/" },
+            "children": [
+              {
+                "type": "text",
+                "value": "https://www.vuejs.amsterdam/",
+                "position": {
+                  "start": { "line": 4, "column": 1, "offset": 41 },
+                  "end": { "line": 4, "column": 29, "offset": 69 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 4, "column": 1, "offset": 41 },
+              "end": { "line": 4, "column": 29, "offset": 69 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 4, "column": 1, "offset": 41 },
+          "end": { "line": 4, "column": 29, "offset": 69 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "So this week I attended VueJS Amsterdam and it was a blast. Over the years Ive been to various software conferences(UX/DX, ReactConf, JSConf, JSBrazil, etc) and out of all of the conferences Ive been to, VueJS Amsterdam might have been the best.",
+            "position": {
+              "start": { "line": 6, "column": 1, "offset": 71 },
+              "end": { "line": 6, "column": 246, "offset": 316 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 6, "column": 1, "offset": 71 },
+          "end": { "line": 6, "column": 246, "offset": 316 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "2 years ago my company, VSWare adopted a very early Vue.js setup as our main FE framework over others we had considered(react, Rivets, backbone, ember). We had needed something plug and play that would sit into our main application's architecture without too much time being wasted on integration. Our stack today is: tomcat, Java 8, maven, SQL, Vue, jQuery and SCSS.",
+            "position": {
+              "start": { "line": 8, "column": 1, "offset": 318 },
+              "end": { "line": 8, "column": 368, "offset": 685 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 8, "column": 1, "offset": 318 },
+          "end": { "line": 8, "column": 368, "offset": 685 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Given Vue has picked up so much popularity in the FE world over the last year, I wanted to see what the state of the community was in, and pick up a few tricks for my own work life.",
+            "position": {
+              "start": { "line": 10, "column": 1, "offset": 687 },
+              "end": { "line": 10, "column": 182, "offset": 868 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 10, "column": 1, "offset": 687 },
+          "end": { "line": 10, "column": 182, "offset": 868 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "This is what I learned",
+                "position": {
+                  "start": { "line": 12, "column": 2, "offset": 871 },
+                  "end": { "line": 12, "column": 24, "offset": 893 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 12, "column": 1, "offset": 870 },
+              "end": { "line": 12, "column": 25, "offset": 894 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 12, "column": 1, "offset": 870 },
+          "end": { "line": 12, "column": 25, "offset": 894 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The state of Vue 3.0",
+            "position": {
+              "start": { "line": 14, "column": 4, "offset": 899 },
+              "end": { "line": 14, "column": 24, "offset": 919 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 14, "column": 1, "offset": 896 },
+          "end": { "line": 14, "column": 24, "offset": 919 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Evan You kicked things off on the Thursday with a breakdown of the current state of things within the Vue ecosystem and whats new in not only Vue 2.6 but also Vue 3.0.",
+            "position": {
+              "start": { "line": 16, "column": 1, "offset": 921 },
+              "end": { "line": 16, "column": 168, "offset": 1088 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 16, "column": 1, "offset": 921 },
+          "end": { "line": 16, "column": 168, "offset": 1088 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "We were all hoping he might consider a early release during the conference but alas, it was not to be.",
+            "position": {
+              "start": { "line": 18, "column": 1, "offset": 1090 },
+              "end": { "line": 18, "column": 103, "offset": 1192 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 18, "column": 1, "offset": 1090 },
+          "end": { "line": 18, "column": 103, "offset": 1192 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Evan pointed out some interesting metrics about Vue, such as the jsDelivr stats:",
+            "position": {
+              "start": { "line": 20, "column": 1, "offset": 1194 },
+              "end": { "line": 20, "column": 81, "offset": 1274 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 20, "column": 1, "offset": 1194 },
+          "end": { "line": 20, "column": 81, "offset": 1274 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "raw",
+        "value": "<div class=\"gatsby-highlight\" data-language=\"json\"><pre class=\"language-json\"><code class=\"language-json\">Just found out Vue has <span class=\"token number\">461</span>M hits/month on jsDelivr<span class=\"token operator\">:</span> \nhttps<span class=\"token operator\">:</span>//data.jsdelivr.com/v1/package/npm/vue/badge … that’s… a lot</code></pre></div>",
+        "position": {
+          "start": { "line": 22, "column": 1, "offset": 1276 },
+          "end": { "line": 25, "column": 4, "offset": 1407 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Which completely blew me away given I remember using Vue a few years ago when no one had ever even heard of it in Ireland!",
+            "position": {
+              "start": { "line": 27, "column": 1, "offset": 1409 },
+              "end": { "line": 27, "column": 123, "offset": 1531 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 27, "column": 1, "offset": 1409 },
+          "end": { "line": 27, "column": 123, "offset": 1531 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Check out the full breakdown here: ",
+            "position": {
+              "start": { "line": 29, "column": 1, "offset": 1533 },
+              "end": { "line": 29, "column": 36, "offset": 1568 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 29, "column": 1, "offset": 1533 },
+          "end": { "line": 29, "column": 36, "offset": 1568 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "plans-for-the-next-iteration-of-vue-js",
+                "position": {
+                  "start": { "line": 31, "column": 2, "offset": 1571 },
+                  "end": { "line": 31, "column": 40, "offset": 1609 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 31, "column": 1, "offset": 1570 },
+              "end": { "line": 31, "column": 127, "offset": 1696 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 31, "column": 1, "offset": 1570 },
+          "end": { "line": 31, "column": 127, "offset": 1696 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Composing Components",
+            "position": {
+              "start": { "line": 33, "column": 4, "offset": 1701 },
+              "end": { "line": 33, "column": 24, "offset": 1721 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 33, "column": 1, "offset": 1698 },
+          "end": { "line": 33, "column": 24, "offset": 1721 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "The was my favouriye talk",
+                "position": {
+                  "start": { "line": 35, "column": 2, "offset": 1724 },
+                  "end": { "line": 35, "column": 27, "offset": 1749 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 35, "column": 1, "offset": 1723 },
+              "end": { "line": 35, "column": 28, "offset": 1750 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 35, "column": 1, "offset": 1723 },
+          "end": { "line": 35, "column": 28, "offset": 1750 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "This talk was given by: ",
+            "position": {
+              "start": { "line": 37, "column": 1, "offset": 1752 },
+              "end": { "line": 37, "column": 25, "offset": 1776 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 37, "column": 1, "offset": 1752 },
+          "end": { "line": 37, "column": 25, "offset": 1776 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": { "href": "https://twitter.com/DamianDulisz" },
+            "children": [
+              {
+                "type": "text",
+                "value": "Damian Dulisz",
+                "position": {
+                  "start": { "line": 39, "column": 2, "offset": 1779 },
+                  "end": { "line": 39, "column": 15, "offset": 1792 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 39, "column": 1, "offset": 1778 },
+              "end": { "line": 39, "column": 50, "offset": 1827 }
+            }
+          },
+          {
+            "type": "text",
+            "value": ".",
+            "position": {
+              "start": { "line": 39, "column": 50, "offset": 1827 },
+              "end": { "line": 39, "column": 51, "offset": 1828 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 39, "column": 1, "offset": 1778 },
+          "end": { "line": 39, "column": 51, "offset": 1828 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "He lead the talk with a quote from Eric Elliot: \"Favour composition over inheritance\" and demonstrated this to the audience by having us mentally build a ",
+            "position": {
+              "start": { "line": 41, "column": 1, "offset": 1830 },
+              "end": { "line": 41, "column": 155, "offset": 1984 }
+            }
+          },
+          {
+            "type": "raw",
+            "value": "<code class=\"language-text\">Button</code>",
+            "position": {
+              "start": { "line": 41, "column": 155, "offset": 1984 },
+              "end": { "line": 41, "column": 163, "offset": 1992 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " component in our minds.",
+            "position": {
+              "start": { "line": 41, "column": 163, "offset": 1992 },
+              "end": { "line": 41, "column": 187, "offset": 2016 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 41, "column": 1, "offset": 1830 },
+          "end": { "line": 41, "column": 187, "offset": 2016 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "More than 60% of us built this mental component using a prop based approach, he was quick to point out the drawbacks of this method and demonstrate a better method using a compositional pattern.",
+            "position": {
+              "start": { "line": 43, "column": 1, "offset": 2018 },
+              "end": { "line": 43, "column": 195, "offset": 2212 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 43, "column": 1, "offset": 2018 },
+          "end": { "line": 43, "column": 195, "offset": 2212 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "As someone who has never been able to let go of my love for functional programming, his talk was music to my ears and I enjoyed seeing someone from the core team objectively showing the pros && cons of both approaches.",
+            "position": {
+              "start": { "line": 45, "column": 1, "offset": 2214 },
+              "end": { "line": 45, "column": 219, "offset": 2432 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 45, "column": 1, "offset": 2214 },
+          "end": { "line": 45, "column": 219, "offset": 2432 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "(Loved it when some people from the audience answered they use scoped slots but not slots)",
+                "position": {
+                  "start": { "line": 47, "column": 2, "offset": 2435 },
+                  "end": { "line": 47, "column": 92, "offset": 2525 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 47, "column": 1, "offset": 2434 },
+              "end": { "line": 47, "column": 93, "offset": 2526 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 47, "column": 1, "offset": 2434 },
+          "end": { "line": 47, "column": 93, "offset": 2526 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "You can find the repo here and try it yourself:",
+            "position": {
+              "start": { "line": 49, "column": 1, "offset": 2528 },
+              "end": { "line": 49, "column": 48, "offset": 2575 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 49, "column": 1, "offset": 2528 },
+          "end": { "line": 49, "column": 48, "offset": 2575 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://github.com/shentao/composing-components"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "Composing Components",
+                "position": {
+                  "start": { "line": 51, "column": 2, "offset": 2578 },
+                  "end": { "line": 51, "column": 22, "offset": 2598 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 51, "column": 1, "offset": 2577 },
+              "end": { "line": 51, "column": 72, "offset": 2648 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 51, "column": 1, "offset": 2577 },
+          "end": { "line": 51, "column": 72, "offset": 2648 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "5 rules for performant Vue Applications",
+            "position": {
+              "start": { "line": 53, "column": 4, "offset": 2653 },
+              "end": { "line": 53, "column": 43, "offset": 2692 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 53, "column": 1, "offset": 2650 },
+          "end": { "line": 53, "column": 43, "offset": 2692 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "This talk was given by: ",
+            "position": {
+              "start": { "line": 55, "column": 1, "offset": 2694 },
+              "end": { "line": 55, "column": 25, "offset": 2718 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 55, "column": 1, "offset": 2694 },
+          "end": { "line": 55, "column": 25, "offset": 2718 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": { "href": "https://twitter.com/filrakowski" },
+            "children": [
+              {
+                "type": "text",
+                "value": "Filip Rakowski",
+                "position": {
+                  "start": { "line": 57, "column": 2, "offset": 2721 },
+                  "end": { "line": 57, "column": 16, "offset": 2735 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 57, "column": 1, "offset": 2720 },
+              "end": { "line": 57, "column": 50, "offset": 2769 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 57, "column": 1, "offset": 2720 },
+          "end": { "line": 57, "column": 50, "offset": 2769 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "blockquote",
+        "properties": {},
+        "children": [
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "ol",
+            "properties": {},
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Lazy Load All Routes",
+                    "position": {
+                      "start": { "line": 59, "column": 6, "offset": 2776 },
+                      "end": { "line": 59, "column": 26, "offset": 2796 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 59, "column": 3, "offset": 2773 },
+                  "end": { "line": 59, "column": 26, "offset": 2796 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 59, "column": 3, "offset": 2773 },
+              "end": { "line": 59, "column": 26, "offset": 2796 }
+            }
+          },
+          { "type": "text", "value": "\n" }
+        ],
+        "position": {
+          "start": { "line": 59, "column": 1, "offset": 2771 },
+          "end": { "line": 59, "column": 26, "offset": 2796 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "blockquote",
+        "properties": {},
+        "children": [
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "ol",
+            "properties": { "start": 2 },
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Vendor Bundle Anti Pattern",
+                    "position": {
+                      "start": { "line": 61, "column": 6, "offset": 2803 },
+                      "end": { "line": 61, "column": 32, "offset": 2829 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 61, "column": 3, "offset": 2800 },
+                  "end": { "line": 61, "column": 32, "offset": 2829 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 61, "column": 3, "offset": 2800 },
+              "end": { "line": 61, "column": 32, "offset": 2829 }
+            }
+          },
+          { "type": "text", "value": "\n" }
+        ],
+        "position": {
+          "start": { "line": 61, "column": 1, "offset": 2798 },
+          "end": { "line": 61, "column": 32, "offset": 2829 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "blockquote",
+        "properties": {},
+        "children": [
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "ol",
+            "properties": { "start": 3 },
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Lazy Loading Vuex Store",
+                    "position": {
+                      "start": { "line": 63, "column": 6, "offset": 2836 },
+                      "end": { "line": 63, "column": 29, "offset": 2859 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 63, "column": 3, "offset": 2833 },
+                  "end": { "line": 63, "column": 29, "offset": 2859 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 63, "column": 3, "offset": 2833 },
+              "end": { "line": 63, "column": 29, "offset": 2859 }
+            }
+          },
+          { "type": "text", "value": "\n" }
+        ],
+        "position": {
+          "start": { "line": 63, "column": 1, "offset": 2831 },
+          "end": { "line": 63, "column": 29, "offset": 2859 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "blockquote",
+        "properties": {},
+        "children": [
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "ol",
+            "properties": { "start": 4 },
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Finding smaller libaries",
+                    "position": {
+                      "start": { "line": 65, "column": 6, "offset": 2866 },
+                      "end": { "line": 65, "column": 30, "offset": 2890 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 65, "column": 3, "offset": 2863 },
+                  "end": { "line": 65, "column": 30, "offset": 2890 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 65, "column": 3, "offset": 2863 },
+              "end": { "line": 65, "column": 30, "offset": 2890 }
+            }
+          },
+          { "type": "text", "value": "\n" }
+        ],
+        "position": {
+          "start": { "line": 65, "column": 1, "offset": 2861 },
+          "end": { "line": 65, "column": 30, "offset": 2890 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "blockquote",
+        "properties": {},
+        "children": [
+          { "type": "text", "value": "\n" },
+          {
+            "type": "element",
+            "tagName": "ol",
+            "properties": { "start": 5 },
+            "children": [
+              { "type": "text", "value": "\n" },
+              {
+                "type": "element",
+                "tagName": "li",
+                "properties": {},
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Prefetching Components",
+                    "position": {
+                      "start": { "line": 67, "column": 6, "offset": 2897 },
+                      "end": { "line": 67, "column": 28, "offset": 2919 }
+                    }
+                  }
+                ],
+                "position": {
+                  "start": { "line": 67, "column": 3, "offset": 2894 },
+                  "end": { "line": 67, "column": 28, "offset": 2919 }
+                }
+              },
+              { "type": "text", "value": "\n" }
+            ],
+            "position": {
+              "start": { "line": 67, "column": 3, "offset": 2894 },
+              "end": { "line": 67, "column": 28, "offset": 2919 }
+            }
+          },
+          { "type": "text", "value": "\n" }
+        ],
+        "position": {
+          "start": { "line": 67, "column": 1, "offset": 2892 },
+          "end": { "line": 67, "column": 28, "offset": 2919 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Check it out in more detail here:",
+            "position": {
+              "start": { "line": 69, "column": 1, "offset": 2921 },
+              "end": { "line": 69, "column": 34, "offset": 2954 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 69, "column": 1, "offset": 2921 },
+          "end": { "line": 69, "column": 34, "offset": 2954 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://itnext.io/vue-js-app-performance-optimization-part-2-lazy-loading-routes-and-vendor-bundle-anti-pattern-4a62236e09f9"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "vue-js-app-performance-optimization-part-2",
+                "position": {
+                  "start": { "line": 71, "column": 2, "offset": 2957 },
+                  "end": { "line": 71, "column": 44, "offset": 2999 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 71, "column": 1, "offset": 2956 },
+              "end": { "line": 71, "column": 171, "offset": 3126 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 71, "column": 1, "offset": 2956 },
+          "end": { "line": 71, "column": 171, "offset": 3126 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "NuxtJS - Whats new?",
+            "position": {
+              "start": { "line": 73, "column": 4, "offset": 3131 },
+              "end": { "line": 73, "column": 23, "offset": 3150 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 73, "column": 1, "offset": 3128 },
+          "end": { "line": 73, "column": 23, "offset": 3150 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Before this talk I had actually never heard of the Nuxt framework(I'm a react kinda guy so Next.js was the closest thing I knew of).",
+            "position": {
+              "start": { "line": 75, "column": 1, "offset": 3152 },
+              "end": { "line": 75, "column": 133, "offset": 3284 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 75, "column": 1, "offset": 3152 },
+          "end": { "line": 75, "column": 133, "offset": 3284 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "By the end of the 45 minute presentation I was utterly blown away by how cool some of the features of this framework were. I was especially taken aback by DOM driven preFetched components!",
+            "position": {
+              "start": { "line": 77, "column": 1, "offset": 3286 },
+              "end": { "line": 77, "column": 189, "offset": 3474 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 77, "column": 1, "offset": 3286 },
+          "end": { "line": 77, "column": 189, "offset": 3474 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "The Copain brothers take a: ",
+            "position": {
+              "start": { "line": 79, "column": 1, "offset": 3476 },
+              "end": { "line": 79, "column": 29, "offset": 3504 }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "less is more",
+                "position": {
+                  "start": { "line": 79, "column": 30, "offset": 3505 },
+                  "end": { "line": 79, "column": 42, "offset": 3517 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 79, "column": 29, "offset": 3504 },
+              "end": { "line": 79, "column": 43, "offset": 3518 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " approach, abstracting away config or in Sebastiens own words: \"I wanted to focus on writing ",
+            "position": {
+              "start": { "line": 79, "column": 43, "offset": 3518 },
+              "end": { "line": 79, "column": 136, "offset": 3611 }
+            }
+          },
+          {
+            "type": "raw",
+            "value": "<code class=\"language-text\">.vue</code>",
+            "position": {
+              "start": { "line": 79, "column": 136, "offset": 3611 },
+              "end": { "line": 79, "column": 142, "offset": 3617 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " files.\"",
+            "position": {
+              "start": { "line": 79, "column": 142, "offset": 3617 },
+              "end": { "line": 79, "column": 150, "offset": 3625 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 79, "column": 1, "offset": 3476 },
+          "end": { "line": 79, "column": 150, "offset": 3625 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "This includes auto route generation, a full vuex setup, auto updated core deps, webpack config with best practices",
+            "position": {
+              "start": { "line": 81, "column": 1, "offset": 3627 },
+              "end": { "line": 81, "column": 115, "offset": 3741 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 81, "column": 1, "offset": 3627 },
+          "end": { "line": 81, "column": 115, "offset": 3741 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "(",
+            "position": {
+              "start": { "line": 83, "column": 1, "offset": 3743 },
+              "end": { "line": 83, "column": 2, "offset": 3744 }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": { "href": "https://twitter.com/TheLarkInn" },
+            "children": [
+              {
+                "type": "text",
+                "value": "Sean Larkin",
+                "position": {
+                  "start": { "line": 83, "column": 3, "offset": 3745 },
+                  "end": { "line": 83, "column": 14, "offset": 3756 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 83, "column": 2, "offset": 3744 },
+              "end": { "line": 83, "column": 47, "offset": 3789 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " approved).",
+            "position": {
+              "start": { "line": 83, "column": 47, "offset": 3789 },
+              "end": { "line": 83, "column": 58, "offset": 3800 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 83, "column": 1, "offset": 3743 },
+          "end": { "line": 83, "column": 58, "offset": 3800 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Find the presentation here: ",
+            "position": {
+              "start": { "line": 85, "column": 1, "offset": 3802 },
+              "end": { "line": 85, "column": 29, "offset": 3830 }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": { "href": "https://nuxtjs.org/" },
+            "children": [
+              {
+                "type": "text",
+                "value": "https://nuxtjs.org/",
+                "position": {
+                  "start": { "line": 85, "column": 29, "offset": 3830 },
+                  "end": { "line": 85, "column": 48, "offset": 3849 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 85, "column": 29, "offset": 3830 },
+              "end": { "line": 85, "column": 48, "offset": 3849 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 85, "column": 1, "offset": 3802 },
+          "end": { "line": 85, "column": 48, "offset": 3849 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Accessability in a Vue SPA",
+            "position": {
+              "start": { "line": 87, "column": 4, "offset": 3854 },
+              "end": { "line": 87, "column": 30, "offset": 3880 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 87, "column": 1, "offset": 3851 },
+          "end": { "line": 87, "column": 30, "offset": 3880 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Maya Shavin gave a great breakdown of how to tink in terms of accessability.",
+                "position": {
+                  "start": { "line": 89, "column": 2, "offset": 3883 },
+                  "end": { "line": 89, "column": 78, "offset": 3959 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 89, "column": 1, "offset": 3882 },
+              "end": { "line": 89, "column": 79, "offset": 3960 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 89, "column": 1, "offset": 3882 },
+          "end": { "line": 89, "column": 79, "offset": 3960 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "I learned a lot from ",
+            "position": {
+              "start": { "line": 91, "column": 1, "offset": 3962 },
+              "end": { "line": 91, "column": 22, "offset": 3983 }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": { "href": "https://twitter.com/mayashavin" },
+            "children": [
+              {
+                "type": "text",
+                "value": "Maya",
+                "position": {
+                  "start": { "line": 91, "column": 23, "offset": 3984 },
+                  "end": { "line": 91, "column": 27, "offset": 3988 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 91, "column": 22, "offset": 3983 },
+              "end": { "line": 91, "column": 60, "offset": 4021 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " about accessability during her demo. Everything from color issues, using icons properly to why Beyonce got sued.",
+            "position": {
+              "start": { "line": 91, "column": 60, "offset": 4021 },
+              "end": { "line": 91, "column": 173, "offset": 4134 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 91, "column": 1, "offset": 3962 },
+          "end": { "line": 91, "column": 173, "offset": 4134 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Her talk was really informative in terms of writing ",
+            "position": {
+              "start": { "line": 93, "column": 1, "offset": 4136 },
+              "end": { "line": 93, "column": 53, "offset": 4188 }
+            }
+          },
+          {
+            "type": "raw",
+            "value": "<code class=\"language-text\">aria</code>",
+            "position": {
+              "start": { "line": 93, "column": 53, "offset": 4188 },
+              "end": { "line": 93, "column": 59, "offset": 4194 }
+            }
+          },
+          {
+            "type": "text",
+            "value": " labels correctly and how we can begin to think in terms of accessability when writing websites.",
+            "position": {
+              "start": { "line": 93, "column": 59, "offset": 4194 },
+              "end": { "line": 93, "column": 155, "offset": 4290 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 93, "column": 1, "offset": 4136 },
+          "end": { "line": 93, "column": 155, "offset": 4290 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Her demo can be found here: ",
+            "position": {
+              "start": { "line": 95, "column": 1, "offset": 4292 },
+              "end": { "line": 95, "column": 29, "offset": 4320 }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://github.com/mayashavin/vue-accessibility-demo"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "https://github.com/mayashavin/vue-accessibility-demo",
+                "position": {
+                  "start": { "line": 95, "column": 29, "offset": 4320 },
+                  "end": { "line": 95, "column": 81, "offset": 4372 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 95, "column": 29, "offset": 4320 },
+              "end": { "line": 95, "column": 81, "offset": 4372 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 95, "column": 1, "offset": 4292 },
+          "end": { "line": 95, "column": 81, "offset": 4372 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "h2",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Mixologly with NativeScript && Kraggle",
+            "position": {
+              "start": { "line": 97, "column": 4, "offset": 4377 },
+              "end": { "line": 97, "column": 42, "offset": 4415 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 97, "column": 1, "offset": 4374 },
+          "end": { "line": 97, "column": 42, "offset": 4415 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "element",
+            "tagName": "em",
+            "properties": {},
+            "children": [
+              {
+                "type": "text",
+                "value": "Being Irish, this one has a special place in my heart",
+                "position": {
+                  "start": { "line": 99, "column": 2, "offset": 4418 },
+                  "end": { "line": 99, "column": 55, "offset": 4471 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 99, "column": 1, "offset": 4417 },
+              "end": { "line": 99, "column": 56, "offset": 4472 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 99, "column": 1, "offset": 4417 },
+          "end": { "line": 99, "column": 56, "offset": 4472 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "So in the Vue community Jen Looper(Crazy Aunt Jen) is a pretty special lady being the founder of Vue Vixens and helping drive the mobile Vue community via NativeScript.",
+            "position": {
+              "start": { "line": 101, "column": 1, "offset": 4474 },
+              "end": { "line": 101, "column": 169, "offset": 4642 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 101, "column": 1, "offset": 4474 },
+          "end": { "line": 101, "column": 169, "offset": 4642 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Check here our here: ",
+            "position": {
+              "start": { "line": 103, "column": 1, "offset": 4644 },
+              "end": { "line": 103, "column": 22, "offset": 4665 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 103, "column": 1, "offset": 4644 },
+          "end": { "line": 103, "column": 22, "offset": 4665 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "[Crazy Aunt Jen Looper]",
+            "position": {
+              "start": { "line": 105, "column": 2, "offset": 4668 },
+              "end": { "line": 105, "column": 23, "offset": 4689 }
+            }
+          },
+          {
+            "type": "text",
+            "value": "(",
+            "position": {
+              "start": { "line": 105, "column": 24, "offset": 4690 },
+              "end": { "line": 105, "column": 25, "offset": 4691 }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": { "href": "https://twitter.com/jenlooper" },
+            "children": [
+              {
+                "type": "text",
+                "value": "https://twitter.com/jenlooper",
+                "position": {
+                  "start": { "line": 105, "column": 25, "offset": 4691 },
+                  "end": { "line": 105, "column": 54, "offset": 4720 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 105, "column": 25, "offset": 4691 },
+              "end": { "line": 105, "column": 54, "offset": 4720 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 105, "column": 1, "offset": 4667 },
+          "end": { "line": 105, "column": 54, "offset": 4720 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Her talk focused on a mobile application she developed using NativeScript and some base Machine Learning to figure out what cocktails you can make from your hotel minibar.",
+            "position": {
+              "start": { "line": 107, "column": 1, "offset": 4722 },
+              "end": { "line": 107, "column": 172, "offset": 4893 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 107, "column": 1, "offset": 4722 },
+          "end": { "line": 107, "column": 172, "offset": 4893 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "I learned a good deal about NativeScript with its new Vue support and how best to massage data from kraggle when training sets for any ML.",
+            "position": {
+              "start": { "line": 109, "column": 1, "offset": 4895 },
+              "end": { "line": 109, "column": 139, "offset": 5033 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 109, "column": 1, "offset": 4895 },
+          "end": { "line": 109, "column": 139, "offset": 5033 }
+        }
+      },
+      { "type": "text", "value": "\n" },
+      {
+        "type": "element",
+        "tagName": "p",
+        "properties": {},
+        "children": [
+          {
+            "type": "text",
+            "value": "Check it out here: ",
+            "position": {
+              "start": { "line": 111, "column": 1, "offset": 5035 },
+              "end": { "line": 111, "column": 20, "offset": 5054 }
+            }
+          },
+          {
+            "type": "element",
+            "tagName": "a",
+            "properties": {
+              "href": "https://slides.com/telerikdevrel/minibar#/"
+            },
+            "children": [
+              {
+                "type": "text",
+                "value": "https://slides.com/telerikdevrel/minibar#/",
+                "position": {
+                  "start": { "line": 111, "column": 20, "offset": 5054 },
+                  "end": { "line": 111, "column": 62, "offset": 5096 }
+                }
+              }
+            ],
+            "position": {
+              "start": { "line": 111, "column": 20, "offset": 5054 },
+              "end": { "line": 111, "column": 62, "offset": 5096 }
+            }
+          }
+        ],
+        "position": {
+          "start": { "line": 111, "column": 1, "offset": 5035 },
+          "end": { "line": 111, "column": 62, "offset": 5096 }
+        }
+      }
+    ],
+    "position": {
+      "start": { "line": 1, "column": 1, "offset": 0 },
+      "end": { "line": 112, "column": 1, "offset": 5097 }
+    }
+  }
+}

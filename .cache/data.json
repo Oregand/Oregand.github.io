@@ -37,8 +37,23 @@
     },
     {
       "componentChunkName": "component---src-templates-blog-post-js",
+      "jsonName": "functional-javascript-391",
+      "path": "/functional-javascript/"
+    },
+    {
+      "componentChunkName": "component---src-templates-blog-post-js",
       "jsonName": "graceful-depreciation-c0d",
       "path": "/graceful-depreciation/"
+    },
+    {
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "jsonName": "rules-of-coding-36b",
+      "path": "/rules-of-coding/"
+    },
+    {
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "jsonName": "vue-vs-react-f79",
+      "path": "/vue-vs-react/"
     },
     {
       "componentChunkName": "component---src-templates-blog-post-js",
@@ -50,15 +65,18 @@
     "404-22d": "731/path---404-22-d-bce-EVaHXcHipTKNxCBcOiCr2NBFk",
     "404-html-516": "82/path---404-html-516-62a-EVaHXcHipTKNxCBcOiCr2NBFk",
     "ambition-132": "264/path---ambition-132-a49-D3vEnKZNpoG5B2juF2vUzWjVFYM",
-    "being-ok-with-shitty-code-696": "344/path---being-ok-with-shitty-code-696-a53-mRzD4R4NhgTKlwKEhTLGcOr3QtA",
+    "being-ok-with-shitty-code-696": "87/path---being-ok-with-shitty-code-696-a53-8tuQKrkELNbdPZt35UBFES5ZusU",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "failing-forward-8b9": "642/path---failing-forward-8-b-9-e25-lRhArDGnknjfFzx5BpzSoH1sOTI",
-    "graceful-depreciation-c0d": "541/path---graceful-depreciation-c-0-d-802-B2Rg7rrtJc4JmjvRxOS2KD1E030",
-    "index": "812/path---index-6a9-BDS40W41Nn3eUkGuf4GpYdWDzM",
+    "failing-forward-8b9": "151/path---failing-forward-8-b-9-e25-3iCFNIhHGhESNAUHqpDxMFqgg",
+    "functional-javascript-391": "104/path---functional-javascript-391-14c-esioERPU0YMKNgEmIxdzi67jKs0",
+    "graceful-depreciation-c0d": "798/path---graceful-depreciation-c-0-d-802-dbmznf1rkCoBRQPU5zPNiRIf3Q",
+    "index": "881/path---index-6a9-8mYmHmy52OOa5IWaxUT2aF74GIg",
     "my-second-post-2aa": "838/path---my-second-post-2-aa-e94-93mQPGQ5DB5h2fgZt7LRBcYg4c",
+    "rules-of-coding-36b": "519/path---rules-of-coding-36-b-952-dh0Ie0v97JawFLjwbnMYuhtj54",
     "sq--src-components-bio-js": 2455242068,
     "sq--src-components-seo-js": 1025518380,
     "top-bits-of-vuejsamsterdam-327": "158/path---top-bits-of-vuejsamsterdam-327-f05-llSm8KTA5QXpm5xP4oMhYAa0R0M",
-    "vuejsamsterdam-2019-the-best-bits-9ab": "537/path---vuejsamsterdam-2019-the-best-bits-9-ab-88b-0a6AY0iJYEtFdu0P5AYM49HBo"
+    "vue-vs-react-f79": "231/path---vue-vs-react-f-79-0ea-NKmIJYlBVrylWyzTgJSddIQe4uQ",
+    "vuejsamsterdam-2019-the-best-bits-9ab": "345/path---vuejsamsterdam-2019-the-best-bits-9-ab-88b-p59rxIwOJ64rKaIL68BOLCzux8"
   }
 }

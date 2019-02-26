@@ -28,7 +28,9 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": ["createPagesStatefully"],
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
@@ -61,7 +63,9 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": ["onPreBootstrap"],
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/load-babel-config",
@@ -94,7 +98,10 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": ["sourceNodes", "onCreatePage"],
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
@@ -127,7 +134,9 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": ["onCreatePage"],
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
@@ -160,7 +169,9 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": ["onCreatePage"],
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
@@ -193,7 +204,9 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": ["onCreateWebpackConfig"],
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
@@ -228,7 +241,10 @@
         "path": "/home/david/dev/oregand/Oregand.github.io/content/blog",
         "name": "blog"
       },
-      "nodeAPIs": ["sourceNodes", "setFieldsOnGraphQLNodeType"],
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-source-filesystem",
@@ -236,7 +252,10 @@
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
         "version": "2.0.20",
-        "keywords": ["gatsby", "gatsby-plugin"],
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -346,7 +365,10 @@
         "path": "/home/david/dev/oregand/Oregand.github.io/content/assets",
         "name": "assets"
       },
-      "nodeAPIs": ["sourceNodes", "setFieldsOnGraphQLNodeType"],
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-source-filesystem",
@@ -354,7 +376,10 @@
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
         "version": "2.0.20",
-        "keywords": ["gatsby", "gatsby-plugin"],
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -458,7 +483,7 @@
       "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-transformer-remark",
       "id": "24da35b5-13b8-504f-8b08-db58445bda76",
       "name": "gatsby-transformer-remark",
-      "version": "2.2.3",
+      "version": "2.3.0",
       "pluginOptions": {
         "plugins": [
           {
@@ -468,13 +493,7 @@
             "version": "2.0.6",
             "pluginOptions": {
               "plugins": [],
-              "maxWidth": 590,
-              "wrapperStyle": "",
-              "backgroundColor": "white",
-              "linkImagesToOriginal": true,
-              "showCaptions": false,
-              "pathPrefix": "",
-              "withWebp": false
+              "maxWidth": 590
             },
             "nodeAPIs": [],
             "browserAPIs": [],
@@ -514,8 +533,7 @@
             "name": "gatsby-remark-copy-linked-files",
             "version": "2.0.9",
             "pluginOptions": {
-              "plugins": [],
-              "ignoreFileExtensions": ["png", "jpg", "jpeg", "bmp", "tiff"]
+              "plugins": []
             },
             "nodeAPIs": [],
             "browserAPIs": [],
@@ -537,15 +555,23 @@
           }
         ]
       },
-      "nodeAPIs": ["onCreateNode", "setFieldsOnGraphQLNodeType"],
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-transformer-remark",
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
-        "version": "2.2.3",
-        "keywords": ["gatsby", "gatsby-plugin", "markdown", "remark"],
+        "version": "2.3.0",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -578,6 +604,10 @@
             "version": "^3.0.0"
           },
           {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.5"
+          },
+          {
             "name": "mdast-util-toc",
             "version": "^2.0.1"
           },
@@ -607,7 +637,7 @@
           },
           {
             "name": "underscore.string",
-            "version": "^3.3.4"
+            "version": "^3.3.5"
           },
           {
             "name": "unified",
@@ -656,7 +686,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "570948925fd2649816c0ed9e1e02623f",
+        "contentDigest": "f606797ba13d6cbbb3e220b09d9fbdd1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -668,13 +698,7 @@
       "version": "2.0.6",
       "pluginOptions": {
         "plugins": [],
-        "maxWidth": 590,
-        "wrapperStyle": "",
-        "backgroundColor": "white",
-        "linkImagesToOriginal": true,
-        "showCaptions": false,
-        "pathPrefix": "",
-        "withWebp": false
+        "maxWidth": 590
       },
       "nodeAPIs": [],
       "browserAPIs": [],
@@ -782,7 +806,11 @@
         "description": "Make iframes in Markdown processed by Remark responsive",
         "version": "2.0.9",
         "main": "index.js",
-        "keywords": ["gatsby", "gatsby-plugin", "remark"],
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -867,7 +895,12 @@
         "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
         "version": "3.2.4",
         "main": "index.js",
-        "keywords": ["gatsby", "gatsby-plugin", "prismjs", "remark"],
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -937,8 +970,7 @@
       "name": "gatsby-remark-copy-linked-files",
       "version": "2.0.9",
       "pluginOptions": {
-        "plugins": [],
-        "ignoreFileExtensions": ["png", "jpg", "jpeg", "bmp", "tiff"]
+        "plugins": []
       },
       "nodeAPIs": [],
       "browserAPIs": [],
@@ -949,7 +981,12 @@
         "description": "Find files which are linked to from markdown and copy them to the public directory",
         "version": "2.0.9",
         "main": "index.js",
-        "keywords": ["gatsby", "gatsby-plugin", "prismjs", "remark"],
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -1038,7 +1075,11 @@
         "description": "Use retext-smartypants to auto-enhance typography of markdown",
         "version": "2.0.8",
         "main": "index.js",
-        "keywords": ["gatsby", "gatsby-plugin", "smartypants"],
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "smartypants"
+        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -1114,7 +1155,12 @@
         "name": "gatsby-transformer-sharp",
         "description": "Gatsby transformer plugin for images using Sharp",
         "version": "2.1.13",
-        "keywords": ["gatsby", "gatsby-plugin", "image", "sharp"],
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -1190,7 +1236,9 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": ["onPreInit"],
+      "nodeAPIs": [
+        "onPreInit"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-sharp",
@@ -1199,7 +1247,12 @@
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
         "version": "2.0.20",
         "main": "index.js",
-        "keywords": ["gatsby", "gatsby-plugin", "image", "sharp"],
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -1312,15 +1365,23 @@
         "plugins": []
       },
       "nodeAPIs": [],
-      "browserAPIs": ["onRouteUpdate"],
-      "ssrAPIs": ["onRenderBody"],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-google-analytics",
       "packageJson": {
         "name": "gatsby-plugin-google-analytics",
         "description": "Gatsby plugin to add google analytics onto a site",
         "version": "2.0.13",
         "main": "index.js",
-        "keywords": ["gatsby", "gatsby-plugin", "google analytics"],
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -1372,16 +1433,26 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": ["onPostBuild"],
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
       "browserAPIs": [],
-      "ssrAPIs": ["onRenderBody"],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-feed",
       "packageJson": {
         "name": "gatsby-plugin-feed",
         "description": "Creates an RSS feed for your Gatsby site.",
         "version": "2.0.13",
         "main": "index.js",
-        "keywords": ["atom", "feed", "gatsby", "gatsby-plugin", "rss"],
+        "keywords": [
+          "atom",
+          "feed",
+          "gatsby",
+          "gatsby-plugin",
+          "rss"
+        ],
         "author": "Nicholas Young <nicholas@nicholaswyoung.com>",
         "license": "MIT",
         "dependencies": [
@@ -1456,9 +1527,13 @@
         "display": "minimal-ui",
         "icon": "content/assets/logo.jpg"
       },
-      "nodeAPIs": ["onPostBootstrap"],
+      "nodeAPIs": [
+        "onPostBootstrap"
+      ],
       "browserAPIs": [],
-      "ssrAPIs": ["onRenderBody"],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-manifest",
       "packageJson": {
         "name": "gatsby-plugin-manifest",
@@ -1533,7 +1608,10 @@
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": ["createPages", "onPostBuild"],
+      "nodeAPIs": [
+        "createPages",
+        "onPostBuild"
+      ],
       "browserAPIs": [
         "registerServiceWorker",
         "onServiceWorkerActive",
@@ -1626,7 +1704,9 @@
       },
       "nodeAPIs": [],
       "browserAPIs": [],
-      "ssrAPIs": ["onRenderBody"],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
@@ -1705,16 +1785,27 @@
         "plugins": [],
         "pathToConfigModule": "src/utils/typography"
       },
-      "nodeAPIs": ["onPreBootstrap"],
-      "browserAPIs": ["onClientEntry"],
-      "ssrAPIs": ["onRenderBody"],
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-typography",
       "packageJson": {
         "name": "gatsby-plugin-typography",
         "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
         "version": "2.2.7",
         "main": "index.js",
-        "keywords": ["gatsby", "gatsby-plugin", "typography", "typography.js"],
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -1774,15 +1865,272 @@
         "owner": "internal-data-bridge"
       }
     },
+    "1d74572d-052f-5b92-85bb-50b29f574569": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-transformer-remark",
+      "id": "1d74572d-052f-5b92-85bb-50b29f574569",
+      "name": "gatsby-transformer-remark",
+      "version": "2.3.0",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-prismjs",
+            "id": "d13151dc-fd64-50b0-b768-6beaa40f02ac",
+            "name": "gatsby-remark-prismjs",
+            "version": "3.2.4",
+            "pluginOptions": {
+              "plugins": [],
+              "classPrefix": "language-",
+              "inlineCodeMarker": null,
+              "aliases": {},
+              "showLineNumbers": false,
+              "noInlineHighlight": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-prismjs"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.3.0",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-to-string",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.88"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "05106cae1336f5b8c6f97c7516628e79",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "d13151dc-fd64-50b0-b768-6beaa40f02ac": {
+      "resolve": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-prismjs",
+      "id": "d13151dc-fd64-50b0-b768-6beaa40f02ac",
+      "name": "gatsby-remark-prismjs",
+      "version": "3.2.4",
+      "pluginOptions": {
+        "plugins": [],
+        "classPrefix": "language-",
+        "inlineCodeMarker": null,
+        "aliases": {},
+        "showLineNumbers": false,
+        "noInlineHighlight": false
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "3.2.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "06739aab485f39a69231693f8d6a6e8a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
       "resolve": "/home/david/dev/oregand/Oregand.github.io",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "0e7845dacdd0bcd31b09e9b02ec580f5",
+      "version": "294a06220f145b45160a39f81ba5d791",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": ["createPages", "onCreateNode"],
+      "nodeAPIs": [
+        "createPages",
+        "onCreateNode"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io",
@@ -1791,7 +2139,9 @@
         "description": "My personal blog.",
         "version": "0.1.1",
         "main": "n/a",
-        "keywords": ["gatsby, react, david, developer, blog"],
+        "keywords": [
+          "gatsby, react, david, developer, blog"
+        ],
         "author": "David O'Regan <davidoregan91@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -1841,7 +2191,7 @@
           },
           {
             "name": "gatsby-remark-prismjs",
-            "version": "^3.2.3"
+            "version": "^3.2.4"
           },
           {
             "name": "gatsby-remark-responsive-iframe",
@@ -1857,7 +2207,7 @@
           },
           {
             "name": "gatsby-transformer-remark",
-            "version": "^2.2.2"
+            "version": "^2.3.0"
           },
           {
             "name": "gatsby-transformer-sharp",
@@ -1929,7 +2279,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "993b413f600df0f9818bc001d1962162",
+        "contentDigest": "8f2f013546a98d50c4ef11b192ee7aba",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1944,7 +2294,9 @@
         "path": "/home/david/dev/oregand/Oregand.github.io/src/pages",
         "pathCheck": false
       },
-      "nodeAPIs": ["createPagesStatefully"],
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/home/david/dev/oregand/Oregand.github.io/node_modules/gatsby-plugin-page-creator",
@@ -1953,7 +2305,10 @@
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
         "version": "2.0.6",
         "main": "index.js",
-        "keywords": ["gatsby", "gatsby-plugin"],
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -2041,14 +2396,12 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-02-16T20:47:34.772Z",
+      "buildTime": "2019-02-26T10:52:31.677Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "66819e3be724b09d54142e82ac4ab53f",
+        "contentDigest": "668069687b6f3c7db1b47fc66a034fcd",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2058,7 +2411,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "073c895cc1cdfde85b1b69c0d715fab4",
+        "contentDigest": "95d906b35fd96a7ea9188a62ade90d08",
         "type": "Directory",
         "description": "Directory \"content/blog\"",
         "owner": "gatsby-source-filesystem"
@@ -2069,10 +2422,10 @@
       "extension": "",
       "size": 4096,
       "prettySize": "4.1 kB",
-      "modifiedTime": "2019-02-16T20:14:40.948Z",
-      "accessTime": "2019-02-16T20:14:42.184Z",
-      "changeTime": "2019-02-16T20:14:40.948Z",
-      "birthTime": "2019-02-16T20:14:40.948Z",
+      "modifiedTime": "2019-02-21T12:59:01.520Z",
+      "accessTime": "2019-02-26T10:48:37.198Z",
+      "changeTime": "2019-02-21T12:59:01.520Z",
+      "birthTime": "2019-02-21T12:59:01.520Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content",
       "base": "blog",
@@ -2081,28 +2434,28 @@
       "relativeDirectory": "..",
       "dev": 66306,
       "mode": 16893,
-      "nlink": 11,
+      "nlink": 14,
       "uid": 1000,
       "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
       "ino": 28726187,
       "blocks": 8,
-      "atimeMs": 1550348082183.6025,
-      "mtimeMs": 1550348080947.5981,
-      "ctimeMs": 1550348080947.5981,
-      "birthtimeMs": 1550348080947.5981,
-      "atime": "2019-02-16T20:14:42.184Z",
-      "mtime": "2019-02-16T20:14:40.948Z",
-      "ctime": "2019-02-16T20:14:40.948Z",
-      "birthtime": "2019-02-16T20:14:40.948Z"
+      "atimeMs": 1551178117197.6682,
+      "mtimeMs": 1550753941520.0342,
+      "ctimeMs": 1550753941520.0342,
+      "birthtimeMs": 1550753941520.0342,
+      "atime": "2019-02-26T10:48:37.198Z",
+      "mtime": "2019-02-21T12:59:01.520Z",
+      "ctime": "2019-02-21T12:59:01.520Z",
+      "birthtime": "2019-02-21T12:59:01.520Z"
     },
     "f6c9c957-0a7b-52af-b4b3-5f729b05dea2": {
       "id": "f6c9c957-0a7b-52af-b4b3-5f729b05dea2",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "6278af4fe3866b5d049d3c3d999acce2",
+        "contentDigest": "d00b7561585ffd9b54cc83c9318fc380",
         "type": "Directory",
         "description": "Directory \"content/blog/ambition\"",
         "owner": "gatsby-source-filesystem"
@@ -2114,7 +2467,7 @@
       "size": 4096,
       "prettySize": "4.1 kB",
       "modifiedTime": "2019-02-12T15:59:12.788Z",
-      "accessTime": "2019-02-16T20:14:42.184Z",
+      "accessTime": "2019-02-26T10:48:37.198Z",
       "changeTime": "2019-02-12T15:59:12.788Z",
       "birthTime": "2019-02-12T15:59:12.788Z",
       "root": "/",
@@ -2132,11 +2485,11 @@
       "blksize": 4096,
       "ino": 28837489,
       "blocks": 8,
-      "atimeMs": 1550348082183.6025,
+      "atimeMs": 1551178117197.6682,
       "mtimeMs": 1549987152788.443,
       "ctimeMs": 1549987152788.443,
       "birthtimeMs": 1549987152788.443,
-      "atime": "2019-02-16T20:14:42.184Z",
+      "atime": "2019-02-26T10:48:37.198Z",
       "mtime": "2019-02-12T15:59:12.788Z",
       "ctime": "2019-02-12T15:59:12.788Z",
       "birthtime": "2019-02-12T15:59:12.788Z"
@@ -2146,7 +2499,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "2ebbdc3fc8db44fecb496871748d0b90",
+        "contentDigest": "e1fe00655b36185b8e49d1b2a4082952",
         "type": "Directory",
         "description": "Directory \"content/blog/being-ok-with-shitty-code\"",
         "owner": "gatsby-source-filesystem"
@@ -2158,7 +2511,7 @@
       "size": 4096,
       "prettySize": "4.1 kB",
       "modifiedTime": "2019-02-15T19:21:02.996Z",
-      "accessTime": "2019-02-16T20:14:42.184Z",
+      "accessTime": "2019-02-26T10:48:37.202Z",
       "changeTime": "2019-02-15T19:21:02.996Z",
       "birthTime": "2019-02-15T19:21:02.996Z",
       "root": "/",
@@ -2176,11 +2529,11 @@
       "blksize": 4096,
       "ino": 28836251,
       "blocks": 8,
-      "atimeMs": 1550348082183.6025,
+      "atimeMs": 1551178117201.6682,
       "mtimeMs": 1550258462996.2666,
       "ctimeMs": 1550258462996.2666,
       "birthtimeMs": 1550258462996.2666,
-      "atime": "2019-02-16T20:14:42.184Z",
+      "atime": "2019-02-26T10:48:37.202Z",
       "mtime": "2019-02-15T19:21:02.996Z",
       "ctime": "2019-02-15T19:21:02.996Z",
       "birthtime": "2019-02-15T19:21:02.996Z"
@@ -2190,7 +2543,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "c01c16bbbf19a2bf2e0b4dcca18bfcfd",
+        "contentDigest": "01dc5c9508e4f55b04a91d46438e8b3b",
         "type": "Directory",
         "description": "Directory \"content/blog/failing-forward\"",
         "owner": "gatsby-source-filesystem"
@@ -2202,7 +2555,7 @@
       "size": 4096,
       "prettySize": "4.1 kB",
       "modifiedTime": "2019-02-13T10:34:53.652Z",
-      "accessTime": "2019-02-16T20:14:42.184Z",
+      "accessTime": "2019-02-26T10:48:37.202Z",
       "changeTime": "2019-02-13T10:34:53.652Z",
       "birthTime": "2019-02-13T10:34:53.652Z",
       "root": "/",
@@ -2220,21 +2573,65 @@
       "blksize": 4096,
       "ino": 28837090,
       "blocks": 8,
-      "atimeMs": 1550348082183.6025,
+      "atimeMs": 1551178117201.6682,
       "mtimeMs": 1550054093652.005,
       "ctimeMs": 1550054093652.005,
       "birthtimeMs": 1550054093652.005,
-      "atime": "2019-02-16T20:14:42.184Z",
+      "atime": "2019-02-26T10:48:37.202Z",
       "mtime": "2019-02-13T10:34:53.652Z",
       "ctime": "2019-02-13T10:34:53.652Z",
       "birthtime": "2019-02-13T10:34:53.652Z"
+    },
+    "8a1492c8-01c9-5ded-9e77-9f0ad239ef5b": {
+      "id": "8a1492c8-01c9-5ded-9e77-9f0ad239ef5b",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "9a85871e0e9903a73173d0b417d68992",
+        "type": "Directory",
+        "description": "Directory \"content/blog/functional-javascript\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/functional-javascript",
+      "relativePath": "functional-javascript",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-21T12:58:54.704Z",
+      "accessTime": "2019-02-26T10:48:37.202Z",
+      "changeTime": "2019-02-21T12:58:54.704Z",
+      "birthTime": "2019-02-21T12:58:54.704Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "base": "functional-javascript",
+      "ext": "",
+      "name": "functional-javascript",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28712988,
+      "blocks": 8,
+      "atimeMs": 1551178117201.6682,
+      "mtimeMs": 1550753934703.9912,
+      "ctimeMs": 1550753934703.9912,
+      "birthtimeMs": 1550753934703.9912,
+      "atime": "2019-02-26T10:48:37.202Z",
+      "mtime": "2019-02-21T12:58:54.704Z",
+      "ctime": "2019-02-21T12:58:54.704Z",
+      "birthtime": "2019-02-21T12:58:54.704Z"
     },
     "0d41dbc7-41e8-5cdf-a6fb-266ce5ee550d": {
       "id": "0d41dbc7-41e8-5cdf-a6fb-266ce5ee550d",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "d55223a3b2bae6de40099c5d72c39c64",
+        "contentDigest": "e43b4d0a4a4be1aa747714418b17af07",
         "type": "Directory",
         "description": "Directory \"content/blog/graceful-depreciation\"",
         "owner": "gatsby-source-filesystem"
@@ -2246,7 +2643,7 @@
       "size": 4096,
       "prettySize": "4.1 kB",
       "modifiedTime": "2019-02-15T18:28:51.948Z",
-      "accessTime": "2019-02-16T20:14:42.184Z",
+      "accessTime": "2019-02-26T10:48:37.202Z",
       "changeTime": "2019-02-15T18:28:51.948Z",
       "birthTime": "2019-02-15T18:28:51.948Z",
       "root": "/",
@@ -2264,42 +2661,352 @@
       "blksize": 4096,
       "ino": 28837094,
       "blocks": 8,
-      "atimeMs": 1550348082183.6025,
+      "atimeMs": 1551178117201.6682,
       "mtimeMs": 1550255331948.4006,
       "ctimeMs": 1550255331948.4006,
       "birthtimeMs": 1550255331948.4006,
-      "atime": "2019-02-16T20:14:42.184Z",
+      "atime": "2019-02-26T10:48:37.202Z",
       "mtime": "2019-02-15T18:28:51.948Z",
       "ctime": "2019-02-15T18:28:51.948Z",
       "birthtime": "2019-02-15T18:28:51.948Z"
     },
-    "590e8b28-914d-5e2a-953d-74f84b4ad091": {
-      "id": "590e8b28-914d-5e2a-953d-74f84b4ad091",
-      "children": ["2bc23295-2374-5b12-b7e6-8e2813cefa55"],
+    "b268ddb2-4fee-553e-ac75-c532a2e809ee": {
+      "id": "b268ddb2-4fee-553e-ac75-c532a2e809ee",
+      "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "61fab8943462c05f36f585b037ad2248",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/being-ok-with-shitty-code/index.md\"",
+        "contentDigest": "68bc7eb9d81a2dc0629c397ba547e2fa",
+        "type": "Directory",
+        "description": "Directory \"content/blog/getting-fired-as-a-junior-developer\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "blog",
-      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/being-ok-with-shitty-code/index.md",
-      "relativePath": "being-ok-with-shitty-code/index.md",
-      "extension": "md",
-      "size": 1756,
-      "prettySize": "1.76 kB",
-      "modifiedTime": "2019-02-12T15:46:22.242Z",
-      "accessTime": "2019-02-12T15:46:22.854Z",
-      "changeTime": "2019-02-12T15:46:22.246Z",
-      "birthTime": "2019-02-12T15:46:22.246Z",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/getting-fired-as-a-junior-developer",
+      "relativePath": "getting-fired-as-a-junior-developer",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-16T17:01:42.291Z",
+      "accessTime": "2019-02-26T10:48:37.202Z",
+      "changeTime": "2019-02-16T17:01:42.291Z",
+      "birthTime": "2019-02-16T17:01:42.291Z",
       "root": "/",
-      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/being-ok-with-shitty-code",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "base": "getting-fired-as-a-junior-developer",
+      "ext": "",
+      "name": "getting-fired-as-a-junior-developer",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28841215,
+      "blocks": 8,
+      "atimeMs": 1551178117201.6682,
+      "mtimeMs": 1550336502291.3845,
+      "ctimeMs": 1550336502291.3845,
+      "birthtimeMs": 1550336502291.3845,
+      "atime": "2019-02-26T10:48:37.202Z",
+      "mtime": "2019-02-16T17:01:42.291Z",
+      "ctime": "2019-02-16T17:01:42.291Z",
+      "birthtime": "2019-02-16T17:01:42.291Z"
+    },
+    "7e69fb09-6c41-5ec3-a0a7-a27de4dc76c8": {
+      "id": "7e69fb09-6c41-5ec3-a0a7-a27de4dc76c8",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "af9c082ce893becd184236b7796c1f53",
+        "type": "Directory",
+        "description": "Directory \"content/blog/react-best-practices\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/react-best-practices",
+      "relativePath": "react-best-practices",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-16T16:30:09.720Z",
+      "accessTime": "2019-02-26T10:48:37.198Z",
+      "changeTime": "2019-02-16T16:30:09.720Z",
+      "birthTime": "2019-02-16T16:30:09.720Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "base": "react-best-practices",
+      "ext": "",
+      "name": "react-best-practices",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28841213,
+      "blocks": 8,
+      "atimeMs": 1551178117197.6682,
+      "mtimeMs": 1550334609720.0823,
+      "ctimeMs": 1550334609720.0823,
+      "birthtimeMs": 1550334609720.0823,
+      "atime": "2019-02-26T10:48:37.198Z",
+      "mtime": "2019-02-16T16:30:09.720Z",
+      "ctime": "2019-02-16T16:30:09.720Z",
+      "birthtime": "2019-02-16T16:30:09.720Z"
+    },
+    "9ebeeef5-6c60-52e8-94d8-adcdfe3c9c9e": {
+      "id": "9ebeeef5-6c60-52e8-94d8-adcdfe3c9c9e",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "53f07d5b09d4f287e022125306d8cc7f",
+        "type": "Directory",
+        "description": "Directory \"content/blog/rules-of-coding\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/rules-of-coding",
+      "relativePath": "rules-of-coding",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-21T12:58:40.792Z",
+      "accessTime": "2019-02-26T10:48:37.198Z",
+      "changeTime": "2019-02-21T12:58:40.792Z",
+      "birthTime": "2019-02-21T12:58:40.792Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "base": "rules-of-coding",
+      "ext": "",
+      "name": "rules-of-coding",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28712364,
+      "blocks": 8,
+      "atimeMs": 1551178117197.6682,
+      "mtimeMs": 1550753920791.9036,
+      "ctimeMs": 1550753920791.9036,
+      "birthtimeMs": 1550753920791.9036,
+      "atime": "2019-02-26T10:48:37.198Z",
+      "mtime": "2019-02-21T12:58:40.792Z",
+      "ctime": "2019-02-21T12:58:40.792Z",
+      "birthtime": "2019-02-21T12:58:40.792Z"
+    },
+    "4b4348e0-e5e6-5617-8768-7c390d0b6a16": {
+      "id": "4b4348e0-e5e6-5617-8768-7c390d0b6a16",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "188e353b84179c8412b91cd35b3c7d67",
+        "type": "Directory",
+        "description": "Directory \"content/blog/vue-vs-react\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/vue-vs-react",
+      "relativePath": "vue-vs-react",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-21T12:59:05.860Z",
+      "accessTime": "2019-02-26T10:48:37.202Z",
+      "changeTime": "2019-02-21T12:59:05.860Z",
+      "birthTime": "2019-02-21T12:59:05.860Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "base": "vue-vs-react",
+      "ext": "",
+      "name": "vue-vs-react",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28713623,
+      "blocks": 8,
+      "atimeMs": 1551178117201.6682,
+      "mtimeMs": 1550753945860.0615,
+      "ctimeMs": 1550753945860.0615,
+      "birthtimeMs": 1550753945860.0615,
+      "atime": "2019-02-26T10:48:37.202Z",
+      "mtime": "2019-02-21T12:59:05.860Z",
+      "ctime": "2019-02-21T12:59:05.860Z",
+      "birthtime": "2019-02-21T12:59:05.860Z"
+    },
+    "8ff6360e-e5be-5626-909d-e87e7b5e7863": {
+      "id": "8ff6360e-e5be-5626-909d-e87e7b5e7863",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ff526deb9ce1d7e332d041374e4a0437",
+        "type": "Directory",
+        "description": "Directory \"content/blog/scaling-vue-applications\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/scaling-vue-applications",
+      "relativePath": "scaling-vue-applications",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-16T16:29:38.548Z",
+      "accessTime": "2019-02-26T10:48:37.202Z",
+      "changeTime": "2019-02-16T16:29:38.548Z",
+      "birthTime": "2019-02-16T16:29:38.548Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "base": "scaling-vue-applications",
+      "ext": "",
+      "name": "scaling-vue-applications",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28841212,
+      "blocks": 8,
+      "atimeMs": 1551178117201.6682,
+      "mtimeMs": 1550334578547.8188,
+      "ctimeMs": 1550334578547.8188,
+      "birthtimeMs": 1550334578547.8188,
+      "atime": "2019-02-26T10:48:37.202Z",
+      "mtime": "2019-02-16T16:29:38.548Z",
+      "ctime": "2019-02-16T16:29:38.548Z",
+      "birthtime": "2019-02-16T16:29:38.548Z"
+    },
+    "c72955c7-ef56-5ca7-b3ff-64b0f8e60aa1": {
+      "id": "c72955c7-ef56-5ca7-b3ff-64b0f8e60aa1",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "a522dbe5a63dd0335ce6c010673e2cfd",
+        "type": "Directory",
+        "description": "Directory \"content/blog/vuejsamsterdam-2019-the-best-bits\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/vuejsamsterdam-2019-the-best-bits",
+      "relativePath": "vuejsamsterdam-2019-the-best-bits",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-15T18:57:20.625Z",
+      "accessTime": "2019-02-26T10:48:37.202Z",
+      "changeTime": "2019-02-16T20:14:40.948Z",
+      "birthTime": "2019-02-16T20:14:40.948Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "base": "vuejsamsterdam-2019-the-best-bits",
+      "ext": "",
+      "name": "vuejsamsterdam-2019-the-best-bits",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28841117,
+      "blocks": 8,
+      "atimeMs": 1551178117201.6682,
+      "mtimeMs": 1550257040624.8572,
+      "ctimeMs": 1550348080947.5981,
+      "birthtimeMs": 1550348080947.5981,
+      "atime": "2019-02-26T10:48:37.202Z",
+      "mtime": "2019-02-15T18:57:20.625Z",
+      "ctime": "2019-02-16T20:14:40.948Z",
+      "birthtime": "2019-02-16T20:14:40.948Z"
+    },
+    "2a947fbd-cb2f-502d-a652-893118081ad2": {
+      "id": "2a947fbd-cb2f-502d-a652-893118081ad2",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "2e65835ad23393f5cfbf6a85a74722a3",
+        "type": "Directory",
+        "description": "Directory \"content/blog/working-with-people-smarter-than-you\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/working-with-people-smarter-than-you",
+      "relativePath": "working-with-people-smarter-than-you",
+      "extension": "",
+      "size": 4096,
+      "prettySize": "4.1 kB",
+      "modifiedTime": "2019-02-16T16:59:13.135Z",
+      "accessTime": "2019-02-26T10:48:37.202Z",
+      "changeTime": "2019-02-16T16:59:13.135Z",
+      "birthTime": "2019-02-16T16:59:13.135Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
+      "base": "working-with-people-smarter-than-you",
+      "ext": "",
+      "name": "working-with-people-smarter-than-you",
+      "relativeDirectory": "",
+      "dev": 66306,
+      "mode": 16893,
+      "nlink": 2,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28841214,
+      "blocks": 8,
+      "atimeMs": 1551178117201.6682,
+      "mtimeMs": 1550336353134.5996,
+      "ctimeMs": 1550336353134.5996,
+      "birthtimeMs": 1550336353134.5996,
+      "atime": "2019-02-26T10:48:37.202Z",
+      "mtime": "2019-02-16T16:59:13.135Z",
+      "ctime": "2019-02-16T16:59:13.135Z",
+      "birthtime": "2019-02-16T16:59:13.135Z"
+    },
+    "047a6c16-ad72-59f0-a60c-231364986c0e": {
+      "id": "047a6c16-ad72-59f0-a60c-231364986c0e",
+      "children": [
+        "4099e89e-5606-5aaf-b9f9-2a3b14a2d587"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d41d8cd98f00b204e9800998ecf8427e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/functional-javascript/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/functional-javascript/index.md",
+      "relativePath": "functional-javascript/index.md",
+      "extension": "md",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2019-02-21T12:58:54.704Z",
+      "accessTime": "2019-02-26T10:49:37.334Z",
+      "changeTime": "2019-02-21T12:58:54.704Z",
+      "birthTime": "2019-02-21T12:58:54.704Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/functional-javascript",
       "base": "index.md",
       "ext": ".md",
       "name": "index",
-      "relativeDirectory": "being-ok-with-shitty-code",
+      "relativeDirectory": "functional-javascript",
       "dev": 66306,
       "mode": 33204,
       "nlink": 1,
@@ -2307,20 +3014,116 @@
       "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 28726244,
-      "blocks": 8,
-      "atimeMs": 1549986382853.939,
-      "mtimeMs": 1549986382241.934,
-      "ctimeMs": 1549986382245.934,
-      "birthtimeMs": 1549986382245.934,
-      "atime": "2019-02-12T15:46:22.854Z",
-      "mtime": "2019-02-12T15:46:22.242Z",
-      "ctime": "2019-02-12T15:46:22.246Z",
-      "birthtime": "2019-02-12T15:46:22.246Z"
+      "ino": 28713607,
+      "blocks": 0,
+      "atimeMs": 1551178177334.3154,
+      "mtimeMs": 1550753934703.9912,
+      "ctimeMs": 1550753934703.9912,
+      "birthtimeMs": 1550753934703.9912,
+      "atime": "2019-02-26T10:49:37.334Z",
+      "mtime": "2019-02-21T12:58:54.704Z",
+      "ctime": "2019-02-21T12:58:54.704Z",
+      "birthtime": "2019-02-21T12:58:54.704Z"
+    },
+    "3281f21a-8cf9-53a2-baa2-0686264fbe2e": {
+      "id": "3281f21a-8cf9-53a2-baa2-0686264fbe2e",
+      "children": [
+        "54fa9ff2-1b55-59ea-bf6d-0c8835306581"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d41d8cd98f00b204e9800998ecf8427e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/rules-of-coding/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/rules-of-coding/index.md",
+      "relativePath": "rules-of-coding/index.md",
+      "extension": "md",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2019-02-21T12:58:40.792Z",
+      "accessTime": "2019-02-26T10:49:37.334Z",
+      "changeTime": "2019-02-21T12:58:40.792Z",
+      "birthTime": "2019-02-21T12:58:40.792Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/rules-of-coding",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "rules-of-coding",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28712940,
+      "blocks": 0,
+      "atimeMs": 1551178177334.3154,
+      "mtimeMs": 1550753920791.9036,
+      "ctimeMs": 1550753920791.9036,
+      "birthtimeMs": 1550753920791.9036,
+      "atime": "2019-02-26T10:49:37.334Z",
+      "mtime": "2019-02-21T12:58:40.792Z",
+      "ctime": "2019-02-21T12:58:40.792Z",
+      "birthtime": "2019-02-21T12:58:40.792Z"
+    },
+    "90777b28-cd55-5f19-8394-5d2d31fc38f4": {
+      "id": "90777b28-cd55-5f19-8394-5d2d31fc38f4",
+      "children": [
+        "323d83da-5ee3-58b6-a404-dc69e3f789c5"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "d41d8cd98f00b204e9800998ecf8427e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/vue-vs-react/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/vue-vs-react/index.md",
+      "relativePath": "vue-vs-react/index.md",
+      "extension": "md",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2019-02-21T12:59:05.860Z",
+      "accessTime": "2019-02-26T10:48:40.890Z",
+      "changeTime": "2019-02-21T12:59:05.860Z",
+      "birthTime": "2019-02-21T12:59:05.860Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/vue-vs-react",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "vue-vs-react",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28713635,
+      "blocks": 0,
+      "atimeMs": 1551178120889.709,
+      "mtimeMs": 1550753945860.0615,
+      "ctimeMs": 1550753945860.0615,
+      "birthtimeMs": 1550753945860.0615,
+      "atime": "2019-02-26T10:48:40.890Z",
+      "mtime": "2019-02-21T12:59:05.860Z",
+      "ctime": "2019-02-21T12:59:05.860Z",
+      "birthtime": "2019-02-21T12:59:05.860Z"
     },
     "270fa852-091a-5840-a9dc-0ae530abc86b": {
       "id": "270fa852-091a-5840-a9dc-0ae530abc86b",
-      "children": ["7df0935d-fae2-53b8-8edd-574cb7acb340"],
+      "children": [
+        "7df0935d-fae2-53b8-8edd-574cb7acb340"
+      ],
       "parent": null,
       "internal": {
         "contentDigest": "e4dbba709131c5049bcd859c3cde7d8a",
@@ -2336,7 +3139,7 @@
       "size": 82,
       "prettySize": "82 B",
       "modifiedTime": "2019-02-13T15:04:54.244Z",
-      "accessTime": "2019-02-13T15:04:55.364Z",
+      "accessTime": "2019-02-26T10:49:37.334Z",
       "changeTime": "2019-02-13T15:04:54.244Z",
       "birthTime": "2019-02-13T15:04:54.244Z",
       "root": "/",
@@ -2354,21 +3157,23 @@
       "blksize": 4096,
       "ino": 28837491,
       "blocks": 8,
-      "atimeMs": 1550070295363.9167,
+      "atimeMs": 1551178177334.3154,
       "mtimeMs": 1550070294243.9094,
       "ctimeMs": 1550070294243.9094,
       "birthtimeMs": 1550070294243.9094,
-      "atime": "2019-02-13T15:04:55.364Z",
+      "atime": "2019-02-26T10:49:37.334Z",
       "mtime": "2019-02-13T15:04:54.244Z",
       "ctime": "2019-02-13T15:04:54.244Z",
       "birthtime": "2019-02-13T15:04:54.244Z"
     },
     "954aee62-3dc3-5397-93d2-4fcfe9dd5b7b": {
       "id": "954aee62-3dc3-5397-93d2-4fcfe9dd5b7b",
-      "children": ["6fe008a6-a3e8-5a94-836f-a2897719a0fe"],
+      "children": [
+        "6fe008a6-a3e8-5a94-836f-a2897719a0fe"
+      ],
       "parent": null,
       "internal": {
-        "contentDigest": "2731b78683ad91ccdfaed1829ca07662",
+        "contentDigest": "bfc494c63e495e540958197314061daf",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/failing-forward/index.md\"",
@@ -2378,12 +3183,12 @@
       "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/failing-forward/index.md",
       "relativePath": "failing-forward/index.md",
       "extension": "md",
-      "size": 587,
-      "prettySize": "587 B",
-      "modifiedTime": "2019-02-16T18:04:01.867Z",
-      "accessTime": "2019-02-16T18:04:02.175Z",
-      "changeTime": "2019-02-16T18:04:01.867Z",
-      "birthTime": "2019-02-16T18:04:01.867Z",
+      "size": 2472,
+      "prettySize": "2.47 kB",
+      "modifiedTime": "2019-02-26T11:50:30.259Z",
+      "accessTime": "2019-02-26T11:50:24.947Z",
+      "changeTime": "2019-02-26T11:50:30.259Z",
+      "birthTime": "2019-02-26T11:50:30.259Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/failing-forward",
       "base": "index.md",
@@ -2399,21 +3204,70 @@
       "blksize": 4096,
       "ino": 28837497,
       "blocks": 8,
-      "atimeMs": 1550340242175.314,
-      "mtimeMs": 1550340241867.3118,
-      "ctimeMs": 1550340241867.3118,
-      "birthtimeMs": 1550340241867.3118,
-      "atime": "2019-02-16T18:04:02.175Z",
-      "mtime": "2019-02-16T18:04:01.867Z",
-      "ctime": "2019-02-16T18:04:01.867Z",
-      "birthtime": "2019-02-16T18:04:01.867Z"
+      "atimeMs": 1551181824946.9944,
+      "mtimeMs": 1551181830259.0315,
+      "ctimeMs": 1551181830259.0315,
+      "birthtimeMs": 1551181830259.0315,
+      "atime": "2019-02-26T11:50:24.947Z",
+      "mtime": "2019-02-26T11:50:30.259Z",
+      "ctime": "2019-02-26T11:50:30.259Z",
+      "birthtime": "2019-02-26T11:50:30.259Z"
+    },
+    "590e8b28-914d-5e2a-953d-74f84b4ad091": {
+      "id": "590e8b28-914d-5e2a-953d-74f84b4ad091",
+      "children": [
+        "2bc23295-2374-5b12-b7e6-8e2813cefa55"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "61fab8943462c05f36f585b037ad2248",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/being-ok-with-shitty-code/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/being-ok-with-shitty-code/index.md",
+      "relativePath": "being-ok-with-shitty-code/index.md",
+      "extension": "md",
+      "size": 1756,
+      "prettySize": "1.76 kB",
+      "modifiedTime": "2019-02-15T19:21:02.996Z",
+      "accessTime": "2019-02-26T10:49:37.334Z",
+      "changeTime": "2019-02-15T19:21:02.996Z",
+      "birthTime": "2019-02-15T19:21:02.996Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/being-ok-with-shitty-code",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "being-ok-with-shitty-code",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28836252,
+      "blocks": 8,
+      "atimeMs": 1551178177334.3154,
+      "mtimeMs": 1550258462996.2666,
+      "ctimeMs": 1550258462996.2666,
+      "birthtimeMs": 1550258462996.2666,
+      "atime": "2019-02-26T10:49:37.334Z",
+      "mtime": "2019-02-15T19:21:02.996Z",
+      "ctime": "2019-02-15T19:21:02.996Z",
+      "birthtime": "2019-02-15T19:21:02.996Z"
     },
     "40270064-6001-5742-9fdd-3af229dec9d6": {
       "id": "40270064-6001-5742-9fdd-3af229dec9d6",
-      "children": ["37cb5327-517d-5d6a-8875-d210f3a80479"],
+      "children": [
+        "37cb5327-517d-5d6a-8875-d210f3a80479"
+      ],
       "parent": null,
       "internal": {
-        "contentDigest": "472e2f764cab5f0b1dc408eb5672ebe2",
+        "contentDigest": "cc192301e48e8e36a145cf506c754492",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"content/blog/graceful-depreciation/index.md\"",
@@ -2423,12 +3277,12 @@
       "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/graceful-depreciation/index.md",
       "relativePath": "graceful-depreciation/index.md",
       "extension": "md",
-      "size": 4104,
-      "prettySize": "4.1 kB",
-      "modifiedTime": "2019-02-15T19:18:40.158Z",
-      "accessTime": "2019-02-15T19:18:40.174Z",
-      "changeTime": "2019-02-15T19:18:40.158Z",
-      "birthTime": "2019-02-15T19:18:40.158Z",
+      "size": 4156,
+      "prettySize": "4.16 kB",
+      "modifiedTime": "2019-02-26T11:01:20.652Z",
+      "accessTime": "2019-02-26T10:53:50.577Z",
+      "changeTime": "2019-02-26T11:01:20.652Z",
+      "birthTime": "2019-02-26T11:01:20.652Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/graceful-depreciation",
       "base": "index.md",
@@ -2444,14 +3298,130 @@
       "blksize": 4096,
       "ino": 28841105,
       "blocks": 16,
-      "atimeMs": 1550258320173.9097,
-      "mtimeMs": 1550258320157.909,
-      "ctimeMs": 1550258320157.909,
-      "birthtimeMs": 1550258320157.909,
-      "atime": "2019-02-15T19:18:40.174Z",
-      "mtime": "2019-02-15T19:18:40.158Z",
-      "ctime": "2019-02-15T19:18:40.158Z",
-      "birthtime": "2019-02-15T19:18:40.158Z"
+      "atimeMs": 1551178430576.734,
+      "mtimeMs": 1551178880652.265,
+      "ctimeMs": 1551178880652.265,
+      "birthtimeMs": 1551178880652.265,
+      "atime": "2019-02-26T10:53:50.577Z",
+      "mtime": "2019-02-26T11:01:20.652Z",
+      "ctime": "2019-02-26T11:01:20.652Z",
+      "birthtime": "2019-02-26T11:01:20.652Z"
+    },
+    "197ed36f-2a17-5c61-993f-e9b5288c4258": {
+      "id": "197ed36f-2a17-5c61-993f-e9b5288c4258",
+      "children": [
+        "2994bb50-69b6-5d56-810a-75ca8f5806a3"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "84950311a9e7d9602162525780498a30",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"content/blog/vuejsamsterdam-2019-the-best-bits/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "blog",
+      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/vuejsamsterdam-2019-the-best-bits/index.md",
+      "relativePath": "vuejsamsterdam-2019-the-best-bits/index.md",
+      "extension": "md",
+      "size": 5256,
+      "prettySize": "5.26 kB",
+      "modifiedTime": "2019-02-26T11:50:30.063Z",
+      "accessTime": "2019-02-26T11:40:45.575Z",
+      "changeTime": "2019-02-26T11:50:30.063Z",
+      "birthTime": "2019-02-26T11:50:30.063Z",
+      "root": "/",
+      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/vuejsamsterdam-2019-the-best-bits",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "vuejsamsterdam-2019-the-best-bits",
+      "dev": 66306,
+      "mode": 33204,
+      "nlink": 1,
+      "uid": 1000,
+      "gid": 1000,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 28841118,
+      "blocks": 16,
+      "atimeMs": 1551181245574.8462,
+      "mtimeMs": 1551181830063.0303,
+      "ctimeMs": 1551181830063.0303,
+      "birthtimeMs": 1551181830063.0303,
+      "atime": "2019-02-26T11:40:45.575Z",
+      "mtime": "2019-02-26T11:50:30.063Z",
+      "ctime": "2019-02-26T11:50:30.063Z",
+      "birthtime": "2019-02-26T11:50:30.063Z"
+    },
+    "4099e89e-5606-5aaf-b9f9-2a3b14a2d587": {
+      "id": "4099e89e-5606-5aaf-b9f9-2a3b14a2d587",
+      "children": [],
+      "parent": "047a6c16-ad72-59f0-a60c-231364986c0e",
+      "internal": {
+        "content": "",
+        "type": "MarkdownRemark",
+        "contentDigest": "9301b5f8091820866be401a9d238eefd",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": ""
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "",
+      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/functional-javascript/index.md",
+      "fields": {
+        "slug": "/functional-javascript/"
+      }
+    },
+    "54fa9ff2-1b55-59ea-bf6d-0c8835306581": {
+      "id": "54fa9ff2-1b55-59ea-bf6d-0c8835306581",
+      "children": [],
+      "parent": "3281f21a-8cf9-53a2-baa2-0686264fbe2e",
+      "internal": {
+        "content": "",
+        "type": "MarkdownRemark",
+        "contentDigest": "4f7b01576ffb6daae6f90cbba916b343",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": ""
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "",
+      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/rules-of-coding/index.md",
+      "fields": {
+        "slug": "/rules-of-coding/"
+      }
+    },
+    "323d83da-5ee3-58b6-a404-dc69e3f789c5": {
+      "id": "323d83da-5ee3-58b6-a404-dc69e3f789c5",
+      "children": [],
+      "parent": "90777b28-cd55-5f19-8394-5d2d31fc38f4",
+      "internal": {
+        "content": "",
+        "type": "MarkdownRemark",
+        "contentDigest": "456281b20a76644bcc39e97a89dbeca6",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": ""
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "",
+      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/vue-vs-react/index.md",
+      "fields": {
+        "slug": "/vue-vs-react/"
+      }
     },
     "7df0935d-fae2-53b8-8edd-574cb7acb340": {
       "id": "7df0935d-fae2-53b8-8edd-574cb7acb340",
@@ -2508,7 +3478,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "8973281b0e93d990ff28b8f67cfd1252",
+        "contentDigest": "de2ac034ec4d231eaf9fc3ef96277598",
         "type": "Directory",
         "description": "Directory \"content/assets\"",
         "owner": "gatsby-source-filesystem"
@@ -2520,7 +3490,7 @@
       "size": 4096,
       "prettySize": "4.1 kB",
       "modifiedTime": "2019-02-15T19:21:02.996Z",
-      "accessTime": "2019-02-16T20:14:42.184Z",
+      "accessTime": "2019-02-26T10:48:37.202Z",
       "changeTime": "2019-02-15T19:21:02.996Z",
       "birthTime": "2019-02-15T19:21:02.996Z",
       "root": "/",
@@ -2538,18 +3508,20 @@
       "blksize": 4096,
       "ino": 28726184,
       "blocks": 8,
-      "atimeMs": 1550348082183.6025,
+      "atimeMs": 1551178117201.6682,
       "mtimeMs": 1550258462996.2666,
       "ctimeMs": 1550258462996.2666,
       "birthtimeMs": 1550258462996.2666,
-      "atime": "2019-02-16T20:14:42.184Z",
+      "atime": "2019-02-26T10:48:37.202Z",
       "mtime": "2019-02-15T19:21:02.996Z",
       "ctime": "2019-02-15T19:21:02.996Z",
       "birthtime": "2019-02-15T19:21:02.996Z"
     },
     "f809abc7-b01b-5829-a12a-a1e2d6a43da8": {
       "id": "f809abc7-b01b-5829-a12a-a1e2d6a43da8",
-      "children": ["68e9411a-cf46-552a-8704-1c4ac05e53fa"],
+      "children": [
+        "68e9411a-cf46-552a-8704-1c4ac05e53fa"
+      ],
       "parent": null,
       "internal": {
         "contentDigest": "a010c2ad73f4071b8dff0a77a679846b",
@@ -2564,10 +3536,10 @@
       "extension": "jpg",
       "size": 24438,
       "prettySize": "24.4 kB",
-      "modifiedTime": "2019-02-12T15:45:39.782Z",
-      "accessTime": "2019-02-12T15:45:39.826Z",
-      "changeTime": "2019-02-12T15:45:39.782Z",
-      "birthTime": "2019-02-12T15:45:39.782Z",
+      "modifiedTime": "2019-02-15T19:21:02.996Z",
+      "accessTime": "2019-02-26T10:49:37.378Z",
+      "changeTime": "2019-02-15T19:21:02.996Z",
+      "birthTime": "2019-02-15T19:21:02.996Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content/assets",
       "base": "logo.jpg",
@@ -2581,16 +3553,16 @@
       "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 28726186,
+      "ino": 28711592,
       "blocks": 48,
-      "atimeMs": 1549986339825.5938,
-      "mtimeMs": 1549986339781.5935,
-      "ctimeMs": 1549986339781.5935,
-      "birthtimeMs": 1549986339781.5935,
-      "atime": "2019-02-12T15:45:39.826Z",
-      "mtime": "2019-02-12T15:45:39.782Z",
-      "ctime": "2019-02-12T15:45:39.782Z",
-      "birthtime": "2019-02-12T15:45:39.782Z"
+      "atimeMs": 1551178177378.316,
+      "mtimeMs": 1550258462996.2666,
+      "ctimeMs": 1550258462996.2666,
+      "birthtimeMs": 1550258462996.2666,
+      "atime": "2019-02-26T10:49:37.378Z",
+      "mtime": "2019-02-15T19:21:02.996Z",
+      "ctime": "2019-02-15T19:21:02.996Z",
+      "birthtime": "2019-02-15T19:21:02.996Z"
     },
     "68e9411a-cf46-552a-8704-1c4ac05e53fa": {
       "id": "68e9411a-cf46-552a-8704-1c4ac05e53fa",
@@ -2620,7 +3592,7 @@
       "size": 92223,
       "prettySize": "92.2 kB",
       "modifiedTime": "2019-02-13T13:02:39.000Z",
-      "accessTime": "2019-02-13T14:59:37.578Z",
+      "accessTime": "2019-02-26T10:49:37.378Z",
       "changeTime": "2019-02-13T14:59:35.234Z",
       "birthTime": "2019-02-13T14:59:35.234Z",
       "root": "/",
@@ -2638,18 +3610,20 @@
       "blksize": 4096,
       "ino": 28710737,
       "blocks": 184,
-      "atimeMs": 1550069977577.8423,
+      "atimeMs": 1551178177378.316,
       "mtimeMs": 1550062959000,
       "ctimeMs": 1550069975233.8271,
       "birthtimeMs": 1550069975233.8271,
-      "atime": "2019-02-13T14:59:37.578Z",
+      "atime": "2019-02-26T10:49:37.378Z",
       "mtime": "2019-02-13T13:02:39.000Z",
       "ctime": "2019-02-13T14:59:35.234Z",
       "birthtime": "2019-02-13T14:59:35.234Z"
     },
     "d9528317-0fcd-53d0-91de-b3fcab2148d2": {
       "id": "d9528317-0fcd-53d0-91de-b3fcab2148d2",
-      "children": ["f716a1cf-1a30-5143-86b7-4d2515d9d3d2"],
+      "children": [
+        "f716a1cf-1a30-5143-86b7-4d2515d9d3d2"
+      ],
       "parent": null,
       "internal": {
         "contentDigest": "5127f0562f9026cee741fd1b6763e531",
@@ -2664,10 +3638,10 @@
       "extension": "jpg",
       "size": 172983,
       "prettySize": "173 kB",
-      "modifiedTime": "2019-02-12T15:45:39.778Z",
-      "accessTime": "2019-02-12T15:45:39.826Z",
-      "changeTime": "2019-02-12T15:45:39.778Z",
-      "birthTime": "2019-02-12T15:45:39.778Z",
+      "modifiedTime": "2019-02-15T19:21:02.996Z",
+      "accessTime": "2019-02-26T10:49:37.378Z",
+      "changeTime": "2019-02-15T19:21:02.996Z",
+      "birthTime": "2019-02-15T19:21:02.996Z",
       "root": "/",
       "dir": "/home/david/dev/oregand/Oregand.github.io/content/assets",
       "base": "david.jpg",
@@ -2681,16 +3655,16 @@
       "gid": 1000,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 28726185,
+      "ino": 28711591,
       "blocks": 344,
-      "atimeMs": 1549986339825.5938,
-      "mtimeMs": 1549986339777.5933,
-      "ctimeMs": 1549986339777.5933,
-      "birthtimeMs": 1549986339777.5933,
-      "atime": "2019-02-12T15:45:39.826Z",
-      "mtime": "2019-02-12T15:45:39.778Z",
-      "ctime": "2019-02-12T15:45:39.778Z",
-      "birthtime": "2019-02-12T15:45:39.778Z"
+      "atimeMs": 1551178177378.316,
+      "mtimeMs": 1550258462996.2666,
+      "ctimeMs": 1550258462996.2666,
+      "birthtimeMs": 1550258462996.2666,
+      "atime": "2019-02-26T10:49:37.378Z",
+      "mtime": "2019-02-15T19:21:02.996Z",
+      "ctime": "2019-02-15T19:21:02.996Z",
+      "birthtime": "2019-02-15T19:21:02.996Z"
     },
     "f716a1cf-1a30-5143-86b7-4d2515d9d3d2": {
       "id": "f716a1cf-1a30-5143-86b7-4d2515d9d3d2",
@@ -2702,344 +3676,149 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "37cb5327-517d-5d6a-8875-d210f3a80479": {
-      "id": "37cb5327-517d-5d6a-8875-d210f3a80479",
+    "SitePage /functional-javascript/": {
+      "jsonName": "functional-javascript-391",
+      "internalComponentName": "ComponentFunctionalJavascript",
+      "path": "/functional-javascript/",
+      "component": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/functional-javascript/",
+        "previous": {
+          "fields": {
+            "slug": "/rules-of-coding/"
+          },
+          "frontmatter": {
+            "title": ""
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "id": "SitePage /functional-javascript/",
+      "parent": null,
       "children": [],
-      "parent": "40270064-6001-5742-9fdd-3af229dec9d6",
       "internal": {
-        "content": "\n_How do we depreciate code in a safe way for a user while still allowing a developer room for improvement?_\n\nIt is, a tough question.\n\nLets say for instance, we have a application which maintains a dependency to a external toolbox. This external tool box uses strict semantic versions to help keep some measure of santiy.\n\n```json\n{\n  \"name\": \"@namelessorganization/core\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@namelessorganization/toolbox\": \"5.9.5\"\n  }\n}\n```\n\nOur toolbox represents a collection of components, each of which maintain a workable API contract with the core application. Each component lives under this version and different components are leveraged all over our core application like so:\n\n```js\nimport { Button } from '@namelessorganization/toolbox'\n```\n\nNow, lets say we have a set of defined forms in a handful of locations which re-use the same component set.\n\n```js\nimport {\n  Button,\n  Form,\n  FormGroup,\n  Label,\n  CheckBox\n} from '@namelessorganization/toolbox'\n;<Form>\n  <FormGroup>\n    <Label>Form 1 Input</Label>\n    <Checkbox />\n  </FormGroup>\n  <div>\n    <Button color={'primary'}>Submit</Button>\n  </div>\n</Form>\n```\n\nOur component set is used in a handful of locations which creates a established, understood and hopefully predicable API contract between `toolbox` and `core`. Such that, our `<Form>` can be developed in confidence as the functionality of our component set is expected.\n\nBut, what happens when we need to depreciate a current component in lue of a better implementation?\n\nThe benefits of our previously contract between `toolbox` and `core` now become a burden. To illustrate why this contract has now become a burden, lets look at what I consider the best migration path.\n\n## Depreciating / Maintaining Multiple Versions\n\nThis is probably the most widely assumed and used strategy for a depreciation of \"generic\" components. In our `toolbox` we now create a second version of our component in question and begin to replace the instances in `core`.\n\n```js\n// toolbox\n\nexport default ButtonOld\n\nexport default ButtonNew\n```\n\n```js\n// core\n\nimport { ButtonOld, ButonNew } from '@namelessorganization/toolbox'\n\n\n// Comp A\n\n<ButtonOld />\n\n// Comp B\n\n<ButtonNew />\n```\n\nOver time, `<ButtonOld />` will be removed from our `core` application to ensure a graceful migration from the old depreciated code base without shattering the current application.\n\n### Pros\n\n- Easy to implement a non-breaking migration\n- Easy to track versions and ensure proper refractoring\n- Depreciated components can be planned for full removal during a major release\n\n### Cons\n\n- Must be mindful to keep a very strict rules for amount of components available\n- Harder to keep track of changes as they are in multiple files\n- Doucmentation is harder\n\n## `next`\n\nGiven we have a open migration path with the above pattern, we can make use of a experimental branch `next` as a place for our major breaking changes to be published and tested.\n\n```json\n{\n  \"name\": \"@namelessorganization/core\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@namelessorganization/toolbox\": \"next\"\n  }\n}\n```\n\nThis allows developers to test, push and pull code from the bleeding edge in a fearless way.\n\nOur `toolbox` can benifit from aggresive pushing of imporvement, while `core` can remain functionally safe for our end users.\n\nThe most important aspect of this style of development is promoting a sense of _failing forward_. Which for a sucessful project is one of the most overlooked aspects of sucess.\n\nAs mark Z said; \"Move fast, break shit, fix it\".\n\n### Caveeat\n\nFor this migration strategy to work, there must be a _strict_ deployment process in agreement between the developers, QA and ops team.\n\n```js\nMajor: >>> Every 6 months for a break\n\nMinor: >>> Every week with no breaks\n\nPatch: >>> Night release `next`\n```\n\nUsers need to keep faith in an applications resiliance, and so during major breaks, companies need to work harder in terms of timing and response to ensure users dont suffer.\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "cf759eebd24121f81117d581eeeb58ba",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Graceful Depreciation",
-        "date": "2019-02-12",
-        "spoiler": "Keeping a path open for improvement"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n_How do we depreciate code in a safe way for a user while still allowing a developer room for improvement?_\n\nIt is, a tough question.\n\nLets say for instance, we have a application which maintains a dependency to a external toolbox. This external tool box uses strict semantic versions to help keep some measure of santiy.\n\n```json\n{\n  \"name\": \"@namelessorganization/core\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@namelessorganization/toolbox\": \"5.9.5\"\n  }\n}\n```\n\nOur toolbox represents a collection of components, each of which maintain a workable API contract with the core application. Each component lives under this version and different components are leveraged all over our core application like so:\n\n```js\nimport { Button } from '@namelessorganization/toolbox'\n```\n\nNow, lets say we have a set of defined forms in a handful of locations which re-use the same component set.\n\n```js\nimport {\n  Button,\n  Form,\n  FormGroup,\n  Label,\n  CheckBox\n} from '@namelessorganization/toolbox'\n;<Form>\n  <FormGroup>\n    <Label>Form 1 Input</Label>\n    <Checkbox />\n  </FormGroup>\n  <div>\n    <Button color={'primary'}>Submit</Button>\n  </div>\n</Form>\n```\n\nOur component set is used in a handful of locations which creates a established, understood and hopefully predicable API contract between `toolbox` and `core`. Such that, our `<Form>` can be developed in confidence as the functionality of our component set is expected.\n\nBut, what happens when we need to depreciate a current component in lue of a better implementation?\n\nThe benefits of our previously contract between `toolbox` and `core` now become a burden. To illustrate why this contract has now become a burden, lets look at what I consider the best migration path.\n\n## Depreciating / Maintaining Multiple Versions\n\nThis is probably the most widely assumed and used strategy for a depreciation of \"generic\" components. In our `toolbox` we now create a second version of our component in question and begin to replace the instances in `core`.\n\n```js\n// toolbox\n\nexport default ButtonOld\n\nexport default ButtonNew\n```\n\n```js\n// core\n\nimport { ButtonOld, ButonNew } from '@namelessorganization/toolbox'\n\n\n// Comp A\n\n<ButtonOld />\n\n// Comp B\n\n<ButtonNew />\n```\n\nOver time, `<ButtonOld />` will be removed from our `core` application to ensure a graceful migration from the old depreciated code base without shattering the current application.\n\n### Pros\n\n- Easy to implement a non-breaking migration\n- Easy to track versions and ensure proper refractoring\n- Depreciated components can be planned for full removal during a major release\n\n### Cons\n\n- Must be mindful to keep a very strict rules for amount of components available\n- Harder to keep track of changes as they are in multiple files\n- Doucmentation is harder\n\n## `next`\n\nGiven we have a open migration path with the above pattern, we can make use of a experimental branch `next` as a place for our major breaking changes to be published and tested.\n\n```json\n{\n  \"name\": \"@namelessorganization/core\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@namelessorganization/toolbox\": \"next\"\n  }\n}\n```\n\nThis allows developers to test, push and pull code from the bleeding edge in a fearless way.\n\nOur `toolbox` can benifit from aggresive pushing of imporvement, while `core` can remain functionally safe for our end users.\n\nThe most important aspect of this style of development is promoting a sense of _failing forward_. Which for a sucessful project is one of the most overlooked aspects of sucess.\n\nAs mark Z said; \"Move fast, break shit, fix it\".\n\n### Caveeat\n\nFor this migration strategy to work, there must be a _strict_ deployment process in agreement between the developers, QA and ops team.\n\n```js\nMajor: >>> Every 6 months for a break\n\nMinor: >>> Every week with no breaks\n\nPatch: >>> Night release `next`\n```\n\nUsers need to keep faith in an applications resiliance, and so during major breaks, companies need to work harder in terms of timing and response to ensure users dont suffer.\n",
-      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/graceful-depreciation/index.md",
-      "fields": {
-        "slug": "/graceful-depreciation/"
+        "type": "SitePage",
+        "contentDigest": "148fdbd20196fd68f65d9c7f1f3e3b62",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
       }
     },
-    "b268ddb2-4fee-553e-ac75-c532a2e809ee": {
-      "id": "b268ddb2-4fee-553e-ac75-c532a2e809ee",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "5a2eaf874d1b42998fa9a394a424dc26",
-        "type": "Directory",
-        "description": "Directory \"content/blog/getting-fired-as-a-junior-developer\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/getting-fired-as-a-junior-developer",
-      "relativePath": "getting-fired-as-a-junior-developer",
-      "extension": "",
-      "size": 4096,
-      "prettySize": "4.1 kB",
-      "modifiedTime": "2019-02-16T17:01:42.291Z",
-      "accessTime": "2019-02-16T17:01:42.299Z",
-      "changeTime": "2019-02-16T17:01:42.291Z",
-      "birthTime": "2019-02-16T17:01:42.291Z",
-      "root": "/",
-      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
-      "base": "getting-fired-as-a-junior-developer",
-      "ext": "",
-      "name": "getting-fired-as-a-junior-developer",
-      "relativeDirectory": "",
-      "dev": 66306,
-      "mode": 16893,
-      "nlink": 2,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 28841215,
-      "blocks": 8,
-      "atimeMs": 1550336502299.3845,
-      "mtimeMs": 1550336502291.3845,
-      "ctimeMs": 1550336502291.3845,
-      "birthtimeMs": 1550336502291.3845,
-      "atime": "2019-02-16T17:01:42.299Z",
-      "mtime": "2019-02-16T17:01:42.291Z",
-      "ctime": "2019-02-16T17:01:42.291Z",
-      "birthtime": "2019-02-16T17:01:42.291Z"
-    },
-    "7e69fb09-6c41-5ec3-a0a7-a27de4dc76c8": {
-      "id": "7e69fb09-6c41-5ec3-a0a7-a27de4dc76c8",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "aba7d7efeb83f4e8b75c6d05689cb819",
-        "type": "Directory",
-        "description": "Directory \"content/blog/react-best-practices\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/react-best-practices",
-      "relativePath": "react-best-practices",
-      "extension": "",
-      "size": 4096,
-      "prettySize": "4.1 kB",
-      "modifiedTime": "2019-02-16T16:30:09.720Z",
-      "accessTime": "2019-02-16T16:30:09.728Z",
-      "changeTime": "2019-02-16T16:30:09.720Z",
-      "birthTime": "2019-02-16T16:30:09.720Z",
-      "root": "/",
-      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
-      "base": "react-best-practices",
-      "ext": "",
-      "name": "react-best-practices",
-      "relativeDirectory": "",
-      "dev": 66306,
-      "mode": 16893,
-      "nlink": 2,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 28841213,
-      "blocks": 8,
-      "atimeMs": 1550334609728.0823,
-      "mtimeMs": 1550334609720.0823,
-      "ctimeMs": 1550334609720.0823,
-      "birthtimeMs": 1550334609720.0823,
-      "atime": "2019-02-16T16:30:09.728Z",
-      "mtime": "2019-02-16T16:30:09.720Z",
-      "ctime": "2019-02-16T16:30:09.720Z",
-      "birthtime": "2019-02-16T16:30:09.720Z"
-    },
-    "8ff6360e-e5be-5626-909d-e87e7b5e7863": {
-      "id": "8ff6360e-e5be-5626-909d-e87e7b5e7863",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "f6642107ded7dfaa061544f1f31d6b4b",
-        "type": "Directory",
-        "description": "Directory \"content/blog/scaling-vue-applications\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/scaling-vue-applications",
-      "relativePath": "scaling-vue-applications",
-      "extension": "",
-      "size": 4096,
-      "prettySize": "4.1 kB",
-      "modifiedTime": "2019-02-16T16:29:38.548Z",
-      "accessTime": "2019-02-16T16:29:38.556Z",
-      "changeTime": "2019-02-16T16:29:38.548Z",
-      "birthTime": "2019-02-16T16:29:38.548Z",
-      "root": "/",
-      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
-      "base": "scaling-vue-applications",
-      "ext": "",
-      "name": "scaling-vue-applications",
-      "relativeDirectory": "",
-      "dev": 66306,
-      "mode": 16893,
-      "nlink": 2,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 28841212,
-      "blocks": 8,
-      "atimeMs": 1550334578555.8188,
-      "mtimeMs": 1550334578547.8188,
-      "ctimeMs": 1550334578547.8188,
-      "birthtimeMs": 1550334578547.8188,
-      "atime": "2019-02-16T16:29:38.556Z",
-      "mtime": "2019-02-16T16:29:38.548Z",
-      "ctime": "2019-02-16T16:29:38.548Z",
-      "birthtime": "2019-02-16T16:29:38.548Z"
-    },
-    "c72955c7-ef56-5ca7-b3ff-64b0f8e60aa1": {
-      "id": "c72955c7-ef56-5ca7-b3ff-64b0f8e60aa1",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "8f46daf7685028f862809d5aa47b74d7",
-        "type": "Directory",
-        "description": "Directory \"content/blog/vuejsamsterdam-2019-the-best-bits\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/vuejsamsterdam-2019-the-best-bits",
-      "relativePath": "vuejsamsterdam-2019-the-best-bits",
-      "extension": "",
-      "size": 4096,
-      "prettySize": "4.1 kB",
-      "modifiedTime": "2019-02-15T18:57:20.625Z",
-      "accessTime": "2019-02-16T20:14:41.016Z",
-      "changeTime": "2019-02-16T20:14:40.948Z",
-      "birthTime": "2019-02-16T20:14:40.948Z",
-      "root": "/",
-      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
-      "base": "vuejsamsterdam-2019-the-best-bits",
-      "ext": "",
-      "name": "vuejsamsterdam-2019-the-best-bits",
-      "relativeDirectory": "",
-      "dev": 66306,
-      "mode": 16893,
-      "nlink": 2,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 28841117,
-      "blocks": 8,
-      "atimeMs": 1550348081015.5984,
-      "mtimeMs": 1550257040624.8572,
-      "ctimeMs": 1550348080947.5981,
-      "birthtimeMs": 1550348080947.5981,
-      "atime": "2019-02-16T20:14:41.016Z",
-      "mtime": "2019-02-15T18:57:20.625Z",
-      "ctime": "2019-02-16T20:14:40.948Z",
-      "birthtime": "2019-02-16T20:14:40.948Z"
-    },
-    "2a947fbd-cb2f-502d-a652-893118081ad2": {
-      "id": "2a947fbd-cb2f-502d-a652-893118081ad2",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "dc6ff95ee1e08cd10a9f097e1ffa1c07",
-        "type": "Directory",
-        "description": "Directory \"content/blog/working-with-people-smarter-than-you\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/working-with-people-smarter-than-you",
-      "relativePath": "working-with-people-smarter-than-you",
-      "extension": "",
-      "size": 4096,
-      "prettySize": "4.1 kB",
-      "modifiedTime": "2019-02-16T16:59:13.135Z",
-      "accessTime": "2019-02-16T16:59:13.139Z",
-      "changeTime": "2019-02-16T16:59:13.135Z",
-      "birthTime": "2019-02-16T16:59:13.135Z",
-      "root": "/",
-      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog",
-      "base": "working-with-people-smarter-than-you",
-      "ext": "",
-      "name": "working-with-people-smarter-than-you",
-      "relativeDirectory": "",
-      "dev": 66306,
-      "mode": 16893,
-      "nlink": 2,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 28841214,
-      "blocks": 8,
-      "atimeMs": 1550336353138.5996,
-      "mtimeMs": 1550336353134.5996,
-      "ctimeMs": 1550336353134.5996,
-      "birthtimeMs": 1550336353134.5996,
-      "atime": "2019-02-16T16:59:13.139Z",
-      "mtime": "2019-02-16T16:59:13.135Z",
-      "ctime": "2019-02-16T16:59:13.135Z",
-      "birthtime": "2019-02-16T16:59:13.135Z"
-    },
-    "197ed36f-2a17-5c61-993f-e9b5288c4258": {
-      "id": "197ed36f-2a17-5c61-993f-e9b5288c4258",
-      "children": ["2994bb50-69b6-5d56-810a-75ca8f5806a3"],
-      "parent": null,
-      "internal": {
-        "contentDigest": "1a1ae7c46e715316de95e45be80f6f97",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"content/blog/vuejsamsterdam-2019-the-best-bits/index.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "blog",
-      "absolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/vuejsamsterdam-2019-the-best-bits/index.md",
-      "relativePath": "vuejsamsterdam-2019-the-best-bits/index.md",
-      "extension": "md",
-      "size": 5086,
-      "prettySize": "5.09 kB",
-      "modifiedTime": "2019-02-16T20:47:14.724Z",
-      "accessTime": "2019-02-16T20:47:14.720Z",
-      "changeTime": "2019-02-16T20:47:14.724Z",
-      "birthTime": "2019-02-16T20:47:14.724Z",
-      "root": "/",
-      "dir": "/home/david/dev/oregand/Oregand.github.io/content/blog/vuejsamsterdam-2019-the-best-bits",
-      "base": "index.md",
-      "ext": ".md",
-      "name": "index",
-      "relativeDirectory": "vuejsamsterdam-2019-the-best-bits",
-      "dev": 66306,
-      "mode": 33204,
-      "nlink": 1,
-      "uid": 1000,
-      "gid": 1000,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 28841118,
-      "blocks": 16,
-      "atimeMs": 1550350034720.2698,
-      "mtimeMs": 1550350034724.2698,
-      "ctimeMs": 1550350034724.2698,
-      "birthtimeMs": 1550350034724.2698,
-      "atime": "2019-02-16T20:47:14.720Z",
-      "mtime": "2019-02-16T20:47:14.724Z",
-      "ctime": "2019-02-16T20:47:14.724Z",
-      "birthtime": "2019-02-16T20:47:14.724Z"
-    },
-    "6fe008a6-a3e8-5a94-836f-a2897719a0fe": {
-      "id": "6fe008a6-a3e8-5a94-836f-a2897719a0fe",
-      "children": [],
-      "parent": "954aee62-3dc3-5397-93d2-4fcfe9dd5b7b",
-      "internal": {
-        "content": "\n> Human beings work on the basis of low complexity but high risk situations. This is our natural state as dictated by nature. Software by oppoisition is high complextiy but low risk. \n\nOver my carrer of 10 years as a software developer Ive ntocied a trend with those that I consider to be sucessful and ive often been told that sucess leaves clues. The trend in question was a air of fearlessness when it came to failure, and failure in terms of deploying software specifically. \n\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "0902ba14e555cad46ad6e3797348ef00",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
+    "SitePage /rules-of-coding/": {
+      "jsonName": "rules-of-coding-36b",
+      "internalComponentName": "ComponentRulesOfCoding",
+      "path": "/rules-of-coding/",
+      "component": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/rules-of-coding/",
+        "previous": {
+          "fields": {
+            "slug": "/vue-vs-react/"
+          },
+          "frontmatter": {
+            "title": ""
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/functional-javascript/"
+          },
+          "frontmatter": {
+            "title": ""
+          }
         }
       },
-      "frontmatter": {
-        "title": "Failing Forward",
-        "date": "2019-02-12",
-        "spoiler": "Faster reactions over pre-mature optimization"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n> Human beings work on the basis of low complexity but high risk situations. This is our natural state as dictated by nature. Software by oppoisition is high complextiy but low risk. \n\nOver my carrer of 10 years as a software developer Ive ntocied a trend with those that I consider to be sucessful and ive often been told that sucess leaves clues. The trend in question was a air of fearlessness when it came to failure, and failure in terms of deploying software specifically. \n\n",
-      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/failing-forward/index.md",
-      "fields": {
-        "slug": "/failing-forward/"
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "id": "SitePage /rules-of-coding/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "bc9535bc6284504949d7b9227b417517",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
       }
     },
-    "2994bb50-69b6-5d56-810a-75ca8f5806a3": {
-      "id": "2994bb50-69b6-5d56-810a-75ca8f5806a3",
-      "children": [],
-      "parent": "197ed36f-2a17-5c61-993f-e9b5288c4258",
-      "internal": {
-        "content": "\n_VueJS Amsterdam 2019 - The Best Bits_\n\nhttps://www.vuejs.amsterdam/\n\nSo this week I attended VueJS Amsterdam and it was a blast. Over the years Ive been to various software conferences(UX/DX, ReactConf, JSConf, JSBrazil, etc) and out of all of the conferences Ive been to, VueJS Amsterdam might have been the best.\n\n2 years ago my company, VSWare adopted a very early Vue.js setup as our main FE framework over others we had considered(react, Rivets, backbone, ember). We had needed something plug and play that would sit into our main application's archatecture without too much time being wasted on intergration. Our stack today is: tomcat, Java 8, maven, SQL, Vue, jQuery and SCSS.\n\nGiven Vue has picked up so much popularity in the FE world over the last year, I wanted to see what the state of the community was in, and pick up a few tricks for my own work life.\n\n_This is what I learned_\n\n## The state of Vue 3.0\n\nEvan You kicked things off on the Thursday with a breakdown of the current state of things within the Vue ecosystem and whats new in not only Vue 2.6 but also Vue 3.0.\n\nWe were all hoping he might consider a early release during the conference but alas, it wasnt to be.\n\nEvan pointed out some interesting metrics about Vue, such as the jsDelivr stats:\n\n```json\nJust found out Vue has 461M hits/month on jsDelivr: https://data.jsdelivr.com/v1/package/npm/vue/badge … that’s… a lot\n```\n\nWhich completely blew me away given I remember using Vue a few years ago when no one had ever even heard of it in Ireland!\n\nCheck out the full breakdown here: https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf\n\n## Composing Components\n\n_The was my favouriye talk_\n\nThis talk was given by: [https://twitter.com/DamianDulisz](Damian Dulisz). \n\nHe lead the talk with a quote from Eric Elliot: \"Favour composition over inheritance\" and demonstrated this to the audiance by having us mentally build a `Button` component in our minds. \n\nMore than 60% of us built this mental component using a prop based approach, he was quick to point out the drawbacks of this method and demonstrate a better method using a compositional pattern.\n\nAs someone who has never been able to let go of my love for functional programming, his talk was music to my ears and I enjoyed seeing someone from the core team objecively showing the pros && cons of both approaches. \n\n\n_(Loved it when some people from the audience answered they use scoped slots but not slots)_\n\nYou can find the repo here and try it yourself:\n\nhttps://github.com/shentao/composing-components\n\n## 5 rules for performant Vue Applications\n\nThis talk was given by [https://twitter.com/filrakowski](Filip Rakowski)\n\n> 1. Lazy Load All Routes\n\n> 2. Vendor Bundle Anti Pattern\n\n> 3. Lazy Loading Vuex Store\n\n> 4. Finding smaller libaries\n\n> 5. Prefetching Components\n\nCheck it out in more detail here:\n\nhttps://itnext.io/vue-js-app-performance-optimization-part-2-lazy-loading-routes-and-vendor-bundle-anti-pattern-4a62236e09f9\n\n## NuxtJS - Whats new?\n\nBefore this talk I had actually never heard of the Nuxt framework(I'm a react kinda guy so Next.js was the cloest thing I knew of). \n\nBy the end of the 45 minute presentation I was utterly blown away by how cool some of the features of this framework were. I was especially taken aback by DOM driven preFetched components! \n\nThe Copain brothers take a: _less is more_ approach, abstracting away config or in Sebastiens own words: \"I wanted to focus on writing `.vue` files.\"\n\nThis includes auto route generation, a full vuex setup, auto updated core deps, webpack config with best practices([https://twitter.com/TheLarkInn](Sean Larkin) approved).\n\nFind the presentation here: https://nuxtjs.org/\n\n## Accessability in a Vue SPA\n\n_Maya Shavin gave a great breakdown of how to tink in terms of accessability._\n\nI learned a lot from [https://twitter.com/mayashavin](Maya) about accessability during her demo. Everything from color issues, using icons properly to why Beyonce got sued.\n\nHer talk was really informative in terms of writing `aria` labels correctly and how we can begin to think in terms of accessability when writing websites. \n\nHer demo can be found here: https://github.com/mayashavin/vue-accessibility-demo\n\n## Mixologly with NativeScript && Kraggle\n\n_Being Irish, this one has a special place in my heart_\n\nSo in the Vue community Jen Looper(Crazy Aunt Jen) is a pretty special lady being the founder of Vue Vixens and helping drive the mobile Vue community via NativeScript.\n\nCheck here our here: https://twitter.com/jenlooper\n\nHer talk focused on a mobile application she developed using NativeScript and some base Machine Learning to figure out what cocktails you can make from your hotel minibar. \n\nI learned a good deal about NativeScript with its new Vue support and how best to massage data from kraggle when training sets for any ML. \n\nCheck it out here: https://slides.com/telerikdevrel/minibar#/",
-        "type": "MarkdownRemark",
-        "contentDigest": "15f8d3f5d624428ddc3e390a967b5e6f",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
+    "SitePage /vue-vs-react/": {
+      "jsonName": "vue-vs-react-f79",
+      "internalComponentName": "ComponentVueVsReact",
+      "path": "/vue-vs-react/",
+      "component": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/vue-vs-react/",
+        "previous": {
+          "fields": {
+            "slug": "/failing-forward/"
+          },
+          "frontmatter": {
+            "title": "Failing Forward"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/rules-of-coding/"
+          },
+          "frontmatter": {
+            "title": ""
+          }
         }
       },
-      "frontmatter": {
-        "title": "VueJS Amsterdam 2019 - The Best Bits",
-        "date": "2019-02-15",
-        "spoiler": "The best things I saw at VueJS Amsterdam 2019"
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "id": "SitePage /vue-vs-react/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "de8c8a3e2ae22d62977c34b6c2e17bc2",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /failing-forward/": {
+      "jsonName": "failing-forward-8b9",
+      "internalComponentName": "ComponentFailingForward",
+      "path": "/failing-forward/",
+      "component": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/failing-forward/",
+        "previous": {
+          "fields": {
+            "slug": "/vuejsamsterdam-2019-the-best-bits/"
+          },
+          "frontmatter": {
+            "title": "VueJS Amsterdam 2019 - The Best Bits"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/vue-vs-react/"
+          },
+          "frontmatter": {
+            "title": ""
+          }
+        }
       },
-      "excerpt": "",
-      "rawMarkdownBody": "\n_VueJS Amsterdam 2019 - The Best Bits_\n\nhttps://www.vuejs.amsterdam/\n\nSo this week I attended VueJS Amsterdam and it was a blast. Over the years Ive been to various software conferences(UX/DX, ReactConf, JSConf, JSBrazil, etc) and out of all of the conferences Ive been to, VueJS Amsterdam might have been the best.\n\n2 years ago my company, VSWare adopted a very early Vue.js setup as our main FE framework over others we had considered(react, Rivets, backbone, ember). We had needed something plug and play that would sit into our main application's archatecture without too much time being wasted on intergration. Our stack today is: tomcat, Java 8, maven, SQL, Vue, jQuery and SCSS.\n\nGiven Vue has picked up so much popularity in the FE world over the last year, I wanted to see what the state of the community was in, and pick up a few tricks for my own work life.\n\n_This is what I learned_\n\n## The state of Vue 3.0\n\nEvan You kicked things off on the Thursday with a breakdown of the current state of things within the Vue ecosystem and whats new in not only Vue 2.6 but also Vue 3.0.\n\nWe were all hoping he might consider a early release during the conference but alas, it wasnt to be.\n\nEvan pointed out some interesting metrics about Vue, such as the jsDelivr stats:\n\n```json\nJust found out Vue has 461M hits/month on jsDelivr: https://data.jsdelivr.com/v1/package/npm/vue/badge … that’s… a lot\n```\n\nWhich completely blew me away given I remember using Vue a few years ago when no one had ever even heard of it in Ireland!\n\nCheck out the full breakdown here: https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf\n\n## Composing Components\n\n_The was my favouriye talk_\n\nThis talk was given by: [https://twitter.com/DamianDulisz](Damian Dulisz). \n\nHe lead the talk with a quote from Eric Elliot: \"Favour composition over inheritance\" and demonstrated this to the audiance by having us mentally build a `Button` component in our minds. \n\nMore than 60% of us built this mental component using a prop based approach, he was quick to point out the drawbacks of this method and demonstrate a better method using a compositional pattern.\n\nAs someone who has never been able to let go of my love for functional programming, his talk was music to my ears and I enjoyed seeing someone from the core team objecively showing the pros && cons of both approaches. \n\n\n_(Loved it when some people from the audience answered they use scoped slots but not slots)_\n\nYou can find the repo here and try it yourself:\n\nhttps://github.com/shentao/composing-components\n\n## 5 rules for performant Vue Applications\n\nThis talk was given by [https://twitter.com/filrakowski](Filip Rakowski)\n\n> 1. Lazy Load All Routes\n\n> 2. Vendor Bundle Anti Pattern\n\n> 3. Lazy Loading Vuex Store\n\n> 4. Finding smaller libaries\n\n> 5. Prefetching Components\n\nCheck it out in more detail here:\n\nhttps://itnext.io/vue-js-app-performance-optimization-part-2-lazy-loading-routes-and-vendor-bundle-anti-pattern-4a62236e09f9\n\n## NuxtJS - Whats new?\n\nBefore this talk I had actually never heard of the Nuxt framework(I'm a react kinda guy so Next.js was the cloest thing I knew of). \n\nBy the end of the 45 minute presentation I was utterly blown away by how cool some of the features of this framework were. I was especially taken aback by DOM driven preFetched components! \n\nThe Copain brothers take a: _less is more_ approach, abstracting away config or in Sebastiens own words: \"I wanted to focus on writing `.vue` files.\"\n\nThis includes auto route generation, a full vuex setup, auto updated core deps, webpack config with best practices([https://twitter.com/TheLarkInn](Sean Larkin) approved).\n\nFind the presentation here: https://nuxtjs.org/\n\n## Accessability in a Vue SPA\n\n_Maya Shavin gave a great breakdown of how to tink in terms of accessability._\n\nI learned a lot from [https://twitter.com/mayashavin](Maya) about accessability during her demo. Everything from color issues, using icons properly to why Beyonce got sued.\n\nHer talk was really informative in terms of writing `aria` labels correctly and how we can begin to think in terms of accessability when writing websites. \n\nHer demo can be found here: https://github.com/mayashavin/vue-accessibility-demo\n\n## Mixologly with NativeScript && Kraggle\n\n_Being Irish, this one has a special place in my heart_\n\nSo in the Vue community Jen Looper(Crazy Aunt Jen) is a pretty special lady being the founder of Vue Vixens and helping drive the mobile Vue community via NativeScript.\n\nCheck here our here: https://twitter.com/jenlooper\n\nHer talk focused on a mobile application she developed using NativeScript and some base Machine Learning to figure out what cocktails you can make from your hotel minibar. \n\nI learned a good deal about NativeScript with its new Vue support and how best to massage data from kraggle when training sets for any ML. \n\nCheck it out here: https://slides.com/telerikdevrel/minibar#/",
-      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/vuejsamsterdam-2019-the-best-bits/index.md",
-      "fields": {
-        "slug": "/vuejsamsterdam-2019-the-best-bits/"
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
+      "id": "SitePage /failing-forward/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a20f77b5b4b20b5b7301473f96d93d68",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
       }
     },
     "SitePage /vuejsamsterdam-2019-the-best-bits/": {
@@ -3058,7 +3837,14 @@
             "title": "Ambition"
           }
         },
-        "next": null
+        "next": {
+          "fields": {
+            "slug": "/failing-forward/"
+          },
+          "frontmatter": {
+            "title": "Failing Forward"
+          }
+        }
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
@@ -3068,7 +3854,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cea8f25536d0d5c10b9e0962bafcf27a",
+        "contentDigest": "b7820c6f274fe1bd32eba878775e131a",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -3121,10 +3907,10 @@
         "slug": "/graceful-depreciation/",
         "previous": {
           "fields": {
-            "slug": "/failing-forward/"
+            "slug": "/being-ok-with-shitty-code/"
           },
           "frontmatter": {
-            "title": "Failing Forward"
+            "title": "Being Ok With Deploying Shitty Code"
           }
         },
         "next": {
@@ -3144,45 +3930,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "633be7669f4dad247015dcc928c626ec",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /failing-forward/": {
-      "jsonName": "failing-forward-8b9",
-      "internalComponentName": "ComponentFailingForward",
-      "path": "/failing-forward/",
-      "component": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "/failing-forward/",
-        "previous": {
-          "fields": {
-            "slug": "/being-ok-with-shitty-code/"
-          },
-          "frontmatter": {
-            "title": "Being Ok With Deploying Shitty Code"
-          }
-        },
-        "next": {
-          "fields": {
-            "slug": "/graceful-depreciation/"
-          },
-          "frontmatter": {
-            "title": "Graceful Depreciation"
-          }
-        }
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js",
-      "id": "SitePage /failing-forward/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "58d481b3067bbd4ad90603c20b37fb76",
+        "contentDigest": "a58589c33c7b6c5793be95f04c42f4db",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -3198,10 +3946,10 @@
         "previous": null,
         "next": {
           "fields": {
-            "slug": "/failing-forward/"
+            "slug": "/graceful-depreciation/"
           },
           "frontmatter": {
-            "title": "Failing Forward"
+            "title": "Graceful Depreciation"
           }
         }
       },
@@ -3213,7 +3961,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5ee94faa5b15100ca573831469cfccdf",
+        "contentDigest": "f5f175a07797a20285f748a8f75dd8cb",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -3277,40 +4025,140 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "37cb5327-517d-5d6a-8875-d210f3a80479": {
+      "id": "37cb5327-517d-5d6a-8875-d210f3a80479",
+      "children": [],
+      "parent": "40270064-6001-5742-9fdd-3af229dec9d6",
+      "internal": {
+        "content": "\n_How do we depreciate code in a safe way for a user while still allowing a developer room for improvement?_\n\nIt is, a tough question.\n\nLets say for instance, we have a application which maintains a dependency to a external toolbox. This external tool box uses strict semantic versions to help keep some measure of santiy.\n\n```javascript\n{\n  \"name\": \"@namelessorganization/core\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@namelessorganization/toolbox\": \"5.9.5\"\n  }\n}\n```\n\nOur toolbox represents a collection of components, each of which maintain a workable API contract with the core application. Each component lives under this version and different components are leveraged all over our core application like so:\n\n```javascript\nimport { Button } from '@namelessorganization/toolbox'\n```\n\nNow, lets say we have a set of defined forms in a handful of locations which re-use the same component set.\n\n```javascript\nimport {\n  Button,\n  Form,\n  FormGroup,\n  Label,\n  CheckBox\n} from '@namelessorganization/toolbox'\n;<Form>\n  <FormGroup>\n    <Label>Form 1 Input</Label>\n    <Checkbox />\n  </FormGroup>\n  <div>\n    <Button color={'primary'}>Submit</Button>\n  </div>\n</Form>\n```\n\nOur component set is used in a handful of locations which creates a established, understood and hopefully predicable API contract between `toolbox` and `core`. Such that, our `<Form>` can be developed in confidence as the functionality of our component set is expected.\n\nBut, what happens when we need to depreciate a current component in lue of a better implementation?\n\nThe benefits of our previously contract between `toolbox` and `core` now become a burden. To illustrate why this contract has now become a burden, lets look at what I consider the best migration path.\n\n## Depreciating / Maintaining Multiple Versions\n\nThis is probably the most widely assumed and used strategy for a depreciation of \"generic\" components. In our `toolbox` we now create a second version of our component in question and begin to replace the instances in `core`.\n\n```javascript\n// toolbox\n\nexport default ButtonOld\n\nexport default ButtonNew\n```\n\n```javascript\n// core\n\nimport { ButtonOld, ButonNew } from '@namelessorganization/toolbox'\n\n\n// Comp A\n\n<ButtonOld />\n\n// Comp B\n\n<ButtonNew />\n```\n\nOver time, `<ButtonOld />` will be removed from our `core` application to ensure a graceful migration from the old depreciated code base without shattering the current application.\n\n### Pros\n\n- Easy to implement a non-breaking migration\n- Easy to track versions and ensure proper refractoring\n- Depreciated components can be planned for full removal during a major release\n\n### Cons\n\n- Must be mindful to keep a very strict rules for amount of components available\n- Harder to keep track of changes as they are in multiple files\n- Doucmentation is harder\n\n## `next`\n\nGiven we have a open migration path with the above pattern, we can make use of a experimental branch `next` as a place for our major breaking changes to be published and tested.\n\n```javascript\n{\n  \"name\": \"@namelessorganization/core\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@namelessorganization/toolbox\": \"next\"\n  }\n}\n```\n\nThis allows developers to test, push and pull code from the bleeding edge in a fearless way.\n\nOur `toolbox` can benifit from aggresive pushing of imporvement, while `core` can remain functionally safe for our end users.\n\nThe most important aspect of this style of development is promoting a sense of _failing forward_. Which for a sucessful project is one of the most overlooked aspects of sucess.\n\nAs mark Z said; \"Move fast, break shit, fix it\".\n\n### Caveeat\n\nFor this migration strategy to work, there must be a _strict_ deployment process in agreement between the developers, QA and ops team.\n\n```javascript\nMajor: >>> Every 6 months for a break\n\nMinor: >>> Every week with no breaks\n\nPatch: >>> Night release `next`\n```\n\nUsers need to keep faith in an applications resiliance, and so during major breaks, companies need to work harder in terms of timing and response to ensure users dont suffer.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "b536105dedd07072e46e1520db8f179a",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Graceful Depreciation",
+        "date": "2019-02-12",
+        "spoiler": "Keeping a path open for improvement"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n_How do we depreciate code in a safe way for a user while still allowing a developer room for improvement?_\n\nIt is, a tough question.\n\nLets say for instance, we have a application which maintains a dependency to a external toolbox. This external tool box uses strict semantic versions to help keep some measure of santiy.\n\n```javascript\n{\n  \"name\": \"@namelessorganization/core\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@namelessorganization/toolbox\": \"5.9.5\"\n  }\n}\n```\n\nOur toolbox represents a collection of components, each of which maintain a workable API contract with the core application. Each component lives under this version and different components are leveraged all over our core application like so:\n\n```javascript\nimport { Button } from '@namelessorganization/toolbox'\n```\n\nNow, lets say we have a set of defined forms in a handful of locations which re-use the same component set.\n\n```javascript\nimport {\n  Button,\n  Form,\n  FormGroup,\n  Label,\n  CheckBox\n} from '@namelessorganization/toolbox'\n;<Form>\n  <FormGroup>\n    <Label>Form 1 Input</Label>\n    <Checkbox />\n  </FormGroup>\n  <div>\n    <Button color={'primary'}>Submit</Button>\n  </div>\n</Form>\n```\n\nOur component set is used in a handful of locations which creates a established, understood and hopefully predicable API contract between `toolbox` and `core`. Such that, our `<Form>` can be developed in confidence as the functionality of our component set is expected.\n\nBut, what happens when we need to depreciate a current component in lue of a better implementation?\n\nThe benefits of our previously contract between `toolbox` and `core` now become a burden. To illustrate why this contract has now become a burden, lets look at what I consider the best migration path.\n\n## Depreciating / Maintaining Multiple Versions\n\nThis is probably the most widely assumed and used strategy for a depreciation of \"generic\" components. In our `toolbox` we now create a second version of our component in question and begin to replace the instances in `core`.\n\n```javascript\n// toolbox\n\nexport default ButtonOld\n\nexport default ButtonNew\n```\n\n```javascript\n// core\n\nimport { ButtonOld, ButonNew } from '@namelessorganization/toolbox'\n\n\n// Comp A\n\n<ButtonOld />\n\n// Comp B\n\n<ButtonNew />\n```\n\nOver time, `<ButtonOld />` will be removed from our `core` application to ensure a graceful migration from the old depreciated code base without shattering the current application.\n\n### Pros\n\n- Easy to implement a non-breaking migration\n- Easy to track versions and ensure proper refractoring\n- Depreciated components can be planned for full removal during a major release\n\n### Cons\n\n- Must be mindful to keep a very strict rules for amount of components available\n- Harder to keep track of changes as they are in multiple files\n- Doucmentation is harder\n\n## `next`\n\nGiven we have a open migration path with the above pattern, we can make use of a experimental branch `next` as a place for our major breaking changes to be published and tested.\n\n```javascript\n{\n  \"name\": \"@namelessorganization/core\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@namelessorganization/toolbox\": \"next\"\n  }\n}\n```\n\nThis allows developers to test, push and pull code from the bleeding edge in a fearless way.\n\nOur `toolbox` can benifit from aggresive pushing of imporvement, while `core` can remain functionally safe for our end users.\n\nThe most important aspect of this style of development is promoting a sense of _failing forward_. Which for a sucessful project is one of the most overlooked aspects of sucess.\n\nAs mark Z said; \"Move fast, break shit, fix it\".\n\n### Caveeat\n\nFor this migration strategy to work, there must be a _strict_ deployment process in agreement between the developers, QA and ops team.\n\n```javascript\nMajor: >>> Every 6 months for a break\n\nMinor: >>> Every week with no breaks\n\nPatch: >>> Night release `next`\n```\n\nUsers need to keep faith in an applications resiliance, and so during major breaks, companies need to work harder in terms of timing and response to ensure users dont suffer.\n",
+      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/graceful-depreciation/index.md",
+      "fields": {
+        "slug": "/graceful-depreciation/"
+      }
+    },
+    "2994bb50-69b6-5d56-810a-75ca8f5806a3": {
+      "id": "2994bb50-69b6-5d56-810a-75ca8f5806a3",
+      "children": [],
+      "parent": "197ed36f-2a17-5c61-993f-e9b5288c4258",
+      "internal": {
+        "content": "\n_VueJS Amsterdam 2019 - The Best Bits_\n\nhttps://www.vuejs.amsterdam/\n\nSo this week I attended VueJS Amsterdam and it was a blast. Over the years Ive been to various software conferences(UX/DX, ReactConf, JSConf, JSBrazil, etc) and out of all of the conferences Ive been to, VueJS Amsterdam might have been the best.\n\n2 years ago my company, VSWare adopted a very early Vue.js setup as our main FE framework over others we had considered(react, Rivets, backbone, ember). We had needed something plug and play that would sit into our main application's architecture without too much time being wasted on integration. Our stack today is: tomcat, Java 8, maven, SQL, Vue, jQuery and SCSS.\n\nGiven Vue has picked up so much popularity in the FE world over the last year, I wanted to see what the state of the community was in, and pick up a few tricks for my own work life.\n\n_This is what I learned_\n\n## The state of Vue 3.0\n\nEvan You kicked things off on the Thursday with a breakdown of the current state of things within the Vue ecosystem and whats new in not only Vue 2.6 but also Vue 3.0.\n\nWe were all hoping he might consider a early release during the conference but alas, it was not to be.\n\nEvan pointed out some interesting metrics about Vue, such as the jsDelivr stats:\n\n```json\nJust found out Vue has 461M hits/month on jsDelivr:\nhttps://data.jsdelivr.com/v1/package/npm/vue/badge … that’s… a lot\n```\n\nWhich completely blew me away given I remember using Vue a few years ago when no one had ever even heard of it in Ireland!\n\nCheck out the full breakdown here:\n\n[plans-for-the-next-iteration-of-vue-js](https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf)\n\n## Composing Components\n\n_The was my favouriye talk_\n\nThis talk was given by:\n\n[Damian Dulisz](https://twitter.com/DamianDulisz).\n\nHe lead the talk with a quote from Eric Elliot: \"Favour composition over inheritance\" and demonstrated this to the audience by having us mentally build a `Button` component in our minds.\n\nMore than 60% of us built this mental component using a prop based approach, he was quick to point out the drawbacks of this method and demonstrate a better method using a compositional pattern.\n\nAs someone who has never been able to let go of my love for functional programming, his talk was music to my ears and I enjoyed seeing someone from the core team objectively showing the pros && cons of both approaches.\n\n_(Loved it when some people from the audience answered they use scoped slots but not slots)_\n\nYou can find the repo here and try it yourself:\n\n[Composing Components](https://github.com/shentao/composing-components)\n\n## 5 rules for performant Vue Applications\n\nThis talk was given by:\n\n[Filip Rakowski](https://twitter.com/filrakowski)\n\n> 1. Lazy Load All Routes\n\n> 2. Vendor Bundle Anti Pattern\n\n> 3. Lazy Loading Vuex Store\n\n> 4. Finding smaller libaries\n\n> 5. Prefetching Components\n\nCheck it out in more detail here:\n\n[vue-js-app-performance-optimization-part-2](https://itnext.io/vue-js-app-performance-optimization-part-2-lazy-loading-routes-and-vendor-bundle-anti-pattern-4a62236e09f9)\n\n## NuxtJS - Whats new?\n\nBefore this talk I had actually never heard of the Nuxt framework(I'm a react kinda guy so Next.js was the closest thing I knew of).\n\nBy the end of the 45 minute presentation I was utterly blown away by how cool some of the features of this framework were. I was especially taken aback by DOM driven preFetched components!\n\nThe Copain brothers take a: _less is more_ approach, abstracting away config or in Sebastiens own words: \"I wanted to focus on writing `.vue` files.\"\n\nThis includes auto route generation, a full vuex setup, auto updated core deps, webpack config with best practices\n\n([Sean Larkin](https://twitter.com/TheLarkInn) approved).\n\nFind the presentation here: https://nuxtjs.org/\n\n## Accessability in a Vue SPA\n\n_Maya Shavin gave a great breakdown of how to tink in terms of accessability._\n\nI learned a lot from [Maya](https://twitter.com/mayashavin) about accessability during her demo. Everything from color issues, using icons properly to why Beyonce got sued.\n\nHer talk was really informative in terms of writing `aria` labels correctly and how we can begin to think in terms of accessability when writing websites.\n\nHer demo can be found here: https://github.com/mayashavin/vue-accessibility-demo\n\n## Mixologly with NativeScript && Kraggle\n\n_Being Irish, this one has a special place in my heart_\n\nSo in the Vue community Jen Looper(Crazy Aunt Jen) is a pretty special lady being the founder of Vue Vixens and helping drive the mobile Vue community via NativeScript.\n\nCheck here our here:\n\n[Crazy Aunt Jen Looper](https://twitter.com/jenlooper)\n\nHer talk focused on a mobile application she developed using NativeScript and some base Machine Learning to figure out what cocktails you can make from your hotel minibar.\n\nI learned a good deal about NativeScript with its new Vue support and how best to massage data from kraggle when training sets for any ML.\n\nCheck it out here:\n\n[Mixology with Vue.js && ML](https://slides.com/telerikdevrel/minibar#/)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "eca59a936876fe623fc5409510116074",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "VueJS Amsterdam 2019 - The Best Bits",
+        "date": "2019-02-15",
+        "spoiler": "The best things I saw at VueJS Amsterdam 2019"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n_VueJS Amsterdam 2019 - The Best Bits_\n\nhttps://www.vuejs.amsterdam/\n\nSo this week I attended VueJS Amsterdam and it was a blast. Over the years Ive been to various software conferences(UX/DX, ReactConf, JSConf, JSBrazil, etc) and out of all of the conferences Ive been to, VueJS Amsterdam might have been the best.\n\n2 years ago my company, VSWare adopted a very early Vue.js setup as our main FE framework over others we had considered(react, Rivets, backbone, ember). We had needed something plug and play that would sit into our main application's architecture without too much time being wasted on integration. Our stack today is: tomcat, Java 8, maven, SQL, Vue, jQuery and SCSS.\n\nGiven Vue has picked up so much popularity in the FE world over the last year, I wanted to see what the state of the community was in, and pick up a few tricks for my own work life.\n\n_This is what I learned_\n\n## The state of Vue 3.0\n\nEvan You kicked things off on the Thursday with a breakdown of the current state of things within the Vue ecosystem and whats new in not only Vue 2.6 but also Vue 3.0.\n\nWe were all hoping he might consider a early release during the conference but alas, it was not to be.\n\nEvan pointed out some interesting metrics about Vue, such as the jsDelivr stats:\n\n```json\nJust found out Vue has 461M hits/month on jsDelivr:\nhttps://data.jsdelivr.com/v1/package/npm/vue/badge … that’s… a lot\n```\n\nWhich completely blew me away given I remember using Vue a few years ago when no one had ever even heard of it in Ireland!\n\nCheck out the full breakdown here:\n\n[plans-for-the-next-iteration-of-vue-js](https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf)\n\n## Composing Components\n\n_The was my favouriye talk_\n\nThis talk was given by:\n\n[Damian Dulisz](https://twitter.com/DamianDulisz).\n\nHe lead the talk with a quote from Eric Elliot: \"Favour composition over inheritance\" and demonstrated this to the audience by having us mentally build a `Button` component in our minds.\n\nMore than 60% of us built this mental component using a prop based approach, he was quick to point out the drawbacks of this method and demonstrate a better method using a compositional pattern.\n\nAs someone who has never been able to let go of my love for functional programming, his talk was music to my ears and I enjoyed seeing someone from the core team objectively showing the pros && cons of both approaches.\n\n_(Loved it when some people from the audience answered they use scoped slots but not slots)_\n\nYou can find the repo here and try it yourself:\n\n[Composing Components](https://github.com/shentao/composing-components)\n\n## 5 rules for performant Vue Applications\n\nThis talk was given by:\n\n[Filip Rakowski](https://twitter.com/filrakowski)\n\n> 1. Lazy Load All Routes\n\n> 2. Vendor Bundle Anti Pattern\n\n> 3. Lazy Loading Vuex Store\n\n> 4. Finding smaller libaries\n\n> 5. Prefetching Components\n\nCheck it out in more detail here:\n\n[vue-js-app-performance-optimization-part-2](https://itnext.io/vue-js-app-performance-optimization-part-2-lazy-loading-routes-and-vendor-bundle-anti-pattern-4a62236e09f9)\n\n## NuxtJS - Whats new?\n\nBefore this talk I had actually never heard of the Nuxt framework(I'm a react kinda guy so Next.js was the closest thing I knew of).\n\nBy the end of the 45 minute presentation I was utterly blown away by how cool some of the features of this framework were. I was especially taken aback by DOM driven preFetched components!\n\nThe Copain brothers take a: _less is more_ approach, abstracting away config or in Sebastiens own words: \"I wanted to focus on writing `.vue` files.\"\n\nThis includes auto route generation, a full vuex setup, auto updated core deps, webpack config with best practices\n\n([Sean Larkin](https://twitter.com/TheLarkInn) approved).\n\nFind the presentation here: https://nuxtjs.org/\n\n## Accessability in a Vue SPA\n\n_Maya Shavin gave a great breakdown of how to tink in terms of accessability._\n\nI learned a lot from [Maya](https://twitter.com/mayashavin) about accessability during her demo. Everything from color issues, using icons properly to why Beyonce got sued.\n\nHer talk was really informative in terms of writing `aria` labels correctly and how we can begin to think in terms of accessability when writing websites.\n\nHer demo can be found here: https://github.com/mayashavin/vue-accessibility-demo\n\n## Mixologly with NativeScript && Kraggle\n\n_Being Irish, this one has a special place in my heart_\n\nSo in the Vue community Jen Looper(Crazy Aunt Jen) is a pretty special lady being the founder of Vue Vixens and helping drive the mobile Vue community via NativeScript.\n\nCheck here our here:\n\n[Crazy Aunt Jen Looper](https://twitter.com/jenlooper)\n\nHer talk focused on a mobile application she developed using NativeScript and some base Machine Learning to figure out what cocktails you can make from your hotel minibar.\n\nI learned a good deal about NativeScript with its new Vue support and how best to massage data from kraggle when training sets for any ML.\n\nCheck it out here:\n\n[Mixology with Vue.js && ML](https://slides.com/telerikdevrel/minibar#/)\n",
+      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/vuejsamsterdam-2019-the-best-bits/index.md",
+      "fields": {
+        "slug": "/vuejsamsterdam-2019-the-best-bits/"
+      }
+    },
+    "6fe008a6-a3e8-5a94-836f-a2897719a0fe": {
+      "id": "6fe008a6-a3e8-5a94-836f-a2897719a0fe",
+      "children": [],
+      "parent": "954aee62-3dc3-5397-93d2-4fcfe9dd5b7b",
+      "internal": {
+        "content": "\n> Human beings work on the basis of low complexity but high risk situations. This is our natural state as dictated by nature. Software by oppoisition is high complextiy but low risk.\n\nOver my career of 10 years as a software developer Ive noticed a trend with those that I consider to be successful and ive often been told that success leaves clues. The trend in question was a air of fearlessness when it came to failure, and failure in terms of deploying software specifically.\n\nThough, what does failing forward look like? I mean, can it be done in a productive sense so you don't frustrate your co-workers? Saying to someone, \"Hey, failing forward is the key\" is all fine and dandy, but what happens when you _fail forward_ and shit can production?\n\nThe truth is, failing forward is an exceptionally difficult paradigm to follow because its basically frowned upon for business value. Up time counts, user satisfaction counts, **quality** counts. Over time, the pattern of failing forward may have become apparent to me, but a dark pattern also came with it; pretending you don't. No one wants to admit they fail forward, it shakes confidence.\n\nSo, if failing forward is at such odds(useful but dangerous), how can we implement it as a viable delivery model?\n\nThe answer is _timing_.\n\nTiming is everything when you want to continue delivering progress to any application. You need to time you releases in line with _who_ its going to affect. This can be done effective with a mind map of the associated expense of the release in terms of possible burden generated.\n\n> Does this affect all devs - Very expensive\n> Clients - Could be so expensive it costs the whole company\n> Frontend devs that are progressive - Not that big of a deal\n\nAnd so, you realize that failing forward is playing a dangerous game with a production application as you have the potential to cripple things in one move but in order to make progress, you need to push these fears aside and get better at your release timing.\n\n### Protip\n\nA lot of the associated risk of failing forward can be done away with via a reactive team. If you and your team are extremely capable at reacting to issues on the fly, you can safely absorb any generated cost from a well timed release.\n\nMy thoughts are echoed by one of my developer heros:\n\n[FunFunFunction](https://www.youtube.com/watch?v=mchoEOXGskU&t)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "ffa5150ad99a0362580b464225c051ef",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Failing Forward",
+        "date": "2019-02-26",
+        "spoiler": "Faster reactions over pre-mature optimization"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n> Human beings work on the basis of low complexity but high risk situations. This is our natural state as dictated by nature. Software by oppoisition is high complextiy but low risk.\n\nOver my career of 10 years as a software developer Ive noticed a trend with those that I consider to be successful and ive often been told that success leaves clues. The trend in question was a air of fearlessness when it came to failure, and failure in terms of deploying software specifically.\n\nThough, what does failing forward look like? I mean, can it be done in a productive sense so you don't frustrate your co-workers? Saying to someone, \"Hey, failing forward is the key\" is all fine and dandy, but what happens when you _fail forward_ and shit can production?\n\nThe truth is, failing forward is an exceptionally difficult paradigm to follow because its basically frowned upon for business value. Up time counts, user satisfaction counts, **quality** counts. Over time, the pattern of failing forward may have become apparent to me, but a dark pattern also came with it; pretending you don't. No one wants to admit they fail forward, it shakes confidence.\n\nSo, if failing forward is at such odds(useful but dangerous), how can we implement it as a viable delivery model?\n\nThe answer is _timing_.\n\nTiming is everything when you want to continue delivering progress to any application. You need to time you releases in line with _who_ its going to affect. This can be done effective with a mind map of the associated expense of the release in terms of possible burden generated.\n\n> Does this affect all devs - Very expensive\n> Clients - Could be so expensive it costs the whole company\n> Frontend devs that are progressive - Not that big of a deal\n\nAnd so, you realize that failing forward is playing a dangerous game with a production application as you have the potential to cripple things in one move but in order to make progress, you need to push these fears aside and get better at your release timing.\n\n### Protip\n\nA lot of the associated risk of failing forward can be done away with via a reactive team. If you and your team are extremely capable at reacting to issues on the fly, you can safely absorb any generated cost from a well timed release.\n\nMy thoughts are echoed by one of my developer heros:\n\n[FunFunFunction](https://www.youtube.com/watch?v=mchoEOXGskU&t)\n",
+      "fileAbsolutePath": "/home/david/dev/oregand/Oregand.github.io/content/blog/failing-forward/index.md",
+      "fields": {
+        "slug": "/failing-forward/"
+      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "440cd999a7e776165d24d8a52fe61f99"
+    "PLUGINS_HASH": "e756763153a30419ce8a3e15f8798571"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "/",
-        "/404/",
-        "/404.html",
-        "/ambition/",
+        "/functional-javascript/",
+        "/rules-of-coding/",
+        "/vue-vs-react/",
         "/failing-forward/",
+        "/vuejsamsterdam-2019-the-best-bits/",
+        "/ambition/",
         "/graceful-depreciation/",
         "/being-ok-with-shitty-code/",
-        "/top-bits-of-vuejsamsterdam/",
+        "/404/",
+        "/404.html",
         "sq--src-components-seo-js",
-        "sq--src-components-bio-js",
-        "/vuejsamsterdam-2019-the-best-bits/"
+        "sq--src-components-bio-js"
       ],
-      "d9528317-0fcd-53d0-91de-b3fcab2148d2": ["sq--src-components-bio-js"],
-      "f716a1cf-1a30-5143-86b7-4d2515d9d3d2": ["sq--src-components-bio-js"],
-      "7df0935d-fae2-53b8-8edd-574cb7acb340": ["/ambition/"],
-      "6fe008a6-a3e8-5a94-836f-a2897719a0fe": ["/failing-forward/"],
-      "37cb5327-517d-5d6a-8875-d210f3a80479": ["/graceful-depreciation/"],
-      "2bc23295-2374-5b12-b7e6-8e2813cefa55": ["/being-ok-with-shitty-code/"],
-      "7657211c-c443-5afe-9d19-328382913274": ["/top-bits-of-vuejsamsterdam/"],
+      "d9528317-0fcd-53d0-91de-b3fcab2148d2": [
+        "sq--src-components-bio-js"
+      ],
+      "f716a1cf-1a30-5143-86b7-4d2515d9d3d2": [
+        "sq--src-components-bio-js"
+      ],
+      "4099e89e-5606-5aaf-b9f9-2a3b14a2d587": [
+        "/functional-javascript/"
+      ],
+      "54fa9ff2-1b55-59ea-bf6d-0c8835306581": [
+        "/rules-of-coding/"
+      ],
+      "323d83da-5ee3-58b6-a404-dc69e3f789c5": [
+        "/vue-vs-react/"
+      ],
+      "6fe008a6-a3e8-5a94-836f-a2897719a0fe": [
+        "/failing-forward/"
+      ],
       "2994bb50-69b6-5d56-810a-75ca8f5806a3": [
         "/vuejsamsterdam-2019-the-best-bits/"
+      ],
+      "7df0935d-fae2-53b8-8edd-574cb7acb340": [
+        "/ambition/"
+      ],
+      "37cb5327-517d-5d6a-8875-d210f3a80479": [
+        "/graceful-depreciation/"
+      ],
+      "2bc23295-2374-5b12-b7e6-8e2813cefa55": [
+        "/being-ok-with-shitty-code/"
       ]
     },
     "connections": {
-      "MarkdownRemark": [null, "/", null]
+      "MarkdownRemark": [
+        null,
+        "/"
+      ]
     }
   },
   "jsonDataPaths": {
@@ -3318,15 +4166,18 @@
     "404-22d": "731/path---404-22-d-bce-EVaHXcHipTKNxCBcOiCr2NBFk",
     "sq--src-components-seo-js": 1025518380,
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "812/path---index-6a9-BDS40W41Nn3eUkGuf4GpYdWDzM",
+    "index": "445/path---index-6a9-DV3wCyBrF5hQRmNcb47kIlMg4tw",
     "my-second-post-2aa": "838/path---my-second-post-2-aa-e94-93mQPGQ5DB5h2fgZt7LRBcYg4c",
     "sq--src-components-bio-js": 2455242068,
     "ambition-132": "264/path---ambition-132-a49-D3vEnKZNpoG5B2juF2vUzWjVFYM",
-    "failing-forward-8b9": "642/path---failing-forward-8-b-9-e25-lRhArDGnknjfFzx5BpzSoH1sOTI",
-    "graceful-depreciation-c0d": "541/path---graceful-depreciation-c-0-d-802-B2Rg7rrtJc4JmjvRxOS2KD1E030",
-    "being-ok-with-shitty-code-696": "344/path---being-ok-with-shitty-code-696-a53-mRzD4R4NhgTKlwKEhTLGcOr3QtA",
+    "failing-forward-8b9": "342/path---failing-forward-8-b-9-e25-YntGFytdiF7nlNyLl0qTcw9IDmo",
+    "graceful-depreciation-c0d": "62/path---graceful-depreciation-c-0-d-802-5nMOdH7c9AgBGpGMQ7WBEZlDVY",
+    "being-ok-with-shitty-code-696": "87/path---being-ok-with-shitty-code-696-a53-8tuQKrkELNbdPZt35UBFES5ZusU",
     "top-bits-of-vuejsamsterdam-327": "158/path---top-bits-of-vuejsamsterdam-327-f05-llSm8KTA5QXpm5xP4oMhYAa0R0M",
-    "vuejsamsterdam-2019-the-best-bits-9ab": "537/path---vuejsamsterdam-2019-the-best-bits-9-ab-88b-0a6AY0iJYEtFdu0P5AYM49HBo"
+    "vuejsamsterdam-2019-the-best-bits-9ab": "960/path---vuejsamsterdam-2019-the-best-bits-9-ab-88b-WgqFm3NpAivNYghZxXeU61H6uQ",
+    "functional-javascript-391": "104/path---functional-javascript-391-14c-esioERPU0YMKNgEmIxdzi67jKs0",
+    "rules-of-coding-36b": "519/path---rules-of-coding-36-b-952-dh0Ie0v97JawFLjwbnMYuhtj54",
+    "vue-vs-react-f79": "231/path---vue-vs-react-f-79-0ea-NKmIJYlBVrylWyzTgJSddIQe4uQ"
   },
   "components": {
     "/home/david/dev/oregand/Oregand.github.io/src/templates/blog-post.js": {

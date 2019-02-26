@@ -1,0 +1,25 @@
+{
+  "data": {
+    "site": {
+      "siteMetadata": { "title": "Get. Shit. Done.", "author": "David O'Regan" }
+    },
+    "markdownRemark": {
+      "id": "6fe008a6-a3e8-5a94-836f-a2897719a0fe",
+      "excerpt": "Human beings work on the basis of low complexity but high risk situations. This is our natural state as dictated by nature. Software by oppoisition is high…",
+      "html": "<blockquote>\n<p>Human beings work on the basis of low complexity but high risk situations. This is our natural state as dictated by nature. Software by oppoisition is high complextiy but low risk.</p>\n</blockquote>\n<p>Over my carrer of 10 years as a software developer Ive ntocied a trend with those that I consider to be sucessful and ive often been told that sucess leaves clues. The trend in question was a air of fearlessness when it came to failure, and failure in terms of deploying software specifically.</p>\n<p>Though, what does failing forward look like? I mean, can it be done in a productive sense so you don't frustrate your co-workers? Saying to someone, \"Hey, failing forward is the key\" is all fine and dandy, but what happens when you <em>fail forward</em> and shit can production?  </p>\n<p>The truth is, failing forward is an exceptionally difficult paradigm to follow because its basically frowned upon for business value. Up time counts, user satisfaction counts, <strong>quality</strong> counts. Over time, the pattern of failing foward may have become apparent to me, but a dark pattern also came with it; pretending you don't. No one wants to admit they fail forward, it shakes confidence. </p>\n<p>So, if failing forward is at such odds()</p>",
+      "timeToRead": 1,
+      "frontmatter": { "title": "Failing Forward", "date": "February 26, 2019" }
+    }
+  },
+  "pageContext": {
+    "slug": "/failing-forward/",
+    "previous": {
+      "fields": { "slug": "/vuejsamsterdam-2019-the-best-bits/" },
+      "frontmatter": { "title": "VueJS Amsterdam 2019 - The Best Bits" }
+    },
+    "next": {
+      "fields": { "slug": "/vue-vs-react/" },
+      "frontmatter": { "title": "" }
+    }
+  }
+}
